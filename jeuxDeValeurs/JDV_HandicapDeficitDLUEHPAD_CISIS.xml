@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="397540003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="malvoyance"/>
          <Concept code="15188001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="perte auditive"/>
          <Concept code="62305002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="trouble du langage"/>
       </ConceptList>

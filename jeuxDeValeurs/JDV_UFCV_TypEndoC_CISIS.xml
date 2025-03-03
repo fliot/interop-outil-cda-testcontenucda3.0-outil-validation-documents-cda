@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="D0015-1"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Enrobée"/>
          <Concept code="D0015-2"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Nue"/>
       </ConceptList>

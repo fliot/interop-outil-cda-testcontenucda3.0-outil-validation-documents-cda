@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="no-medication-info"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'information sur les traitements médicamenteux"/>
          <Concept code="no-known-medications"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas de traitement médicamenteux connu"/>
       </ConceptList>

@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="GEN-038"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Bénin"/>
          <Concept code="GEN-103"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Normal"/>
          <Concept code="GEN-011"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Refus"/>
          <Concept code="GEN-039"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Suspect"/>
          <Concept code="MED-117"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240719000000"
                   displayName="Asymétrie Mammaire"/>
       </ConceptList>

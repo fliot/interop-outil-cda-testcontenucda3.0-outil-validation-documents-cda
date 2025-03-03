@@ -5,29 +5,25 @@
    <ValueSet displayName="JDV_ScoreCormack_CISIS"
              effectiveDate="2020-05-11T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.502"
-             revisionDate="2020-05-11T00:00:00+01:00"
+             revisionDate="2025-02-25T00:00:00+01:00"
              version="test">
       <ConceptList>
-         <Concept code="MED-619"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200511000000"
-                  displayName="Grade 1 : La glotte est vue en totalité"/>
-         <Concept code="MED-620"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200511000000"
-                  displayName="Grade 2 : Seule la moitié postérieure de la glotte est vue"/>
-         <Concept code="MED-621"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200511000000"
-                  displayName="Grade 3 : Seule une infime partie de la glotte est vue"/>
-         <Concept code="MED-622"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200511000000"
-                  displayName="Grade 4 : La glotte est cachée par l’épiglotte et la langue"/>
+         <Concept code="417548001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 1"/>
+         <Concept code="417666002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 2"/>
+         <Concept code="416876007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 3"/>
+         <Concept code="416141007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 4"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

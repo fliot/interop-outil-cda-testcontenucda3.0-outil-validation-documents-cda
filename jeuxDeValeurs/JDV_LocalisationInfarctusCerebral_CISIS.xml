@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="60176003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="artère cérébrale antérieure"/>
          <Concept code="55438003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="centre semi-ovale"/>
          <Concept code="70382005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="artère cérébrale postérieure"/>
          <Concept code="50974003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="jonctionnel"/>
          <Concept code="15926001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="tronc de l'encéphale"/>
          <Concept code="113305005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="cervelet"/>
       </ConceptList>

@@ -10,7 +10,6 @@
       <ConceptList>
          <Concept code="ORG-085"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Demande de surveillance médicale particulière"/>
       </ConceptList>

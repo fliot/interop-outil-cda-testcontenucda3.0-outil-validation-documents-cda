@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="PAT-054"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Durée de l'allaitement"/>
          <Concept code="PAT-055"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Durée de l'allaitement exclusif"/>
       </ConceptList>

@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="76784001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230525000000"
                   displayName="vagin"/>
          <Concept code="36973007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230525000000"
                   displayName="endocol utérin"/>
          <Concept code="28349006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230525000000"
                   displayName="exocol utérin"/>
       </ConceptList>

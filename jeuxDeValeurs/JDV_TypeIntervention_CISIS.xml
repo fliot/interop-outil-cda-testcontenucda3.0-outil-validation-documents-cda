@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="387713003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="intervention chirurgicale"/>
          <Concept code="2119009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="réparation d'un vaisseau sanguin"/>
          <Concept code="1296925008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240411000000"
                   displayName="insertion d’endoprothèse"/>
       </ConceptList>

@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="500"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
          <Concept code="264362003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20241010000000"
                   displayName="domicile"/>
       </ConceptList>

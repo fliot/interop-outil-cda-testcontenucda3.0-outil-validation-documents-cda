@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="MED-302"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Macro dissection de la zone d’intérêt"/>
          <Concept code="MED-303"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Punch du bloc tumoral"/>
          <Concept code="MED-304"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Production de copeaux de paraffines à partir du bloc tumoral"/>
          <Concept code="MED-305"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Traitement de lames de cytologie"/>
          <Concept code="GEN-092.04.09"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre méthode de préparation"/>
       </ConceptList>

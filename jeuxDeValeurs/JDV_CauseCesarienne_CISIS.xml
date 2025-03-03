@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-219"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Cause maternelle"/>
          <Concept code="MED-210"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Cause fœtale"/>
          <Concept code="MED-1272"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231017000000"
                   displayName="Cause materno-fœtale"/>
       </ConceptList>

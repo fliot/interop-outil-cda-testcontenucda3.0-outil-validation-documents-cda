@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="183452005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240315000000"
                   displayName="hospitalisation en urgence"/>
          <Concept code="8715000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240315000000"
                   displayName="hospitalisation programmée"/>
          <Concept code="107724000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240910000000"
                   displayName="transfert du patient"/>
          <Concept code="GEN-092.06.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre modalité d'entrée"/>
       </ConceptList>

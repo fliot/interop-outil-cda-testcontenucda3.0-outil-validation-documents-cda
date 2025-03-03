@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="MED-486"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Artère cérébrale postérieure (ACP) territoire profond branches thalamoperforées"/>
          <Concept code="MED-487"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Artère cérébrale postérieure (ACP) territoire profond branches thalamogéniculées"/>
          <Concept code="MED-465"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Artère cérébrale postérieure territoire superficiel"/>
          <Concept code="70382005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="Artère cérébrale postérieure"/>
          <Concept code="43119007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="Artère communicante postérieure"/>
          <Concept code="7736000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="Artère choroïdienne postérieure"/>
       </ConceptList>

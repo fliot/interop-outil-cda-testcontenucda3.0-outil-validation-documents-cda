@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="C20427"
                   codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="facteur de croissance hématopoïétique"/>
          <Concept code="GEN-092.04.12"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre gestion des effets secondaires"/>
       </ConceptList>

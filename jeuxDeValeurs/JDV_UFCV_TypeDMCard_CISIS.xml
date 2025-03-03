@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="J010101"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20230427000000"
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES SIMPLE CHAMBRE"/>
          <Concept code="J010103"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20230427000000"
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES DOUBLE CHAMBRE"/>
          <Concept code="J010104"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20230427000000"
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES TRIPLE CHAMBRE"/>
       </ConceptList>

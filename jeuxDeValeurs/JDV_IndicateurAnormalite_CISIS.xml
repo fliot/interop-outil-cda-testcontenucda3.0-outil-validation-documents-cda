@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="N"
                   codeSystem="2.16.840.1.113883.5.83"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="Normal"/>
          <Concept code="L"
                   codeSystem="2.16.840.1.113883.5.83"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="Anormalement bas"/>
          <Concept code="H"
                   codeSystem="2.16.840.1.113883.5.83"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="Anormalement haut"/>
          <Concept code="LL"
                   codeSystem="2.16.840.1.113883.5.83"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="Très anormalement bas, alerte"/>
          <Concept code="HH"
                   codeSystem="2.16.840.1.113883.5.83"
-                  dateFin=""
                   dateValid="20230428000000"
                   displayName="Très anormalement haut, alerte"/>
       </ConceptList>

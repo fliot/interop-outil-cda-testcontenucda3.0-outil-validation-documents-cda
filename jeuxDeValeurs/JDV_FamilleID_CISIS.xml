@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="DAU"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Fille"/>
          <Concept code="PGRMTH"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="Grand-mère paternelle"/>
          <Concept code="MGRMTH"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="Grand-mère maternelle"/>
          <Concept code="MTH"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Mère"/>
          <Concept code="SIS"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Sœur"/>
       </ConceptList>

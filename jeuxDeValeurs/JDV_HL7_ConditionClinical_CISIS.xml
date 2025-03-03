@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="active"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Actif"/>
          <Concept code="recurrence"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Récurrent"/>
          <Concept code="relapse"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Rechute"/>
          <Concept code="inactive"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Inactif"/>
          <Concept code="remission"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="En rémission"/>
          <Concept code="resolved"
                   codeSystem="2.16.840.1.113883.4.642.1.1074"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Résolu"/>
       </ConceptList>

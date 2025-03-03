@@ -5,29 +5,25 @@
    <ValueSet displayName="JDV_ScoreMallampati_CISIS"
              effectiveDate="2020-12-23T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.484"
-             revisionDate="2020-12-23T00:00:00+01:00"
+             revisionDate="2025-02-25T00:00:00+01:00"
              version="test">
       <ConceptList>
-         <Concept code="MED-634"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20201223000000"
-                  displayName="Classe 1 : toute la luette et les loges amygdaliennes sont visibles"/>
-         <Concept code="MED-635"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20201223000000"
-                  displayName="Classe 2 : la luette est partiellement visible"/>
-         <Concept code="MED-636"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20201223000000"
-                  displayName="Classe 3 : le palais membraneux est visible"/>
-         <Concept code="MED-637"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20201223000000"
-                  displayName="Classe 4 : seul le palais osseux est visible"/>
+         <Concept code="425247007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe I de Mallampati"/>
+         <Concept code="424694002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe II de Mallampati"/>
+         <Concept code="424915003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe III de Mallampati"/>
+         <Concept code="424397003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe IV de Mallampati"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

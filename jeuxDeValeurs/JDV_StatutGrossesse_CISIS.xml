@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="60001007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="absence de grossesse"/>
          <Concept code="77386006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="enceinte"/>
          <Concept code="261665006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="inconnu"/>
       </ConceptList>

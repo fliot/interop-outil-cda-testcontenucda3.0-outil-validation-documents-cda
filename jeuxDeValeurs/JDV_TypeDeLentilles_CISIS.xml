@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-1218"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Lentille souple"/>
          <Concept code="MED-1219"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Lentille rigide"/>
          <Concept code="MED-1220"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Lentille hybride"/>
       </ConceptList>

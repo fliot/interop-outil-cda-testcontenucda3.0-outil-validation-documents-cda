@@ -10,7 +10,6 @@
       <ConceptList>
          <Concept code="SEV"
                   codeSystem="2.16.840.1.113883.5.4"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Sévérité"/>
       </ConceptList>

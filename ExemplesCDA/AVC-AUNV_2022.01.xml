@@ -4271,7 +4271,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="3736AEFF-CB4F-4E27-8B09-AF541024F616" />
-              <code code="MED-502" displayName="Nom du protocole" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP" />
+              <code code="42796-3" displayName="Nom du protocole d'essai clinique" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
               <text><reference value="nomProto"/></text>
               <statusCode code="completed" />
               <effectiveTime nullFlavor="NA" />

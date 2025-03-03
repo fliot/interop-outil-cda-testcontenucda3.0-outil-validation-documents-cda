@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20250131120000"
              dateValid="20121112000000"
              description="XDS authorSpecialty CI-SIS"
              displayName="JDV_J01_XdsAuthorSpecialty_CISIS.tabs"
              effectiveDate="2012-11-12T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.461"
-             revisionDate="2024-12-13T12:00:00+01:00"
+             revisionDate="2025-01-31T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS">
       <ConceptList>
@@ -699,21 +699,6 @@
          <Concept code="G15_32"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Physicien médical"/>
-         <Concept code="G15_35"
-                  codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Aide-soignant"/>
-         <Concept code="G15_36"
-                  codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Ambulancier"/>
-         <Concept code="G15_37"
-                  codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Auxiliaire de puériculture"/>
-         <Concept code="G15_38"
-                  codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Préparateur en pharmacie hospitalière"/>
-         <Concept code="G15_39"
-                  codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Préparateur en pharmacie (officine)"/>
          <Concept code="G15_40"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Chirurgien-Dentiste"/>

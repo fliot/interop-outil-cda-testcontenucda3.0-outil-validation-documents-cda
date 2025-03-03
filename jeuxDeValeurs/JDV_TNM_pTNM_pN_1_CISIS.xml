@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-795"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Ganglions  lymphatiques régionaux non évaluables"/>
          <Concept code="MED-796"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Pas de métastase ganglionnaire lymphatique régionale"/>
          <Concept code="MED-809"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Métastase(s) dans les ganglions lymphatiques régionaux"/>
       </ConceptList>

@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="MED-320"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Affection longue durée (ALD)"/>
          <Concept code="MED-321"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220401000000"
                   displayName="Surhandicap"/>
          <Concept code="MED-322"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220401000000"
                   displayName="Plurihandicap"/>
          <Concept code="MED-323"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220401000000"
                   displayName="Polyhandicap"/>
          <Concept code="MED-324"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220401000000"
                   displayName="Polypathologies"/>
       </ConceptList>

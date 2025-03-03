@@ -5,28 +5,24 @@
    <ValueSet displayName="JDV_ScoreBradenPerceptionSensorielle_CISIS"
              effectiveDate="2020-07-09T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.505"
-             revisionDate="2020-07-09T00:00:00+01:00"
+             revisionDate="2025-02-25T00:00:00+01:00"
              version="test">
       <ConceptList>
-         <Concept code="GEN-209"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9603-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Complètement limitée"/>
-         <Concept code="GEN-210"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9604-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Très limitée"/>
-         <Concept code="GEN-211"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9605-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Légèrement diminuée"/>
-         <Concept code="GEN-212"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9606-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Aucune atteinte"/>
       </ConceptList>
    </ValueSet>

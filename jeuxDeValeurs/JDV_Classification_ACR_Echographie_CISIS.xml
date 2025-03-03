@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="MED-1099"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="ACR 1"/>
          <Concept code="MED-1100"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="ACR 2"/>
          <Concept code="MED-1101"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="ACR 3"/>
          <Concept code="MED-1102"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="ACR 4"/>
          <Concept code="MED-1103"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="ACR 5"/>
       </ConceptList>

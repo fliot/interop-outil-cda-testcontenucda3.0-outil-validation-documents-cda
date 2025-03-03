@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="392031002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="endartériectomie"/>
          <Concept code="2119009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="réparation d'un vaisseau sanguin"/>
          <Concept code="36910002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="craniectomie"/>
          <Concept code="10458001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="évacuation d'un hématome intracérébral"/>
          <Concept code="MED-512"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240719000000"
                   displayName="Pose d'une valve / d'une dérivation externe"/>
       </ConceptList>

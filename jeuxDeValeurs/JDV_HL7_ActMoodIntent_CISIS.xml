@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="ARQ"
                   codeSystem="2.16.840.1.113883.5.1001"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Prévu mais non confirmé"/>
          <Concept code="EVN"
                   codeSystem="2.16.840.1.113883.5.1001"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Réalisé"/>
          <Concept code="PRMS"
                   codeSystem="2.16.840.1.113883.5.1001"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Planifié et confirmé"/>
       </ConceptList>

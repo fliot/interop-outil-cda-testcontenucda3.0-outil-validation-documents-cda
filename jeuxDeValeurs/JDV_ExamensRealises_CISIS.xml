@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-034"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Agrandissement"/>
          <Concept code="387736007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="ponction à l'aiguille fine du sein"/>
          <Concept code="16310003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="échographie"/>
       </ConceptList>

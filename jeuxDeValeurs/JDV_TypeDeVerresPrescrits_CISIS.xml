@@ -10,37 +10,30 @@
       <ConceptList>
          <Concept code="MED-905"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres de près (X)"/>
          <Concept code="MED-906"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres de loin"/>
          <Concept code="MED-907"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres progressifs"/>
          <Concept code="MED-908"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres dégressifs"/>
          <Concept code="MED-909"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres bi-focaux"/>
          <Concept code="MED-910"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="Verres tri-focaux"/>
          <Concept code="MED-911"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210507000000"
                   displayName="2 paires (de près et de loin)"/>
       </ConceptList>

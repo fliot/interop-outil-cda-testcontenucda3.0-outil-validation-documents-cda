@@ -1289,7 +1289,7 @@
                       <!-- Conformité CI-SIS Simple Observation -->
                       <templateId root="1.2.250.1.213.1.1.3.48" />
                       <id root="DC648D6F-AF06-4840-8975-08B15CB3B631" />
-                      <code code="MED-509" displayName="Germe" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP" />
+                      <code code="C37958" displayName="germe" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCIT" />
                       <text><reference value="germe"/></text>
                       <statusCode code="completed" />
                       <effectiveTime nullFlavor="NA" />

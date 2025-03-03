@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-1256"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="Alimentation lait maternel exclusif"/>
          <Concept code="MED-1257"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="Alimentation mixte"/>
          <Concept code="MED-1258"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="Alimentation lait artificiel exclusif"/>
       </ConceptList>

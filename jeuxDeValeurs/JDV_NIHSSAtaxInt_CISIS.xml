@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="LA9634-2"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Absente."/>
          <Concept code="LA18466-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Présente pour un membre."/>
          <Concept code="LA18467-3"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Présente pour deux membres."/>
          <Concept code="LA18461-6"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Amputation, blocage articulaire (expliquer)"/>
       </ConceptList>

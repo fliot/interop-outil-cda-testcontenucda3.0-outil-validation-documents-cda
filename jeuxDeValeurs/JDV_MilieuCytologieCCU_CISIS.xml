@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="GEN-303"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230619000000"
                   displayName="Hologic ThinPrep PreservCyt"/>
          <Concept code="GEN-304"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230619000000"
                   displayName="BD Surepath"/>
          <Concept code="GEN-305"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230619000000"
                   displayName="Easyfix VWR"/>
          <Concept code="GEN-306"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230619000000"
                   displayName="Cyt-ALL Alphapath"/>
          <Concept code="GEN-307"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230619000000"
                   displayName="Pretect Transportation Medium"/>
          <Concept code="GEN-092.08.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231017000000"
                   displayName="Autre milieu"/>
       </ConceptList>

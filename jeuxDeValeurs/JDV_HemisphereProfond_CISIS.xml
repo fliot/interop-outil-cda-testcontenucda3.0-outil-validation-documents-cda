@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="51728003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="fibre thalamocorticale de la capsule interne"/>
          <Concept code="54728004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="portion lenticulaire du bras postérieur de la capsule interne"/>
          <Concept code="35764002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="ventricule cérébral"/>
          <Concept code="11000004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="noyau caudé"/>
       </ConceptList>

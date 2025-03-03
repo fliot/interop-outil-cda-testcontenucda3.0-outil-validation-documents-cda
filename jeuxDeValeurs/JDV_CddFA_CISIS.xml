@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="MED-351"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Découverte à l’admission"/>
          <Concept code="36692007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="connu"/>
          <Concept code="26593000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="paroxystique"/>
          <Concept code="6934004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="permanent"/>
       </ConceptList>

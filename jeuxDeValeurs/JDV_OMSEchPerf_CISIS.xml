@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="MED-240"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Echelle de performance OMS Stade 0"/>
          <Concept code="MED-264"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Echelle de performance OMS Stade 1"/>
          <Concept code="MED-265"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Echelle de performance OMS Stade 2"/>
          <Concept code="MED-266"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Echelle de performance OMS Stade 3"/>
          <Concept code="MED-267"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240718000000"
                   displayName="Echelle de performance OMS Stade 4"/>
       </ConceptList>

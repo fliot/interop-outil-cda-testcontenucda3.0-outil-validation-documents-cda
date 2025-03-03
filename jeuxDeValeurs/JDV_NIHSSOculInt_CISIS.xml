@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="LA6626-1"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="normal"/>
          <Concept code="LA18446-7"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Paralysie partielle (ce score est attribué quand l'oculomotricité est anormale pour 1 ou 2 yeux, mais sans déviation forcée, ni paralysie complète)."/>
          <Concept code="LA18447-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Déviation forcée ou paralysie complète non vaincue par les manœuvres oculo céphaliques."/>
       </ConceptList>

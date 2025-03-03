@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-034"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="Agrandissement"/>
          <Concept code="MED-035"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="Cliché(s) supplémentaire(s)"/>
          <Concept code="US"
                   codeSystem="1.2.840.10008.2.16.4"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="Échographie"/>
       </ConceptList>

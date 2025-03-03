@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="MED-601"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200507000000"
                   displayName="Douleur nulle (0)"/>
          <Concept code="MED-602"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200507000000"
                   displayName="Douleur faible (1-3)"/>
          <Concept code="MED-603"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200507000000"
                   displayName="Douleur modérée (4-6)"/>
          <Concept code="MED-604"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200507000000"
                   displayName="Douleur forte (7-9)"/>
          <Concept code="MED-605"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200507000000"
                   displayName="Douleur atroce (10)"/>
          <Concept code="MED-659"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200511000000"
                   displayName="Non évaluable"/>
       </ConceptList>

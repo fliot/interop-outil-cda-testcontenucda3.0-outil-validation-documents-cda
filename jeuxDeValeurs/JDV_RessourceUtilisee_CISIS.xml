@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="ORG-206"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240918000000"
                   displayName="Matériel spécialisé"/>
          <Concept code="ORG-207"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240918000000"
                   displayName="Ressource immobilière"/>
          <Concept code="261324000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240918000000"
                   displayName="véhicule"/>
          <Concept code="GEN-092.06.10"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240918000000"
                   displayName="Autre ressource"/>
       </ConceptList>

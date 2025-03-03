@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
-    CI-SIS_SDM-MR_2024.01.sch
+    CI-SIS_SDM-MR_2025.01.sch
     ANS   
     ......................................................................................................................................................    
     Historique :
@@ -13,9 +13,9 @@
 -->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron"
     xmlns:cda="urn:hl7-org:v3" queryBinding="xslt2"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="CI-SIS_SDM-MR_2024.01.sch">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="CI-SIS_SDM-MR_2025.01.sch">
     
-    <title>Vérification de la conformité au modèle SDM-MR_2024.01</title>
+    <title>Vérification de la conformité au modèle SDM-MR_2025.01</title>
     <ns prefix="cda" uri="urn:hl7-org:v3"/>
     <ns prefix="xsi" uri="http://www.w3.org/2001/XMLSchema-instance"/>
     <ns prefix="jdv" uri="http://esante.gouv.fr"/>
@@ -27,36 +27,36 @@
     <include href="abstract/IVL_TS.sch"/>
     
     <!--Entete-->    
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Entete/Entete_SDMMR.sch"/>    
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Entete/Entete_SDMMR.sch"/>    
     
     <!-- Section -->
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_DossierMR-CISIS.sch"/>
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_PlanDeSoinsMR.sch"/>
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_PriseEnChargeMedicales.sch"/>
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_DiagnosticAdmissionHopital.sch"/>
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_InformationsSurAccouchement.sch"/>
-    <include href="include/specificationsVolets/SDM-MR_2024.01/Section/S_HistoriqueDesGrossesses.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_DossierMR-CISIS.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_PlanDeSoinsMR.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_PriseEnChargeMedicales.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_DiagnosticAdmissionHopital.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_InformationsSurAccouchement.sch"/>
+    <include href="include/specificationsVolets/SDM-MR_2025.01/Section/S_HistoriqueDesGrossesses.sch"/>
     
     <!-- JDV --> 
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_Age_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_AppreciationDiagnosticEntree_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_CasSporadiqueFamilial_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_MalformationAntenatale_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_ObjectifActivite_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_PatientAdressePar_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_StatutActuelDiagnostic_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_ContexteActivite_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_TechniquesDiagnostic_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_InvestigationsRealisees_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_ProfessionPersonnelActivite_SDMMR.sch"/>
-    <include href="include/jeuxDeValeurs/SDM-MR_2024.01/JDV_IssueGrossesse_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_Age_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_AppreciationDiagnosticEntree_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_CasSporadiqueFamilial_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_MalformationAntenatale_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_ObjectifActivite_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_PatientAdressePar_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_StatutActuelDiagnostic_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_ContexteActivite_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_TechniquesDiagnostic_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_InvestigationsRealisees_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_ProfessionPersonnelActivite_SDMMR.sch"/>
+    <include href="include/jeuxDeValeurs/SDM-MR_2025.01/JDV_IssueGrossesse_SDMMR.sch"/>
     
         
     <!-- ::::::::::::::::::::::::::::::::::::: -->
     <!--           Phase en vigueur            -->
     <!-- ::::::::::::::::::::::::::::::::::::: -->
     
-    <phase id="CI-SIS_SDM-MR_2024.01">
+    <phase id="CI-SIS_SDM-MR_2025.01">
         
         <active pattern="variables"/>
         
@@ -105,7 +105,7 @@
         <rule context="cda:ClinicalDocument">
             
             <assert test="count(cda:component/cda:structuredBody/cda:component/cda:section/cda:templateId[@root='1.2.250.1.213.1.1.2.66']) = 1"> 
-                [CI_SIS_SDM-MR_2024.01] La section FR-Dossier (1.2.250.1.213.1.1.2.66) est obligatoire et unique
+                [CI_SIS_SDM-MR_2025.01] La section FR-Dossier (1.2.250.1.213.1.1.2.66) est obligatoire et unique
             </assert>
         </rule>
     </pattern>

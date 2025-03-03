@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-048"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="Anormal BI-RADS ACR [0,3,4,5]"/>
          <Concept code="MED-129"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="Normal BI-RADS ACR 1"/>
          <Concept code="MED-130"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20211127000000"
                   displayName="Bénin BI-RADS ACR 2"/>
       </ConceptList>

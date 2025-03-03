@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="GEN-079"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220727000000"
                   displayName="Entretien prénatal précoce"/>
          <Concept code="MED-163"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220727000000"
                   displayName="Préparation à la naissance"/>
          <Concept code="ORG-193"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220727000000"
                   displayName="Consultation auprès d'un centre de diagnostic prénatal"/>
          <Concept code="ORG-077"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20220727000000"
                   displayName="Hospitalisation (y compris à domicile)"/>
       </ConceptList>

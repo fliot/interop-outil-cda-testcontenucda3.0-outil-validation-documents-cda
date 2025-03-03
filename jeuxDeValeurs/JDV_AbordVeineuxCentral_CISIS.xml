@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="181372005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veine jugulaire interne entière"/>
          <Concept code="181371003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veine brachiocéphalique entière"/>
          <Concept code="181388005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veine sous-clavière entière"/>
          <Concept code="362071002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veine fémorale entière"/>
          <Concept code="181387000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veines du membre supérieur entier"/>
       </ConceptList>

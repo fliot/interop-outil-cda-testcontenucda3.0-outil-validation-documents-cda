@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="GEN-192"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Marche normale"/>
          <Concept code="895457008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="se déplace avec canne"/>
          <Concept code="895488007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="se déplace avec déambulateur"/>
          <Concept code="301578005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="se déplace en fauteuil roulant"/>
          <Concept code="160685001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="état grabataire"/>
          <Concept code="GEN-092.08.01"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre aide au déplacement"/>
       </ConceptList>

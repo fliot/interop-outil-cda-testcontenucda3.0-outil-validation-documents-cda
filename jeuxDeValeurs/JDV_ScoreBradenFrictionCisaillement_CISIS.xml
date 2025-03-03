@@ -5,24 +5,21 @@
    <ValueSet displayName="JDV_ScoreBradenFrictionCisaillement_CISIS"
              effectiveDate="2020-07-09T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.510"
-             revisionDate="2020-07-09T00:00:00+01:00"
+             revisionDate="2025-02-25T00:00:00+01:00"
              version="test">
       <ConceptList>
-         <Concept code="GEN-229"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9617-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Problème présent"/>
-         <Concept code="GEN-230"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
+         <Concept code="LA9618-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
                   displayName="Problème potentiel"/>
-         <Concept code="MED-275"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20200709000000"
-                  displayName="Aucun problème"/>
+         <Concept code="LA9619-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="Pas de problème apparent"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

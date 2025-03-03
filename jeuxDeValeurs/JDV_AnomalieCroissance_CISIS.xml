@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="P05.9"
                   codeSystem="2.16.840.1.113883.6.3"
-                  dateFin=""
                   dateValid="20230612000000"
                   displayName="Croissance lente du fœtus, sans précision"/>
          <Concept code="MED-1261"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="Pas d'anomalie de croissance intra-utérine"/>
       </ConceptList>

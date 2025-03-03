@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="no-allergy-info"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d’information sur les allergies/hypersensibilités"/>
          <Concept code="no-known-allergies"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'allergie/hypersensibilité connue"/>
          <Concept code="no-known-medication-allergies"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'allergie médicamenteuse connue"/>
          <Concept code="no-known-environmental-allergies"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'allergie environnementale connue"/>
          <Concept code="no-known-food-allergies"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'allergie alimentaire connue"/>
       </ConceptList>

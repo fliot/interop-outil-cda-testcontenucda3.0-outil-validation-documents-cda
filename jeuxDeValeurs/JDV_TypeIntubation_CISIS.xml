@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-655"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200929000000"
                   displayName="Intubation orotrachéale"/>
          <Concept code="MED-656"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200929000000"
                   displayName="Intubation nasotrachéale"/>
          <Concept code="MED-657"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200929000000"
                   displayName="Abord trachéal direct"/>
       </ConceptList>

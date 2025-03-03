@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="288575003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="capable de communiquer"/>
          <Concept code="247663003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="bien orienté"/>
          <Concept code="62476001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="désorienté(e)"/>
          <Concept code="24199005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="sensation d'agitation"/>
          <Concept code="248043008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="comportement non-conciliant"/>
          <Concept code="425104003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="comportement suicidaire"/>
       </ConceptList>

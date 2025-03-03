@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="10828004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231218000000"
                   displayName="positif"/>
          <Concept code="260385009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231218000000"
                   displayName="négatif"/>
          <Concept code="373068000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231218000000"
                   displayName="indéterminé(e)"/>
          <Concept code="125154007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231218000000"
                   displayName="échantillon insatisfaisant pour l'évaluation"/>
       </ConceptList>

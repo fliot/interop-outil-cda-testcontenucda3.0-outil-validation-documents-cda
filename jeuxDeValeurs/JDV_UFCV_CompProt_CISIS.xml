@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="D0012-1"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Homogreffe"/>
          <Concept code="D0012-2"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Autogreffe"/>
       </ConceptList>

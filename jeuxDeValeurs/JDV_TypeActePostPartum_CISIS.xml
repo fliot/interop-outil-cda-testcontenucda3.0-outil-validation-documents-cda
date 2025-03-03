@@ -10,37 +10,30 @@
       <ConceptList>
          <Concept code="JNFA001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Hystérectomie pour complications obstétricales, par laparotomie"/>
          <Concept code="JPGD001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Délivrance artificielle (+ révision utérine)"/>
          <Concept code="49149002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="exploration manuelle post-partum de l'utérus"/>
          <Concept code="57238002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="embolisation artérielle sélective"/>
          <Concept code="JNED001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Réduction manuelle d’inversion utérine"/>
          <Concept code="JNBD002 "
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Ballonnets intra-utérin"/>
          <Concept code="GEN-092.04.02"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre acte réalisé en postpartum immédiat"/>
       </ConceptList>

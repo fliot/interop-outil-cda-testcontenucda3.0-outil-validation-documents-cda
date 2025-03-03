@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="46669005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="droitier"/>
          <Concept code="87683000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="gaucher"/>
          <Concept code="23088002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="ambidextre"/>
          <Concept code="709880000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221207000000"
                   displayName="manualité inconnue"/>
       </ConceptList>

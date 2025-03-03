@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="LA18468-1"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Normal"/>
          <Concept code="LA18469-9"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché."/>
          <Concept code="LA18470-7"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe."/>
       </ConceptList>

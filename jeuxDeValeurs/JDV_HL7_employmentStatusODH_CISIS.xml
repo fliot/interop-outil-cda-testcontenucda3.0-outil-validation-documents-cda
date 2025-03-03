@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="Employed"
                   codeSystem="2.16.840.1.113883.5.1063"
-                  dateFin=""
                   dateValid="20190101000000"
                   displayName="En activité"/>
          <Concept code="NotInLaborForce"
                   codeSystem="2.16.840.1.113883.5.1063"
-                  dateFin=""
                   dateValid="20190101000000"
                   displayName="Inactif"/>
          <Concept code="Unemployed"
                   codeSystem="2.16.840.1.113883.5.1063"
-                  dateFin=""
                   dateValid="20190101000000"
                   displayName="Sans activité"/>
       </ConceptList>

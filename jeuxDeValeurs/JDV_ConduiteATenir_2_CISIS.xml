@@ -5,29 +5,25 @@
    <ValueSet displayName="JDV_ConduiteATenir_2_CISIS"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.86"
-             revisionDate="2010-01-01T00:00:00+01:00"
+             revisionDate="2025-02-25T00:00:00+01:00"
              version="test">
       <ConceptList>
          <Concept code="MED-012"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Avis spécialisé"/>
-         <Concept code="MED-044"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20100101000000"
-                  displayName="Prélèvement"/>
-         <Concept code="MED-115"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
-                  dateValid="20100101000000"
-                  displayName="Dépistage"/>
+         <Concept code="17636008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="prélèvement d'échantillons"/>
+         <Concept code="268547008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="dépistage du cancer du sein"/>
          <Concept code="MED-116"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
-                  displayName="Suivi rapproché &lt; 2 ans"/>
+                  displayName="Suivi rapproché (&lt; 2 ans)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

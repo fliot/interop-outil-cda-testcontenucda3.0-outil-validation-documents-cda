@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="17232002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="artère cérébrale moyenne"/>
          <Concept code="MED-489"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240716000000"
                   displayName="Artère cérébelleuse inférieure (ACI)"/>
          <Concept code="51691006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="artère cérébelleuse supérieure"/>
          <Concept code="38608005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230707000000"
                   displayName="artère cérébelleuse"/>
       </ConceptList>

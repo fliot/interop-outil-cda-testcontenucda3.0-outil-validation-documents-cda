@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="MED-174"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20221003000000"
-                  displayName="Gestes techniques spécialisés"/>
+                  displayName="Geste technique spécialisé"/>
          <Concept code="MED-1304"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20241126000000"
                   displayName="Dépistage de la surdité"/>
       </ConceptList>

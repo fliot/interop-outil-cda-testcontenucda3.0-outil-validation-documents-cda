@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="2603003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="secondaire"/>
          <Concept code="88694003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="immédiat"/>
          <Concept code="GEN-301"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Pas de transfert ni mutation"/>
       </ConceptList>

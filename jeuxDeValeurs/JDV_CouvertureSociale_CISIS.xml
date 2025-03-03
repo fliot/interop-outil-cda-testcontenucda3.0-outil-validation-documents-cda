@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="GEN-105"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Protection universelle maladie (PUMa)"/>
          <Concept code="GEN-107"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Aide médicale de l’état (AME)"/>
          <Concept code="GEN-108"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Aucune"/>
       </ConceptList>

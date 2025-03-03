@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="ORG-128"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Cas enregistré"/>
          <Concept code="ORG-134"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Cas discuté"/>
       </ConceptList>

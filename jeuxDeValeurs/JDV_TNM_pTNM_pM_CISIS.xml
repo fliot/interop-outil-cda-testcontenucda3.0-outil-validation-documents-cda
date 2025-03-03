@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-802"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Métastase dans un site ou organe, sans métastase péritonéale"/>
          <Concept code="MED-803"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Métastase dans deux ou plus sites ou organes, sans métastase péritonéale"/>
          <Concept code="MED-804"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Métastase à la surface péritonéale (isolée, ou avec d’autres sites ou organes métastatiques)"/>
       </ConceptList>

@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="no-problem-info"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas d'information sur les problèmes"/>
          <Concept code="no-known-problems"
                   codeSystem="2.16.840.1.113883.5.1150.1"
-                  dateFin=""
                   dateValid="20211222000000"
                   displayName="Pas de problème connu"/>
       </ConceptList>

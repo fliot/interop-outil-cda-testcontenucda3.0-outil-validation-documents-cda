@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="L"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20220928000000"
                   displayName="Bas"/>
          <Concept code="M"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20220928000000"
                   displayName="Modéré"/>
          <Concept code="N"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Normal"/>
          <Concept code="R"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Restreint"/>
          <Concept code="U"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20220928000000"
                   displayName="Non restreint"/>
          <Concept code="V"
                   codeSystem="2.16.840.1.113883.5.25"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Très restreint"/>
       </ConceptList>

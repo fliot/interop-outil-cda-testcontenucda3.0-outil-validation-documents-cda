@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="MED-589"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240719000000"
                   displayName="Aptitude physique excellente (Score de Duke &gt; 10 MET)"/>
          <Concept code="MED-590"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Aptitude physique bonne (Score de Duke 7-10 MET)"/>
          <Concept code="MED-591"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Aptitude physique modérée (Score de Duke 4-7 MET)"/>
          <Concept code="MED-592"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Aptitude physique faible (Score de Duke &lt; 4 MET)"/>
       </ConceptList>

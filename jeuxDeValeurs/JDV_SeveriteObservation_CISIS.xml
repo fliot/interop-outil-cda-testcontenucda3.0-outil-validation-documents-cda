@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="442452003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="gravité mortelle"/>
          <Concept code="24484000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="grave"/>
          <Concept code="371924009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="modéré à sévère"/>
          <Concept code="6736007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="modéré"/>
          <Concept code="371923003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="léger à modéré"/>
          <Concept code="255604002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221114000000"
                   displayName="léger"/>
       </ConceptList>

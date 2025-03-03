@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="C"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20200118000000"
                   displayName="Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"/>
          <Concept code="G"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20200118000000"
                   displayName="Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."/>
          <Concept code="L"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20200118000000"
                   displayName="Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."/>
          <Concept code="P"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20200118000000"
                   displayName="Spécimen prélevé sur un patient"/>
       </ConceptList>

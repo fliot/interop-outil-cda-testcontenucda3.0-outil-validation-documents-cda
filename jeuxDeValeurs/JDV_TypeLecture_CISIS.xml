@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="MED-024"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Films"/>
          <Concept code="MED-025"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Console d'interprétation"/>
       </ConceptList>

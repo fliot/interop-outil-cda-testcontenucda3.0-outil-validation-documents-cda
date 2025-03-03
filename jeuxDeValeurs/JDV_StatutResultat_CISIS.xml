@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="9571008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="approuvé"/>
          <Concept code="441889009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="refusé"/>
          <Concept code="33714007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="corrigé"/>
       </ConceptList>

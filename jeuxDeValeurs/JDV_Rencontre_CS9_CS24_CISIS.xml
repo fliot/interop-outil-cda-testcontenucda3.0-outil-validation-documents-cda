@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="ORG-196"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231025000000"
                   displayName="Lien avec le médecin de PMI après accord des parents"/>
          <Concept code="ORG-194"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231025000000"
                   displayName="Orientation vers un autre professionnel de santé"/>
          <Concept code="ORG-195"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231025000000"
                   displayName="Orientation vers une structure pluridisciplinaire (CAMPS centre de référence, réseau…)"/>
       </ConceptList>

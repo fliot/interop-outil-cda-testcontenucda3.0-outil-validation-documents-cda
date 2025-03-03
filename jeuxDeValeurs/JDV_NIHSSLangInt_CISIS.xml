@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="LA18471-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Normal, pas d’aphasie."/>
          <Concept code="LA18472-3"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Aphasie discrète à modérée."/>
          <Concept code="LA18473-1"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Aphasie sévère"/>
          <Concept code="LA18474-9"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Mutisme; aphasie globale"/>
       </ConceptList>

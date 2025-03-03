@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="E10"
                   codeSystem="2.16.840.1.113883.6.3"
-                  dateFin=""
                   dateValid="20240513000000"
                   displayName="Diabète sucré de type 1"/>
          <Concept code="E11"
                   codeSystem="2.16.840.1.113883.6.3"
-                  dateFin=""
                   dateValid="20240513000000"
                   displayName="Diabète sucré de type 2"/>
          <Concept code="E74.3"
                   codeSystem="2.16.840.1.113883.6.3"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Autres anomalies de l'absorption intestinale des hydrates de carbone"/>
       </ConceptList>

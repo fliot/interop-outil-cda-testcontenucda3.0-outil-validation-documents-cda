@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-578"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Chirurgie ouverte"/>
          <Concept code="MED-579"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Endoscopique"/>
          <Concept code="MED-580"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20200331000000"
                   displayName="Percutanée"/>
       </ConceptList>

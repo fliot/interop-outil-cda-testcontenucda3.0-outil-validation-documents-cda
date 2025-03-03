@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="G020299"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20230427000000"
                   displayName="SONDES DE NUTRITION/ASPIRATION GASTRO-INTESTINALES - AUTRES"/>
          <Concept code="G02020101"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20230427000000"
                   displayName="SONDES NASO-GASTRIQUES"/>
       </ConceptList>

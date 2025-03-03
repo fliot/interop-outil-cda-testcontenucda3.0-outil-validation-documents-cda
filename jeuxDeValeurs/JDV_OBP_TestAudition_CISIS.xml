@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="275727004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230828000000"
                   displayName="examen auditif ou vestibulaire normal"/>
          <Concept code="134376008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230828000000"
                   displayName="examen auditif ou vestibulaire anormal à droite"/>
          <Concept code="134375007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230828000000"
                   displayName="examen auditif ou vestibulaire anormal à gauche"/>
          <Concept code="134374006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230828000000"
                   displayName="examen auditif ou vestibulaire anormal des deux côtés"/>
          <Concept code="164746007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230828000000"
                   displayName="examen auditif ou vestibulaire non effectué"/>
       </ConceptList>

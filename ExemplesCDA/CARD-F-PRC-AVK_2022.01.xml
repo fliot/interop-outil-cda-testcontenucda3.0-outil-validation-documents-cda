@@ -1326,7 +1326,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.27"/>
               <id root="AAD2D58E-74CD-4EA6-B27B-1D59B48FA899" />
-              <code code="L0045" codeSystem="1.2.250.1.213.1.1.4.322" displayName="TA_ASIP">
+              <code code="6301-6" displayName="Temps de quick INR:Temps relatif:Ponctuel:Plasma pauvre en plaquettes:Numérique:Coagulation" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
                 <originalText><reference value="#avk0026" /></originalText>
               </code>
               <text><reference value="avk0026" /></text>

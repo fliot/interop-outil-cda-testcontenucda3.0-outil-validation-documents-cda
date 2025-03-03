@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="408821002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="vit avec son/sa partenaire"/>
          <Concept code="224133007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="vit avec de la famille"/>
          <Concept code="105529008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230131000000"
                   displayName="vit seul"/>
       </ConceptList>

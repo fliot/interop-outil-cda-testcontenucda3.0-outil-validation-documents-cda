@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="62482003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240315000000"
                   displayName="bas"/>
          <Concept code="255508009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240315000000"
                   displayName="moyen"/>
          <Concept code="75540009 "
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240315000000"
                   displayName="haut"/>
       </ConceptList>

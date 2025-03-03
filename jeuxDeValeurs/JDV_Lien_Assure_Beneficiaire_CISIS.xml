@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="FAMDEP"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Couverture familiale"/>
          <Concept code="STUD"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Couverture étudiante"/>
          <Concept code="SELF"
                   codeSystem="2.16.840.1.113883.5.111"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Couverture personnelle"/>
       </ConceptList>

@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="DEQP003"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="ECG"/>
          <Concept code="ACQK001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Scannographie du crâne et de son contenu"/>
          <Concept code="ACQN001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Remnographie du crâne et de son contenu"/>
          <Concept code="EAQH002"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Scanographie des vaisseaux encéphaliques"/>
          <Concept code="EAQJ001"
                   codeSystem="1.2.250.1.215.300.1"
-                  dateFin=""
                   dateValid="20240917000000"
                   displayName="Remnographie des vaisseaux encéphaliques"/>
       </ConceptList>

@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="422650009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="isolement social"/>
          <Concept code="224226001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20241010000000"
                   displayName="sans domicile fixe"/>
          <Concept code="424860001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20241010000000"
                   displayName="faible revenu"/>
       </ConceptList>

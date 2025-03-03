@@ -10,37 +10,30 @@
       <ConceptList>
          <Concept code="aborted"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Arrêté (après son lancement)"/>
          <Concept code="active"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Actif (en cours ou à venir)"/>
          <Concept code="cancelled"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Annulé (avant son lancement)"/>
          <Concept code="completed"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Terminé"/>
          <Concept code="held"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="En attente (avant son lancement)"/>
          <Concept code="new"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="En préparation"/>
          <Concept code="suspended"
                   codeSystem="2.16.840.1.113883.5.14"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Suspendu (au cours de sa réalisation)"/>
       </ConceptList>

@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="29463-7"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Poids"/>
          <Concept code="8302-2"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Taille"/>
          <Concept code="8287-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Périmètre crânien"/>
       </ConceptList>

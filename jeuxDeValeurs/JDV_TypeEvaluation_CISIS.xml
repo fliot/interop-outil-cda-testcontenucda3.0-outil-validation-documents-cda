@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="MED-1292"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240906000000"
                   displayName="Evaluation AGGIR PH SSIAD"/>
          <Concept code="MED-1293"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240906000000"
                   displayName="Evaluation AGGIR PA SSIAD"/>
          <Concept code="MED-1290"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240906000000"
                   displayName="Evaluation de la situation SSIAD"/>
          <Concept code="MED-1291"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240906000000"
                   displayName="Evaluation SERAFIN"/>
       </ConceptList>

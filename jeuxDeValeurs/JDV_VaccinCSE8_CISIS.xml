@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="J07BC01"
                   codeSystem="2.16.840.1.113883.6.73"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="hépatite B, antigène purifié"/>
          <Concept code="J07AN"
                   codeSystem="2.16.840.1.113883.6.73"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="vaccins de la tuberculose"/>
       </ConceptList>

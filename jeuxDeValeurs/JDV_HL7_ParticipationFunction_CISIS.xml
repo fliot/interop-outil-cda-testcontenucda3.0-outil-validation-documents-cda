@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="ADMPHYS"
                   codeSystem="2.16.840.1.113883.5.88"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Responsable de l'admission"/>
          <Concept code="ATTPHYS"
                   codeSystem="2.16.840.1.113883.5.88"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Référent - Responsable du patient dans la structure de soins"/>
          <Concept code="DISPHYS"
                   codeSystem="2.16.840.1.113883.5.88"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Responsable de la sortie"/>
          <Concept code="PCP"
                   codeSystem="2.16.840.1.113883.5.88"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Médecin traitant"/>
       </ConceptList>

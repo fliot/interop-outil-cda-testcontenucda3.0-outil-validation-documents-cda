@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="GEN-311"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231030000000"
                   displayName="Jamais"/>
          <Concept code="GEN-312"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231030000000"
                   displayName="&lt; 1 fois/semaine"/>
          <Concept code="GEN-313"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231030000000"
                   displayName="&gt;= 1 fois/semaine"/>
       </ConceptList>

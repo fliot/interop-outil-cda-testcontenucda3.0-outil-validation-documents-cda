@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="GEN-354"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Véhicule thermique"/>
          <Concept code="GEN-355"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Véhicule électrique"/>
          <Concept code="GEN-356"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20240902000000"
                   displayName="Véhicule hybride"/>
       </ConceptList>

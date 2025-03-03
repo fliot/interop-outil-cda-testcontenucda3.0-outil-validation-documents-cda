@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="low"
                   codeSystem="2.16.840.1.113883.4.642.4.130"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Bas"/>
          <Concept code="high"
                   codeSystem="2.16.840.1.113883.4.642.4.130"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Elevé"/>
          <Concept code="unable-to-assess"
                   codeSystem="2.16.840.1.113883.4.642.4.130"
-                  dateFin=""
                   dateValid="20220101000000"
                   displayName="Impossible à évaluer"/>
       </ConceptList>

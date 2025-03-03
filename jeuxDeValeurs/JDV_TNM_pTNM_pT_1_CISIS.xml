@@ -10,32 +10,26 @@
       <ConceptList>
          <Concept code="MED-787"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Évaluation impossible"/>
          <Concept code="MED-788"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Pas de tumeur retrouvée"/>
          <Concept code="MED-805"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Tumeur &lt;= 2 cm"/>
          <Concept code="MED-806"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Tumeur &gt; 2 cm et &lt;= 5 cm"/>
          <Concept code="MED-807"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Tumeur &gt; 5 cm et &lt;= 10 cm"/>
          <Concept code="MED-808"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210101000000"
                   displayName="Tumeur &gt; 10 cm"/>
       </ConceptList>

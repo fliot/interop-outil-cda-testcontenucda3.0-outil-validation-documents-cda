@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="GEN-287"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="avant 30 ans"/>
          <Concept code="GEN-288"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="entre 30 et 39 ans"/>
          <Concept code="GEN-289"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="entre 40 et 49 ans"/>
          <Concept code="GEN-290"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="entre 50 et 59 ans"/>
          <Concept code="GEN-291"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210907000000"
                   displayName="avant 70 ans"/>
       </ConceptList>

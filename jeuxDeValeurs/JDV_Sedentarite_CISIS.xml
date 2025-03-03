@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="415510005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="mode de vie sédentaire"/>
          <Concept code="228446001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="fait peu d'exercice"/>
          <Concept code="228447005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="physiquement actif(-ve)"/>
          <Concept code="228448000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="fait de l'exercice régulièrement"/>
       </ConceptList>

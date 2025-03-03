@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="GEN-128"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Conduite formellement contre-indiquée"/>
          <Concept code="GEN-129"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Conduite possible sans permis spécial"/>
          <Concept code="GEN-130"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Les démarches ont-elles été faites ? (Commission médicale)"/>
       </ConceptList>

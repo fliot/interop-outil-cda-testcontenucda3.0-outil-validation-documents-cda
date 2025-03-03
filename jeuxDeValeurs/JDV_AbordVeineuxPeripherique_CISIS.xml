@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="181387000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veines du membre supérieur entier"/>
          <Concept code="244412003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veines du membre inférieur entier"/>
          <Concept code="82121006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20221206000000"
                   displayName="veine cervicale"/>
       </ConceptList>

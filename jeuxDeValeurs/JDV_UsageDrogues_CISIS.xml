@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="20045000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
-                  dateFin=""
                   dateValid="20220218000000"
                   displayName="Voie intraveineuse"/>
          <Concept code="20049000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
-                  dateFin=""
                   dateValid="20220218000000"
                   displayName="Voie nasale"/>
       </ConceptList>

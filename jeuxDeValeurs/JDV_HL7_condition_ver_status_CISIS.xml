@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="unconfirmed"
                   codeSystem="2.16.840.1.113883.4.642.1.1075"
-                  dateFin=""
                   dateValid="20240606000000"
                   displayName="Non confirmé"/>
          <Concept code="confirmed"
                   codeSystem="2.16.840.1.113883.4.642.1.1075"
-                  dateFin=""
                   dateValid="20240606000000"
                   displayName="Confirmé"/>
          <Concept code="refuted"
                   codeSystem="2.16.840.1.113883.4.642.1.1075"
-                  dateFin=""
                   dateValid="20240606000000"
                   displayName="Réfuté"/>
       </ConceptList>

@@ -10,27 +10,22 @@
       <ConceptList>
          <Concept code="LA9622-7"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20240405000000"
                   displayName="Capable d'une activité identique à celle précédant la maladie sans aucune restriction."/>
          <Concept code="LA9623-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20240405000000"
                   displayName="Activité physique diminuée mais ambulatoire et capable de mener un travail"/>
          <Concept code="LA9624-3"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20240405000000"
                   displayName="Ambulatoire et capable de prendre soin de soi-même, incapable de travailler. Alité moins de 50 % de son temps"/>
          <Concept code="LA9625-0"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20240405000000"
                   displayName="Capable seulement de quelques soins. Alité ou en chaise plus de 50 % du temps"/>
          <Concept code="LA9626-8"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20240405000000"
                   displayName="Incapable de prendre soins de soi-même. Alité ou en chaise en permanence"/>
       </ConceptList>

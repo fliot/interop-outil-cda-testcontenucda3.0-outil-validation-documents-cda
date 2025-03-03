@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="MED-442"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Carotidien territorial"/>
          <Concept code="MED-443"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Carotidien lacunaire"/>
          <Concept code="MED-444"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="VB territorial"/>
          <Concept code="MED-445"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="VB lacunaire"/>
       </ConceptList>

@@ -83,7 +83,6 @@
                     <given qualifier="BR">RUTH</given>
                     <given>ISABELLE</given>
                     <family qualifier="BR">NESSI</family>
-                    <family qualifier="SP">DECOURCY</family>
                     <family qualifier="CL">DECOURCY</family>
                 </name>
                 <administrativeGenderCode code="F" displayName="Féminin" codeSystem="2.16.840.1.113883.5.1"/>
@@ -631,7 +630,7 @@
                                         <!-- Nom de la marque -->
                                         <name>PARACETAMOL VIATRIS 500 mg, comprimé plaquette(s) thermoformée(s) PVC-aluminium de 16 comprimé(s)</name>                                        
                                         <!-- Forme galénique : EDQM Standard Terms (0.4.0.127.0.16.1.1.2.1) : Pharmaceutical Dose Forms -->
-                                        <pharm:formCode code="10219000" displayName="Comprimé" codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="EDQM"/>      
+                                        <pharm:formCode code="10219000" displayName="Comprimé" codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="EDQM"/>
                                         <lotNumberText>12345</lotNumberText>
                                         <pharm:expirationTime value="20321231"/>
                                         <!-- Présentation / conditionnement -->

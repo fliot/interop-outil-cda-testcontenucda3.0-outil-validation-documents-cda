@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="GEN-310"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="Maternité"/>
          <Concept code="169813005"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20241010000000"
                   displayName="naissance à domicile"/>
          <Concept code="GEN-092.06.04"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre lieu d'accouchement"/>
       </ConceptList>

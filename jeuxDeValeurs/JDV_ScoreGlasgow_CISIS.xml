@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="GEN-103"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Normal"/>
          <Concept code="MED-392"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Somnolence ou coma léger"/>
          <Concept code="MED-393"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Coma lourd"/>
          <Concept code="MED-394"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Coma profond ou mort"/>
       </ConceptList>

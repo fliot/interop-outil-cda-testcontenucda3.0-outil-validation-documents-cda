@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-1051"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210622000000"
                   displayName="Acuité visuelle de près"/>
          <Concept code="MED-1052"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210622000000"
                   displayName="Acuité visuelle à distance"/>
          <Concept code="MED-1053"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20210622000000"
                   displayName="Acuité visuelle intermédiaire"/>
       </ConceptList>

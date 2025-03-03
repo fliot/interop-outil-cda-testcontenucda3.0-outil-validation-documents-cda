@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="P07040201"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20240423000000"
                   displayName="STENTS CORONAIRES"/>
          <Concept code="P0704020201"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20240423000000"
                   displayName="STENTS VASCULAIRES PÉRIPHÉRIQUES NUS"/>
          <Concept code="P07040202"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20240719000000"
                   displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &#34;STENTS PÉRIPHÉRIQUES&#34;"/>
          <Concept code="P07040199"
                   codeSystem="1.2.250.1.213.2.68"
-                  dateFin=""
                   dateValid="20240423000000"
                   displayName="ENDOPROTHÈSES VASCULAIRES - AUTRES"/>
       </ConceptList>

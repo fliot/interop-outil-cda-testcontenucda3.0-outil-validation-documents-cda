@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="161898004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="chutes"/>
          <Concept code="50239007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="errance"/>
          <Concept code="248046000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="fugue"/>
          <Concept code="386423001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="contention physique"/>
       </ConceptList>

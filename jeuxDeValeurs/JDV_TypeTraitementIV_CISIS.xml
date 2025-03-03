@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="233428003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="thrombolyse d'une veine"/>
          <Concept code="397028007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20231114000000"
                   displayName="thrombectomie d'une veine"/>
       </ConceptList>

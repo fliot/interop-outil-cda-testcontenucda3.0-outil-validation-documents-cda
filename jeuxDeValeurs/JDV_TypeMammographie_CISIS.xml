@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-031"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Analogique"/>
          <Concept code="MED-032"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Numérique DR"/>
          <Concept code="MED-033"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Numérique CR"/>
       </ConceptList>

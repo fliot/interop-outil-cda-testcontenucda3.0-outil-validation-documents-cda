@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="MED-200"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Marche acquise"/>
          <Concept code="MED-201"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20221003000000"
                   displayName="Age de la marche acquise (mois)"/>
          <Concept code="MED-1274"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20231030000000"
                   displayName="Repérage troubles du neurodéveloppement"/>
       </ConceptList>

@@ -10,12 +10,10 @@
       <ConceptList>
          <Concept code="MED-178"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20241126000000"
                   displayName="Test auditif normal"/>
          <Concept code="MED-179"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20241126000000"
                   displayName="Audition à recontrôler"/>
       </ConceptList>

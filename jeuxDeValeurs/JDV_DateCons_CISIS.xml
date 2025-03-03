@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="GEN-109"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20100101000000"
                   displayName="Non suivie"/>
          <Concept code="57630001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230206000000"
                   displayName="premier trimestre de la grossesse"/>
          <Concept code="59466002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230206000000"
                   displayName="deuxième trimestre de la grossesse"/>
          <Concept code="41587001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230206000000"
                   displayName="troisième trimestre de la grossesse"/>
       </ConceptList>

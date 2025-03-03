@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="420300004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="classe I de la New York Heart Association Classification"/>
          <Concept code="421704003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="classe II de la New York Heart Association Classification"/>
          <Concept code="420913000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="classe III de la New York Heart Association Classification"/>
          <Concept code="422293003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20230803000000"
                   displayName="classe IV de la New York Heart Association Classification"/>
       </ConceptList>

@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="75976002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240307000000"
                   displayName="risque faible de"/>
          <Concept code="25594002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240307000000"
                   displayName="risque modéré de"/>
          <Concept code="15508007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateFin=""
                   dateValid="20240307000000"
                   displayName="risque élevé de"/>
       </ConceptList>

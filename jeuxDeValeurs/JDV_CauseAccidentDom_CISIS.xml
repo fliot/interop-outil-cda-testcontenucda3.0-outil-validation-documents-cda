@@ -10,22 +10,18 @@
       <ConceptList>
          <Concept code="NF0A.4"
                   codeSystem="2.16.840.1.113883.6.347"
-                  dateFin=""
                   dateValid="20230612000000"
                   displayName="Choc traumatique, non classé ailleurs"/>
          <Concept code="NE2Z"
                   codeSystem="2.16.840.1.113883.6.347"
-                  dateFin=""
                   dateValid="20230612000000"
                   displayName="Brûlures, sans précision"/>
          <Concept code="NE61"
                   codeSystem="2.16.840.1.113883.6.347"
-                  dateFin=""
                   dateValid="20230612000000"
                   displayName="Intoxication SAI"/>
          <Concept code="GEN-092.01.13"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateFin=""
                   dateValid="20230202000000"
                   displayName="Autre(s) accident(s) domestique(s)"/>
       </ConceptList>

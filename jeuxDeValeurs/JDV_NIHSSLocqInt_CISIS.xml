@@ -10,17 +10,14 @@
       <ConceptList>
          <Concept code="LA18440-0"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Répond aux deux questions correctement."/>
          <Concept code="LA18441-8"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Ne répond correctement qu’à une seule question."/>
          <Concept code="LA18442-6"
                   codeSystem="2.16.840.1.113883.6.1"
-                  dateFin=""
                   dateValid="20220420000000"
                   displayName="Ne répond correctement à aucune des deux questions."/>
       </ConceptList>
