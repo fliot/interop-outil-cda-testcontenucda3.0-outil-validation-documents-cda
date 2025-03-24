@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-age-de-survenue-cisis"
+             effectiveDate="2021-09-07T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.646"
+             revisionDate="2021-09-07T00:00:00+01:00"
+             version="2025-03-21T14:10:27+01:00">
+      <ConceptList>
+         <Concept code="GEN-287"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210907000000"
+                  displayName="avant 30 ans"/>
+         <Concept code="GEN-288"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210907000000"
+                  displayName="entre 30 et 39 ans"/>
+         <Concept code="GEN-289"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210907000000"
+                  displayName="entre 40 et 49 ans"/>
+         <Concept code="GEN-290"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210907000000"
+                  displayName="entre 50 et 59 ans"/>
+         <Concept code="GEN-291"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210907000000"
+                  displayName="avant 70 ans"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

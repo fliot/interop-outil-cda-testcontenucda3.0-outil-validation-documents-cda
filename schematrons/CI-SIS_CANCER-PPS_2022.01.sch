@@ -66,13 +66,13 @@
         
         <pattern id="variables">
                 
-                <let name="JDV_GestionEffetsSecondaires-CISIS" value="'../jeuxDeValeurs/JDV_GestionEffetsSecondaires_CISIS.xml'"/>
-                <let name="JDV_MesuresAssociees-CISIS" value="'../jeuxDeValeurs/JDV_MesuresAssociees_CISIS.xml'"/>
-                <let name="JDV_MotifMiseAJour-CISIS" value="'../jeuxDeValeurs/JDV_MotifMiseAJour_CISIS.xml'"/>
-                <let name="JDV_SoinsOncoDeSupport-CISIS" value="'../jeuxDeValeurs/JDV_SoinsOncoDeSupport_CISIS.xml'"/>
-                <let name="JDV_TypeAccompagnementSocioPro-CISIS" value="'../jeuxDeValeurs/JDV_TypeAccompagnementSocioPro_CISIS.xml'"/>
-                <let name="JDV_TypeDeSuivi-CISIS" value="'../jeuxDeValeurs/JDV_TypeDeSuivi_CISIS.xml'"/>
-                <let name="JDV_TypeTraitementPPS-CISIS" value="'../jeuxDeValeurs/JDV_TypeTraitementPPS_CISIS.xml'"/>
+                <let name="JDV_GestionEffetsSecondaires-CISIS" value="'../jeuxDeValeurs/jdv-gestion-effet-secondaire-cisis.xml'"/>
+                <let name="JDV_MesuresAssociees-CISIS" value="'../jeuxDeValeurs/jdv-mesure-associee-cisis.xml'"/>
+                <let name="JDV_MotifMiseAJour-CISIS" value="'../jeuxDeValeurs/jdv-motif-mise-a-jour-cisis.xml'"/>
+                <let name="JDV_SoinsOncoDeSupport-CISIS" value="'../jeuxDeValeurs/jdv-soin-onco-de-support-cisis.xml'"/>
+                <let name="JDV_TypeAccompagnementSocioPro-CISIS" value="'../jeuxDeValeurs/jdv-type-accompagnement-sociopro-cisis.xml'"/>
+                <let name="JDV_TypeDeSuivi-CISIS" value="'../jeuxDeValeurs/jdv-type-de-suivi-cisis.xml'"/>
+                <let name="JDV_TypeTraitementPPS-CISIS" value="'../jeuxDeValeurs/jdv-type-traitement-pps-cisis.xml'"/>
                 
         </pattern>
 </schema>

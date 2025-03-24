@@ -62,7 +62,7 @@
     </phase>
     
     <pattern id="variables">
-        <let name="jdv_UFCV_EffetINR-CISIS" value="'../jeuxDeValeurs/JDV_UFCV_EffetINR_CISIS.xml'"/>
+        <let name="jdv_UFCV_EffetINR-CISIS" value="'../jeuxDeValeurs/jdv-ufcv-effet-inr-cisis.xml'"/>
         
         <!-- présence des sections obligatoires -->        
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            

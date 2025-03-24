@@ -69,13 +69,13 @@
         <!-- chemins relatifs des fichiers jeux de valeurs -->
            
         <!--<let name="JDV_EtatPerinee_OBP-SNM" value="'../jeuxDeValeurs/JDV_EtatPerinee_CISIS.xml'"/>-->
-        <let name="JDV_MotifDeclenchementTravail_OBP-SNM" value="'../jeuxDeValeurs/JDV_MotifDeclenchementTravail_CISIS.xml'"/>
-        <let name="JDV_Acte_OBP-SNM" value="'../jeuxDeValeurs/JDV_ActeOBP_CISIS.xml'"/>
-        <let name="JDV_ModeDebutTravail_OBP-SNM" value="'../jeuxDeValeurs/JDV_ModeDebutTravail_CISIS.xml'"/>
-        <let name="JDV_TypeActePostPartum_OBP-SNM" value="'../jeuxDeValeurs/JDV_TypeActePostPartum_CISIS.xml'"/>
-        <let name="JDV_TypeAnesthesieApresNaissance_OBP-SNM" value="'../jeuxDeValeurs/JDV_TypeAnesthesieApresNaissance_CISIS.xml'"/>        
-        <let name="JDV_TypeAnesthesieAvantNaissance_OBP-SNM" value="'../jeuxDeValeurs/JDV_TypeAnesthesieAvantNaissance_CISIS.xml'"/>
-        <let name="JDV_ModeSortie-OBP-SNM" value="'../jeuxDeValeurs/JDV_ModeSortie_OBP_SNM_CISIS.xml'"/>
+        <let name="JDV_MotifDeclenchementTravail_OBP-SNM" value="'../jeuxDeValeurs/jdv-motif-declenchement-travail-cisis.xml'"/>
+        <let name="JDV_Acte_OBP-SNM" value="'../jeuxDeValeurs/jdv-acte-obp-cisis.xml'"/>
+        <let name="JDV_ModeDebutTravail_OBP-SNM" value="'../jeuxDeValeurs/jdv-mode-debut-travail-cisis.xml'"/>
+        <let name="JDV_TypeActePostPartum_OBP-SNM" value="'../jeuxDeValeurs/jdv-type-acte-post-partum-cisis.xml'"/>
+        <let name="JDV_TypeAnesthesieApresNaissance_OBP-SNM" value="'../jeuxDeValeurs/jdv-type-anesthesie-apres-naissance-cisis.xml'"/>        
+        <let name="JDV_TypeAnesthesieAvantNaissance_OBP-SNM" value="'../jeuxDeValeurs/jdv-type-anesthesie-avant-naissance-cisis.xml'"/>
+        <let name="JDV_ModeSortie-OBP-SNM" value="'../jeuxDeValeurs/jdv-mode-sortie-obp-snm-cisis.xml'"/>
         
         
     </pattern>

@@ -49,9 +49,9 @@
         </phase>
         
         <pattern id="variables">
-                <let name="JDV_AutreRisque_CISIS" value="'../jeuxDeValeurs/JDV_AutreRisque_CISIS.xml'"/>
-                <let name="JDV_Deplacement_CISIS" value="'../jeuxDeValeurs/JDV_Deplacement_CISIS.xml'"/>
-                <let name="JDV_EtatPsychique_CISIS" value="'../jeuxDeValeurs/JDV_EtatPsychique_CISIS.xml'"/>
+                <let name="JDV_AutreRisque_CISIS" value="'../jeuxDeValeurs/jdv-autre-risque-cisis.xml'"/>
+                <let name="JDV_Deplacement_CISIS" value="'../jeuxDeValeurs/jdv-deplacement-cisis.xml'"/>
+                <let name="JDV_EtatPsychique_CISIS" value="'../jeuxDeValeurs/jdv-etat-psychique-cisis.xml'"/>
                 
                 
                         <!--  Verifier la présence de la section FR-Traitements -->

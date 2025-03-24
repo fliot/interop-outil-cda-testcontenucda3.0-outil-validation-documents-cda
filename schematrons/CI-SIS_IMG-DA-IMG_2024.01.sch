@@ -69,15 +69,15 @@
     </phase>
     
     <pattern id="principal">
-        <let name="JDV_Modalite-demandeActeImagerie-CISIS" value="'../jeuxDeValeurs/JDV_Modalite_demandeActeImagerie_CISIS.xml'"/>
-        <let name="JDV_Contre-indications-CISIS" value="'../jeuxDeValeurs/JDV_Contre_indications_CISIS.xml'"/>
-        <let name="JDV_InjectionPDC_TEP-CISIS" value="'../jeuxDeValeurs/JDV_InjectionPDC_TEP_CISIS.xml'"/>
-        <let name="JDV_LateraliteTechniqueImagerie-CISIS" value="'../jeuxDeValeurs/JDV_LateraliteTechniqueImagerie_CISIS.xml'"/>
-        <let name="JDV_InfoPriseEnCharge-CISIS" value="'../jeuxDeValeurs/JDV_InfoPriseEnCharge_CISIS.xml'"/>
-        <let name="JDV_ModificateurTopographique-CISIS" value="'../jeuxDeValeurs/JDV_ModificateurTopographique_CISIS.xml'"/>
-        <let name="JDV_FonctionEtudieeScintigraphie-CISIS" value="'../jeuxDeValeurs/JDV_FonctionEtudieeScintigraphie_CISIS.xml'"/>
-        <let name="JDV_FonctionEtudieeTEP-CISIS" value="'../jeuxDeValeurs/JDV_FonctionEtudieeTEP_CISIS.xml'"/>
-        <let name="JDV_LocalisationAnatomique-CISIS" value="'../jeuxDeValeurs/JDV_LocalisationAnatomique_CISIS.xml'"/>
+        <let name="JDV_Modalite-demandeActeImagerie-CISIS" value="'../jeuxDeValeurs/jdv-modalite-demande-acte-imagerie-cisis.xml'"/>
+        <let name="JDV_Contre-indications-CISIS" value="'../jeuxDeValeurs/jdv-contre-indication-cisis.xml'"/>
+        <let name="JDV_InjectionPDC_TEP-CISIS" value="'../jeuxDeValeurs/jdv-injection-pdc-tep-cisis.xml'"/>
+        <let name="JDV_LateraliteTechniqueImagerie-CISIS" value="'../jeuxDeValeurs/jdv-lateralite-technique-imagerie-cisis.xml'"/>
+        <let name="JDV_InfoPriseEnCharge-CISIS" value="'../jeuxDeValeurs/jdv-info-prise-en-charge-cisis.xml'"/>
+        <let name="JDV_ModificateurTopographique-CISIS" value="'../jeuxDeValeurs/jdv-modificateur-topographique-cisis.xml'"/>
+        <let name="JDV_FonctionEtudieeScintigraphie-CISIS" value="'../jeuxDeValeurs/jdv-fonction-etudiee-scintigraphie-cisis.xml'"/>
+        <let name="JDV_FonctionEtudieeTEP-CISIS" value="'../jeuxDeValeurs/jdv-fonction-etudiee-tep-cisis.xml'"/>
+        <let name="JDV_LocalisationAnatomique-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>
         
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">    
             <!-- présence des sections obligatoires --> 

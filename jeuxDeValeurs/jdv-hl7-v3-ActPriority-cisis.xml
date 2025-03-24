@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-v3-ActPriority-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="2.16.840.1.113883.1.11.16866"
+             revisionDate="2022-09-28T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="A"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Aussi vite que possible"/>
+         <Concept code="CR"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20220928000000"
+                  displayName="A contacter dès que les résultats sont disponibles"/>
+         <Concept code="EL"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Bénéfique pour le patient mais pas essentiel pour sa survie"/>
+         <Concept code="EM"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Très urgent"/>
+         <Concept code="P"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="A réaliser avant l'intervention"/>
+         <Concept code="PRN"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Si nécessaire"/>
+         <Concept code="R"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="A réaliser aux heures ouvrées"/>
+         <Concept code="RR"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20220928000000"
+                  displayName="Compte-rendu urgent"/>
+         <Concept code="S"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Immédiatement"/>
+         <Concept code="T"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Plannification à respecter"/>
+         <Concept code="UD"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20220928000000"
+                  displayName="Médicament à utiliser selon les directives du prescripteur"/>
+         <Concept code="UR"
+                  codeSystem="2.16.840.1.113883.5.7"
+                  dateValid="20100101000000"
+                  displayName="Urgent"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-motorisation-cisis"
+             effectiveDate="2024-09-02T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.801"
+             revisionDate="2024-09-02T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="GEN-354"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20240902000000"
+                  displayName="Véhicule thermique"/>
+         <Concept code="GEN-355"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20240902000000"
+                  displayName="Véhicule électrique"/>
+         <Concept code="GEN-356"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20240902000000"
+                  displayName="Véhicule hybride"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

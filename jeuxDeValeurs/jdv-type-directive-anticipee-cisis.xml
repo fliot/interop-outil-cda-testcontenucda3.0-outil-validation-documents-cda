@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-directive-anticipee-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.136"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="387713003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230803000000"
+                  displayName="intervention chirurgicale"/>
+         <Concept code="265764009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="dialyse rénale"/>
+         <Concept code="MED-298"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Sédation profonde et continue associée à un traitement de la douleur"/>
+         <Concept code="42348-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20211027000000"
+                  displayName="Directives anticipées"/>
+         <Concept code="75789-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20221130000000"
+                  displayName="Maintient artificiel en vie"/>
+         <Concept code="75779-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20221130000000"
+                  displayName="Réanimation cardiaque et respiratoire"/>
+         <Concept code="75787-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20221130000000"
+                  displayName="Assistance respiratoire"/>
+         <Concept code="77352-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20221130000000"
+                  displayName="Alimentation et hydratation artificielles"/>
+         <Concept code="75793-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20221130000000"
+                  displayName="Autre directive"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

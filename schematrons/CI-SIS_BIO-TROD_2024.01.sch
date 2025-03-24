@@ -107,24 +107,24 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_ResultatDepistage_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistage_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageGlycemie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageGlycemie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageCetonemie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageCetonemie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageCholesterol_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageCholesterol_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageCRP_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageCRP_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageRuptureMembranePH_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageRuptureMembranePH_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageBilirubinemie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageBilirubinemie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageProteinurie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageProteinurie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageCorpsCetoniques_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageCorpsCetoniques_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageGlucose_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageGlucose_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageBilirubinurie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageBilirubinurie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageUrobilinogenurie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageUrobilinogenurie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageNitriturie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageNitriturie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageHematurie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageHematurie_CISIS'"/>
-        <let name="JDV_ResultatDepistageLeucocyturie_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageLeucocyturie_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageAcideAscorbique_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistageAcideAscorbique_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageNitriturieCystite_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistage_CISIS.xml'"/>
-        <let name="JDV_ResultatDepistageLeucocyturieCystite_CISIS" value="'../jeuxDeValeurs/JDV_ResultatDepistage_CISIS.xml'"/>
+        <let name="JDV_ResultatDepistage_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageGlycemie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-glycemie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageCetonemie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-cetonemie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageCholesterol_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-cholesterol-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageCRP_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-crp-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageRuptureMembranePH_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-rupture-membrane-ph-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageBilirubinemie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-bilirubinemie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageProteinurie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-proteinurie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageCorpsCetoniques_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-corps-cetoniques-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageGlucose_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-glucose-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageBilirubinurie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-bilirubinurie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageUrobilinogenurie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-urobilinogenurie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageNitriturie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-nitriturie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageHematurie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-hematurie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageLeucocyturie_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-leucocyturie-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageAcideAscorbique_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-acide-ascorbique-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageNitriturieCystite_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-cisis.xml'"/>
+        <let name="JDV_ResultatDepistageLeucocyturieCystite_CISIS" value="'../jeuxDeValeurs/jdv-resultat-depistage-cisis.xml'"/>
         
         
         <!-- présence des sections obligatoires -->        

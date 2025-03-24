@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-ufcv-motif-implant-endoprothese-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.4.2.12"
+             revisionDate="2025-03-13T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="MED-1318"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250313000000"
+                  displayName="S+T+ (Segment ST sus-décalé avec augmentation des troponines)"/>
+         <Concept code="MED-1319"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250313000000"
+                  displayName="S+T- (Segment ST sus-décalé sans augmentation des troponines)"/>
+         <Concept code="MED-1320"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250313000000"
+                  displayName="S-T- (Segment ST non sus-décalé sans augmentation des troponines)"/>
+         <Concept code="MED-1321"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250313000000"
+                  displayName="IMS (Ischémie Myocardique Silencieuse)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

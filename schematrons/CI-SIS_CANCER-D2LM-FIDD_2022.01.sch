@@ -71,11 +71,11 @@
     
     <pattern id="variables">
         
-        <let name="JDV_TechniqueBilan-CISIS" value="'../jeuxDeValeurs/JDV_BilanTechnique_CISIS.xml'"/>
-        <let name="JDV_ConduiteATenir_2-CISIS" value="'../jeuxDeValeurs/JDV_ConduiteATenir_2_CISIS.xml'"/>
-        <let name="JDV_MotifDiagnostic-CISIS" value="'../jeuxDeValeurs/JDV_MotifDiagnostic_CISIS.xml'"/> 
+        <let name="JDV_TechniqueBilan-CISIS" value="'../jeuxDeValeurs/jdv-bilan-technique-cisis.xml'"/>
+        <let name="JDV_ConduiteATenir_2-CISIS" value="'../jeuxDeValeurs/jdv-conduite-a-tenir-2-cisis.xml'"/>
+        <let name="JDV_MotifDiagnostic-CISIS" value="'../jeuxDeValeurs/jdv-motif-diagnostic-cisis.xml'"/> 
         <!-- [APE 27/11/2021] ajouté -->        
-        <let name="JDV_Classification_ACR-CISIS" value="'../jeuxDeValeurs/JDV_Classification_ACR_CISIS.xml'"/> 
+        <let name="JDV_Classification_ACR-CISIS" value="'../jeuxDeValeurs/jdv-classification-acr-cisis.xml'"/> 
         
         <!-- présence des sections obligatoires -->        
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            

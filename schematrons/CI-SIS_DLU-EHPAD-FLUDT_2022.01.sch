@@ -48,7 +48,7 @@
         </phase>
         
         <pattern id="variables">
-                <let name="JDV_ProtheseObjetPersonnel" value = "'../jeuxDeValeurs/JDV_ProtheseObjetPersonnel_CISIS.xml'"/>
+                <let name="JDV_ProtheseObjetPersonnel" value = "'../jeuxDeValeurs/jdv-prothese-objet-personnel-cisis.xml'"/>
                 <rule context="cda:ClinicalDocument">
                         <assert test="count(cda:component/cda:structuredBody/cda:component/cda:section/cda:templateId[@root='1.3.6.1.4.1.19376.1.7.3.1.1.13.7'])=1"> 
                                 [CI-SIS_DLU-EHPAD-FLUDT_2022.01] La section "Resultats d'évenements : Transfert du patient de l'EHPAD vers le SU" doit être présente une fois. Cardinalité [1..1].

@@ -72,9 +72,9 @@
     <!-- Variables globales -->
     <pattern id="variables">
         <!--  <let name="jdv_LesionTraumatiqueObstetricale_OBP-SEM" value="'../jeuxDeValeurs/JDV_OBP_LesionTraumatiqueObstetricale_CISIS.xml'"/>-->
-        <let name="jdv_ModeSortie_OBP-SEM" value="'../jeuxDeValeurs/JDV_ModeSortie_OBP_SEM_CISIS.xml'"/>
-        <let name="jdv_TypeAllaitementNN_OBP-SEM" value="'../jeuxDeValeurs/JDV_TypeAllaitementNouveauNe_CISIS.xml'"/>
-        <let name="jdv_StaticSEMprocedures_OBP" value="'../jeuxDeValeurs/JDV_StaticSEMprocedures_CISIS.xml'"/>
-        <let name="jdv_OBP_TestAudition" value="'../jeuxDeValeurs/JDV_OBP_TestAudition_CISIS.xml'"/>
+        <let name="jdv_ModeSortie_OBP-SEM" value="'../jeuxDeValeurs/jdv-mode-sortie-obp-sem-cisis.xml'"/>
+        <let name="jdv_TypeAllaitementNN_OBP-SEM" value="'../jeuxDeValeurs/jdv-type-allaitement-nouveau-ne-cisis.xml'"/>
+        <let name="jdv_StaticSEMprocedures_OBP" value="'../jeuxDeValeurs/jdv-static-sem-procedure-cisis.xml'"/>
+        <let name="jdv_OBP_TestAudition" value="'../jeuxDeValeurs/jdv-obp-test-audition-cisis.xml'"/>
     </pattern>
 </schema>

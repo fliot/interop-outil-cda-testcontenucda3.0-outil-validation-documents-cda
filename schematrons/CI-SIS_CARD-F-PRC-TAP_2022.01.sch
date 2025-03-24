@@ -65,10 +65,10 @@
     
     <pattern id="variables">
         
-        <let name="jdv_UFCV_MotImpl_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/JDV_UFCV_MotImpl_CISIS.xml'"/>
-        <let name="jdv_UFCV_MotImplEndoC_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/JDV_UFCV_MotImplEndoC_CISIS.xml'"/>
-        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/JDV_UFCV_MatImpl_CISIS.xml'"/>
-        <let name="jdv_UFCV_NYHA_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/JDV_UFCV_NYHA_CISIS.xml'"/>
+        <let name="jdv_UFCV_MotImpl_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/jdv-ufcv-motif-implant-cisis.xml'"/>
+        <let name="jdv_UFCV_MotImplEndoC_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/jdv-ufcv-motif-implant-endoprothese-cisis.xml'"/>
+        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/jdv-ufcv-materiel-implante-cisis.xml'"/>
+        <let name="jdv_UFCV_NYHA_CARD-F-PRC-TAP" value="'../jeuxDeValeurs/jdv-ufcv-stade-nyha-cisis.xml.xml'"/>
         
         <!-- présence des sections obligatoires -->        
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            

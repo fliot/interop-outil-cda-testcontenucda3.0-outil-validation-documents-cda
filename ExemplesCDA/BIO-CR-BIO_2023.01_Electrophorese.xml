@@ -16,7 +16,7 @@
     Historique :
     17/09/2023 : version 2023.01
     17/10/2023 : Modification du code de la Section FR-Document-PDF-copie
-    24/05/2023 : précision de la technique à partir du JDV_Technique-bio_CISIS (1.2.250.1.213.1.1.5.789)
+    24/05/2023 : précision de la technique à partir du jdv-technique-biologie-cisis (1.2.250.1.213.1.1.5.789)
     **********************************************************************************************************
 -->
 <ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:lab="urn:oid:1.3.6.1.4.1.19376.1.3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -2515,7 +2515,7 @@
                     <participantRole classCode="SPEC">
                       <!-- Identifiant de l'échantillon -->
                       <id root="1.2.250.1.71.4.2.1" extension="801234567893" />
-                      <!-- Nature de l'échantillon : valeur issue du JDV_HL7_SpecimenType-CISIS (2.16.840.1.113883.21.327) -->
+                      <!-- Nature de l'échantillon : valeur issue du jdv-specimen-type-cisis (1.2.250.1.213.1.1.5.819) -->
                       <playingEntity>
                         <code code="UR" displayName="Urine" codeSystem="2.16.840.1.113883.18.311">
                           <originalText><reference value="#prelevement-nature-echantillon" /></originalText>
@@ -2749,7 +2749,7 @@
                           <value xsi:type="IVL_PQ">
                             <low value="0.512" unit="ug/mL" inclusive="true" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="R" displayName="Résistant" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
@@ -2773,7 +2773,7 @@
                           <value xsi:type="IVL_PQ">
                             <high value="0.128" unit="ug/mL" inclusive="false" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="I" displayName="Intermédiaire" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
@@ -2797,7 +2797,7 @@
                           <value xsi:type="IVL_PQ">
                             <high value="0.032" unit="ug/mL" inclusive="false" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="S" displayName="Sensible" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
@@ -2878,7 +2878,7 @@
                           <value xsi:type="IVL_PQ">
                             <high value="0.012" unit="ug/mL" inclusive="false" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="S" displayName="Sensible" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
@@ -2902,7 +2902,7 @@
                           <value xsi:type="IVL_PQ">
                             <high value="0.013" unit="ug/mL" inclusive="false" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="S" displayName="Sensible" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
@@ -2926,7 +2926,7 @@
                           <value xsi:type="IVL_PQ">
                             <high value="0.014" unit="ug/mL" inclusive="false" />
                           </value>
-                          <!-- Interprétation : valeur issue du JDV_HL7_ObservationInterpretation-CISIS (2.16.840.1.113883.1.11.78) -->
+                          <!-- Interprétation : valeur issue du jdv-hl7-ObservationInterpretation-cisis (2.16.840.1.113883.1.11.78) -->
                           <interpretationCode code="S" displayName="Sensible" codeSystem="2.16.840.1.113883.5.83" />
                           <methodCode code="BDB" displayName="Antibiogramme - bandette gradient" 
                             codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-resultat-question-evaluation-cisis"
+             effectiveDate="2024-12-19T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.817"
+             revisionDate="2024-12-19T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="MED-1307"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20241219000000"
+                  displayName="fait spontanément"/>
+         <Concept code="MED-1308"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20241219000000"
+                  displayName="fait totalement"/>
+         <Concept code="MED-1309"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20241219000000"
+                  displayName="fait correctement"/>
+         <Concept code="MED-1310"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20241219000000"
+                  displayName="fait habituellement"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -8300,6 +8300,38 @@
                 <xsl:if test="(contains($vendor, 'Saxonica'))">
                     <fo:block line-height="0.1cm">&#160;</fo:block>
                 </xsl:if>
+                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                    <xsl:variable name="displayName2" 
+                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
+                    <xsl:variable name="displayName1" 
+                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
+                    <xsl:value-of select="$displayName2"/>
+                    <xsl:text> (</xsl:text>
+                    <xsl:value-of select="$displayName1"/>
+                    <xsl:text>)</xsl:text>
+                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="(contains($vendor, 'Saxonica'))">
+                        <fo:block line-height="0.1cm">&#160;</fo:block>
+                    </xsl:if>
+                </xsl:if>
+                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                    <xsl:variable name="displayName4" 
+                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
+                    <xsl:variable name="displayName3" 
+                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
+                    <xsl:value-of select="$displayName4"/>
+                    <xsl:text> (</xsl:text>
+                    <xsl:value-of select="$displayName3"/>
+                    <xsl:text>)</xsl:text>
+                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                        <br/>
+                    </xsl:if>
+                    <xsl:if test="(contains($vendor, 'Saxonica'))">
+                        <fo:block line-height="0.1cm">&#160;</fo:block>
+                    </xsl:if>
+                </xsl:if>
             </xsl:if>
             <xsl:if test="hl7:serviceEvent/hl7:effectiveTime">
                 <xsl:if
@@ -10080,6 +10112,46 @@
                                                 <br/>
                                             </xsl:if>
                                         </span>
+                                        <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                                            <xsl:variable name="displayName2" 
+                                                select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
+                                            <xsl:variable name="displayName1" 
+                                                select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
+                                            <span class="span_label">
+                                                <xsl:value-of select="$displayName2"/>
+                                            </span>
+                                            <span style="font-weight:normal;">
+                                                <xsl:text> (</xsl:text>
+                                                <xsl:value-of select="$displayName1"/>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
+                                            <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                <br/>
+                                            </xsl:if>
+                                            <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                <fo:block line-height="0.1cm">&#160;</fo:block>
+                                            </xsl:if>
+                                        </xsl:if>
+                                        <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                                            <xsl:variable name="displayName4" 
+                                                select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
+                                            <xsl:variable name="displayName3" 
+                                                select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
+                                            <span class="span_label">
+                                                <xsl:value-of select="$displayName4"/>
+                                            </span>
+                                            <span style="font-weight:normal;">
+                                                <xsl:text> (</xsl:text>
+                                                <xsl:value-of select="$displayName3"/>
+                                                <xsl:text>)</xsl:text>
+                                            </span>
+                                            <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                <br/>
+                                            </xsl:if>
+                                            <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                <fo:block line-height="0.1cm">&#160;</fo:block>
+                                            </xsl:if>
+                                        </xsl:if>
                                         <span style="font-weight:bold; color:black;">
                                             <xsl:if test="hl7:serviceEvent/hl7:id/@root">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10892,6 +10964,44 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:block line-height="0.1cm">&#160;</fo:block>
+                                                
+                                                
+                                                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                                                    <xsl:variable name="displayName2" 
+                                                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
+                                                    <xsl:variable name="displayName1" 
+                                                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
+                                                        <xsl:value-of select="$displayName2"/>
+                                                    <fo:inline xsl:use-attribute-sets="myBlock11">
+                                                        <xsl:text> (</xsl:text>
+                                                        <xsl:value-of select="$displayName1"/>
+                                                        <xsl:text>)</xsl:text>
+                                                    </fo:inline>
+                                                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                        <br/>
+                                                    </xsl:if>
+                                                    <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                        <fo:block line-height="0.1cm">&#160;</fo:block>
+                                                    </xsl:if>
+                                                </xsl:if>
+                                                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                                                    <xsl:variable name="displayName4" 
+                                                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
+                                                    <xsl:variable name="displayName3" 
+                                                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
+                                                        <xsl:value-of select="$displayName4"/>
+                                                    <fo:inline xsl:use-attribute-sets="myBlock11">
+                                                        <xsl:text> (</xsl:text>
+                                                        <xsl:value-of select="$displayName3"/>
+                                                        <xsl:text>)</xsl:text>
+                                                    </fo:inline>
+                                                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                        <br/>
+                                                    </xsl:if>
+                                                    <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                        <fo:block line-height="0.1cm">&#160;</fo:block>
+                                                    </xsl:if>
+                                                </xsl:if>
                                                 <fo:inline xsl:use-attribute-sets="myBlock10">
                                                   <xsl:if test="hl7:serviceEvent/hl7:id">
                                                   <xsl:call-template name="getLocalizedString">

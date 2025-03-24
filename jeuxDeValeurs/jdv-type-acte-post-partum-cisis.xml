@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-acte-post-partum-cisis"
+             effectiveDate="2023-02-02T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.739"
+             revisionDate="2024-09-17T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="JNFA001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Hystérectomie pour complications obstétricales, par laparotomie"/>
+         <Concept code="JPGD001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Délivrance artificielle (+ révision utérine)"/>
+         <Concept code="49149002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230803000000"
+                  displayName="exploration manuelle post-partum de l'utérus"/>
+         <Concept code="57238002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230803000000"
+                  displayName="embolisation artérielle sélective"/>
+         <Concept code="JNED001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Réduction manuelle d’inversion utérine"/>
+         <Concept code="JNBD002 "
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Ballonnets intra-utérin"/>
+         <Concept code="GEN-092.04.02"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20230202000000"
+                  displayName="Autre acte réalisé en postpartum immédiat"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

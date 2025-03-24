@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-objectif-activite-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.41"
+             revisionDate="2025-03-05T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="409073007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250305000000"
+                  displayName="éducation"/>
+         <Concept code="165197003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250224000000"
+                  displayName="évaluation diagnostique"/>
+         <Concept code="79841006 "
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="conseil en génétique"/>
+         <Concept code="243787009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250224000000"
+                  displayName="diagnostic prénatal"/>
+         <Concept code="MED-100"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Diagnostic préimplantatoire"/>
+         <Concept code="225297008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250305000000"
+                  displayName="actions de planification des soins et de résolution de problème"/>
+         <Concept code="390906007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250224000000"
+                  displayName="rendez-vous de suivi"/>
+         <Concept code="373110003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250305000000"
+                  displayName="procédure d'urgence"/>
+         <Concept code="ORG-049"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Protocole de recherche"/>
+         <Concept code="71388002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250305000000"
+                  displayName="procédure"/>
+         <Concept code="ORG-123"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Consultation de transition enfant/adulte"/>
+         <Concept code="MED-1289"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20240806000000"
+                  displayName="Rendu de résultat diagnostic génétique"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

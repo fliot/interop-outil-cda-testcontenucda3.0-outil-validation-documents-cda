@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-investigation-realisee-aunv-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.195"
+             revisionDate="2024-09-17T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="DEQP003"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="ECG"/>
+         <Concept code="ACQK001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Scannographie du crâne et de son contenu"/>
+         <Concept code="ACQN001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Remnographie du crâne et de son contenu"/>
+         <Concept code="EAQH002"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Scanographie des vaisseaux encéphaliques"/>
+         <Concept code="EAQJ001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Remnographie des vaisseaux encéphaliques"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

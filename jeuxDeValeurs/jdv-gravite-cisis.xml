@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-gravite-cisis"
+             effectiveDate="2024-05-22T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.787"
+             revisionDate="2024-05-22T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="255604002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="gravité légère"/>
+         <Concept code="266938001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="patient(e) hospitalisé(e)"/>
+         <Concept code="2655002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="invalidité"/>
+         <Concept code="276654001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="malformation congénitale"/>
+         <Concept code="442452003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="mise en jeu du pronostic vital"/>
+         <Concept code="GEN-092.01.22"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20240522000000"
+                  displayName="Autre situation médicale grave"/>
+         <Concept code="419620001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240522000000"
+                  displayName="mort"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

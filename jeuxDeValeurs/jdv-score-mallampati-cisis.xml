@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-score-mallampati-cisis"
+             effectiveDate="2020-12-23T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.484"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="425247007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe I de Mallampati"/>
+         <Concept code="424694002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe II de Mallampati"/>
+         <Concept code="424915003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe III de Mallampati"/>
+         <Concept code="424397003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="classe IV de Mallampati"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

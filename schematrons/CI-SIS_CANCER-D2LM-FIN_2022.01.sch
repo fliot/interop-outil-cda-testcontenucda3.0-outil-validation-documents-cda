@@ -51,7 +51,6 @@
         
         <!--JDV-->
         <include href="include/jeuxDeValeurs/CANCER-D2LM-FIN_2022.01/JDV_AntecedentsPersonnels-CISIS.sch"/>
-        <include href="include/jeuxDeValeurs/CANCER-D2LM-FIN_2022.01/JDV_BilanDiagnostic-CISIS.sch"/>
         <include href="include/jeuxDeValeurs/CANCER-D2LM-FIN_2022.01/JDV_ConduiteATenir_1-CISIS.sch"/>
         <include href="include/jeuxDeValeurs/CANCER-D2LM-FIN_2022.01/JDV_ConduiteATenir_3-CISIS.sch"/>
         <include href="include/jeuxDeValeurs/CANCER-D2LM-FIN_2022.01/JDV_DensiteMammaire-CISIS.sch"/>
@@ -82,7 +81,6 @@
                 <active pattern="E_ListeDesAntecedents-D2LM-FIN"/>
                 
                 <active pattern="JDV_AntecedentsPersonnels-CISIS"/>
-                <active pattern="JDV_BilanDiagnostic-CISIS"/>
                 <active pattern="JDV_ConduiteATenir_1-CISIS"/>
                 <active pattern="JDV_ConduiteATenir_3-CISIS"/>
                 <active pattern="JDV_DensiteMammaire-CISIS"/>
@@ -100,17 +98,17 @@
 
         <pattern id="variables">
                 
-                <let name="JDV_AntecedentsPersonnels-CISIS" value="'../jeuxDeValeurs/JDV_AntecedentsPersonnels_CISIS.xml'"/>
-                <let name="JDV_BilanDiagnostic-CISIS" value="'../jeuxDeValeurs/JDV_BilanDiagnostic_CISIS.xml'"/>
-                <let name="JDV_ConduiteATenir_1-CISIS" value="'../jeuxDeValeurs/JDV_ConduiteATenir_1_CISIS.xml'"/>
-                <let name="JDV_ConduiteATenir_3-CISIS" value="'../jeuxDeValeurs/JDV_ConduiteATenir_3_CISIS.xml'"/>
-                <let name="JDV_DensiteMammaire-CISIS" value="'../jeuxDeValeurs/JDV_DensiteMammaire_CISIS.xml'"/>
-                <let name="JDV_ExamenClinique-CISIS" value="'../jeuxDeValeurs/JDV_ExamenClinique_CISIS.xml'"/>
-                <let name="JDV_MotifDiagnostic-CISIS" value="'../jeuxDeValeurs/JDV_MotifDiagnostic_CISIS.xml'"/>
-                <let name="JDV_MotifEchographie-CISIS" value="'../jeuxDeValeurs/JDV_MotifEchographie_CISIS.xml'"/>
-                <let name="JDV_TypeLecture-CISIS" value="'../jeuxDeValeurs/JDV_TypeLecture_CISIS.xml'"/>
-                <let name="JDV_Technique_imagerie-D2LM-CISIS" value="'../jeuxDeValeurs/JDV_Technique_imagerie_D2LM_CISIS.xml'"/>
-                <let name="JDV_Classification_ACR-CISIS_3" value="'../jeuxDeValeurs/JDV_Classification_ACR_CISIS.xml'"/>
+                <let name="JDV_AntecedentsPersonnels-CISIS" value="'../jeuxDeValeurs/jdv-antecedent-personnel-cisis.xml'"/>
+                <!--<let name="JDV_BilanDiagnostic-CISIS" value="'../jeuxDeValeurs/JDV_BilanDiagnostic_CISIS.xml'"/>-->
+                <let name="JDV_ConduiteATenir_1-CISIS" value="'../jeuxDeValeurs/jdv-conduite-a-tenir-1-cisis.xml'"/>
+                <let name="JDV_ConduiteATenir_3-CISIS" value="'../jeuxDeValeurs/jdv-conduite-a-tenir-3-cisis.xml'"/>
+                <let name="JDV_DensiteMammaire-CISIS" value="'../jeuxDeValeurs/jdv-densite-mammaire-cisis.xml'"/>
+                <let name="JDV_ExamenClinique-CISIS" value="'../jeuxDeValeurs/jdv-examen-clinique-cisis.xml'"/>
+                <let name="JDV_MotifDiagnostic-CISIS" value="'../jeuxDeValeurs/jdv-motif-diagnostic-cisis.xml'"/>
+                <let name="JDV_MotifEchographie-CISIS" value="'../jeuxDeValeurs/jdv-motif-echographie-cisis.xml'"/>
+                <let name="JDV_TypeLecture-CISIS" value="'../jeuxDeValeurs/jdv-type-lecture-cisis.xml'"/>
+                <let name="JDV_Technique_imagerie-D2LM-CISIS" value="'../jeuxDeValeurs/jdv-technique-imagerie-d2lm-cisis.xml'"/>
+                <let name="JDV_Classification_ACR-CISIS_3" value="'../jeuxDeValeurs/jdv-classification-acr-cisis.xml'"/>
                 
         </pattern>
 </schema>

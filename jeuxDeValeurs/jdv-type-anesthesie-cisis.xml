@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-anesthesie-cisis"
+             effectiveDate="2020-03-31T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.492"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="50697003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230803000000"
+                  displayName="anesthésie générale"/>
+         <Concept code="MED-582"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Anesthésie locorégionale péridurale ou épidurale"/>
+         <Concept code="MED-583"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Anesthésie locorégionale subarachnoïdienne (rachianesthésie)"/>
+         <Concept code="MED-584"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Anesthésie locorégionale plexique ou tronculaire"/>
+         <Concept code="MED-585"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Anesthésie locorégionale intraveineuse"/>
+         <Concept code="72641008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="sédation"/>
+         <Concept code="MED-587"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Hypnose"/>
+         <Concept code="MED-588"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20200331000000"
+                  displayName="Surveillance simple"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-resultat-depistage-hematurie-cisis"
+             effectiveDate="2024-03-07T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.781"
+             revisionDate="2024-09-11T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240307000000"
+                  displayName="négatif"/>
+         <Concept code="167298001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="trace de sang non-hémolysé détecté par bandelette urinaire"/>
+         <Concept code="1348270000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="quantité moyenne de sang non-hémolysé détectée par bandelette urinaire"/>
+         <Concept code="167299009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="trace de sang hémolysé détectée par bandelette urinaire"/>
+         <Concept code="1348319007 "
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="faible quantité de sang hémolysé détectée par bandelette urinaire"/>
+         <Concept code="1348318004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="quantité moyenne de sang hémolysé détectée par bandelette urinaire"/>
+         <Concept code="1348320001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240911000000"
+                  displayName="forte quantité de sang hémolysé détectée par bandelette urinaire"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

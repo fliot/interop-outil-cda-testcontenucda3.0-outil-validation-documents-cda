@@ -6,7 +6,7 @@
 <?oxygen SCHSchema="../schematrons/profils/CI-SIS_ModelesDeContenusCDA.sch"?>
 <?oxygen SCHSchema="../schematrons/profils/CI-SIS_Modeles_ANS.sch"?>
 <?oxygen SCHSchema="../schematrons/profils/terminologies/schematron/terminologie.sch"?> 
-<?oxygen SCHSchema="../schematrons/CI-SIS_SDM-MR_2024.01.sch"?>
+<?oxygen SCHSchema="../schematrons/CI-SIS_SDM-MR_2025.01.sch"?>
 <!-- 
 		**********************************************************************************************************
 		Document : Set de Données de Maladies Rares (SDM-MR_2024.01)
@@ -299,7 +299,7 @@
     <consent classCode="CONS" moodCode="EVN">
       <code code="GEN-315"
         displayName="Le patient (ou son représentant légal) s'oppose à la réutilisation de ses données dans l’entrepôt de données de santé BNDMR."
-        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
       <statusCode code="completed"/>
     </consent>
   </authorization>
@@ -307,7 +307,7 @@
     <consent classCode="CONS" moodCode="EVN">
       <code code="GEN-320"
         displayName="Le patient a signé son consentement à la transmission des données au registre ERN EuRREB"
-        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
       <statusCode code="completed"/>      
     </consent>
   </authorization>
@@ -350,7 +350,7 @@
           <templateId root="1.2.250.1.213.1.1.2.66"/>
           <id root="63B2E483-AB9B-478A-A4E9-EEFF83C74858"/>
           <code code="GEN-168" displayName="Dossier" codeSystem="1.2.250.1.213.1.1.4.322"
-            codeSystemName="TA_ASIP"/>
+            codeSystemName="terminologie-cisis-fr"/>
           <title>Dossier MR du patient</title>
           <text>
             <table border="0">
@@ -383,7 +383,7 @@
               <!-- Identifiant du dossier -->
               <id root="33341B85-96D9-4FFC-A165-37152FEA4FE1"/>
               <code code="GEN-164" displayName="Date de création"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#dossier"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20240112"/>
@@ -400,7 +400,7 @@
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="C57578D1-D2B7-44EA-9C00-BE653E3D0D10"/>
               <code code="GEN-165" displayName="Date de mise à jour"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#dossier_date_maj"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20240228160000"/>
@@ -416,7 +416,7 @@
               <!-- Conformité FR-Simple-Observation (CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="C57578D1-D2B7-44VA-9C00-BE653E3D0E11"/>
-              <code code="PAT-061" displayName="Patient perdu de vue" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+              <code code="PAT-061" displayName="Patient perdu de vue" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#perdu_de_vue"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20240228160000"/>
@@ -473,14 +473,14 @@
                 <!-- Conformité FR-Sujet (CI-SIS) -->
                 <templateId root="1.2.250.1.213.1.1.3.60"/>
                 <relatedSubject classCode="PRS">
-                  <!-- Lien de parenté : valeur issue du JDV_HL7_PersonalRelationshipRoleType_CISIS (2.16.840.1.113883.1.11.19563) -->
+                  <!-- Lien de parenté : valeur issue du jdv-hl7-v3-PersonalRelationshipRoleType-cisis (2.16.840.1.113883.1.11.19563) -->
                   <code code="PCOUSN" displayName="Cousin" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode">
                     <originalText><reference value="#lien-parente"/></originalText>
                   </code>
                   <subject classCode="PSN">
                     <!-- Identifiant du premier cas diagnostiqué de la famille dans l'établissement -->
                     <sdtc:id root="1.2.3.4.5.6.7.8.9.10" extension="1234567890112345678902"/>
-                    <!-- Sexe du Premier cas diagnostiqué de la famille dans l'établissement : valeur issue du JDV_HL7_AdministrativeGender_CISIS (2.16.840.1.113883.1.11.1) -->
+                    <!-- Sexe du Premier cas diagnostiqué de la famille dans l'établissement : valeur issue du jdv-hl7-v3-AdministrativeGender-cisis (2.16.840.1.113883.1.11.1) -->
                     <administrativeGenderCode code="M" displayName="Masculin"
                       codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7:AdministrativeGender"/>
                   </subject>
@@ -593,7 +593,7 @@
                         codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
                       <text><reference value="#MR-1-statut_clinique"/></text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HealthStatusCodes_CISIS (1.2.250.1.213.1.1.4.2.283.1) -->
+                      <!-- valeur issue du jdv-health-status-code-cisis (1.2.250.1.213.1.1.4.2.283.1) -->
                       <value xsi:type="CE" code="419620001" displayName="mort"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                     </observation>
@@ -763,7 +763,7 @@
               <templateId root="1.2.250.1.213.1.1.3.58"/>
               <!-- Identifiant de la prise en charge -->
               <id root="6917FE7A-2F04-458E-8224-D273C6B643E7"/>
-              <!-- Type de prise en charge : valeur issue du JDV_HL7_ActEncounterCode_CISIS (2.16.840.1.113883.1.11.13955) -->
+              <!-- Type de prise en charge : valeur issue du jdv-hl7-v3-ActEncounterCode-cisis (2.16.840.1.113883.1.11.13955) -->
               <code code="IMP" displayName="Hospitalisation" codeSystem="2.16.840.1.113883.5.4"/>
               <text><reference value="#PEC-01"/></text>
               <!-- Date d'inclusion dans le site -->
@@ -806,9 +806,9 @@
               <informant>
                 <assignedEntity>
                   <id nullFlavor="NA"/>
-                  <!-- valeur issue du JDV_PatientAdressePar-CISIS (1.2.250.1.213.1.1.5.38) -->
+                  <!-- valeur issue du jdv-patient-adresse-par-cisis (1.2.250.1.213.1.1.5.38) -->
                   <code code="ORG-020" displayName="Association de patients"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <addr>
                     <streetAddressLine>3 rue de Londres</streetAddressLine>
                     <streetAddressLine>75005 PARIS</streetAddressLine>
@@ -831,7 +831,7 @@
                 <participantRole classCode="SDLOC">
                   <id extension="S001" root="1.2.250.1.213.2.61"/>
                   <code code="ORG-025" displayName="Site de prise en charge"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <addr>
                     <houseNumber>48</houseNumber>
                     <streetName>Bd Sérurier</streetName>
@@ -856,7 +856,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="490392D8-C59D-4CF9-A3E4-D85033E7D6CC"/>
                   <code code="GEN-368" displayName="Prise en charge en dehors de la labellisation du site maladie rare"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <text>
                     <reference value="#indHorsLab"/>
                   </text>
@@ -933,9 +933,9 @@
               <templateId root="1.2.250.1.213.1.1.3.58"/>
               <!-- Identifiant de l'activité -->
               <id root="C38D726B-6DE0-43A0-B309-96FF1D524888"/>
-              <!-- Contexte de l'activité : valeur issue du JDV_ContexteActivite_CISIS (1.2.250.1.213.1.1.5.40) -->
+              <!-- Contexte de l'activité : valeur issue du jdv-contexte-activite-cisis (1.2.250.1.213.1.1.5.40) -->
               <code code="ORG-029" displayName="Avis sur dossier en consultation"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                 <originalText><reference value="#activite-01"/></originalText>
               </code>
               <text><reference value="#activite-01"/></text>
@@ -986,7 +986,7 @@
                   <!-- Identifiant FINESS du lieu de consultation -->
                   <id root="1.2.250.1.71.4.2.2" extension="1750803454"/>
                   <code code="ORG-070" displayName="Site Maladie rare"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <!-- Lieu de consultation uniquement si différent du site pour lequel l'activité est déclarée -->
                   <addr>
                     <houseNumber>54</houseNumber>
@@ -1016,15 +1016,15 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="098A0F48-BEA0-46DA-B192-5973005E9963"/>
                   <code code="ORG-034" displayName="Objectifs de l'activité MR"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <text>
                     <reference value="#objectifActiv-01"/>
                   </text>
                   <statusCode code="completed"/>
                   <effectiveTime nullFlavor="NA"/>
-                  <!-- Objectif de l’activité MR : valeur issue du jeu de valeurs JDV_ObjectifActivite_CISIS (1.2.250.1.213.1.1.5.41) -->
-                  <value xsi:type="CD" code="ORG-047" displayName="Suivi"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                  <!-- Objectif de l’activité MR : valeur issue du jeu de valeurs jdv-objectif-activite-cisis (1.2.250.1.213.1.1.5.41) -->
+                  <value xsi:type="CD" code="390906007" displayName="rendez-vous de suivi"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                 </observation>
               </entryRelationship>
             </encounter>
@@ -1041,9 +1041,9 @@
               <templateId root="1.2.250.1.213.1.1.3.58"/>
               <!-- Identifiant de l'activité -->
               <id root="C38D726B-6DE0-43A0-B309-96FF1D524834"/>
-              <!-- Contexte de l'activité : valeur issue du JDV_ContexteActivite_CISIS (1.2.250.1.213.1.1.5.40) -->              
+              <!-- Contexte de l'activité : valeur issue du jdv-contexte-activite-cisis (1.2.250.1.213.1.1.5.40) -->              
               <code code="GEN-092.05.04" displayName="Autre contexte"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                 <originalText><reference value="#activite-02"/></originalText>
               </code>
               <text>
@@ -1127,7 +1127,7 @@
                   <!-- Identifiant FINESS du lieu de consultation -->
                   <id root="1.2.250.1.71.4.2.2" extension="1750803454"/>
                   <code code="ORG-070" displayName="Site Maladie rare"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <!-- Lieu de consultation uniquement si différent du site pour lequel l'activité est déclarée -->
                   <addr>
                     <houseNumber>54</houseNumber>
@@ -1157,15 +1157,15 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="098A0F48-BEA0-46DA-B192-5973005E9963"/>
                   <code code="ORG-034" displayName="Objectifs de l'activité MR"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <text>
                     <reference value="#objectifActiv-02"/>
                   </text>
                   <statusCode code="completed"/>
                   <effectiveTime nullFlavor="NA"/>
-                  <!-- Objectif de l’activité MR : valeur issue du JDV_ObjectifActivite_CISIS (1.2.250.1.213.1.1.5.41) -->
-                  <value xsi:type="CD" code="ORG-047" displayName="Suivi"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                  <!-- Objectif de l’activité MR : valeur issue du jdv-objectif-activite-cisis (1.2.250.1.213.1.1.5.41) -->
+                  <value xsi:type="CD" code="390906007" displayName="rendez-vous de suivi"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                 </observation>
               </entryRelationship>
             </encounter>
@@ -1307,7 +1307,7 @@
                       <!-- Identifiant du site -->
                       <id extension="S001" root="1.2.250.1.213.2.61"/>
                       <code code="ORG-070" displayName="Site Maladie rare"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <addr>
                         <houseNumber>54</houseNumber>
                         <streetName>Rue Compans</streetName>
@@ -1332,13 +1332,13 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="E31D4A1D-9D9D-4EEF-B1B7-C6D209B459DB"/>
                       <code code="MED-072" displayName="Statut actuel du diagnostic"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text>
                         <reference value="#statut_actuel_diagnostic"/>
                       </text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur issue du JDV_StatutActuelDiagnostic-CISIS (1.2.250.1.213.1.1.5.45) -->
+                      <!-- valeur issue du jdv-statut-actuel-diagnostic-cisis (1.2.250.1.213.1.1.5.45) -->
                       <value xsi:type="CD" code="385651009" displayName="en cours d'exécution"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                     </observation>
@@ -1352,7 +1352,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="78FCC344-92BE-4C1A-A253-780EE60F00CF"/>
                       <code code="MED-1284" displayName="Description clinique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#description_clinique"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime value="20181213"/>
@@ -1370,11 +1370,11 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="F769E135-6907-443A-8E4F-A6E431A02573"/>
                       <code code="MED-073" displayName="Cas sporadique ou familial"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#sporadique_familial"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- Valeur issue du JDV_CasSporadiqueFamilial_CISIS (1.2.250.1.213.1.1.5.46) -->
+                      <!-- Valeur issue du jdv-cas-sporadique-familial-cisis (1.2.250.1.213.1.1.5.46) -->
                       <value xsi:type="CD" code="75741005" displayName="sporadique"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                     </observation>
@@ -1388,11 +1388,11 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="87B88A38-8DF6-4198-9995-0B3D20472D05"/>
                       <code code="PAT-013" displayName="Age aux premiers signes"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#age_premiers_signes"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur issue du JDV_Age-CISIS (1.2.250.1.213.1.1.5.43) -->
+                      <!-- valeur issue du jdv-age-cisis (1.2.250.1.213.1.1.5.43) -->
                       <value xsi:type="CD" code="767023003"
                         displayName="période de la vie entre la naissance et la mort"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
@@ -1407,7 +1407,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="11C6F145-CF8B-4358-A68C-83EFD8E65507"/>
                       <code code="PAT-014" displayName="Précision de l'âge aux premiers signes"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#precision_age_premiers_signes"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
@@ -1427,7 +1427,7 @@
                       <text><reference value="#appreciation_diagnostic"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime value="20240112"/>
-                      <!-- valeur issue du JDV_AppreciationDiagnosticCentre_CISIS (1.2.250.1.213.1.1.5.44) -->
+                      <!-- valeur issue du jdv-appreciation-diagnostic-centre-cisis (1.2.250.1.213.1.1.5.44) -->
                       <value xsi:type="CD" code="2667000" displayName="absent"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                     </observation>
@@ -1441,11 +1441,11 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="7867E08B-D92F-49CF-9026-B9E1C8275C9E"/>
                       <code code="PAT-062" displayName="Age au diagnostic clinique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#age_diagnostic_clinique "/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur issue du JDV_Age_CISIS (1.2.250.1.213.1.1.5.43) -->
+                      <!-- valeur issue du jdv-age-cisis (1.2.250.1.213.1.1.5.43) -->
                       <value xsi:type="CD" code="767023003"
                         displayName="période de la vie entre la naissance et la mort"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
@@ -1460,7 +1460,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="DF8953BE-F761-4F62-885D-9C5D15DFEB5B"/>
                       <code code="PAT-063" displayName="Précision de l'âge au diagnostic clinique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#precision_age_diagnostic_clinique"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
@@ -1476,11 +1476,11 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="7867E08B-D92F-49CF-9026-B9E1C8275C9E"/>
                       <code code="PAT-064" displayName="Age au diagnostic génétique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#age_diagnostic_genetique "/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur issue du JDV_Age_CISIS (1.2.250.1.213.1.1.5.43) -->
+                      <!-- valeur issue du jdv-age-cisis (1.2.250.1.213.1.1.5.43) -->
                       <value xsi:type="CD" code="767023003"
                         displayName="période de la vie entre la naissance et la mort"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
@@ -1495,7 +1495,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="DF8953BE-F761-4F62-885D-9C5D15DFEB5B"/>
                       <code code="PAT-065" displayName="Précision de l'âge au diagnostic génétique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#precision_age_diagnostic_genetique"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
@@ -1512,13 +1512,13 @@
                       <id root="8A4AC9D5-BFEC-4470-BC4B-3A8D2A231E1E"/>
                       <code code="MED-1286"
                         displayName="Technique sur laquelle repose le diagnostic génétique"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#technique_genetique"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- Valeur issue du JDV_TechniquesDiagnostic-CISIS (1.2.250.1.213.1.1.5.48) -->
+                      <!-- Valeur issue du jdv-technique-diagnostic-cisis (1.2.250.1.213.1.1.5.48) -->
                       <value xsi:type="CD" code="GEN-092.04.17" displayName="Autre technique diagnostic"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">                        
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">                        
                         <originalText><reference value="#technique_genetique_precision"/></originalText>
                       </value>
                     </observation>
@@ -1532,7 +1532,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="A1FDA6D4-FC8C-47AD-98C4-A36977EFC8DF"/>
                       <code code="MED-552" displayName="Gène" codeSystem="1.2.250.1.213.1.1.4.322"
-                        codeSystemName="TA_ASIP"/>
+                        codeSystemName="terminologie-cisis-fr"/>
                       <text>
                         <reference value="#gene"/>
                       </text>
@@ -1552,7 +1552,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="6B54CA53-F7F6-42C1-94FF-09F505AE41C5"/>
                       <code code="MED-1287" displayName="Autres descriptions génétiques"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                       <text><reference value="#autres_descriptions_genetiques"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
@@ -2021,8 +2021,8 @@
                       <text><reference value="#enfant-1-issue-grossesse"/></text>
                       <statusCode code="completed" />
                       <effectiveTime value="20240228"/>
-                      <!-- valeur issue du JDV_IssueGrossesse_CISIS (1.2.250.1.213.1.1.5.731) -->
-                      <value xsi:type="CD" code="236973005" displayName="Accouchement" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+                      <!-- valeur issue du jdv-issue-grossesse-cisis (1.2.250.1.213.1.1.5.731) -->
+                      <value xsi:type="CD" code="3950001" displayName="naissance" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                     </observation>
                   </component>
                   
@@ -2089,7 +2089,7 @@
                       <text><reference value="#enfant-2-issue-grossesse"/></text>
                       <statusCode code="completed" />
                       <effectiveTime nullFlavor="NA" />
-                      <!-- valeur issue du JDV_IssueGrossesse_CISIS (1.2.250.1.213.1.1.5.731) -->
+                      <!-- valeur issue du jdv-issue-grossesse-cisis (1.2.250.1.213.1.1.5.731) -->
                       <value xsi:type="CD" code="O04" displayName="Avortement médical" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10"/>
                     </observation>
                   </component>
@@ -2143,7 +2143,7 @@
         <section>          
           <!-- Conformité FR-Recherche (CI-SIS) -->
           <templateId root="1.2.250.1.213.1.1.2.250"/>
-          <code code="GEN-369" displayName="Recherche" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+          <code code="GEN-369" displayName="Recherche" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
           <title>Recherche</title>
           <text>
             <table border="0">
@@ -2182,7 +2182,7 @@
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="5610E17B-1CC7-4A53-85CF-E38879EC32CB"/>
               <code code="PAT-012" displayName="Accord du patient pour contact protocole"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#accord_contact_protocole"/></text>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NA"/>
@@ -2200,7 +2200,7 @@
               <id root="3E40E2A4-6FC1-448F-AACB-EEB12386F8C1"/>
               <code code="MED-065"
                 displayName="Patient ayant précédemment donné un échantillon biologique pour la recherche MR"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text>
                 <reference value="#recherche_mr"/>
               </text>
@@ -2220,7 +2220,7 @@
               <id root="62BCFD5C-1332-4BC8-8D4B-377B24E6AA71"/>
               <code code="MED-066"
                 displayName="Patient ayant précédemment donné un échantillon biologique pour le diagnostic moléculaire"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text>
                 <reference value="#diagnostic_moleculaire"/>
               </text>
@@ -2239,7 +2239,7 @@
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="62BCFD5C-1332-4BC8-8D4B-377B24E6AA71"/>
               <code code="GEN-344" displayName="Bio-banque(s)"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#bio_banque"/></text>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NA"/>

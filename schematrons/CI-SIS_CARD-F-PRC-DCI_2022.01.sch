@@ -66,16 +66,16 @@
     
     <pattern id="variables">
        
-        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_MatImpl_CISIS.xml'"/>
-        <let name="jdv_UFCV_TypeDM-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_TypeDMCard_CISIS.xml'"/>
-        <let name="jdv_UFCV_NYHA-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_NYHA_CISIS.xml'"/>
-        <let name="jdv_UFCV_SiteImp-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_SiteImp_CISIS.xml'"/>
-        <let name="jdv_UFCV_Lat-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_Lat_CISIS.xml'"/>
-        <let name="jdv_UFCV_PolarSnd-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_PolarSnd_CISIS.xml'"/>
-        <let name="jdv_UFCV_Connx-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_Connx_CISIS.xml'"/>
-        <let name="jdv_UFCV_VoieAbord-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_VoieAbord_CISIS.xml'"/>
-        <let name="jdv_UFCV_Impl-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_Impl_CISIS.xml'"/>
-        <let name="jdv_UFCV_CodEntree-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/JDV_UFCV_CodEntree_CISIS.xml'"/>
+        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-materiel-implante-cisis.xml'"/>
+        <let name="jdv_UFCV_TypeDM-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-type-dispositif-cardiaque-cisis.xml'"/>
+        <let name="jdv_UFCV_NYHA-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-stade-nyha-cisis.xml'"/>
+        <let name="jdv_UFCV_SiteImp-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-localisation-defibrillateur-cisis.xml'"/>
+        <let name="jdv_UFCV_Lat-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-lateralite-cisis.xml'"/>
+        <let name="jdv_UFCV_PolarSnd-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-polarite-sonde-cisis.xml'"/>
+        <let name="jdv_UFCV_Connx-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-connexion-sonde-cisis.xml'"/>
+        <let name="jdv_UFCV_VoieAbord-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-voie-abord-cisis.xml'"/>
+        <let name="jdv_UFCV_Impl-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-localisation-sonde-cisis.xml'"/>
+        <let name="jdv_UFCV_CodEntree-CARD-F-PRC-DCI" value="'../jeuxDeValeurs/jdv-ufcv-code-entree-cisis.xml'"/>
         
         <!-- présence des sections obligatoires -->        
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            

@@ -26,7 +26,6 @@
     <!-- JDV -->
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_NatureDiscussion-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_OMSEchPerf-CISIS.sch"/>
-    <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_OMSInterpret-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_PhaseCancer-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_RCP-Appareil-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/CANCER-FRCP_2022.01/JDV_RCP-Organe-CISIS.sch"/>
@@ -50,8 +49,7 @@
         <active pattern="variables"/>
         
         <active pattern="JDV_NatureDiscussion-CISIS"/>
-        <active pattern="JDV_OMSEchPerf-CISIS"/>
-        <active pattern="JDV_OMSInterpret-CISIS"/>    
+        <active pattern="JDV_OMSEchPerf-CISIS"/>    
         <active pattern="JDV_PhaseCancer-CISIS"/>   
         <active pattern="JDV_RCP-Appareil-CISIS"/>
         <active pattern="JDV_RCP-Organe-CISIS"/>
@@ -76,19 +74,18 @@
 
         <!-- JDV -->        
         
-        <let name="JDV_NatureDiscussion-CISIS" value="'../jeuxDeValeurs/JDV_NatureDiscussion_CISIS.xml'"/>
-        <let name="JDV_OMSEchPerf-CISIS" value="'../jeuxDeValeurs/JDV_OMSEchPerf_CISIS.xml'"/>
-        <let name="JDV_OMSInterpret-CISIS" value="'../jeuxDeValeurs/JDV_OMSInterpret_CISIS.xml'"/>
-        <let name="JDV_PhaseCancer-CISIS" value="'../jeuxDeValeurs/JDV_PhaseCancer_CISIS.xml'"/>
-        <let name="JDV_RCP-Appareil-CISIS" value="'../jeuxDeValeurs/JDV_RCP_Appareil_CISIS.xml'"/>
-        <let name="JDV_RCP-Organe-CISIS" value="'../jeuxDeValeurs/JDV_RCP_Organe_CISIS.xml'"/>
-        <let name="JDV_StatutCasPresente-CISIS" value="'../jeuxDeValeurs/JDV_StatutCasPresente_CISIS.xml'"/>
-        <let name="JDV_StatutDoc-CISIS" value="'../jeuxDeValeurs/JDV_StatutDoc_CISIS.xml'"/>
-        <let name="JDV_StatutQuorum-CISIS" value="'../jeuxDeValeurs/JDV_StatutQuorum_CISIS.xml'"/>
-        <let name="JDV_TraitementSoins-FRCP-CISIS" value="'../jeuxDeValeurs/JDV_TraitementSoins_FRCP_CISIS.xml'"/>
-        <let name="JDV_Tumeur-CISIS" value="'../jeuxDeValeurs/JDV_Tumeur_CISIS.xml'"/>
-        <let name="JDV_TypeTraitement-FRCP-CISIS" value="'../jeuxDeValeurs/JDV_TypeTraitement_FRCP_CISIS.xml'"/>
-        <let name="JDV_Morphologie-CISIS" value="'../jeuxDeValeurs/JDV_Morphologie_CISIS.xml'"/>
+        <let name="JDV_NatureDiscussion-CISIS" value="'../jeuxDeValeurs/jdv-nature-discussion-cisis.xml'"/>
+        <let name="JDV_OMSEchPerf-CISIS" value="'../jeuxDeValeurs/jdv-indice-performance-ecog-cisis.xml'"/>
+        <let name="JDV_PhaseCancer-CISIS" value="'../jeuxDeValeurs/jdv-phase-cancer-cisis.xml'"/>
+        <let name="JDV_RCP-Appareil-CISIS" value="'../jeuxDeValeurs/jdv-rcp-appareil-cisis.xml'"/>
+        <let name="JDV_RCP-Organe-CISIS" value="'../jeuxDeValeurs/jdv-rcp-organe-cisis.xml'"/>
+        <let name="JDV_StatutCasPresente-CISIS" value="'../jeuxDeValeurs/jdv-statut-cas-presente-cisis.xml'"/>
+        <let name="JDV_StatutDoc-CISIS" value="'../jeuxDeValeurs/jdv-statut-document-cisis.xml'"/>
+        <let name="JDV_StatutQuorum-CISIS" value="'../jeuxDeValeurs/jdv-statut-quorum-cisis.xml'"/>
+        <let name="JDV_TraitementSoins-FRCP-CISIS" value="'../jeuxDeValeurs/jdv-traitement-soins-frcp-cisis.xml'"/>
+        <let name="JDV_Tumeur-CISIS" value="'../jeuxDeValeurs/jdv-tumeur-cisis.xml'"/>
+        <let name="JDV_TypeTraitement-FRCP-CISIS" value="'../jeuxDeValeurs/jdv-type-traitement-frcp-cisis.xml'"/>
+        <let name="JDV_Morphologie-CISIS" value="'../jeuxDeValeurs/jdv-morphologie-cisis.xml'"/>
         
         <rule context='*[cda:templateId/@root="1.2.250.1.213.1.1.1.8"]'>
             

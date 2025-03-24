@@ -97,15 +97,15 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_AntecedentsObstetricaux_OBP-SAP" value="'../jeuxDeValeurs/JDV_AntecedentsObstetricaux_OBP_CISIS.xml'"/>
-        <let name="JDV_StatutNouveauNe_OBP-SAP" value="'../jeuxDeValeurs/JDV_EtatNaissance_CISIS.xml'"/>
-        <let name="JDV_EtatPerinee_OBP-SAP" value="'../jeuxDeValeurs/JDV_EtatPerinee_CISIS.xml'"/>
-        <let name="JDV_GroupeRhesus_OBP-SAP" value="'../jeuxDeValeurs/JDV_GroupeRhesus_CISIS.xml'"/>
-        <let name="JDV_IssueGrossesse_OBP-SAP" value="'../jeuxDeValeurs/JDV_IssueGrossesse_CISIS.xml'"/>
-        <let name="JDV_ObservationEnfant_OBP-SAP" value="'../jeuxDeValeurs/JDV_ObservationEnfant_CISIS.xml'"/>  
-        <let name="JDV_TranfertMutation_OBP-SAP" value="'../jeuxDeValeurs/JDV_TransfertMutation_CISIS.xml'"/>
-        <let name="JDV_ModeAccouchemen_OBP-SAP" value="'../jeuxDeValeurs/JDV_ModeAccouchement_CISIS.xml'"/>
-        <let name="JDV_TypeRencontre_OBP-SAP" value="'../jeuxDeValeurs/JDV_TypeRencontre_OBP_CISIS.xml'"/>
+        <let name="JDV_AntecedentsObstetricaux_OBP-SAP" value="'../jeuxDeValeurs/jdv-antecedent-obstetrical-obp-cisis.xml'"/>
+        <let name="JDV_StatutNouveauNe_OBP-SAP" value="'../jeuxDeValeurs/jdv-etat-naissance-cisis.xml'"/>
+        <let name="JDV_EtatPerinee_OBP-SAP" value="'../jeuxDeValeurs/jdv-etat-perinee-cisis.xml'"/>
+        <let name="JDV_GroupeRhesus_OBP-SAP" value="'../jeuxDeValeurs/jdv-groupe-rhesus-cisis.xml'"/>
+        <let name="JDV_IssueGrossesse_OBP-SAP" value="'../jeuxDeValeurs/jdv-issue-grossesse-cisis.xml'"/>
+        <let name="JDV_ObservationEnfant_OBP-SAP" value="'../jeuxDeValeurs/jdv-observation-enfant-cisis.xml'"/>  
+        <let name="JDV_TranfertMutation_OBP-SAP" value="'../jeuxDeValeurs/jdv-transfert-mutation-cisis.xml'"/>
+        <let name="JDV_ModeAccouchemen_OBP-SAP" value="'../jeuxDeValeurs/jdv-mode-accouchement-cisis.xml'"/>
+        <let name="JDV_TypeRencontre_OBP-SAP" value="'../jeuxDeValeurs/jdv-type-rencontre-obp-cisis.xml'"/>
         
     </pattern>
 </schema>

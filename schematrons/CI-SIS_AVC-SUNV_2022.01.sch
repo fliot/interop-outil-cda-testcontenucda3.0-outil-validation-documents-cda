@@ -47,10 +47,10 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="jdv_AVC_EtiologieInfarctus" value="'../jeuxDeValeurs/JDV_EtiologieInfarctus_CISIS.xml'"/>
-        <let name="jdv_AVC_EtiologieHemorragie" value="'../jeuxDeValeurs/JDV_EtiologieHemorragie_CISIS.xml'"/>
-        <let name="jdv_AVC_RaisonAbsenceEtiologie" value="'../jeuxDeValeurs/JDV_RaisonAbsenceEtiologie_CISIS.xml'"/>
-        <let name="JDV_AntecedantsMedicaux-CISIS" value="'../jeuxDeValeurs/JDV_AntecedantsMedicaux_CISIS.xml'"/>
+        <let name="jdv_AVC_EtiologieInfarctus" value="'../jeuxDeValeurs/jdv-etiologie-infarctus-cisis.xml'"/>
+        <let name="jdv_AVC_EtiologieHemorragie" value="'../jeuxDeValeurs/jdv-etiologie-hemorragie-cisis.xml'"/>
+        <let name="jdv_AVC_RaisonAbsenceEtiologie" value="'../jeuxDeValeurs/jdv-raison-absence-etiologie-cisis_CISIS.xml'"/>
+        <let name="JDV_AntecedantsMedicaux-CISIS" value="'../jeuxDeValeurs/jdv-antecedant-medical-cisis.xml'"/>
         
     </pattern>
     

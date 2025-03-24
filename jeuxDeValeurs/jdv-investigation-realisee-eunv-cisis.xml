@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-investigation-realisee-eunv-cisis"
+             effectiveDate="2024-09-17T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.227"
+             revisionDate="2024-09-17T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="DEQP003"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="ECG"/>
+         <Concept code="DEQP004"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Scope"/>
+         <Concept code="DEQP005"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Holter"/>
+         <Concept code="DZQM006"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Echographie transthoracique"/>
+         <Concept code="DZQJ001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Echographie transoesophagienne"/>
+         <Concept code="ACQN001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="ARM Cervicale"/>
+         <Concept code="EBQH006"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Angiographie cervicale"/>
+         <Concept code="EAQM004"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="Echo-Doppler cervical"/>
+         <Concept code="EAQM002"
+                  codeSystem="1.2.250.1.215.300.1"
+                  dateValid="20240917000000"
+                  displayName="DTC"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

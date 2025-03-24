@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-mesure-type-verre-delivre-cisis"
+             effectiveDate="2021-09-24T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.654"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:27+01:00">
+      <ConceptList>
+         <Concept code="MED-1181"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Date de délivrance"/>
+         <Concept code="C80261"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  dateValid="20210924000000"
+                  displayName="Monture"/>
+         <Concept code="64885-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20210924000000"
+                  displayName="Types de verres"/>
+         <Concept code="GEN-292"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Commentaire"/>
+         <Concept code="C71898"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  dateValid="20250225000000"
+                  displayName="nom de marque"/>
+         <Concept code="67716-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="modèle du dispositif"/>
+         <Concept code="MED-890"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Demi-écart interpupillaire VL"/>
+         <Concept code="MED-891"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Demi-écart interpupillaire VI"/>
+         <Concept code="MED-892"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Demi-écart interpupillaire VP"/>
+         <Concept code="MED-893"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20210924000000"
+                  displayName="Hauteur de montage"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

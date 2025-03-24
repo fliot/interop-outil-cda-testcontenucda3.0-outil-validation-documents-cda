@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-score-cormack-cisis"
+             effectiveDate="2020-05-11T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.502"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:27+01:00">
+      <ConceptList>
+         <Concept code="417548001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 1"/>
+         <Concept code="417666002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 2"/>
+         <Concept code="416876007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 3"/>
+         <Concept code="416141007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="Cormack et Lehane grade 4"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-technique-imagerie-d2lm-cisis"
+             effectiveDate="2021-07-27T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.645"
+             revisionDate="2023-02-02T00:00:00+01:00"
+             version="2025-03-21T14:10:27+01:00">
+      <ConceptList>
+         <Concept code="MG"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  dateValid="20210727000000"
+                  displayName="Mammographie"/>
+         <Concept code="US"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  dateValid="20210727000000"
+                  displayName="Échographie"/>
+         <Concept code="OT"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  dateValid="20230202000000"
+                  displayName="Autre technique d'imagerie"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

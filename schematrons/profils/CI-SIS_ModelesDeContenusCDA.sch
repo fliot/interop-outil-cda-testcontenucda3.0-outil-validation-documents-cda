@@ -360,28 +360,28 @@
     
     <pattern id="variablesSM">
         <!-- JDV génériques -->
-        <let name="jdv_actSubstanceAdministrationImmunizationCode" value="'../../jeuxDeValeurs/JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS.xml'"/>        
-        <let name="jdv_clinicalStatusCodes" value="'../../jeuxDeValeurs/JDV_ClinicalStatusCodes_CISIS.xml'"/>
-        <let name="jdv_healthStatusCodes" value="'../../jeuxDeValeurs/JDV_HealthStatusCodes_CISIS.xml'"/>        
-        <let name="jdv_typeEvenementIndesirablePrevisible" value="'../../jeuxDeValeurs/JDV_TypeEvenementIndesirablePrevisible_CISIS.xml'"/>
-        <let name="jdv_problemCodes" value="'../../jeuxDeValeurs/JDV_ProblemCodes_CISIS.xml'"/>
-        <let name="jdv_HL7_allergyintolerance_clinical" value="'../../jeuxDeValeurs/JDV_HL7_allergyintolerance_clinical_CISIS.xml'"/>
-        <let name="jdv_HL7_conditionclinical" value="'../../jeuxDeValeurs/JDV_HL7_ConditionClinical_CISIS.xml'"/>
-        <let name="jdv_substanceAdministration_approachSiteCode" value="'../../jeuxDeValeurs/JDV_ImmunizationApproachSiteCode_CISIS.xml'"/>
-        <let name="jdv_substanceAdministration_ImmunizationRouteCodes" value="'../../jeuxDeValeurs/JDV_ImmunizationRouteCodes_CISIS.xml'"/>
-        <let name="jdv_vitalSignCode" value="'../../jeuxDeValeurs/JDV_SignesVitaux_CISIS.xml'"/>
+        <let name="jdv_actSubstanceAdministrationImmunizationCode" value="'../../jeuxDeValeurs/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.xml'"/>        
+        <!--<let name="jdv_clinicalStatusCodes" value="'../../jeuxDeValeurs/JDV_ClinicalStatusCodes_CISIS.xml'"/>-->
+        <let name="jdv_healthStatusCodes" value="'../../jeuxDeValeurs/jdv-health-status-code-cisis.xml'"/>        
+        <let name="jdv_typeEvenementIndesirablePrevisible" value="'../../jeuxDeValeurs/jdv-type-evenement-indesirable-previsible-cisis.xml'"/>
+        <let name="jdv_problemCodes" value="'../../jeuxDeValeurs/jdv-code-probleme-cisis.xml'"/>
+        <let name="jdv_HL7_allergyintolerance_clinical" value="'../../jeuxDeValeurs/jdv-hl7-allergyintolerance-clinical-cisis.xml'"/>
+        <let name="jdv_HL7_conditionclinical" value="'../../jeuxDeValeurs/jdv-hl7-condition-clinical-cisis.xml'"/>
+        <let name="jdv_substanceAdministration_approachSiteCode" value="'../../jeuxDeValeurs/jdv-immunization-approach-site-code-cisis.xml'"/>
+        <let name="jdv_substanceAdministration_ImmunizationRouteCodes" value="'../../jeuxDeValeurs/jdv-immunization-route-code-cisis.xml'"/>
+        <let name="jdv_vitalSignCode" value="'../../jeuxDeValeurs/jdv-signe-vital-cisis.xml'"/>
         <let name="jdv_administrativeGenderCode" value="'../../jeuxDeValeurs/JDV_J143_AdministrativeGender_CISIS.xml'"/>
-        <let name="jdv_SocialHistoryCodes" value="'../../jeuxDeValeurs/JDV_SocialHistoryCodes_CISIS.xml'"/>
-        <let name="jdv_typeDirectiveAnticipee" value="'../../jeuxDeValeurs/JDV_TypeDirectiveAnticipee_CISIS.xml'"/>
-        <let name="jdv_immunization_1" value="'../../jeuxDeValeurs/JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS.xml'"/>
-        <let name="jdv_immunization_2" value="'../../jeuxDeValeurs/JDV_AbsentOrUnknownImmunization_CISIS.xml'"/>
-        <let name="jdv_HL7_PersonalRelationshipRoleType_CISIS" value="'../../jeuxDeValeurs/JDV_HL7_PersonalRelationshipRoleType_CISIS.xml'"/>
-        <let name="jdv_OrigineEffetIndesirable" value="'../../jeuxDeValeurs/JDV_OrigineEffetIndesirable_CISIS.xml'"/>
-        <let name="jdv_imputabilite" value="'../../jeuxDeValeurs/JDV_Imputabilite_CISIS.xml'"/>
-        <let name="jdv_gravite" value="'../../jeuxDeValeurs/JDV_Gravite_CISIS.xml'"/>
-        <let name="jdv_evolution" value="'../../jeuxDeValeurs/JDV_Evolution_CISIS.xml'"/>
+        <let name="jdv_SocialHistoryCodes" value="'../../jeuxDeValeurs/jdv-social-history-code-cisis.xml'"/>
+        <let name="jdv_typeDirectiveAnticipee" value="'../../jeuxDeValeurs/jdv-type-directive-anticipee-cisis.xml'"/>
+        <let name="jdv_immunization_1" value="'../../jeuxDeValeurs/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.xml'"/>
+        <let name="jdv_immunization_2" value="'../../jeuxDeValeurs/jdv-absent-or-unknown-immunization-cisis.xml'"/>
+        <let name="jdv_HL7_PersonalRelationshipRoleType_CISIS" value="'../../jeuxDeValeurs/jdv-hl7-v3-PersonalRelationshipRoleType-cisis.xml'"/>
+        <let name="jdv_OrigineEffetIndesirable" value="'../../jeuxDeValeurs/jdv-origine-effet-indesirable-cisis.xml'"/>
+        <let name="jdv_imputabilite" value="'../../jeuxDeValeurs/jdv-imputabilite-cisis.xml'"/>
+        <let name="jdv_gravite" value="'../../jeuxDeValeurs/jdv-gravite-cisis.xml'"/>
+        <let name="jdv_evolution" value="'../../jeuxDeValeurs/jdv-evolution-cisis.xml'"/>
         <let name="jdv_assignedAuthorCode" value="'../../jeuxDeValeurs/JDV_J01_XdsAuthorSpecialty_CISIS.xml'"/>
-        <let name="jdv_specimenType" value="'../../jeuxDeValeurs/JDV_SpecimenType_CISIS.xml'"/>
+        <let name="jdv_specimenType" value="'../../jeuxDeValeurs/jdv-specimen-type-cisis.xml'"/>
     </pattern>
 
 </schema>

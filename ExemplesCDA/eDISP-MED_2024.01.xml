@@ -818,7 +818,7 @@
                                     </routeCode>                                    
                                     
                                     <!-- [0..1] Région anatomique d'administration : uniquement si posologie structurée -->
-                                    <!-- valeur issue du JDV_HumanSubstanceAdministrationSite-CISIS (1.2.250.1.213.1.1.5.686) -->
+                                    <!-- valeur issue du jdv-human-substance-administration-site-cisis (1.2.250.1.213.1.1.5.686) -->
                                     <!-- <approachSiteCode> </approachSiteCode> -->                                    
                                     
                                     <!-- Dose à administrer : 2 cp -->

@@ -61,17 +61,17 @@
     <pattern id="variables">
 
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_ComplicationNeurologique-CISIS" value="'../jeuxDeValeurs/JDV_ComplicationNeurologique_CISIS.xml'"/>
-        <let name="JDV_Complication-CISIS" value="'../jeuxDeValeurs/JDV_Complication_CISIS.xml'"/>
-        <let name="JDV_InvestigationsRealiseesEUNV-CISIS" value="'../jeuxDeValeurs/JDV_InvestigationsRealiseesEUNV_CISIS.xml'"/>
-        <let name="JDV_ExamenHematologieEUVN-CISIS" value="'../jeuxDeValeurs/JDV_ExamenHematologieEUVN_CISIS.xml'"/>
-        <let name="JDV_ExamenHemostaseEUNV-CISIS" value="'../jeuxDeValeurs/JDV_ExamenHemostaseEUVN_CISIS.xml'"/>
-        <let name="JDV_ExamenBiochimieEUNV-CISIS" value="'../jeuxDeValeurs/JDV_ExamenBiochimieEUVN_CISIS.xml'"/>
-        <let name="JDV_TypeActeEUVN-CISIS" value="'../jeuxDeValeurs/JDV_TypeActeEUVN_CISIS.xml'"/>
-        <let name="JDV_ComplicationPulmonaire-CISIS" value="'../jeuxDeValeurs/JDV_ComplicationPulmonaire_CISIS.xml'"/>
-        <let name="JDV_Complicationneuropsychiatriques-CISIS" value="'../jeuxDeValeurs/JDV_Complicationneuropsychiatriques_CISIS.xml'"/>
-        <let name="JDV_ComplicationUrinaire-CISIS" value="'../jeuxDeValeurs/JDV_ComplicationUrinaire_CISIS.xml'"/>
-        <let name="JDV_ComplicationThromboembolique-CISIS" value="'../jeuxDeValeurs/JDV_ComplicationThromboembolique_CISIS.xml'"/>
-        <let name="JDV_ComplicationDigestive-CISIS" value="'../jeuxDeValeurs/JDV_ComplicationDigestive_CISIS.xml'"/>
+        <let name="JDV_ComplicationNeurologique-CISIS" value="'../jeuxDeValeurs/jdv-complication-neurologique-cisis.xml'"/>
+        <let name="JDV_Complication-CISIS" value="'../jeuxDeValeurs/jdv-complication-cisis.xml'"/>
+        <let name="JDV_InvestigationsRealiseesEUNV-CISIS" value="'../jeuxDeValeurs/jdv-investigation-realisee-eunv-cisis.xml'"/>
+        <let name="JDV_ExamenHematologieEUVN-CISIS" value="'../jeuxDeValeurs/jdv-examen-hematologie-eunv-cisis.xml'"/>
+        <let name="JDV_ExamenHemostaseEUNV-CISIS" value="'../jeuxDeValeurs/jdv-examen-hemostase-eunv-cisis.xml'"/>
+        <let name="JDV_ExamenBiochimieEUNV-CISIS" value="'../jeuxDeValeurs/jdv-examen-biochimie-eunv-cisis.xml'"/>
+        <let name="JDV_TypeActeEUVN-CISIS" value="'../jeuxDeValeurs/jdv-type-acte-eunv-cisis.xml'"/>
+        <let name="JDV_ComplicationPulmonaire-CISIS" value="'../jeuxDeValeurs/jdv-complication-pulmonaire-cisis.xml'"/>
+        <let name="JDV_Complicationneuropsychiatriques-CISIS" value="'../jeuxDeValeurs/jdv-complication-neuropsychiatrique-cisis.xml'"/>
+        <let name="JDV_ComplicationUrinaire-CISIS" value="'../jeuxDeValeurs/jdv-complication-urinaire-cisis.xml'"/>
+        <let name="JDV_ComplicationThromboembolique-CISIS" value="'../jeuxDeValeurs/jdv-complication-thromboembolique-cisis.xml'"/>
+        <let name="JDV_ComplicationDigestive-CISIS" value="'../jeuxDeValeurs/jdv-complication-digestive-cisis.xml'"/>
     </pattern>
 </schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-v3-ActEncounterCode-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="2.16.840.1.113883.1.11.13955"
+             revisionDate="2010-01-01T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="AMB"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Ambulatoire (hors établissement)"/>
+         <Concept code="EMER"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Passage aux urgences (établissement)"/>
+         <Concept code="FLD"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
+         <Concept code="HH"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Soins à domicile (hors établissement)"/>
+         <Concept code="IMP"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Hospitalisation (établissement, y compris HAD)"/>
+         <Concept code="OBSENC"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Observation"/>
+         <Concept code="PRENC"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Pré-admission"/>
+         <Concept code="SS"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Hospitalisation de jour"/>
+         <Concept code="VR"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  dateValid="20100101000000"
+                  displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

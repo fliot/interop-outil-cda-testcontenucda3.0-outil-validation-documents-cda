@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-nihss-sensibilite-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.190"
+             revisionDate="2022-04-20T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="LA18468-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20220420000000"
+                  displayName="Normal"/>
+         <Concept code="LA18469-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20220420000000"
+                  displayName="Déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché."/>
+         <Concept code="LA18470-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20220420000000"
+                  displayName="Déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe."/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

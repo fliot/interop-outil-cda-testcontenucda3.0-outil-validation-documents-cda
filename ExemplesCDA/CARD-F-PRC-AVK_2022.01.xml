@@ -424,7 +424,7 @@
           
           <!-- Entrée FR-Liste-des-problemes : Angine de poitrine instable -->
           <entry>
-            <act classCode="ACT" moodCode="EVN">              
+            <act classCode="ACT" moodCode="EVN">
               <!-- Conformité CCD Problem Act  -->
               <templateId root="2.16.840.1.113883.10.20.1.27"/>
               <!-- Conformité IHE PCC Concern -->
@@ -545,7 +545,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.62"/>
               <id root="37827497-DF00-4593-8F33-B9D72C7ED225" />
-              <code code="MED-036" displayName="Examen réalisé" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP" />
+              <code code="MED-036" displayName="Examen réalisé" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr" />
               <text><reference value="#exam" /></text>
               <statusCode code="completed" />
               <effectiveTime value="200905121430" />
@@ -1416,7 +1416,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="36ECA66E-80CC-4B3F-9C5E-5DAF8CA7FF5E" />
-              <code code="L0047" codeSystem="1.2.250.1.213.1.1.4.322" displayName="Remise Carnet de surveillance AVK">
+              <code code="GEN-411" codeSystem="1.2.250.1.213.1.1.4.322" displayName="Remise Carnet de surveillance AVK">
                 <originalText mediaType="text/xml"><reference value="#avk0034" /></originalText>
               </code>
               <text><reference value="avk0034" /></text>

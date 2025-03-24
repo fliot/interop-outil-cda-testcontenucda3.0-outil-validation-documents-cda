@@ -561,7 +561,7 @@
                         <reference value="#probleme-01-statut"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HL7_ConditionClinical-CISIS (2.16.840.1.113883.4.642.3.164) -->
+                      <!-- valeur issue du jdv-hl7-condition-clinical-cisis (2.16.840.1.113883.4.642.3.164) -->
                       <value xsi:type="CE" code="active" displayName="Actif"
                         codeSystem="2.16.840.1.113883.4.642.1.1074"
                         codeSystemName="HL7:condition-clinical"/>
@@ -688,7 +688,7 @@
                         <reference value="#probleme-02-statut"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HL7_ConditionClinical-CISIS (2.16.840.1.113883.4.642.3.164) -->
+                      <!-- valeur issue du jdv-hl7-condition-clinical-cisis (2.16.840.1.113883.4.642.3.164) -->
                       <value xsi:type="CE" code="active" displayName="Actif"
                         codeSystem="2.16.840.1.113883.4.642.1.1074"
                         codeSystemName="HL7:condition-clinical"/>
@@ -815,7 +815,7 @@
                         <reference value="#probleme-03-statut"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HL7_ConditionClinical-CISIS (2.16.840.1.113883.4.642.3.164) -->
+                      <!-- valeur issue du jdv-hl7-condition-clinical-cisis (2.16.840.1.113883.4.642.3.164) -->
                       <value xsi:type="CE" code="active" displayName="Actif"
                         codeSystem="2.16.840.1.113883.4.642.1.1074"
                         codeSystemName="HL7:condition-clinical"/>
@@ -943,7 +943,7 @@
                         <reference value="#probleme-04-statut"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HL7_ConditionClinical-CISIS (2.16.840.1.113883.4.642.3.164) -->
+                      <!-- valeur issue du jdv-hl7-condition-clinical-cisis (2.16.840.1.113883.4.642.3.164) -->
                       <value xsi:type="CE" code="active" displayName="Actif"
                         codeSystem="2.16.840.1.113883.4.642.1.1074"
                         codeSystemName="HL7:condition-clinical"/>
@@ -1083,7 +1083,7 @@
                         <reference value="#probleme-05-statut"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur issue du JDV_HL7_ConditionClinical-CISIS (2.16.840.1.113883.4.642.3.164) -->
+                      <!-- valeur issue du jdv-hl7-condition-clinical-cisis (2.16.840.1.113883.4.642.3.164) -->
                       <value xsi:type="CE" code="recurrence" displayName="Récurrent"
                         codeSystem="2.16.840.1.113883.4.642.1.1074"
                         codeSystemName="HL7:condition-clinical"/>
@@ -1633,7 +1633,7 @@
               <id root="A6BC7FD2-EC3F-4E01-B567-854B087D1D9B"/>
               <!-- Code de l'acte -->
               <code code="GEN-092.04.13" displayName="Autre acte"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                 <originalText><reference value="acte-02"/></originalText>
               </code>
               <text>
@@ -1757,7 +1757,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.41"/>
                   <id root="C64C6013-C8AF-4938-AD10-1B7D26DEE2A0"/>
                   <!-- Type d'allergie / hypersensibilité -->
-                  <!-- valeur issue de JDV_TypeEvenementIndesirablePrevisible_CISIS  (1.2.250.1.213.1.1.5.794). -->
+                  <!-- valeur issue de jdv-type-evenement-indesirable-previsible-cisis (1.2.250.1.213.1.1.5.794). -->
                   <code code="416098002" displayName="allergie médicamenteuse"
                     codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                   <text>
@@ -1804,7 +1804,7 @@
                         <reference value="#allergie-statut-01"/>
                       </text>
                       <statusCode code="completed"/>
-                      <!-- valeur du JDV_HL7_allergyintolerance-clinical-CISIS (2.16.840.1.113883.4.642.3.1372) -->
+                      <!-- valeur du jdv-hl7-allergyintolerance-clinical-cisis (2.16.840.1.113883.4.642.3.1372) -->
                       <value xsi:type="CE" code="active" displayName="Actif"
                         codeSystem="2.16.840.1.113883.4.642.4.1373"
                         codeSystemName="HL7:allergyintolerance-clinical"/>
@@ -1828,7 +1828,7 @@
                       </text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur du JDV_HL7_allergy-intolerance-criticality-CISIS (2.16.840.1.113883.4.642.3.129) -->
+                      <!-- valeur du jdv-hl7-allergy-intolerance-criticality-cisis (2.16.840.1.113883.4.642.3.129) -->
                       <value xsi:type="CE" code="low" displayName="Bas"
                         codeSystem="2.16.840.1.113883.4.642.4.130"
                         codeSystemName="HL7:allergy-intolerance-criticality"/>
@@ -1852,7 +1852,7 @@
                       </text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
-                      <!-- valeur du JDV_HL7_condition-ver-status-CISIS (2.16.840.1.113883.4.642.3.166) -->
+                      <!-- valeur du jdv-hl7-condition-ver-status-cisis (2.16.840.1.113883.4.642.3.166) -->
                       <value xsi:type="CE" code="confirmed" displayName="Confirmé"
                         codeSystem="2.16.840.1.113883.4.642.4.130"
                         codeSystemName="HL7:condition-ver-status"/>
@@ -1901,7 +1901,7 @@
                             <reference value="#allergie-01-reaction-1-severite"/>
                           </text>
                           <statusCode code="completed"/>
-                          <!-- valeur issue du JDV_SeveriteObservation-CISIS (1.2.250.1.213.1.1.5.675) -->
+                          <!-- valeur issue du jdv-severite-observation-cisis (1.2.250.1.213.1.1.5.675) -->
                           <value xsi:type="CD" code="6736007" displayName="modéré"
                             codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                         </observation>
@@ -1951,7 +1951,7 @@
                             <reference value="#allergie-01-reaction-2-severite"/>
                           </text>
                           <statusCode code="completed"/>
-                          <!-- valeur issue du JDV_SeveriteObservation-CISIS (1.2.250.1.213.1.1.5.675) -->
+                          <!-- valeur issue du jdv-severite-observation-cisis (1.2.250.1.213.1.1.5.675) -->
                           <value xsi:type="CD" code="255604002" displayName="léger"
                             codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                         </observation>
@@ -2041,7 +2041,7 @@
               <templateId root="1.2.250.1.213.1.1.3.210"/>
               <id root="C64C6013-C8AF-4938-AD10-1B7D26DEE3B1"/>
               <!-- Type d'effet indésirable -->
-              <!-- valeur issue de JDV_OrigineEffetIndesirable_CISIS (1.2.250.1.213.1.1.5.785) -->
+              <!-- valeur issue de jdv-origine-effet-indesirable-cisis (1.2.250.1.213.1.1.5.785) -->
               <code code="79899007" displayName="interaction médicamenteuse"
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
               <text>
@@ -2181,10 +2181,10 @@
                 <observation classCode="OBS" moodCode="EVN">                  
                   <!-- Conformité FR-Imputabilite-effet-indesirable (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.211"/>
-                  <code code="GEN-318" displayName="Imputabilité" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                  <code code="GEN-318" displayName="Imputabilité" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <text><reference value="#effet-indesirable-01-imputabilite"/></text>
                   <statusCode code="completed"/>
-                  <!-- valeur du JDV_Imputabilite_CISIS (1.2.250.1.213.1.1.5.786) -->
+                  <!-- valeur du jdv-imputabilite-cisis (1.2.250.1.213.1.1.5.786) -->
                   <value xsi:type="CD" code="17162000" displayName="certain(e)"
                          codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                     <originalText><reference value="#effet-indesirable-01-imputabilite"/></originalText>
@@ -2201,7 +2201,7 @@
                     codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>                  
                   <text><reference value="#effet-indesirable-01-gravite"/></text>
                   <statusCode code="completed"/>
-                  <!-- valeur du JDV_Gravite_CISIS (1.2.250.1.213.1.1.5.787) -->
+                  <!-- valeur du jdv-gravite-cisis (1.2.250.1.213.1.1.5.787) -->
                   <value xsi:type="CD" code="255604002" displayName="gravité légère"
                          codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                     <originalText><reference value="#effet-indesirable-01-gravite"/></originalText>
@@ -2215,10 +2215,10 @@
                   <!-- Conformité FR-Evolution-effet-indesirable (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.213"/>
                   <code code="GEN-319" displayName="Evolution de l'effet indésirable"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                   <text><reference value="#effet-indesirable-01-evolution"/></text>
                   <statusCode code="completed"/>
-                  <!-- valeur du JDV_Evolution_CISIS (1.2.250.1.213.1.1.5.788) code : (Demande de création SNOMED CT en cours)-->
+                  <!-- valeur du jdv-evolution-cisis (1.2.250.1.213.1.1.5.788) code : (Demande de création SNOMED CT en cours)-->
                   <value xsi:type="CD" code="1352007006" displayName="Guérison sans séquelle"
                     codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                     <originalText><reference value="#effet-indesirable-01-evolution"/></originalText>
@@ -2556,7 +2556,7 @@
                   <playingDevice classCode="DEV" determinerCode="INSTANCE">
                     <code code="GEN-092.02.02"
                       displayName="Autre dispositif médical"
-                      codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">                      
+                      codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">                      
                       <originalText><reference value="#DM-02-categorie"/></originalText>
                     </code>
                   </playingDevice>
@@ -2682,7 +2682,7 @@
                   <effectiveTime>
                     <low value="20180114"/>
                   </effectiveTime>
-                  <!-- valeur issue du JDV_ScorePerformanceECOG_CISIS (1.2.250.1.213.1.1.5.784) -->
+                  <!-- valeur issue du jdv-score-performance-ecog-cisis (1.2.250.1.213.1.1.5.784) -->
                   <value xsi:type="CD" code="LA9622-7"
                     displayName="Capable d’une activité identique 
                     à celle précédant la maladie sans aucune restriction"
@@ -2769,7 +2769,7 @@
                   <id root="FB97F8B7-7D3D-474A-B6A6-7D55D4DA3AFD"/>
                   <!-- Autre type de statut fonctionnel -->
                   <code xsi:type="CD" code="GEN-092.04.23" displayName="Autre statut fonctionnel"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                     <originalText>
                       <reference value="#statut-fonctionnel-03"/>
                     </originalText>
@@ -2877,7 +2877,7 @@
                   <!-- Conformité FR-Signe-vital-observé (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.50"/>
                   <id root="8D40D39D-3574-496A-91EA-B7BE236ABD1A"/>
-                  <!-- valeur issue du JDV_SignesVitaux-CISIS (1.2.250.1.213.1.1.5.171) -->
+                  <!-- valeur issue du jdv-signe-vital-cisis (1.2.250.1.213.1.1.5.171) -->
                   <code code="29463-7" displayName="Poids" codeSystem="2.16.840.1.113883.6.1"
                     codeSystemName="LOINC"/>
                   <text><reference value="#poids"/></text>
@@ -2915,7 +2915,7 @@
                   <!-- Conformité FR-Signe-vital-observé (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.50"/>
                   <id root="04CBA750-7FBD-482C-ABDF-D06275C3FC4A"/>
-                  <!-- valeur issue du JDV_SignesVitaux-CISIS (1.2.250.1.213.1.1.5.171) -->
+                  <!-- valeur issue du jdv-signe-vital-cisis (1.2.250.1.213.1.1.5.171) -->
                   <code code="8302-2" displayName="Taille" codeSystem="2.16.840.1.113883.6.1"
                     codeSystemName="LOINC"/>
                   <text><reference value="#taille"/></text>
@@ -3027,13 +3027,13 @@
               <!-- Conformité FR-Habitus-Mode-de-vie (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.52"/>
               <id root="CF5B21BC-387A-44AD-9FE9-D6582A6CF332"/>
-              <!-- valeur issue du JDV_SocialHistoryCodes-CISIS (1.2.250.1.213.1.1.4.2.283.4) -->
+              <!-- valeur issue du jdv-social-history-code-cisis (1.2.250.1.213.1.1.4.2.283.4) -->
               <code code="72166-2" displayName="Statut tabagique" codeSystem="2.16.840.1.113883.6.1"
                 codeSystemName="LOINC"/>
               <text><reference value="#tabac-statut"/></text>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NA"/>
-              <!-- valeur issue du JDV_StatutTabagique-CISIS (1.2.250.1.213.1.1.5.667) -->
+              <!-- valeur issue du jdv-statut-tabagique-cisis (1.2.250.1.213.1.1.5.667) -->
               <value xsi:type="CD" code="LA18976-3" displayName="Fumeur quotidien"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <!-- Entrée FR-Commentaire-ER -->
@@ -3067,7 +3067,7 @@
               <!-- Conformité FR-Habitus-Mode-de-vie (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.52"/>
               <id root="CF5B21BC-387A-44AD-9FE9-D6582A6CF332"/>
-              <!-- valeur issue du JDV_SocialHistoryCodes-CISIS (1.2.250.1.213.1.1.4.2.283.4) -->
+              <!-- valeur issue du jdv-social-history-code-cisis (1.2.250.1.213.1.1.4.2.283.4) -->
               <code code="74011-8" displayName="Consommation tabagique"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#tabac-conso"/></text>
@@ -3105,7 +3105,7 @@
               <!-- Conformité FR-Habitus-Mode-de-vie (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.52"/>
               <id root="CF5B21BC-387A-44AD-9FE9-D6582A6CF332"/>
-              <!-- valeur issue du JDV_SocialHistoryCodes-CISIS (1.2.250.1.213.1.1.4.2.283.4) -->
+              <!-- valeur issue du jdv-social-history-code-cisis (1.2.250.1.213.1.1.4.2.283.4) -->
               <code code="74013-4" displayName="Consommation d'alcool"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#alcool"/></text>
@@ -3143,7 +3143,7 @@
               <!-- Conformité FR-Habitus-Mode-de-vie (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.52"/>
               <id root="8378F25F-7EC2-4CEE-A9A5-168030827D07"/>
-              <!-- valeur issue du JDV_SocialHistoryCodes-CISIS (1.2.250.1.213.1.1.4.2.283.4) -->
+              <!-- valeur issue du jdv-social-history-code-cisis (1.2.250.1.213.1.1.4.2.283.4) -->
               <code code="11343-1" displayName="Consommation de drogue non médicales"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#drogue"/></text>
@@ -3382,14 +3382,14 @@
               <text><reference value="#vaccin-02"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20090928094914+0100"/>
-              <!-- Voie d'administration : valeur issue du JDV_ImmunizationRouteCodes-CISIS (1.2.250.1.213.1.1.5.676)  -->
+              <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676)  -->
               <routeCode code="20035000" displayName="Voie intramusculaire"
                 codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="EDQM">
                 <originalText>
                   <reference value="#vaccin-02-voie"/>
                 </originalText>
               </routeCode>
-              <!-- Région d'administration : valeur issue du JDV_ImmunizationApproachSiteCode-CISIS (1.2.250.1.213.1.1.5.621)  -->
+              <!-- Région d'administration : valeur issue du jdv-immunization-approach-site-code-cisis (1.2.250.1.213.1.1.5.621)  -->
               <approachSiteCode code="16217701000119102" displayName="Deltoïde gauche"
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                 <originalText>
@@ -3522,14 +3522,14 @@
               <text><reference value="#tetanos1"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20090928094914+0100"/>
-              <!-- Voie d'administration : valeur issue du JDV_ImmunizationRouteCodes-CISIS (1.2.250.1.213.1.1.5.676)  -->
+              <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676)  -->
               <routeCode code="20035000" displayName="Voie intramusculaire"
                 codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="EDQM">
                 <originalText>
                   <reference value="#vaccin-01-voie"/>
                 </originalText>
               </routeCode>
-              <!-- Région d'administration : valeur issue du JDV_ImmunizationApproachSiteCode-CISIS (1.2.250.1.213.1.1.5.621)  -->
+              <!-- Région d'administration : valeur issue du jdv-immunization-approach-site-code-cisis (1.2.250.1.213.1.1.5.621)  -->
               <approachSiteCode code="16217701000119102" displayName="Deltoïde gauche"
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                 <originalText>
@@ -3705,7 +3705,7 @@
               <text><reference value="#grossesse-statut"/></text>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NA"/>
-              <!-- valeur issue du JDV_StatutGrossesse-CISIS (1.2.250.1.213.1.1.5.671) -->
+              <!-- valeur issue du jdv-statut-grossesse-cisis (1.2.250.1.213.1.1.5.671) -->
               <value xsi:type="CD" code="77386006" displayName="enceinte"
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                 <originalText><reference value="#grossesse-statut-value"/></originalText>
@@ -3988,7 +3988,7 @@
                     <code nullFlavor="NA">
                       <!-- Autre traitement -->
                       <translation code="GEN-092.03.01" displayName="Autre(s) traitement(s)"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                         <originalText>
                           <reference value="#plan-med-02-code"/>
                         </originalText>
@@ -4067,7 +4067,7 @@
               <id root="F83D3DB2-C511-4CFA-B216-773F6DEADB4E"/>
               <!-- Autre demande d’examen ou de suivi -->
               <code code="GEN-092.04.20" displayName="Autre demande d’examen ou de suivi"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                 <originalText><reference value="#plan-exam-02-code"/></originalText>
               </code>
               <text><reference value="#plan-exam-02-code"/></text>
@@ -4109,7 +4109,7 @@
                 displayName="Pose d'une prothèse auditive implantable dans l'oreille moyenne"
                 codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM"/>
               <text><reference value="#plan-acte-01-code"/></text>
-              <!-- valeur issue du JDV_HL7_ActStatus-CISIS (2.16.840.1.113883.1.11.15933) -->
+              <!-- valeur issue du jdv-hl7-v3-ActStatus-cisis (2.16.840.1.113883.1.11.15933) -->
               <statusCode code="active"/>
               <!-- Date de l'acte -->
               <effectiveTime value="20241201"/>         
@@ -4148,13 +4148,13 @@
               <id root="A6BC7FD2-EC3F-4E01-B567-854B087D1D9B"/>
               <!-- Code de l'acte -->
               <code code="GEN-092.04.13" displayName="Autre acte"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                 <originalText>
                   <reference value="#plan-acte-02-code"/>
                 </originalText>
               </code>
               <text><reference value="#plan-acte-02-code"/></text>
-              <!-- valeur issue du JDV_HL7_ActStatus-CISIS (2.16.840.1.113883.1.11.15933) -->
+              <!-- valeur issue du jdv-hl7-v3-ActStatus-cisis (2.16.840.1.113883.1.11.15933) -->
               <statusCode code="active"/>
               <!-- Date de l'acte -->
               <effectiveTime value="20241201"/>
@@ -4191,7 +4191,7 @@
               <!-- Conformité FR-Rencontre (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.58"/>
               <id root="4AA6DCFC-6628-42E7-8D6F-68621568F584"/>
-              <!-- Type de Rencontre : Valeur issue du JDV_HL7_ActEncounterCode_CISIS (2.16.840.1.113883.1.11.13955) -->
+              <!-- Type de Rencontre : Valeur issue du jdv-hl7-v3-ActEncounterCode-cisis (2.16.840.1.113883.1.11.13955) -->
               <code code="AMB" displayName="Ambulatoire"
                 codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActEncounterCode"/>
               <text><reference value="#plan-rencontre-01-code"/></text>
@@ -4346,7 +4346,7 @@
                     <code nullFlavor="NA">
                       <!-- Autre vaccin -->
                       <translation code="GEN-092.03.08" displayName="Autre vaccin"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                         <originalText>
                           <reference value="#plan-vaccin-02-code"/>
                         </originalText>
@@ -4486,7 +4486,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="75789-8" displayName="Maintient artificiel en vie"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#maintien-artificiel-en-vie"/></text>
@@ -4528,7 +4528,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="75787-2" displayName="Assistance respiratoire"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#assistance-respiratoire"/></text>
@@ -4570,7 +4570,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="77352-3" displayName="Alimentation et hydratation artificielles"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#alimentation-hydratation-artificielles"/></text>
@@ -4612,9 +4612,9 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
-              <code code="MED-295" displayName="Dialyse rénale" codeSystem="1.2.250.1.213.1.1.4.322"
-                codeSystemName="TA-ASIP"/>
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
+              <code code="265764009" displayName="dialyse rénale" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT"/>
               <text><reference value="#dialyse-renale"/></text>
               <statusCode code="completed"/>
               <effectiveTime>
@@ -4654,7 +4654,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="75779-9" displayName="Réanimation cardiaque et respiratoire"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#reanimation-cardiaque-respiratoire"/></text>
@@ -4696,7 +4696,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="387713003" displayName="intervention chirurgicale"
                 codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
               <text><reference value="#intervention-chirurgicale"/></text>
@@ -4738,10 +4738,10 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="MED-298"
                 displayName="Sédation profonde et continue associée à un traitement de la douleur"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
               <text><reference value="#sedation-profonde"/></text>
               <statusCode code="completed"/>
               <effectiveTime>
@@ -4781,7 +4781,7 @@
               <!-- Conformité FR-Directive-Anticipee (FR CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.54"/>
               <id root="4FD525FD-8712-40F9-BF31-EF9A25069C25"/>
-              <!-- valeur issue du JDV_TypeDirectiveAnticipee-CISIS (1.2.250.1.213.1.1.5.136) -->
+              <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="42348-3" displayName="Directives anticipées"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
               <text><reference value="#directives-anticipees-pdf"/></text>
@@ -5218,7 +5218,7 @@
                   <statusCode code="completed"/>
                   <effectiveTime nullFlavor="NA"/>
                   <value xsi:type="CD" code="DLU_006" displayName="Attestation de la carte vitale"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                 </observation>
               </component>
               <!-- [1..1] Entrée ObservationMedia -->
@@ -5255,7 +5255,7 @@
                   <statusCode code="completed"/>
                   <effectiveTime nullFlavor="NA"/>
                   <value xsi:type="CD" code="DLU_007" displayName="Attestation de mutuelle"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
                 </observation>
               </component>
               <!-- [1..1] Entrée ObservationMedia -->

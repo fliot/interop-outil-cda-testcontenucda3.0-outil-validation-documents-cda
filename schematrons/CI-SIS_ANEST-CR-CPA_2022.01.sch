@@ -91,16 +91,16 @@
     </phase>
     
     <pattern id="JDVvariables">
-        <let name="jdv_ANEST-CR-CPA_AideAuDeplacement" value="'../jeuxDeValeurs/JDV_AideAuDeplacement_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_FacteursDeRisqueSociaux" value="'../jeuxDeValeurs/JDV_FacteursDeRisqueSociaux_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_FacteursDeRisqueProfessionnels" value="'../jeuxDeValeurs/JDV_FacteursDeRisqueProfessionnels_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_GIR" value="'../jeuxDeValeurs/JDV_GIR_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_NiveauDependance" value="'../jeuxDeValeurs/JDV_NiveauDependance_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_ScoreDuke" value="'../jeuxDeValeurs/JDV_ScoreDuke_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_ScoreMallampati" value="'../jeuxDeValeurs/JDV_ScoreMallampati_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_Sedentarite" value="'../jeuxDeValeurs/JDV_Sedentarite_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_Severite" value="'../jeuxDeValeurs/JDV_SeveriteObservation_CISIS.xml'"/>
-        <let name="jdv_ANEST-CR-CPA_SupportNutritionnel" value="'../jeuxDeValeurs/JDV_SupportNutritionnel_CISIS.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_AideAuDeplacement" value="'../jeuxDeValeurs/jdv-aide-au-deplacement-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_FacteursDeRisqueSociaux" value="'../jeuxDeValeurs/jdv-facteur-de-risque-social-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_FacteursDeRisqueProfessionnels" value="'../jeuxDeValeurs/jdv-facteur-de-risque-professionnel-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_GIR" value="'../jeuxDeValeurs/jdv-gir-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_NiveauDependance" value="'../jeuxDeValeurs/jdv-niveau-dependance-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_ScoreDuke" value="'../jeuxDeValeurs/jdv-score-duke-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_ScoreMallampati" value="'../jeuxDeValeurs/jdv-score-mallampati-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_Sedentarite" value="'../jeuxDeValeurs/jdv-sedentarite-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_Severite" value="'../jeuxDeValeurs/jdv-severite-observation-cisis.xml'"/>
+        <let name="jdv_ANEST-CR-CPA_SupportNutritionnel" value="'../jeuxDeValeurs/jdv-support-nutritionnel-cisis.xml'"/>
         
         <!-- présence des sections obligatoires -->
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">

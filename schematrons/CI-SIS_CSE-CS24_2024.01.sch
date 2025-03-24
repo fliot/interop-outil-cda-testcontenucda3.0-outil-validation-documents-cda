@@ -99,16 +99,16 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_Activite-CISIS" value="'../jeuxDeValeurs/JDV_Activite_CISIS.xml'"/>
-        <let name="JDV_CauseAccidentDom-CISIS" value="'../jeuxDeValeurs/JDV_CauseAccidentDom_CISIS.xml'"/>
-        <let name="JDV_Profession-CISIS" value="'../jeuxDeValeurs/JDV_Profession_CISIS.xml'"/>         
-        <let name="JDV_TypeGarde-CISIS" value="'../jeuxDeValeurs/JDV_TypeGarde_CISIS.xml'"/>
-        <let name="JDV_VaccinCSE24-CISIS" value="'../jeuxDeValeurs/JDV_VaccinCSE24_CISIS.xml'"/>
-        <let name="JDV_AntecedentsCSE24-CISIS" value="'../jeuxDeValeurs/JDV_AntecedentsCSE24_CISIS.xml'"/> 
-        <let name="JDV_ReperageTroubleNeurodeveloppement_CISIS" value="'../jeuxDeValeurs/JDV_ReperageTroubleNeurodeveloppement_CISIS.xml'"/> 
-        <let name="JDV_Rencontre_CS9_CS24_CISIS" value="'../jeuxDeValeurs/JDV_Rencontre_CS9_CS24_CISIS.xml'"/> 
-        <let name="JDV_EnfantExposeAuxEcrans_CS24_CISIS" value="'../jeuxDeValeurs/JDV_EnfantExposeAuxEcrans_CS24_CISIS.xml'"/> 
-        <let name="JDV_DeveloppementPsychomoteur_CS24_CISIS" value="'../jeuxDeValeurs/JDV_DeveloppementPsychomoteur_CS24_CISIS.xml'"/> 
+        <let name="JDV_Activite-CISIS" value="'../jeuxDeValeurs/jdv-activite-cisis.xml'"/>
+        <let name="JDV_CauseAccidentDom-CISIS" value="'../jeuxDeValeurs/jdv-cause-accident-domestique-cisis.xml'"/>
+        <let name="JDV_Profession-CISIS" value="'../jeuxDeValeurs/jdv-profession-cisis.xml'"/>         
+        <let name="JDV_TypeGarde-CISIS" value="'../jeuxDeValeurs/jdv-type-garde-cisis.xml'"/>
+        <let name="JDV_VaccinCSE24-CISIS" value="'../jeuxDeValeurs/jdv-vaccin-cse24-cisis.xml'"/>
+        <let name="JDV_AntecedentsCSE24-CISIS" value="'../jeuxDeValeurs/jdv-antecedent-cse24-cisis.xml'"/> 
+        <let name="JDV_ReperageTroubleNeurodeveloppement_CISIS" value="'../jeuxDeValeurs/jdv-reperage-trouble-neurodeveloppement-cisis.xml'"/> 
+        <let name="JDV_Rencontre_CS9_CS24_CISIS" value="'../jeuxDeValeurs/jdv-rencontre-cs9-cs24-cisis.xml'"/> 
+        <let name="JDV_EnfantExposeAuxEcrans_CS24_CISIS" value="'../jeuxDeValeurs/jdv-enfant-expose-aux-ecrans-cs24-cisis.xml'"/> 
+        <let name="JDV_DeveloppementPsychomoteur_CS24_CISIS" value="'../jeuxDeValeurs/jdv-developpement-psychomoteur-cs24-cisis.xml'"/>  
         
         
                 

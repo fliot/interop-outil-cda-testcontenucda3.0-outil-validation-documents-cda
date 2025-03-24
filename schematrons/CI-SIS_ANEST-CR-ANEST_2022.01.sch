@@ -100,21 +100,21 @@
     </phase>
     
     <pattern id="JDVvariables">
-        <let name="JDV_TypeAnesthesie-CISIS" value="'../jeuxDeValeurs/JDV_TypeAnesthesie_CISIS.xml'"/>
-        <let name="JDV_Difficulte-CISIS" value="'../jeuxDeValeurs/JDV_Difficulte_CISIS.xml'"/>
-        <let name="JDV_ScoreCormack-CISIS" value="'../jeuxDeValeurs/JDV_ScoreCormack_CISIS.xml'"/>
-        <let name="JDV_AbordVeineuxCentral-CISIS" value="'../jeuxDeValeurs/JDV_AbordVeineuxCentral_CISIS.xml'"/>
-        <let name="JDV_AbordVeineuxPeripherique-CISIS" value="'../jeuxDeValeurs/JDV_AbordVeineuxPeripherique_CISIS.xml'"/>
-        <let name="JDV_TypeIntubation-CISIS" value="'../jeuxDeValeurs/JDV_TypeIntubation_CISIS.xml'"/>
-        <let name="JDV_NVPO-CISIS" value="'../jeuxDeValeurs/JDV_NVPO_CISIS.xml'"/>
-        <let name="JDV_ScoreASA-CISIS" value="'../jeuxDeValeurs/JDV_ScoreASA_CISIS.xml'"/>
-        <let name="JDV_EvaluationDouleur-CISIS" value="'../jeuxDeValeurs/JDV_EvaluationDouleur_CISIS.xml'"/>
-        <let name="JDV_DefaillanceMaterielle-CISIS" value="'../jeuxDeValeurs/JDV_DefaillanceMaterielle_CISIS.xml'"/>
-        <let name="JDV_Lateralite-CISIS" value="'../jeuxDeValeurs/JDV_Lateralite_CISIS.xml'"/>
-        <let name="JDV_ClassificationRingMessmer-CISIS" value="'../jeuxDeValeurs/JDV_ClassificationRingMessmer_CISIS.xml'"/>
-        <let name="JDV_AccesArtere-CISIS" value="'../jeuxDeValeurs/JDV_AccesArtere_CISIS.xml'"/>
-        <let name="JDV_HL7_ActPriority-CISIS" value="'../jeuxDeValeurs/JDV_HL7_ActPriority_CISIS.xml'"/>
-        <let name="JDV_TypeProduitSanguinLabile-CISIS" value="'../jeuxDeValeurs/JDV_TypeProduitSanguinLabile_CISIS.xml'"/>
+        <let name="JDV_TypeAnesthesie-CISIS" value="'../jeuxDeValeurs/jdv-type-anesthesie-cisis.xml'"/>
+        <let name="JDV_Difficulte-CISIS" value="'../jeuxDeValeurs/jdv-difficulte-cisis.xml'"/>
+        <let name="JDV_ScoreCormack-CISIS" value="'../jeuxDeValeurs/jdv-score-cormack-cisis.xml'"/>
+        <let name="JDV_AbordVeineuxCentral-CISIS" value="'../jeuxDeValeurs/jdv-abord-veineux-central-cisis.xml'"/>
+        <let name="JDV_AbordVeineuxPeripherique-CISIS" value="'../jeuxDeValeurs/jdv-abord-veineux-peripherique-cisis.xml'"/>
+        <let name="JDV_TypeIntubation-CISIS" value="'../jeuxDeValeurs/jdv-type-intubation-cisis.xml'"/>
+        <let name="JDV_NVPO-CISIS" value="'../jeuxDeValeurs/jdv-nvpo-cisis.xml'"/>
+        <let name="JDV_ScoreASA-CISIS" value="'../jeuxDeValeurs/jdv-score-asa-cisis.xml'"/>
+        <let name="JDV_EvaluationDouleur-CISIS" value="'../jeuxDeValeurs/jdv-evaluation-douleur-cisis.xml'"/>
+        <let name="JDV_DefaillanceMaterielle-CISIS" value="'../jeuxDeValeurs/jdv-defaillance-materielle-cisis.xml'"/>
+        <let name="JDV_Lateralite-CISIS" value="'../jeuxDeValeurs/jdv-lateralite-cisis.xml'"/>
+        <let name="JDV_ClassificationRingMessmer-CISIS" value="'../jeuxDeValeurs/jdv-classification-ring-messmer-cisis.xml'"/>
+        <let name="JDV_AccesArtere-CISIS" value="'../jeuxDeValeurs/jdv-acces-artere-cisis.xml'"/>
+        <let name="JDV_HL7_ActPriority-CISIS" value="'../jeuxDeValeurs/jdv-hl7-v3-ActPriority-cisis.xml'"/>
+        <let name="JDV_TypeProduitSanguinLabile-CISIS" value="'../jeuxDeValeurs/jdv-type-produit-sanguin-labile-cisis.xml'"/>
         
         <!-- présence des sections obligatoires -->        
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            

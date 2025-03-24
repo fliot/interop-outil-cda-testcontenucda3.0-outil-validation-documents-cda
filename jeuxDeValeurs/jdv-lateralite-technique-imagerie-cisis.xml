@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-lateralite-technique-imagerie-cisis"
+             effectiveDate="2021-06-03T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.617"
+             revisionDate="2022-11-14T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="66459002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20221114000000"
+                  displayName="unilatéral"/>
+         <Concept code="51440002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20221114000000"
+                  displayName="bilatéral"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-cause-accident-domestique-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.121"
+             revisionDate="2023-06-12T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="NF0A.4"
+                  codeSystem="2.16.840.1.113883.6.347"
+                  dateValid="20230612000000"
+                  displayName="Choc traumatique, non classé ailleurs"/>
+         <Concept code="NE2Z"
+                  codeSystem="2.16.840.1.113883.6.347"
+                  dateValid="20230612000000"
+                  displayName="Brûlures, sans précision"/>
+         <Concept code="NE61"
+                  codeSystem="2.16.840.1.113883.6.347"
+                  dateValid="20230612000000"
+                  displayName="Intoxication SAI"/>
+         <Concept code="GEN-092.01.13"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20230202000000"
+                  displayName="Autre(s) accident(s) domestique(s)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

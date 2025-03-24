@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-lesion-imagerie-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.203"
+             revisionDate="2010-01-01T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="MED-467"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Hémorragie ancienne"/>
+         <Concept code="MED-468"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Microsaignements"/>
+         <Concept code="I60.9"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20100101000000"
+                  displayName="Hémorragie sousarachnoïdienne, sans précision"/>
+         <Concept code="I61.9"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20100101000000"
+                  displayName="Hémorragie intracérébrale, sans précision"/>
+         <Concept code="I63.9"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20100101000000"
+                  displayName="Infarctus cérébral, sans précision"/>
+         <Concept code="I63.6"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20100101000000"
+                  displayName="Infarctus cérébral dû à une thrombose veineuse cérébrale, non pyogène"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

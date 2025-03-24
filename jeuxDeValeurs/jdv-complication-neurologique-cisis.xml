@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-complication-neurologique-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.218"
+             revisionDate="2023-11-14T00:00:00+01:00"
+             version="2025-03-21T14:10:28+01:00">
+      <ConceptList>
+         <Concept code="MED-469"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Récidive d'hémorragie"/>
+         <Concept code="MED-470"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Transformation hémorragique"/>
+         <Concept code="I22"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20230612000000"
+                  displayName="infarctus du myocarde récidivant"/>
+         <Concept code="R60.9"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20231114000000"
+                  displayName="Œdème, sans précision"/>
+         <Concept code="GEN-092.01.03"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20230202000000"
+                  displayName="Autre complication neurologique"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

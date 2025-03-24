@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-statut-actuel-diagnostic-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.45"
+             revisionDate="2025-02-21T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="2931005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230131000000"
+                  displayName="diagnostic probable"/>
+         <Concept code="385651009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230131000000"
+                  displayName="en cours d'exécution"/>
+         <Concept code="42425007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230131000000"
+                  displayName="équivoque"/>
+         <Concept code="255545003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20230131000000"
+                  displayName="diagnostic définitif"/>
+         <Concept code="723511001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20240207000000"
+                  displayName="réfuté"/>
+         <Concept code="MED-1313"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250221000000"
+                  displayName="Apparenté non porteur"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

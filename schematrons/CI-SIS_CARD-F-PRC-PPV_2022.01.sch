@@ -55,13 +55,13 @@
     </phase>
     
     <pattern id="variables">
-        <let name="jdv_UFCV_ProtValv-CARD-F-PRC-PPV" value="'../jeuxDeValeurs/JDV_UFCV_ProtValv_CISIS.xml'"/>
-        <let name="jdv_UFCV_CodEntree-CARD-F-PRC-PPV" value="'../jeuxDeValeurs/JDV_UFCV_CodEntree_CISIS.xml'"/>
-        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/JDV_UFCV_MatImpl_CISIS.xml'"/>
-        <let name="jdv_UFCV_TypVal_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/JDV_UFCV_TypVal_CISIS.xml'"/>
-        <let name="jdv_UFCV_CompProt_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/JDV_UFCV_CompProt_CISIS.xml'"/>
+        <let name="jdv_UFCV_ProtValv-CARD-F-PRC-PPV" value="'../jeuxDeValeurs/jdv-ufcv-type-valve-cisis.xml'"/>
+        <let name="jdv_UFCV_CodEntree-CARD-F-PRC-PPV" value="'../jeuxDeValeurs/jdv-ufcv-code-entree-cisis.xml'"/>
+        <let name="jdv_UFCV_MatImpl_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/jdv-ufcv-materiel-implante-cisis.xml'"/>
+        <let name="jdv_UFCV_TypVal_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/jdv-ufcv-modele-valve-cisis.xml'"/>
+        <let name="jdv_UFCV_CompProt_CARD-F-PRC-PPV" value="'../jeuxDeValeurs/jdv-ufcv-composant-prothese-valvulaire-cisis.xml'"/>
         
-        <!-- présence des sections obligatoires -->        
+        <!-- présence des sections obligatoires -->
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            
             <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.132'])=1"> 
                 [CARD-F-PRC-PPV] Erreur de conformité au modèle : La section "FR-Problemes-actifs" (1.2.250.1.213.1.1.2.132) doit être présente.

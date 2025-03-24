@@ -99,14 +99,14 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_Activite-CISIS" value="'../jeuxDeValeurs/JDV_Activite_CISIS.xml'"/>
-        <let name="JDV_CauseAccidentDom-CISIS" value="'../jeuxDeValeurs/JDV_CauseAccidentDom_CISIS.xml'"/>
-        <let name="JDV_Profession-CISIS" value="'../jeuxDeValeurs/JDV_Profession_CISIS.xml'"/>         
-        <let name="JDV_TypeGarde-CISIS" value="'../jeuxDeValeurs/JDV_TypeGarde_CISIS.xml'"/> 
-        <let name="JDV_VaccinCSE9-CISIS" value="'../jeuxDeValeurs/JDV_VaccinCSE9_CISIS.xml'"/> 
-        <let name="JDV_AntecedentsCSE9-CISIS" value="'../jeuxDeValeurs/JDV_AntecedentsCSE9_CISIS.xml'"/> 
-        <let name="JDV_ReperageTroubleNeurodeveloppement_CISIS" value="'../jeuxDeValeurs/JDV_ReperageTroubleNeurodeveloppement_CISIS.xml'"/> 
-        <let name="JDV_Rencontre_CS9_CS24_CISIS" value="'../jeuxDeValeurs/JDV_Rencontre_CS9_CS24_CISIS.xml'"/> 
+        <let name="JDV_Activite-CISIS" value="'../jeuxDeValeurs/jdv-activite-cisis.xml'"/>
+        <let name="JDV_CauseAccidentDom-CISIS" value="'../jeuxDeValeurs/jdv-cause-accident-domestique-cisis.xml'"/>
+        <let name="JDV_Profession-CISIS" value="'../jeuxDeValeurs/jdv-profession-cisis.xml'"/>
+        <let name="JDV_TypeGarde-CISIS" value="'../jeuxDeValeurs/jdv-type-garde-cisis.xml'"/> 
+        <let name="JDV_VaccinCSE9-CISIS" value="'../jeuxDeValeurs/jdv-vaccin-cse9-cisis.xml'"/> 
+        <let name="JDV_AntecedentsCSE9-CISIS" value="'../jeuxDeValeurs/jdv-antecedent-cse9-cisis.xml'"/> 
+        <let name="JDV_ReperageTroubleNeurodeveloppement_CISIS" value="'../jeuxDeValeurs/jdv-reperage-trouble-neurodeveloppement-cisis.xml'"/> 
+        <let name="JDV_Rencontre_CS9_CS24_CISIS" value="'../jeuxDeValeurs/jdv-rencontre-cs9-cs24-cisis.xml'"/> 
         
         <rule context='cda:ClinicalDocument/cda:component/cda:structuredBody'>
             

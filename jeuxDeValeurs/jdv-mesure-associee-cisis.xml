@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-mesure-associee-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.476"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="ORG-007"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Prise en charge des conséquences neurocognitives et endocriniennes"/>
+         <Concept code="ORG-171"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Prise en charge des conséquences des tumeurs cérébrales et de leurs traitements"/>
+         <Concept code="408969000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250225000000"
+                  displayName="prise en charge d'une contraception"/>
+         <Concept code="ORG-001"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Prise en charge spécifique en oncogériatrie"/>
+         <Concept code="GEN-092.04.11"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20230202000000"
+                  displayName="Autre mesure"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -42,7 +42,7 @@
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_QuantiteLA_OBP-SNE.sch"/>
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_AspectLA_OBP-SNE.sch"/>
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_CirconstancesDeces_OBP-SNE.sch"/>
-    <!--<include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_GesteReanimationNN_OBP-SNE.sch"/>-->
+    <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_GesteReanimationNN_OBP-SNE.sch"/>
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_ApproachSiteCode_OBP-SNE.sch"/>
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_OBP_Result-Evenement.sch"/>
     <include href="include/jeuxDeValeurs/OBP-SNE_2024.01/JDV_ModeSortie_OBP-SNE.sch"/>
@@ -71,7 +71,7 @@
         <active pattern="JDV_QuantiteLA_OBP-SNE"/>
         <active pattern="JDV_AspectLA_OBP-SNE"/>
         <active pattern="JDV_CirconstancesDeces_OBP-SNE"/>
-        <!--<active pattern="JDV_GesteReanimationNN_OBP-SNE"/>-->
+        <active pattern="JDV_GesteReanimationNN_OBP-SNE"/>
         <active pattern="JDV_ApproachSiteCode_OBP-SNE"/>
         <active pattern="JDV_OBP_Result-Evenement"/>
         <active pattern="JDV_ModeSortie_OBP-SNE"/>
@@ -83,16 +83,16 @@
     <pattern id="variables">
         
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="jdv_ApproachSiteCode_OBP-SNE" value="'../jeuxDeValeurs/JDV_RouteofAdministration_CISIS.xml'"/>
-        <let name="jdv_ModeNaissance_OBP-SNE" value="'../jeuxDeValeurs/JDV_ModeNaissance_CISIS.xml'"/>
-        <let name="jdv_TypeInterventionVoieBasse_OBP-SNE" value="'../jeuxDeValeurs/JDV_TypeInterventionVoieBasse_CISIS.xml'"/>
-        <let name="jdv_PresentationFoetale_OBP-SNE" value="'../jeuxDeValeurs/JDV_PresentationFoetale_CISIS.xml'"/>
-        <let name="jdv_QuantiteLA_OBP-SNE" value="'../jeuxDeValeurs/JDV_QuantiteLA_CISIS.xml'"/>
-        <let name="jdv_AspectLA_OBP-SNE" value="'../jeuxDeValeurs/JDV_AspectLA_CISIS.xml'"/>
-        <let name="jdv_CirconstancesDeces_OBP-SNE" value="'../jeuxDeValeurs/JDV_CirconstancesDeces_CISIS.xml'"/>
-        <!--<let name="jdv_GesteReanimationNN_OBP-SNE" value="'../jeuxDeValeurs/JDV_OBP_GesteReanimationNN_CISIS.xml'"/>-->
-        <let name="jdv_OBP_Result-Evenement" value="'../jeuxDeValeurs/JDV_OBP_Result_Evenement_CISIS.xml'"/>
-        <let name="jdv_ModeSortie_OBP-SNE" value="'../jeuxDeValeurs/JDV_ModeSortie_OBP_SNE_CISIS.xml'"/>
+        <let name="jdv_ApproachSiteCode_OBP-SNE" value="'../jeuxDeValeurs/jdv-route-of-administration-cisis.xml'"/>
+        <let name="jdv_ModeNaissance_OBP-SNE" value="'../jeuxDeValeurs/jdv-mode-naissance-cisis.xml'"/>
+        <let name="jdv_TypeInterventionVoieBasse_OBP-SNE" value="'../jeuxDeValeurs/jdv-type-intervention-voie-basse-cisis.xml'"/>
+        <let name="jdv_PresentationFoetale_OBP-SNE" value="'../jeuxDeValeurs/jdv-presentation-foetale-cisis.xml'"/>
+        <let name="jdv_QuantiteLA_OBP-SNE" value="'../jeuxDeValeurs/jdv-quantite-liquide-amniotique-cisis.xml'"/>
+        <let name="jdv_AspectLA_OBP-SNE" value="'../jeuxDeValeurs/jdv-aspect-liquide-amniotique-cisis.xml'"/>
+        <let name="jdv_CirconstancesDeces_OBP-SNE" value="'../jeuxDeValeurs/jdv-circonstance-deces-cisis.xml'"/>
+        <let name="jdv_GesteReanimationNN_OBP-SNE" value="'../jeuxDeValeurs/jdv-geste-reanimation-nouveau-ne-cisis.xml'"/>
+        <let name="jdv_OBP_Result-Evenement" value="'../jeuxDeValeurs/jdv-obp-resultat-evenement-cisis.xml'"/>
+        <let name="jdv_ModeSortie_OBP-SNE" value="'../jeuxDeValeurs/jdv-mode-sortie-obp-sne-cisis.xml'"/>
         
     </pattern>
 </schema>

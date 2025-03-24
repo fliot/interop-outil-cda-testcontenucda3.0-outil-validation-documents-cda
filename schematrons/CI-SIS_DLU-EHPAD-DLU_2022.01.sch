@@ -44,8 +44,8 @@
 	</phase>
 	
 	<pattern id="variables">
-		<let name="JDV_CheckListDLU_DLU" value = "'../jeuxDeValeurs/JDV_ChecklistDLU_CISIS.xml'"/>
-		<let name="JDV_ObservationEtatPatient" value = "'../jeuxDeValeurs/JDV_ObservationEtatPatient_CISIS.xml'"/>
+		<let name="JDV_CheckListDLU_DLU" value = "'../jeuxDeValeurs/jdv-checklist-dlu-cisis.xml'"/>
+		<let name="JDV_ObservationEtatPatient" value = "'../jeuxDeValeurs/jdv-observation-etat-patient-cisis.xml'"/>
 		
 		<rule context="cda:ClinicalDocument">
 						

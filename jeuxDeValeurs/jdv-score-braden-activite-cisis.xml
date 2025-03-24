@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-score-braden-activite-cisis"
+             effectiveDate="2020-07-09T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.507"
+             revisionDate="2025-02-25T00:00:00+01:00"
+             version="2025-03-21T14:10:27+01:00">
+      <ConceptList>
+         <Concept code="LA6742-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="Alité"/>
+         <Concept code="LA9611-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="Confiné au fauteuil"/>
+         <Concept code="LA9612-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="Marche occasionnellement"/>
+         <Concept code="LA9613-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20250225000000"
+                  displayName="Marche fréquemment"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

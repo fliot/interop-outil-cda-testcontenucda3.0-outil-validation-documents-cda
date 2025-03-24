@@ -50,7 +50,7 @@
     
     <pattern id="variables">
  
-        <let name="JDV_ModaliteEntree_LDL-SES" value="'../jeuxDeValeurs/JDV_ModaliteEntree_CISIS.xml'"/>
+        <let name="JDV_ModaliteEntree_LDL-SES" value="'../jeuxDeValeurs/jdv-modalite-entree-cisis.xml'"/>
         
         <!-- Vérifier que toutes les sections obligatoires du document sont présentes -->
         <rule context='*[cda:templateId/@root="1.2.250.1.213.1.1.1.29"]'>

@@ -138,56 +138,56 @@
     <pattern id="variables">
 
         <!-- chemins relatifs des fichiers jeux de valeurs -->
-        <let name="JDV_ModeDeTransport" value="'../jeuxDeValeurs/JDV_ModeDeTransport_CISIS.xml'"/>
-        <let name="JDV_TopoTrouble" value="'../jeuxDeValeurs/JDV_TopoTrouble_CISIS.xml'"/>
-        <let name="JDV_Lateralite" value="'../jeuxDeValeurs/JDV_Lateralite_CISIS.xml'"/>
+        <let name="JDV_ModeDeTransport" value="'../jeuxDeValeurs/jdv-mode-de-transport-cisis.xml'"/>
+        <let name="JDV_TopoTrouble" value="'../jeuxDeValeurs/jdv-topo-trouble-cisis.xml'"/>
+        <let name="JDV_Lateralite" value="'../jeuxDeValeurs/jdv-lateralite-cisis.xml'"/>
         <let name="JDV_LateraliteManuelle"
-            value="'../jeuxDeValeurs/JDV_LateraliteManuelle_CISIS.xml'"/>
-        <let name="JDV_TroubleVisuel" value="'../jeuxDeValeurs/JDV_TroubleVisuel_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-lateralite-manuelle-cisis.xml'"/>
+        <let name="JDV_TroubleVisuel" value="'../jeuxDeValeurs/jdv-trouble-visuel-cisis.xml'"/>
         <let name="JDV_AutresSymptomesAVC"
-            value="'../jeuxDeValeurs/JDV_AutresSymptomesAVC_CISIS.xml'"/>
-        <let name="JDV_CddFA" value="'../jeuxDeValeurs/JDV_CddFA_CISIS.xml'"/>
-        <let name="JDV_SiteIntervention" value="'../jeuxDeValeurs/JDV_SiteIntervention_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-autre-symptome-avc-cisis.xml'"/>
+        <let name="JDV_CddFA" value="'../jeuxDeValeurs/jdv-cdd-fa-cisis.xml'"/>
+        <let name="JDV_SiteIntervention" value="'../jeuxDeValeurs/jdv-site-intervention-cisis.xml'"/>
         <let name="JDV_AutreSymptomeExNeuro"
-            value="'../jeuxDeValeurs/JDV_AutreSymptomeExNeuro_CISIS.xml'"/>
-        <let name="JDV_NIHSSConsInt" value="'../jeuxDeValeurs/JDV_NIHSSConsInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSLocqInt" value="'../jeuxDeValeurs/JDV_NIHSSLocqInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSLoccInt" value="'../jeuxDeValeurs/JDV_NIHSSLoccInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSOculInt" value="'../jeuxDeValeurs/JDV_NIHSSOculInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSCvInt" value="'../jeuxDeValeurs/JDV_NIHSSCvInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSPfInt" value="'../jeuxDeValeurs/JDV_NIHSSPfInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSMsInt" value="'../jeuxDeValeurs/JDV_NIHSSMsInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSMiInt" value="'../jeuxDeValeurs/JDV_NIHSSMiInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSAtaxInt" value="'../jeuxDeValeurs/JDV_NIHSSAtaxInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSSensInt" value="'../jeuxDeValeurs/JDV_NIHSSSensInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSLangInt" value="'../jeuxDeValeurs/JDV_NIHSSLangInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSDysInt" value="'../jeuxDeValeurs/JDV_NIHSSDysInt_CISIS.xml'"/>
-        <let name="JDV_NIHSSNeglInt" value="'../jeuxDeValeurs/JDV_NIHSSNeglInt_CISIS.xml'"/>
-        <let name="JDV_InterpretationECG" value="'../jeuxDeValeurs/JDV_InterpretationECG_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-autre-symptome-ex-neuro-cisis.xml'"/>
+        <let name="JDV_NIHSSConsInt" value="'../jeuxDeValeurs/jdv-nihss-conscience-cisis.xml'"/>
+        <let name="JDV_NIHSSLocqInt" value="'../jeuxDeValeurs/jdv-nihss-questions-cisis.xml'"/>
+        <let name="JDV_NIHSSLoccInt" value="'../jeuxDeValeurs/jdv-nihss-commandes-cisis.xml'"/>
+        <let name="JDV_NIHSSOculInt" value="'../jeuxDeValeurs/jdv-nihss-occulomotricite-cisis.xml'"/>
+        <let name="JDV_NIHSSCvInt" value="'../jeuxDeValeurs/jdv-nihss-champ-visuel-cisis.xml'"/>
+        <let name="JDV_NIHSSPfInt" value="'../jeuxDeValeurs/jdv-nihss-paralysie-faciale-cisis.xml'"/>
+        <let name="JDV_NIHSSMsInt" value="'../jeuxDeValeurs/jdv-nihss-motricite-membre-superieur-cisis.xml'"/>
+        <let name="JDV_NIHSSMiInt" value="'../jeuxDeValeurs/jdv-nihss-motricite-membre-inferieur-cisis.xml'"/>
+        <let name="JDV_NIHSSAtaxInt" value="'../jeuxDeValeurs/jdv-nihss-ataxie-cisis.xml'"/>
+        <let name="JDV_NIHSSSensInt" value="'../jeuxDeValeurs/jdv-nihss-sensibilite-cisis.xml'"/>
+        <let name="JDV_NIHSSLangInt" value="'../jeuxDeValeurs/jdv-nihss-langage-cisis.xml'"/>
+        <let name="JDV_NIHSSDysInt" value="'../jeuxDeValeurs/jdv-nihss-dysarthrie-cisis.xml'"/>
+        <let name="JDV_NIHSSNeglInt" value="'../jeuxDeValeurs/jdv-nihss-negligence-cisis.xml'"/>
+        <let name="JDV_InterpretationECG" value="'../jeuxDeValeurs/jdv-interpretation-ecg-cisis.xml'"/>
         <let name="JDV_TypeLesionImagerie"
-            value="'../jeuxDeValeurs/JDV_TypeLesionImagerie_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-type-lesion-imagerie-cisis.xml'"/>
         <let name="JDV_TerritoireInfarctus"
-            value="'../jeuxDeValeurs/JDV_TerritoireInfarctus_CISIS.xml'"/>
-        <let name="JDV_ArtereAnt" value="'../jeuxDeValeurs/JDV_ArtereAnt_CISIS.xml'"/>
-        <let name="JDV_ArterePost" value="'../jeuxDeValeurs/JDV_ArterePost_CISIS.xml'"/>
-        <let name="JDV_ArtereTronc" value="'../jeuxDeValeurs/JDV_ArtereTronc_CISIS.xml'"/>
-        <let name="JDV_ArtereCervelet" value="'../jeuxDeValeurs/JDV_ArtereCervelet_CISIS.xml'"/>
-        <let name="JDV_HemisphereLobaire" value="'../jeuxDeValeurs/JDV_HemisphereLobaire_CISIS.xml'"/>
-        <let name="JDV_HemisphereProfond" value="'../jeuxDeValeurs/JDV_HemisphereProfond_CISIS.xml'"/>
-        <let name="JDV_CerveletLoc" value="'../jeuxDeValeurs/JDV_CerveletLoc_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-territoire-infarctus-cisis.xml'"/>
+        <let name="JDV_ArtereAnt" value="'../jeuxDeValeurs/jdv-artere-anterieure-cisis.xml'"/>
+        <let name="JDV_ArterePost" value="'../jeuxDeValeurs/jdv-artere-posterieure-cisis.xml'"/>
+        <let name="JDV_ArtereTronc" value="'../jeuxDeValeurs/jdv-artere-tronc-cisis.xml'"/>
+        <let name="JDV_ArtereCervelet" value="'../jeuxDeValeurs/jdv-artere-cervelet-cisis.xml'"/>
+        <let name="JDV_HemisphereLobaire" value="'../jeuxDeValeurs/jdv-hemisphere-lobaire-cisis.xml'"/>
+        <let name="JDV_HemisphereProfond" value="'../jeuxDeValeurs/jdv-hemisphere-profond-cisis.xml'"/>
+        <let name="JDV_CerveletLoc" value="'../jeuxDeValeurs/jdv-cervelet-localisation-cisis.xml'"/>
         <let name="JDV_LocaThromboseVeineuse"
-            value="'../jeuxDeValeurs/JDV_LocaThromboseVeineuse_CISIS.xml'"/>
-        <let name="JDV_TypeTraitementIV" value="'../jeuxDeValeurs/JDV_TypeTraitementIV_CISIS.xml'"/>
-        <let name="JDV_StatutEvt" value="'../jeuxDeValeurs/JDV_StatutEvt_CISIS.xml'"/>
-        <let name="JDV_ScoreFisher" value="'../jeuxDeValeurs/JDV_ScoreFisher_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-localisation-thrombose-veineuse-cisis.xml'"/>
+        <let name="JDV_TypeTraitementIV" value="'../jeuxDeValeurs/jdv-type-traitement-iv-cisis.xml'"/>
+        <let name="JDV_StatutEvt" value="'../jeuxDeValeurs/jdv-statut-evt-cisis.xml'"/>
+        <let name="JDV_ScoreFisher" value="'../jeuxDeValeurs/jdv-score-fisher-cisis.xml'"/>
         <let name="JDV_AntecedantsMedicaux-CISIS"
-            value="'../jeuxDeValeurs/JDV_AntecedantsMedicaux_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-antecedant-medical-cisis.xml'"/>
         <let name="JDV_ExamenHemostaseAUVN-CISIS"
-            value="'../jeuxDeValeurs/JDV_ExamenHemostaseAUVN_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-examen-hemostase-aunv-cisis.xml'"/>
         <let name="JDV_ExamenBiochimieAUVN-CISIS"
-            value="'../jeuxDeValeurs/JDV_ExamenBiochimieAUVN_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-examen-biochimie-aunv-cisis.xml'"/>
         <let name="JDV_ExamenHematologieAUNV-CISIS"
-            value="'../jeuxDeValeurs/JDV_ExamenHematologieAUVN_CISIS.xml'"/>
+            value="'../jeuxDeValeurs/jdv-examen-hematologie-aunv-cisis.xml'"/>
 
     </pattern>
 </schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-cause-cesarienne-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.116"
+             revisionDate="2023-10-17T00:00:00+01:00"
+             version="2025-03-21T14:10:29+01:00">
+      <ConceptList>
+         <Concept code="MED-219"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Cause maternelle"/>
+         <Concept code="MED-210"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20100101000000"
+                  displayName="Cause fœtale"/>
+         <Concept code="MED-1272"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20231017000000"
+                  displayName="Cause materno-fœtale"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

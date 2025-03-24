@@ -667,9 +667,9 @@
               <text><reference value="#contexte"/></text>
               <statusCode code="completed"/>
               <effectiveTime nullFlavor="NI"/>
-              <!-- Contexte de l'examen - Valeur issue du JDV_ContexteExamenCCU_CISIS (1.2.250.1.213.1.1.5.722) -->
+              <!-- Contexte de l'examen - Valeur issue du jdv-contexte-examen-ccu-cisis (1.2.250.1.213.1.1.5.722) -->
               <value xsi:type="CD" code="MED-1210" displayName="Test HPV-HR de dépistage primaire réalisé sur prélèvement cervico-utérin"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
             </observation>
           </entry>
           <!-- [1..1] Entrée FR-Probleme : Papillovirus -->
@@ -882,14 +882,14 @@
                   <effectiveTime>
                     <high value="202401040735+0100" />
                   </effectiveTime>
-                  <!-- Localisation du prélèvement : valeur issue du JDV_LocalisationPrelevementCCU_CISIS (1.2.250.1.213.1.1.5.717) -->
+                  <!-- Localisation du prélèvement : valeur issue du jdv-localisation-prelevement-ccu-cisis (1.2.250.1.213.1.1.5.717) -->
                   <targetSiteCode code="76784001" displayName="vagin" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                   <!-- Echantillon prélevé -->
                   <participant typeCode="PRD">
                     <participantRole classCode="SPEC">
                       <!-- Identifiant de l'échantillon -->
                       <id root="1.2.250.1.71.4.2.1" extension="801234567893" />
-                      <!-- Nature de l'échantillon : valeur issue du JDV_HL7_SpecimenType_CISIS (2.16.840.1.113883.21.327) -->
+                      <!-- Nature de l'échantillon : valeur issue du jdv-specimen-type-cisis (1.2.250.1.213.1.1.5.819) -->
                       <playingEntity>
                         <code code="GENV" displayName="Prélèvement vaginal" codeSystem="2.16.840.1.113883.18.311">
                           <originalText><reference value="#prelevement-nature-echantillon" /></originalText>
@@ -924,7 +924,7 @@
                       </code>                      
                       <statusCode code="completed" />
                       <effectiveTime value="20240104155000+0100" />                      
-                      <!-- Résultat de recherche HPV - valeur issue du JDV_ResultatRechercheHPVCCU_CISIS (1.2.250.1.213.1.1.5.720) -->
+                      <!-- Résultat de recherche HPV - valeur issue du jdv-resultat-recherche-hpv-ccu-cisis (1.2.250.1.213.1.1.5.720) -->
                       <value xsi:type="CD" code="1269497006" displayName="ADN d'HPV-HR détecté"
                             codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
                         <originalText><reference value="#examen-01-resultat"/></originalText>
@@ -936,7 +936,7 @@
                       <participant typeCode="DEV">
                         <participantRole classCode="MANU">
                           <playingDevice>
-                            <!-- valeur issue du JDV_TrousseCCU_CISIS (1.2.250.1.213.1.1.5.729) -->
+                            <!-- valeur issue du jdv-trousse-ccu-cisis (1.2.250.1.213.1.1.5.729) -->
                             <code code="VHEDA1GUR01LX" displayName="ABBOTT - Alinity m HR HPV AMP Kit (09N15-090)"  
                               codeSystem="1.2.250.1.213.2.3.5" codeSystemName="ANSM – Table de codage commune des réactifs">
                               <originalText><reference value="#trousse"/></originalText>
@@ -949,8 +949,8 @@
                       <participant typeCode="CSM">
                         <participantRole classCode="ADTV">
                           <playingDevice>
-                            <!-- valeur issue du JDV_MilieuCytologieCCU_CISIS (1.2.250.1.213.1.1.5.723) -->
-                            <code code="GEN-303" displayName="Hologic ThinPrep PreservCyt"  codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+                            <!-- valeur issue du jdv-milieu-cytologie-ccu-cisis (1.2.250.1.213.1.1.5.723) -->
+                            <code code="GEN-303" displayName="Hologic ThinPrep PreservCyt"  codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
                               <originalText><reference value="#milieu"/></originalText>
                             </code>
                           </playingDevice>
@@ -967,7 +967,7 @@
                           <statusCode code="completed" />
                           <!-- Date du dernier test HPV réalisé -->
                           <effectiveTime value="20231204155000+0100" />
-                          <!-- Résultat du dernier test HPV - valeur issue du JDV_ResultatRechercheHPVCCU_CISIS (1.2.250.1.213.1.1.5.720)  -->
+                          <!-- Résultat du dernier test HPV - valeur issue du jdv-resultat-recherche-hpv-ccu-cisis (1.2.250.1.213.1.1.5.720)  -->
                           <value xsi:type="CD" code="77851000146104" codeSystem="2.16.840.1.113883.6.96" displayName="HPV-HR non détecté">
                             <originalText><reference value="#examen-01-resultat-ant"/></originalText>
                           </value>                          
