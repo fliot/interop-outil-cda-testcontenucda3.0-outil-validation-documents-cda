@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20240726120000"
+             dateValid="20210430120000"
+             description="JDV pour la méthode de la mesure de la température"
+             displayName="JDV_J152_MethodBodyTemperature_ENS.tabs"
+             effectiveDate="2021-04-30T12:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.607"
+             revisionDate="2024-07-26T12:00:00+01:00"
+             typeFichier="JDV"
+             urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J152-MethodBodyTemperature-ENS">
+      <ConceptList>
+         <Concept code="V03010102"
+                  codeSystem="1.2.250.1.213.2.68"
+                  displayName="THERMOMÈTRES NUMÉRIQUES"/>
+         <Concept code="V0301010202"
+                  codeSystem="1.2.250.1.213.2.68"
+                  displayName="THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
