@@ -20,7 +20,7 @@
 
         <!-- Vérifier le code de la difficulté : entryRelationsip FR-Simple-Observation [0..1] -->
         <assert test="not(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']) 
-            or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13' and not(cda:code/@code='MED-594')])=1 and
+            or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13' and not(cda:code/@code='417149000')])=1 and
             .//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']/cda:code[@code='GEN-023'])">
             [E_Acte_ActesEtInterventions_CRANEST] Erreur de conformité : L'entryRelationsip FR-Simple-Observation '1.3.6.1.4.1.19376.1.5.3.1.4.13' de la difficulté doit avoir la cardinalité [0..1] et l'élément code doit avoir l'attribut @code='GEN-023'.
         </assert>
@@ -28,12 +28,12 @@
         
     <rule context="cda:procedure[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.19' and cda:code/@code='GELD004']"> 
         <!-- Vérifier le code du Score Cormack : entryRelationsip FR-Simple-Observation [0..1] -->
-        <assert test="not(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']) or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13' and not(cda:code/@code='GEN-023')])=1 and .//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']/cda:code/@code='MED-594')">
-            [E_Acte_ActesEtInterventions_CRANEST] Erreur de conformité : L'entryRelationsip FR-Simple-Observation '1.3.6.1.4.1.19376.1.5.3.1.4.13' du Score Cormack doit avoir la cardinalité [0..1] et l'élément code doit avoir l'attribut @code='MED-594'. 
+        <assert test="not(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']) or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13' and not(cda:code/@code='GEN-023')])=1 and .//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']/cda:code/@code='417149000')">
+            [E_Acte_ActesEtInterventions_CRANEST] Erreur de conformité : L'entryRelationsip FR-Simple-Observation '1.3.6.1.4.1.19376.1.5.3.1.4.13' du Score Cormack doit avoir la cardinalité [0..1] et l'élément code doit avoir l'attribut @code='417149000'. 
         </assert>
         
         <!-- Vérifier le code de la difficulté d'intubation: entryRelationsip FR-Simple-Observation [0..1] -->
-        <assert test="not(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']) or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13'] and not(cda:code/@code='MED-594'))=1 and .//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']/cda:code[@code='GEN-023'])">
+        <assert test="not(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']) or (count(.//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13'] and not(cda:code/@code='417149000'))=1 and .//cda:observation[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.4.13']/cda:code[@code='GEN-023'])">
             [E_Acte_ActesEtInterventions_CRANEST] Erreur de conformité : L'entryRelationsip FR-Simple-Observation '1.3.6.1.4.1.19376.1.5.3.1.4.13' de la difficulté d'intubation doit avoir la cardinalité [0..1] et l'élément code doit avoir l'attribut @code='GEN-023'.
         </assert>
     </rule>

@@ -2602,7 +2602,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.27" />
               <id root="539F6992-10CC-4C2A-ABC2-A8A23D10DBE5" />
-              <code code="ORG-164" displayName="Education thérapeutique" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr" />
+              <code code="409073007" displayName="éducation" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
               <text><reference value="#pecReguliereEducation"/></text>
               <statusCode code="active" />
               <effectiveTime nullFlavor="NASK" />

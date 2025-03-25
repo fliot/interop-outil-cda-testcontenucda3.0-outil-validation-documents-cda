@@ -1174,8 +1174,8 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="3DAC7355-184B-4FC8-95E3-03146498F3DA"/>
-                  <code code="MED-594" displayName="Score de Cormack"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                  <code code="417149000" displayName="constatation concernant la classification de Cormack et Lehane"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
                   <text><reference value="#scoreCormack1"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1893,7 +1893,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="L0033" displayName="Diamètre" codeSystem="1.2.250.1.213.1.1.4.322"
+                  <code code="GEN-402" displayName="Diamètre" codeSystem="1.2.250.1.213.1.1.4.322"
                     codeSystemName="terminologie-cisis-fr"/>
                   <text><reference value="#DM-09-diametre"/></text>
                   <statusCode code="completed"/>
