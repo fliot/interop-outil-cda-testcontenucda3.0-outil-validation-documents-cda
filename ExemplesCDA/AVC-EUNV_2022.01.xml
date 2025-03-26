@@ -242,7 +242,7 @@
   <documentationOf>
     <serviceEvent classCode="ACT">
       <id root="5A931FFC-E3D3-4153-953F-4C314500A410" />
-      <code code="47039-3" displayName="Historique et examen physique aux admissions de l'hôpital" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+      <code code="69327-5" displayName="Suivi clinique et diagnostique du patient" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
       <effectiveTime>
         <low value="20181001111700+0100" />
         <high value="20181003111700+0100" />

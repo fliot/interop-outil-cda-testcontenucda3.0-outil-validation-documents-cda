@@ -18,13 +18,11 @@
         <assert test="./cda:code[@code='34133-9' and @codeSystem='2.16.840.1.113883.6.1']"> 
             [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "code" doit avoir les attributs @code="77436-4" et @codeSystem="2.16.840.1.113883.6.1". 
         </assert>
-    </rule>
-    <rule context="cda:ClinicalDocument/cda:participant">
-        <assert test="./@typeCode='INF'"> 
-            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" doit avoir l'attribut @typeCode='INF'.
+        <assert test="cda:participant[@typeCode='INF'] and cda:participant/cda:functionCode[@code='PCP']"> 
+            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" avec l'attribut @typeCode='INF' doit avoir l'élément "participant/functionCode" avec l'attribut @code='PCP' pour le médecin traitant
         </assert>
-        <assert test="./cda:functionCode[@code='PCP' or @code='ATTPHYS']"> 
-            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant/functionCode" doit avoir l'attribut @code='PCP' pour le médecin traitant et @code='ATTPHYS' pour le Cardiologue traitant.
+        <assert test="cda:participant[@typeCode='PRF'] and cda:participant/cda:functionCode[@code='ATTPHYS']"> 
+            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" avec l'attribut @typeCode='PRF' doit avoir l'élément "participant/functionCode" avec l'attribut @code='ATTPHYS' pour le Cardiologue traitant
         </assert>
     </rule>
     
