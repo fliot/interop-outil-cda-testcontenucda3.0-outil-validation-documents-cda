@@ -43,7 +43,7 @@
   <!-- Conformité spécifications au CI-SIS -->
   <templateId root="1.2.250.1.213.1.1.1.1"/>
   <!-- Conformité au modèle SDM-MR (Set de Données Minimum Maladies Rares) + numéro de version -->
-  <templateId root="1.2.250.1.213.1.1.1.30" extension="2024.01"/>
+  <templateId root="1.2.250.1.213.1.1.1.30" extension="2025.01"/>
   <!-- Identifiant du document -->
   <id root="1.2.250.1.213.1.1.1.30.2024.2.1"/>
   <!-- Type de document -->
@@ -1195,7 +1195,9 @@
               <id root="E33021FA-1388-4C0E-8200-4BC2DDF9EDC9"/>
               <code nullFlavor="NA"/>
               <statusCode code="active"/>
-              <effectiveTime nullFlavor="NA"/> 
+              <effectiveTime>
+                <low nullFlavor="NA"/>
+              </effectiveTime> 
               <!-- [1..*] Entrée FR-Probleme = Diagnostic MR -->
               <entryRelationship typeCode="SUBJ" inversionInd="false">
                 <observation classCode="OBS" moodCode="EVN">
@@ -1278,7 +1280,7 @@
                       <text><reference value="#description_clinique"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime value="20181213"/>
-                      <!-- valeur issue du JDV_Orpha_Groupes-Maladies (1.2.250.1.213.2.49.2) ou HPO (1.2.250.1.213.2.51) ou CIM-10 (2.16.840.1.113883.6.3) -->
+                      <!-- valeur issue du JDV_Orpha_Groupes-Maladies (1.2.250.1.213.2.49.2) ou HPO (2.16.840.1.113883.6.339) ou CIM-10 (2.16.840.1.113883.6.3) -->
                       <value xsi:type="CD" code="98006" displayName="Maladie neurologique rare"
                         codeSystem="1.2.250.1.213.2.49.2" codeSystemName="JDV_Orpha_Groupes-Maladies"/>
                     </observation>
