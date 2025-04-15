@@ -21,7 +21,13 @@ jobs:
           repository: M-Priour/validateCDA
           path: validateCDA
 
+      - name: Configure Git
+        run: git config --system core.longpaths true
+
+
+
       # Get REPO
+      
       - name: get REPO
         uses: actions/checkout@v3
         with:      
