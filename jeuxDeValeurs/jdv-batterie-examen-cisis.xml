@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-batterie-examen-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.102"
+             name="JdvBatterieExamenCisis"
              revisionDate="2010-01-01T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV Batterie Examen CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="GEN-078"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -23,7 +25,7 @@
          <Concept code="51659-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20100101000000"
-                  displayName="Hépatite B virus surface Ag:Présence/Seuil:Ponctuel:Liquide biologique:Qualitatif:"/>
+                  displayName="Hépatite B virus surface Ag [Présence/Seuil] Liquide biologique ; Qualitatif"/>
          <Concept code="GEN-079"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"

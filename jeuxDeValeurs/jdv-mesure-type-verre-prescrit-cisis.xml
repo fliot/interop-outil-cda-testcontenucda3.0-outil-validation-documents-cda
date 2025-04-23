@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-mesure-type-verre-prescrit-cisis"
              effectiveDate="2021-09-24T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.652"
+             name="JdvMesureTypeVerrePrescritCisis"
              revisionDate="2021-09-24T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Mesure Type Verre Prescrit CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="C80261"
                   codeSystem="2.16.840.1.113883.3.26.1.1"

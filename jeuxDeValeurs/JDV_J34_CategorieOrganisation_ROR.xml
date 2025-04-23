@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250328120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR.tabs"
              effectiveDate="2017-10-13T12:00:00+01:00"
              id="1.2.250.1.213.3.3.40"
-             revisionDate="2025-01-31T12:00:00+01:00"
+             revisionDate="2025-03-28T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
       <ConceptList>
@@ -69,7 +69,9 @@
          <Concept code="19"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unités Soins Etudes"/>
-         <Concept code="20" codeSystem="1.2.250.1.213.3.3.39" displayName="Urgences"/>
+         <Concept code="20"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité d'urgences"/>
          <Concept code="21"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"/>
@@ -282,7 +284,7 @@
                   displayName="Equipe opérationnelle d'hygiène (EOH)"/>
          <Concept code="92"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de soins non-programmés"/>
+                  displayName="Soins non programmés de ville"/>
          <Concept code="93"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Lits halte soins santé (LHSS)"/>
@@ -417,7 +419,7 @@
                   displayName="Maison sport-santé"/>
          <Concept code="138"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre de Soins Non-Programmés (CSNP)"/>
+                  displayName="Unité de soins non programmés en établissement de santé"/>
          <Concept code="139"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de soins intensifs polyvalents (USIP) non contiguë"/>
@@ -546,7 +548,7 @@
                   displayName="Cabinet de ville d'allergologie"/>
          <Concept code="181"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Cabinet de ville d'anatomo-cytho-pathologie"/>
+                  displayName="Cabinet de ville d'anatomo-cytopathologie"/>
          <Concept code="182"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville d'anesthésie-réanimation"/>
@@ -693,7 +695,7 @@
                   displayName="Cabinet dentaire d'orthopédie dento-faciale"/>
          <Concept code="230"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière d'anatomo-cytho-pathologie"/>
+                  displayName="Unité hospitalière d'anatomo-cytopathologie"/>
          <Concept code="231"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de médecine du sport"/>
@@ -733,6 +735,39 @@
          <Concept code="243"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville de médecine intensive et réanimation (MIR)"/>
+         <Concept code="244"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur"/>
+         <Concept code="245"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre expert en maladies rares"/>
+         <Concept code="246"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Service d'Aide Médicale Urgente (SAMU)"/>
+         <Concept code="247"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Structure Mobile d'Urgence et de Réanimation (SMUR)"/>
+         <Concept code="248"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de biologie"/>
+         <Concept code="249"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de Soins de Longue Durée (USLD)"/>
+         <Concept code="250"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centres Gratuits d'Information, de Dépistage et de Diagnostic (CeGIDD)"/>
+         <Concept code="251"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre Périnatal de Proximité (CPP)"/>
+         <Concept code="252"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipes Mobiles de Soins Palliatifs (EMSP)"/>
+         <Concept code="253"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe Ressource Régionale de Soins Palliatifs Pédiatriques (ERRSPP)"/>
+         <Concept code="254"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de surveillance continue"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

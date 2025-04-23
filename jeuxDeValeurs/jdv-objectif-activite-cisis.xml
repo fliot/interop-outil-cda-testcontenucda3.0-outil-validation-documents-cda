@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-objectif-activite-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.41"
-             revisionDate="2025-03-05T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             name="JdvObjectifActiviteCisis"
+             revisionDate="2025-04-15T00:00:00+01:00"
+             title="JDV Objectif Activite CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="409073007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -24,10 +26,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250224000000"
                   displayName="diagnostic prénatal"/>
-         <Concept code="MED-100"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Diagnostic préimplantatoire"/>
+         <Concept code="426417003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250415000000"
+                  displayName="FIV avec diagnostic génétique préimplantatoire"/>
          <Concept code="225297008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250305000000"
@@ -48,14 +50,14 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250305000000"
                   displayName="procédure"/>
-         <Concept code="ORG-123"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Consultation de transition enfant/adulte"/>
-         <Concept code="MED-1289"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20240806000000"
-                  displayName="Rendu de résultat diagnostic génétique"/>
+         <Concept code="1365979000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250415000000"
+                  displayName="consultation pour préparer la transition enfant/adulte"/>
+         <Concept code="310867007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250415000000"
+                  displayName="informer un(e) patient(e) du diagnostic"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

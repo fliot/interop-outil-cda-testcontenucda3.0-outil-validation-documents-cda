@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-type-de-verre-prescrit-cisis"
              effectiveDate="2021-05-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.625"
+             name="JdvTypeDeVerrePrescritCisis"
              revisionDate="2021-05-07T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Type De Verre Prescrit CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="MED-905"
                   codeSystem="1.2.250.1.213.1.1.4.322"

@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-contre-indication-cisis"
              effectiveDate="2021-12-16T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.659"
+             name="JdvContre-indicationCisis"
              revisionDate="2023-04-28T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Contre-indication CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="77386006"
                   codeSystem="2.16.840.1.113883.6.96"

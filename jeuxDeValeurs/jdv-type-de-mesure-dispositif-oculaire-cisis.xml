@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-type-de-mesure-dispositif-oculaire-cisis"
              effectiveDate="2021-06-22T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.643"
+             name="JdvTypeDeMesureDispositifOculaireCisis"
              revisionDate="2024-07-18T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Type De Mesure Dispositif Oculaire CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="MED-1179"
                   codeSystem="1.2.250.1.213.1.1.4.322"

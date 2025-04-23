@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-severite-observation-cisis"
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.675"
+             name="JdvSeveriteObservationCisis"
              revisionDate="2022-11-14T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Severite Observation CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="442452003"
                   codeSystem="2.16.840.1.113883.6.96"

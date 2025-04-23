@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-ufcv-code-entree-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.19"
+             name="JdvUfcvCodeEntreeCisis"
              revisionDate="2025-03-13T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV UFCV Code Entree CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="GEN-382"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -43,7 +45,7 @@
          <Concept code="10230-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
-                  displayName="Fraction d'éjection:Fraction volumique:Ponctuel:Ventricule gauche:Numérique:"/>
+                  displayName="Fraction d'éjection [Fraction volumique] Ventricule gauche ; Numérique"/>
          <Concept code="85734-2"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20240315000000"
@@ -139,7 +141,7 @@
          <Concept code="39111-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20231114000000"
-                  displayName="Localisation"/>
+                  displayName="Localisation anatomique"/>
          <Concept code="GEN-408"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20250313000000"

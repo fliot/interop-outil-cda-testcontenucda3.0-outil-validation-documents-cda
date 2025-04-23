@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-ressource-utilisee-cisis"
              effectiveDate="2024-09-18T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.807"
+             name="JdvRessourceUtiliseeCisis"
              revisionDate="2024-09-18T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Ressource Utilisee CISIS"
+             version="2025-04-17T14:49:41+01:00">
       <ConceptList>
          <Concept code="ORG-206"
                   codeSystem="1.2.250.1.213.1.1.4.322"

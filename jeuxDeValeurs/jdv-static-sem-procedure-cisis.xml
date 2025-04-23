@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-static-sem-procedure-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.756"
+             name="JdvStaticSemProcedureCisis"
              revisionDate="2024-09-17T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Static Sem Procedure CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="JQQP003"
                   codeSystem="1.2.250.1.215.300.1"

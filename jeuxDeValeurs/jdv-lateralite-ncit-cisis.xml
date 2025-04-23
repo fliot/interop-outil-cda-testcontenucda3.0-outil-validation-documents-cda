@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-lateralite-ncit-cisis"
              effectiveDate="2021-03-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.586"
+             name="JdvLateraliteNcitCisis"
              revisionDate="2021-03-01T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV Lateralite Ncit CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="C25228"
                   codeSystem="2.16.840.1.113883.3.26.1.1"

@@ -309,6 +309,13 @@
         <value lang="nl-nl">Veilig e-mailadres</value>
         <value lang="fr-fr">Adresse de messagerie</value>
     </translation>
+    <translation key="http">
+        <comment>Label: Web</comment>
+        <value lang="en-us">Web</value>
+        <value lang="de-ch">Web</value>
+        <value lang="nl-nl">Web</value>
+        <value lang="fr-fr">Web</value>
+    </translation>
     <translation key="emailSecure">
         <comment>Label: E-mail</comment>
         <value lang="en-us">Secure email</value>

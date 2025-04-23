@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-type-de-mesure-de-refraction-cisis"
              effectiveDate="2021-05-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.641"
+             name="JdvTypeDeMesureDeRefractionCisis"
              revisionDate="2022-09-19T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Type De Mesure De Refraction CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="95290-3"
                   codeSystem="2.16.840.1.113883.6.1"

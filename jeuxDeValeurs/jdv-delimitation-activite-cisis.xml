@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-delimitation-activite-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.68"
+             name="JdvDelimitationActiviteCisis"
              revisionDate="2010-01-01T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV Delimitation Activite CISIS"
+             version="2025-04-17T14:49:41+01:00">
       <ConceptList>
          <Concept code="45537-8"
                   codeSystem="2.16.840.1.113883.6.1"

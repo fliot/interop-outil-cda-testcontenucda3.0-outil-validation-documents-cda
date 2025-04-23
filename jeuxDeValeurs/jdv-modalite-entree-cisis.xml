@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-modalite-entree-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.73"
+             name="JdvModaliteEntreeCisis"
              revisionDate="2024-09-10T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Modalite Entree CISIS"
+             version="2025-04-17T14:49:41+01:00">
       <ConceptList>
          <Concept code="183452005"
                   codeSystem="2.16.840.1.113883.6.96"

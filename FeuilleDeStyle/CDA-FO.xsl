@@ -501,7 +501,8 @@
     <xsl:param name="skip-ids"/>
     <xsl:variable name="skip-ids-var" select="concat(',', $skip-ids, ',')"/>
 
-    <xsl:variable name="ins" select="
+    <xsl:variable name="ins"
+        select="
             translate(hl7:id[@root = '1.2.250.1.213.1.4.8']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
             translate(hl7:id[@root = '1.2.250.1.213.1.4.9']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
             translate(hl7:id[@root = '1.2.250.1.213.1.4.10']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
@@ -999,62 +1000,62 @@
                 </style>
                     <xsl:comment> Stylecode CSS </xsl:comment>
                     <style type="text/css" media="all">
-                        .Bold {
+                        .Bold{
                             font-weight: bold;
                         }
-                        .Italics {
+                        .Italics{
                             font-style: italic;
                         }
-                        .Underline {
+                        .Underline{
                             text-decoration: underline;
                         }
-                        .Emphasis {
+                        .Emphasis{
                             font-weight: bold;
                             font-style: italic;
                         }
-                        .Lrule {
+                        .Lrule{
                             border-left-width: 2px;
                             border-left-style: solid;
                         }
-                        .Rrule {
+                        .Rrule{
                             border-right-width: 2px;
                             border-right-style: solid;
                         }
-                        .Toprule {
+                        .Toprule{
                             border-top-width: 2px;
                             border-top-style: solid;
                         }
-                        .Botrule {
+                        .Botrule{
                             border-bottom-width: 2px;
                             border-bottom-style: solid;
                         }
-                        .Arabic {
+                        .Arabic{
                             list-style: arabic;
                         }
-                        .LittleRoman {
+                        .LittleRoman{
                             list-style: lower-roman;
                         }
-                        .BigRoman {
+                        .BigRoman{
                             list-style: upper-roman;
                         }
-                        .LittleAlpha {
+                        .LittleAlpha{
                             list-style: lower-alpha;
                         }
-                        .BigAlpha {
+                        .BigAlpha{
                             list-style: upper-alpha
                         }
-                        .Disc {
+                        .Disc{
                             list-style: disc;
                         }
-                        .Circle {
+                        .Circle{
                             list-style: circle;
                         }
-                        .Square {
+                        .Square{
                             list-style: square;
                         }</style>
                     <xsl:comment> Section Button Toggle CSS </xsl:comment>
                     <style type="text/css" media="screen">
-                        div.button.expandCollapse {
+                        div.button.expandCollapse{
                             float: left;
                             margin-right: 10px;
                             cursor: pointer;
@@ -1063,13 +1064,13 @@
                     <style type="text/css" media="print">
                         button,
                         div.button,
-                        #buttontable {
+                        #buttontable{
                             display: none;
                         }
-                        div.section-content {
+                        div.section-content{
                             display: block !important;
                         }
-                        .print_visible {
+                        .print_visible{
                             display: block;
                             float: none;
                             margin-right: 0;
@@ -4989,7 +4990,8 @@
                                         />
                                     </xsl:call-template>
                                 </xsl:if>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:relatedSubject/hl7:subject/hl7:raceCode |
                                         hl7:relatedSubject/hl7:subject/sdtc:raceCode">
                                     <xsl:text>, </xsl:text>
@@ -5003,7 +5005,8 @@
                                         />
                                     </xsl:call-template>
                                 </xsl:if>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:relatedSubject/hl7:subject/hl7:ethnicGroupCode |
                                         hl7:relatedSubject/hl7:subject/sdtc:ethnicGroupCode">
                                     <xsl:text>, </xsl:text>
@@ -5077,7 +5080,8 @@
                                     />
                                 </xsl:call-template>
                             </xsl:if>
-                            <xsl:if test="
+                            <xsl:if
+                                test="
                                     hl7:relatedSubject/hl7:subject/hl7:raceCode |
                                     hl7:relatedSubject/hl7:subject/sdtc:raceCode">
                                 <xsl:text>, </xsl:text>
@@ -5091,7 +5095,8 @@
                                     />
                                 </xsl:call-template>
                             </xsl:if>
-                            <xsl:if test="
+                            <xsl:if
+                                test="
                                     hl7:relatedSubject/hl7:subject/hl7:ethnicGroupCode |
                                     hl7:relatedSubject/hl7:subject/sdtc:ethnicGroupCode">
                                 <xsl:text>, </xsl:text>
@@ -6407,7 +6412,8 @@
                                 <xsl:text>: </xsl:text>
                                 <xsl:for-each
                                     select="//hl7:ClinicalDocument/hl7:recordTarget/hl7:patientRole">
-                                    <xsl:if test="
+                                    <xsl:if
+                                        test="
                                             hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime'] or
                                             hl7:patient/hl7:birthTime or hl7:patient">
                                         <xsl:call-template
@@ -6596,10 +6602,10 @@
                                     </xsl:call-template>
                                 </span>
                             </td>
-                            <xsl:if
-                                test="hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'">
+                            <xsl:if test="hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'">
                                 <td rowspan="{$row}" class="td_seconde">
-                                    <xsl:variable name="ins" select="
+                                    <xsl:variable name="ins"
+                                        select="
                                             translate(hl7:id[@root = '1.2.250.1.213.1.4.8']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
                                             translate(hl7:id[@root = '1.2.250.1.213.1.4.9']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
                                             translate(hl7:id[@root = '1.2.250.1.213.1.4.10']/@extension, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') or
@@ -6633,18 +6639,21 @@
                                     </xsl:variable>
                                     <xsl:variable name="country"
                                         select="translate(hl7:patient/hl7:birthplace/hl7:place/hl7:addr/hl7:county, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
-                                    <xsl:variable name="matrix" select="
+                                    <xsl:variable name="matrix"
+                                        select="
                                             concat('IS010000000000000000000000', 'S1',
                                             $ins, 'S2', '1.2.250.1.213.1.4.8&lt;', 'GS&gt;S3',
                                             $name, '&lt;GS&gt;S4', $given, '&lt;GS&gt;S5', $sex, 'S6', $datebirth, 'S7', $country)"/>
 
-                                    <xsl:variable name="matrixOpt" select="
+                                    <xsl:variable name="matrixOpt"
+                                        select="
                                             concat('IS010000000000000000000000', 'S1',
                                             $ins, 'S2', '1.2.250.1.213.1.4.8', 'GS', 'S3',
                                             $name, 'GS', 'S4', $given, 'GS', 'S5', $sex, 'S6', $datebirth)"/>
                                     <xsl:if
                                         test="not(ancestor::hl7:ClinicalDocument//hl7:templateId[@root = '1.2.250.1.213.1.1.2.223'])">
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 string-length($ins) > 0 and string-length($name) > 0 and string-length($given) > 0
                                                 and string-length($sex) > 0 and string-length($datebirth) > 0 and string-length($country) > 0">
                                             <div id="element" value="{$matrix}" class="barcodeStyle"/>
@@ -6654,7 +6663,8 @@
                                             </div>
                                         </xsl:if>
 
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 string-length($ins) > 0 and string-length($name) > 0 and string-length($given) > 0 and string-length($sex) > 0
                                                 and string-length($datebirth) > 0 and not($country)">
                                             <div id="element" value="{$matrix}" class="barcodeStyle"/>
@@ -6685,8 +6695,7 @@
                                 </td>
                             </xsl:if>
                         </tr>
-                        <xsl:if
-                            test="hl7:patient/hl7:name[1]/hl7:given[@qualifier != &apos;CL&apos; or not(@qualifier)]">
+                        <xsl:if test="hl7:patient/hl7:name[1]/hl7:given[@qualifier != &apos;CL&apos; or not(@qualifier)]">
                             <tr>
                                 <td class="td_first">
                                     <span class="span_label">
@@ -6748,8 +6757,7 @@
                                 </td>
                             </tr>
                         </xsl:if>
-                        <xsl:if
-                            test="hl7:patient/hl7:birthTime or hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime']">
+                        <xsl:if test="hl7:patient/hl7:birthTime or hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime']">
                             <tr>
                                 <td class="td_first">
                                     <span class="span_label">
@@ -6865,8 +6873,7 @@
                                 </td>
                             </tr>
                         </xsl:if>
-                        <xsl:if
-                            test="hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'">
+                        <xsl:if test="hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'">
                             <tr>
                                 <td class="td_first">
                                     <span class="span_label">
@@ -6915,7 +6922,8 @@
                             </tr>
                         </xsl:if>
 
-                        <xsl:if test="
+                        <xsl:if
+                            test="
                                 not(hl7:id/@root = '1.2.250.1.213.1.4.8' or
                                 hl7:id/@root = '1.2.250.1.213.1.4.9' or
                                 hl7:id/@root = '1.2.250.1.213.1.4.10' or
@@ -6965,7 +6973,8 @@
                             </tr>
                         </xsl:if>
 
-                        <xsl:if test="
+                        <xsl:if
+                            test="
                                 not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                 or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7') and (hl7:id/@root = '1.2.250.1.213.1.4.12')">
                             <tr>
@@ -6995,7 +7004,8 @@
                             </tr>
                         </xsl:if>
 
-                        <xsl:if test="
+                        <xsl:if
+                            test="
                                 not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                 or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7' or hl7:id/@root = '1.2.250.1.213.1.4.12')
                                 and (hl7:id/@root = '1.2.250.1.213.1.4.13' or hl7:id/@root = '1.2.250.1.213.1.4.14')">
@@ -7033,7 +7043,8 @@
                             </tr>
                         </xsl:if>
 
-                        <xsl:if test="
+                        <xsl:if
+                            test="
                                 not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                 or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7' or hl7:id/@root = '1.2.250.1.213.1.4.12'
                                 or hl7:id/@root = '1.2.250.1.213.1.4.13' or hl7:id/@root = '1.2.250.1.213.1.4.14')">
@@ -7109,7 +7120,8 @@
             <table class="first_table">
                 <tbody>
                     <!-- Patient row -->
-                    <xsl:if test="
+                    <xsl:if
+                        test="
                             hl7:componentOf/hl7:encompassingEncounter/hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:name
                             or hl7:encompassingEncounter/hl7:effectiveTime">
                         <tr>
@@ -7121,7 +7133,8 @@
                                 </span>
                             </td>
                             <td class="td_seconde">
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:componentOf/hl7:encompassingEncounter/hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:name
                                         ">
                                     <span class="span_value">
@@ -7564,7 +7577,8 @@
                                     </fo:table-row>
                                 </xsl:if>
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         not(hl7:id/@root = '1.2.250.1.213.1.4.8' or
                                         hl7:id/@root = '1.2.250.1.213.1.4.9' or
                                         hl7:id/@root = '1.2.250.1.213.1.4.10' or
@@ -7615,7 +7629,8 @@
                                 </xsl:if>
 
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                         or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7') and (hl7:id/@root = '1.2.250.1.213.1.4.12')">
                                     <fo:table-row>
@@ -7646,7 +7661,8 @@
                                 </xsl:if>
 
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                         or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7' or hl7:id/@root = '1.2.250.1.213.1.4.12')
                                         and (hl7:id/@root = '1.2.250.1.213.1.4.13' or hl7:id/@root = '1.2.250.1.213.1.4.14')">
@@ -7684,7 +7700,8 @@
                                     </fo:table-row>
                                 </xsl:if>
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         not(hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                         or hl7:id/@root = '1.2.250.1.213.1.4.2' or hl7:id/@root = '1.2.250.1.213.1.4.6' or hl7:id/@root = '1.2.250.1.213.1.4.7' or hl7:id/@root = '1.2.250.1.213.1.4.12'
                                         or hl7:id/@root = '1.2.250.1.213.1.4.13' or hl7:id/@root = '1.2.250.1.213.1.4.14')">
@@ -8300,10 +8317,11 @@
                 <xsl:if test="(contains($vendor, 'Saxonica'))">
                     <fo:block line-height="0.1cm">&#160;</fo:block>
                 </xsl:if>
-                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
-                    <xsl:variable name="displayName2" 
+                <xsl:if
+                    test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                    <xsl:variable name="displayName2"
                         select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
-                    <xsl:variable name="displayName1" 
+                    <xsl:variable name="displayName1"
                         select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
                     <xsl:value-of select="$displayName2"/>
                     <xsl:text> (</xsl:text>
@@ -8316,10 +8334,11 @@
                         <fo:block line-height="0.1cm">&#160;</fo:block>
                     </xsl:if>
                 </xsl:if>
-                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
-                    <xsl:variable name="displayName4" 
+                <xsl:if
+                    test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                    <xsl:variable name="displayName4"
                         select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
-                    <xsl:variable name="displayName3" 
+                    <xsl:variable name="displayName3"
                         select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
                     <xsl:value-of select="$displayName4"/>
                     <xsl:text> (</xsl:text>
@@ -8553,7 +8572,8 @@
     </xd:doc>
     <!-- Extension FR -->
     <xsl:template name="componentOf">
-        <xsl:if test="hl7:componentOf/hl7:encompassingEncounter/hl7:code and hl7:componentOf/hl7:encompassingEncounter/hl7:effectiveTime and not(hl7:componentOf/hl7:encompassingEncounter/hl7:effectiveTime/@nullFlavor = 'NA')">
+        <xsl:if
+            test="hl7:componentOf/hl7:encompassingEncounter/hl7:code and hl7:componentOf/hl7:encompassingEncounter/hl7:effectiveTime and not(hl7:componentOf/hl7:encompassingEncounter/hl7:effectiveTime/@nullFlavor = 'NA')">
             <xsl:if test="not(contains($vendor, 'Saxonica'))">
                 <br/>
                 <br/>
@@ -8719,7 +8739,8 @@
                                                   select="hl7:responsibleParty/hl7:assignedEntity"/>
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -8736,7 +8757,8 @@
                                                   select="hl7:responsibleParty/hl7:assignedEntity"/>
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -8748,7 +8770,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8759,7 +8782,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="show-telecom-travail">
@@ -8771,7 +8795,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8782,7 +8807,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="show-telecom-urgence">
@@ -8794,7 +8820,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8804,7 +8831,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template
@@ -8816,7 +8844,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8827,7 +8856,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="show-telInfo-patient">
@@ -8838,7 +8868,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8849,7 +8880,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template
@@ -8862,7 +8894,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8873,7 +8906,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template
@@ -8886,7 +8920,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8897,7 +8932,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template
@@ -8910,7 +8946,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8921,7 +8958,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template
@@ -8934,7 +8972,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -8945,7 +8984,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template
@@ -9040,7 +9080,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -9058,7 +9099,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -9071,7 +9113,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9082,7 +9125,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="show-telecom-travail">
@@ -9094,7 +9138,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9105,7 +9150,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="show-telecom-urgence">
@@ -9117,7 +9163,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9127,7 +9174,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template
@@ -9140,7 +9188,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9151,7 +9200,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="show-telInfo-patient">
@@ -9163,7 +9213,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9174,7 +9225,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template
@@ -9187,7 +9239,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9198,7 +9251,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template
@@ -9211,7 +9265,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9222,7 +9277,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template
@@ -9235,7 +9291,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9246,7 +9303,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template
@@ -9259,7 +9317,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -9270,7 +9329,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template
@@ -9492,7 +9552,8 @@
                                                   select="hl7:responsibleParty/hl7:assignedEntity"/>
                                                   </xsl:call-template>
                                                 </xsl:variable>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom
                                                         and string-length($telExist) > 0">
@@ -9510,7 +9571,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'WP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9529,7 +9591,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9548,7 +9611,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9566,7 +9630,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9584,7 +9649,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9604,7 +9670,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9624,7 +9691,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9644,7 +9712,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9664,7 +9733,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9755,7 +9825,8 @@
                                                   />
                                                   </xsl:call-template>
                                                 </xsl:variable>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                         and string-length($telExist) > 0">
@@ -9774,7 +9845,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9793,7 +9865,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9812,7 +9885,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9831,7 +9905,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9850,7 +9925,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9870,7 +9946,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9890,7 +9967,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9910,7 +9988,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -9930,7 +10009,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:responsibleParty/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -10111,10 +10191,11 @@
                                                 <br/>
                                             </xsl:if>
                                         </span>
-                                        <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
-                                            <xsl:variable name="displayName2" 
+                                        <xsl:if
+                                            test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                                            <xsl:variable name="displayName2"
                                                 select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
-                                            <xsl:variable name="displayName1" 
+                                            <xsl:variable name="displayName1"
                                                 select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
                                             <span class="span_label">
                                                 <xsl:value-of select="$displayName2"/>
@@ -10131,10 +10212,11 @@
                                                 <fo:block line-height="0.1cm">&#160;</fo:block>
                                             </xsl:if>
                                         </xsl:if>
-                                        <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
-                                            <xsl:variable name="displayName4" 
+                                        <xsl:if
+                                            test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                                            <xsl:variable name="displayName4"
                                                 select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
-                                            <xsl:variable name="displayName3" 
+                                            <xsl:variable name="displayName3"
                                                 select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
                                             <span class="span_label">
                                                 <xsl:value-of select="$displayName4"/>
@@ -10289,7 +10371,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -10307,7 +10390,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -10341,7 +10425,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10352,7 +10437,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="show-telecom-urgence">
@@ -10364,7 +10450,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10374,7 +10461,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template
@@ -10387,7 +10475,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10398,7 +10487,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="show-telInfo-patient">
@@ -10410,7 +10500,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10421,7 +10512,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template
@@ -10434,7 +10526,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10445,7 +10538,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template
@@ -10458,7 +10552,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10469,7 +10564,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template
@@ -10482,7 +10578,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10493,7 +10590,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template
@@ -10506,7 +10604,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10517,7 +10616,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template
@@ -10612,7 +10712,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -10630,7 +10731,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
@@ -10643,7 +10745,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10654,7 +10757,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                 <xsl:call-template name="show-telecom-travail">
@@ -10666,7 +10770,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10677,7 +10782,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                 <xsl:call-template name="show-telecom-urgence">
@@ -10689,7 +10795,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10699,7 +10806,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                 <xsl:call-template
@@ -10712,7 +10820,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10723,7 +10832,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                 <xsl:call-template name="show-telInfo-patient">
@@ -10735,7 +10845,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10746,7 +10857,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                 <xsl:call-template
@@ -10759,7 +10871,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10770,7 +10883,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                 <xsl:call-template
@@ -10783,7 +10897,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10794,7 +10909,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                 <xsl:call-template
@@ -10807,7 +10923,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10818,7 +10935,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                 <xsl:call-template
@@ -10831,7 +10949,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="color: black; font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template name="getLocalizedString">
@@ -10842,7 +10961,8 @@
                                             </xsl:if>
                                         </span>
                                         <span style="font-weight: normal;">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                     and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                 <xsl:call-template
@@ -10963,43 +11083,45 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:block line-height="0.1cm">&#160;</fo:block>
-                                                
-                                                
-                                                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
-                                                    <xsl:variable name="displayName2" 
-                                                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
-                                                    <xsl:variable name="displayName1" 
-                                                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
-                                                        <xsl:value-of select="$displayName2"/>
-                                                    <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                        <xsl:text> (</xsl:text>
-                                                        <xsl:value-of select="$displayName1"/>
-                                                        <xsl:text>)</xsl:text>
-                                                    </fo:inline>
-                                                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
-                                                        <br/>
-                                                    </xsl:if>
-                                                    <xsl:if test="(contains($vendor, 'Saxonica'))">
-                                                        <fo:block line-height="0.1cm">&#160;</fo:block>
-                                                    </xsl:if>
+
+
+                                                <xsl:if
+                                                  test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '121139'">
+                                                  <xsl:variable name="displayName2"
+                                                  select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '121139']/@displayName"/>
+                                                  <xsl:variable name="displayName1"
+                                                  select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '121139']]/@displayName)[1]"/>
+                                                  <xsl:value-of select="$displayName2"/>
+                                                  <fo:inline xsl:use-attribute-sets="myBlock11">
+                                                  <xsl:text> (</xsl:text>
+                                                  <xsl:value-of select="$displayName1"/>
+                                                  <xsl:text>)</xsl:text>
+                                                  </fo:inline>
+                                                  <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                  <br/>
+                                                  </xsl:if>
+                                                  <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                  <fo:block line-height="0.1cm">&#160;</fo:block>
+                                                  </xsl:if>
                                                 </xsl:if>
-                                                <xsl:if test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
-                                                    <xsl:variable name="displayName4" 
-                                                        select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
-                                                    <xsl:variable name="displayName3" 
-                                                        select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
-                                                        <xsl:value-of select="$displayName4"/>
-                                                    <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                        <xsl:text> (</xsl:text>
-                                                        <xsl:value-of select="$displayName3"/>
-                                                        <xsl:text>)</xsl:text>
-                                                    </fo:inline>
-                                                    <xsl:if test="not(contains($vendor, 'Saxonica'))">
-                                                        <br/>
-                                                    </xsl:if>
-                                                    <xsl:if test="(contains($vendor, 'Saxonica'))">
-                                                        <fo:block line-height="0.1cm">&#160;</fo:block>
-                                                    </xsl:if>
+                                                <xsl:if
+                                                  test="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name/@code = '39111-0'">
+                                                  <xsl:variable name="displayName4"
+                                                  select="hl7:serviceEvent/hl7:code/hl7:translation/hl7:qualifier/hl7:name[@code = '39111-0']/@displayName"/>
+                                                  <xsl:variable name="displayName3"
+                                                  select="(hl7:serviceEvent/hl7:code/hl7:translation[hl7:qualifier/hl7:name[@code = '39111-0']]/@displayName)[1]"/>
+                                                  <xsl:value-of select="$displayName4"/>
+                                                  <fo:inline xsl:use-attribute-sets="myBlock11">
+                                                  <xsl:text> (</xsl:text>
+                                                  <xsl:value-of select="$displayName3"/>
+                                                  <xsl:text>)</xsl:text>
+                                                  </fo:inline>
+                                                  <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                                  <br/>
+                                                  </xsl:if>
+                                                  <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                                  <fo:block line-height="0.1cm">&#160;</fo:block>
+                                                  </xsl:if>
                                                 </xsl:if>
                                                 <fo:inline xsl:use-attribute-sets="myBlock10">
                                                   <xsl:if test="hl7:serviceEvent/hl7:id">
@@ -11142,7 +11264,8 @@
                                                   />
                                                   </xsl:call-template>
                                                   </xsl:variable>
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom
                                                             and string-length($telExist) > 0">
@@ -11160,7 +11283,8 @@
                                                   />
                                                   </xsl:call-template>
                                                   </xsl:variable>
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom
                                                             and string-length($telExist) > 0">
@@ -11173,7 +11297,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'WP'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11184,7 +11309,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'WP'">
                                                   <xsl:call-template name="show-telecom-travail">
@@ -11196,7 +11322,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11207,7 +11334,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'EC'">
                                                   <xsl:call-template name="show-telecom-urgence">
@@ -11219,7 +11347,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11229,7 +11358,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'MC'">
                                                   <xsl:call-template
@@ -11242,7 +11372,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11253,7 +11384,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'H'">
                                                   <xsl:call-template name="show-telInfo-patient">
@@ -11265,7 +11397,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11276,7 +11409,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HP'">
                                                   <xsl:call-template
@@ -11289,7 +11423,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11300,7 +11435,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'HV'">
                                                   <xsl:call-template
@@ -11313,7 +11449,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11324,7 +11461,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'DIR'">
                                                   <xsl:call-template
@@ -11337,7 +11475,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11348,7 +11487,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PUB'">
                                                   <xsl:call-template
@@ -11361,7 +11501,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11372,7 +11513,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:telecom/@use = 'PG'">
                                                   <xsl:call-template
@@ -11461,7 +11603,8 @@
                                                   />
                                                   </xsl:call-template>
                                                   </xsl:variable>
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                             and string-length($telExist) > 0">
@@ -11479,7 +11622,8 @@
                                                   />
                                                   </xsl:call-template>
                                                   </xsl:variable>
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                             and string-length($telExist) > 0">
@@ -11492,7 +11636,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11503,7 +11648,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'WP'">
                                                   <xsl:call-template name="show-telecom-travail">
@@ -11515,7 +11661,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11526,7 +11673,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'EC'">
                                                   <xsl:call-template name="show-telecom-urgence">
@@ -11538,7 +11686,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11548,7 +11697,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'MC'">
                                                   <xsl:call-template
@@ -11561,7 +11711,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11572,7 +11723,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'H'">
                                                   <xsl:call-template name="show-telInfo-patient">
@@ -11584,7 +11736,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11595,7 +11748,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HP'">
                                                   <xsl:call-template
@@ -11608,7 +11762,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11619,7 +11774,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'HV'">
                                                   <xsl:call-template
@@ -11632,7 +11788,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11643,7 +11800,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'DIR'">
                                                   <xsl:call-template
@@ -11657,7 +11815,8 @@
                                                 </fo:inline>
 
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11668,7 +11827,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PUB'">
                                                   <xsl:call-template
@@ -11681,7 +11841,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline color="black" font-weight="normal">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                   <xsl:call-template name="getLocalizedString">
@@ -11692,7 +11853,8 @@
                                                   </xsl:if>
                                                 </fo:inline>
                                                 <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             not(hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@nullFlavor)
                                                             and hl7:serviceEvent/hl7:performer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom/@use = 'PG'">
                                                   <xsl:call-template
@@ -12145,8 +12307,7 @@
                                             <br/>
                                         </xsl:if>
                                         <span style="font-weight:normal;">
-                                            <xsl:if
-                                                test="(hl7:time/hl7:low) and (hl7:time/hl7:high)">
+                                            <xsl:if test="(hl7:time/hl7:low) and (hl7:time/hl7:high)">
                                                 <xsl:variable name="low" select="hl7:time/hl7:low"/>
                                                 <xsl:variable name="high" select="hl7:time/hl7:high"/>
                                                 <span style="font-weight:bold; color:black;">
@@ -12170,8 +12331,7 @@
                                                 </xsl:call-template>
                                                 <br/>
                                             </xsl:if>
-                                            <xsl:if
-                                                test="not(hl7:time/hl7:high) and (hl7:time/hl7:low)">
+                                            <xsl:if test="not(hl7:time/hl7:high) and (hl7:time/hl7:low)">
                                                 <xsl:variable name="low" select="hl7:time/hl7:low"/>
                                                 <span style="font-weight:bold; color:black;">
                                                   <xsl:call-template name="getLocalizedString">
@@ -12184,8 +12344,7 @@
                                                 </xsl:call-template>
                                                 <br/>
                                             </xsl:if>
-                                            <xsl:if
-                                                test="(hl7:time/hl7:high) and not(hl7:time/hl7:low)">
+                                            <xsl:if test="(hl7:time/hl7:high) and not(hl7:time/hl7:low)">
                                                 <xsl:variable name="high" select="hl7:time/hl7:high"/>
                                                 <span style="font-weight:bold; color:black;">
                                                   <xsl:call-template name="getLocalizedString">
@@ -12216,8 +12375,7 @@
                                     <td class="td_label_footer_body"
                                         style="background-color: white;border-width:1px;border-style:solid;">
                                         <span style="font-weight: bold;">
-                                            <xsl:if
-                                                test="hl7:associatedEntity/hl7:associatedPerson/hl7:name">
+                                            <xsl:if test="hl7:associatedEntity/hl7:associatedPerson/hl7:name">
                                                 <xsl:variable name="suffix"
                                                   select="hl7:associatedEntity/hl7:associatedPerson/hl7:name/hl7:suffix"/>
                                                 <xsl:variable name="prefix"
@@ -12281,10 +12439,7 @@
                                                   select="hl7:associatedEntity"/>
                                             </xsl:call-template>
                                         </xsl:variable>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom
-                                                and string-length($telExist) > 0">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom and string-length($telExist) > 0">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel'"/>
@@ -12299,9 +12454,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'WP'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'WP'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_travail'"
@@ -12317,9 +12470,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'EC'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'EC'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_urgence'"
@@ -12335,9 +12486,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'MC'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'MC'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_mobile'"/>
@@ -12353,9 +12502,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'H'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'H'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_domicile'"
@@ -12371,9 +12518,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'HP'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'HP'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -12390,9 +12535,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'HV'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'HV'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -12409,9 +12552,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'DIR'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'DIR'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -12428,9 +12569,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'PUB'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'PUB'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -12447,9 +12586,7 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
-                                                not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                and hl7:associatedEntity/hl7:telecom/@use = 'PG'">
+                                        <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'PG'">
                                             <span style="color: black; font-weight: normal;">
                                                 <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -12467,8 +12604,7 @@
                                             <br/>
                                         </xsl:if>
                                         <br/>
-                                        <xsl:for-each
-                                            select="hl7:associatedEntity/hl7:telecom[starts-with(@value, 'mailto')]">
+                                        <xsl:for-each select="hl7:associatedEntity/hl7:telecom[starts-with(@value, 'mailto')]">
                                             <xsl:if test=".">
                                                 <xsl:variable name="email" select="."/>
                                                 <span style="color: black; font-weight: normal;">
@@ -12498,6 +12634,39 @@
                                                   <xsl:with-param name="contact" select="."/>
                                                   </xsl:call-template>
                                                   </span>
+                                                </xsl:if>
+                                            </xsl:if>
+                                        </xsl:for-each>
+                                        <xsl:for-each select="hl7:associatedEntity/hl7:telecom[starts-with(@value, 'http')]">
+                                            <xsl:if test=".">
+                                                <xsl:variable name="http" select="."/>
+                                                <span style="color: black; font-weight: normal;">
+                                                    <xsl:if test=".">
+                                                        <xsl:call-template name="getLocalizedString">
+                                                            <xsl:with-param name="pre" select="''"/>
+                                                            <xsl:with-param name="key" select="'http'"/>
+                                                            <xsl:with-param name="post" select="''"/>
+                                                        </xsl:call-template>
+                                                    </xsl:if>
+                                                    <xsl:if test="$http/@use">
+                                                        <xsl:text> (</xsl:text>
+                                                        <xsl:call-template name="tokenize">
+                                                            <xsl:with-param name="prefix"
+                                                                select="'addressUse_'"/>
+                                                            <xsl:with-param name="string" select="$http/@use"/>
+                                                            <xsl:with-param name="delimiters" select="' '"/>
+                                                        </xsl:call-template>
+                                                        <xsl:text>)</xsl:text>
+                                                    </xsl:if>
+                                                </span>
+                                                <xsl:if test=".">
+                                                    <span style="font-weight: normal;">
+                                                        <xsl:text> : </xsl:text>
+                                                        <xsl:call-template
+                                                            name="show-telInfo-patient-http">
+                                                            <xsl:with-param name="contact" select="."/>
+                                                        </xsl:call-template>
+                                                    </span>
                                                 </xsl:if>
                                             </xsl:if>
                                         </xsl:for-each>
@@ -12545,7 +12714,8 @@
                                                 />
                                             </xsl:call-template>
                                         </xsl:variable>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom
                                                 and string-length($telExist) > 0">
@@ -12564,7 +12734,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'WP'">
                                             <span style="color: black; font-weight: normal;">
@@ -12583,7 +12754,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'EC'">
                                             <span style="color: black; font-weight: normal;">
@@ -12602,7 +12774,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'MC'">
                                             <span style="color: black; font-weight: normal;">
@@ -12621,7 +12794,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'H'">
                                             <span style="color: black; font-weight: normal;">
@@ -12640,7 +12814,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'HP'">
                                             <span style="color: black; font-weight: normal;">
@@ -12660,7 +12835,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'HV'">
                                             <span style="color: black; font-weight: normal;">
@@ -12680,7 +12856,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'DIR'">
                                             <span style="color: black; font-weight: normal;">
@@ -12700,7 +12877,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'PUB'">
                                             <span style="color: black; font-weight: normal;">
@@ -12720,7 +12898,8 @@
                                             </span>
                                             <br/>
                                         </xsl:if>
-                                        <xsl:if test="
+                                        <xsl:if
+                                            test="
                                                 not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                 and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'PG'">
                                             <span style="color: black; font-weight: normal;">
@@ -13001,10 +13180,7 @@
                                                   select="hl7:associatedEntity"/>
                                                   </xsl:call-template>
                                                 </xsl:variable>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom
-                                                        and string-length($telExist) > 0">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom and string-length($telExist) > 0">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel'"/>
@@ -13012,16 +13188,13 @@
                                                   <xsl:text>: </xsl:text>
                                                   </fo:inline>
                                                   <fo:inline xsl:use-attribute-sets="myBlock11">
-                                                  <xsl:call-template name="show-telInfo">
-                                                  <xsl:with-param name="contact"
-                                                  select="hl7:associatedEntity"/>
-                                                  </xsl:call-template>
+                                                    <xsl:call-template name="show-telInfo">
+                                                      <xsl:with-param name="contact" select="hl7:associatedEntity"/>
+                                                    </xsl:call-template>
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'WP'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'WP'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_travail'"
@@ -13037,9 +13210,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'EC'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'EC'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_urgence'"
@@ -13055,9 +13226,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'MC'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'MC'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_mobile'"/>
@@ -13073,9 +13242,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'H'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'H'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key" select="'Tel_domicile'"
@@ -13091,9 +13258,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'HP'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'HP'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -13110,9 +13275,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'HV'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'HV'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -13129,9 +13292,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'DIR'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'DIR'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -13148,9 +13309,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'PUB'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'PUB'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -13167,9 +13326,7 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
-                                                        not(hl7:associatedEntity/hl7:telecom/@nullFlavor)
-                                                        and hl7:associatedEntity/hl7:telecom/@use = 'PG'">
+                                                <xsl:if test="not(hl7:associatedEntity/hl7:telecom/@nullFlavor) and hl7:associatedEntity/hl7:telecom/@use = 'PG'">
                                                   <fo:inline color="black" font-weight="normal">
                                                   <xsl:call-template name="getLocalizedString">
                                                   <xsl:with-param name="key"
@@ -13216,6 +13373,36 @@
                                                   </xsl:for-each>
                                                   </fo:inline>
                                                 </fo:inline>
+                                                <fo:inline>
+                                                    <fo:inline color="black" font-weight="normal">
+                                                        <xsl:for-each
+                                                            select="hl7:associatedEntity/hl7:telecom[starts-with(@value, 'http')]">
+                                                            <xsl:variable name="http" select="."/>
+                                                            <xsl:if test=".">
+                                                                <xsl:call-template name="getLocalizedString">
+                                                                    <xsl:with-param name="pre" select="''"/>
+                                                                    <xsl:with-param name="key" select="'http'"/>
+                                                                    <xsl:with-param name="post" select="''"/>
+                                                                </xsl:call-template>
+                                                            </xsl:if>
+                                                            <xsl:if test="$http/@use">
+                                                                <xsl:text> (</xsl:text>
+                                                                <xsl:call-template name="tokenize">
+                                                                    <xsl:with-param name="prefix"
+                                                                        select="'addressUse_'"/>
+                                                                    <xsl:with-param name="string" select="$http/@use"/>
+                                                                    <xsl:with-param name="delimiters" select="' '"/>
+                                                                </xsl:call-template>
+                                                                <xsl:text>)</xsl:text>
+                                                            </xsl:if>
+                                                            <xsl:text>: </xsl:text>
+                                                            <xsl:call-template
+                                                                name="show-telInfo-patient-http">
+                                                                <xsl:with-param name="contact" select="."/>
+                                                            </xsl:call-template>
+                                                        </xsl:for-each>
+                                                    </fo:inline>
+                                                </fo:inline>
                                             </fo:block>
                                         </fo:table-cell>
                                         <fo:table-cell xsl:use-attribute-sets="myBlock9"
@@ -13257,7 +13444,8 @@
                                                   />
                                                   </xsl:call-template>
                                                 </xsl:variable>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom
                                                         and string-length($telExist) > 0">
@@ -13276,7 +13464,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'WP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13295,7 +13484,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'EC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13314,7 +13504,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'MC'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13333,7 +13524,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'H'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13352,7 +13544,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'HP'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13372,7 +13565,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'HV'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13392,7 +13586,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'DIR'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13412,7 +13607,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'PUB'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13432,7 +13628,8 @@
                                                   </fo:inline>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>
                                                 </xsl:if>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         not(hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@nullFlavor)
                                                         and hl7:associatedEntity/hl7:scopingOrganization/hl7:telecom/@use = 'PG'">
                                                   <fo:inline color="black" font-weight="normal">
@@ -13522,7 +13719,8 @@
                         <td class="td_label_footer"/>
                         <td class="td_label_footer"/>
                     </tr>
-                    <xsl:if test="
+                    <xsl:if
+                        test="
                             hl7:code or hl7:id or hl7:setId or hl7:versionNumber or hl7:relatedDocument/hl7:parentDocument/hl7:id/@root or hl7:effectiveTime or
                             hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization">
                         <tr>
@@ -13676,7 +13874,8 @@
                                     </xsl:call-template>
                                 </xsl:variable>
                                 <span style="color: black;">
-                                    <xsl:if test="
+                                    <xsl:if
+                                        test="
                                             hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization/hl7:telecom
                                             and string-length($telExist) > 0">
                                         <xsl:call-template name="getLocalizedString">
@@ -13685,7 +13884,8 @@
                                         <xsl:text>: </xsl:text>
                                     </xsl:if>
                                 </span>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization/hl7:telecom
                                         and string-length($telExist) > 0">
                                     <xsl:call-template name="show-telInfo">
@@ -13863,7 +14063,8 @@
                                     <br/>
                                 </xsl:if>
                                 <br/>
-                                <xsl:for-each select="
+                                <xsl:for-each
+                                    select="
                                         hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization/
                                         hl7:telecom[starts-with(@value, 'mailto')]">
                                     <xsl:if test=".">
@@ -14748,7 +14949,8 @@
                                     <br/>
                                 </xsl:if>
                                 <br/>
-                                <xsl:for-each select="
+                                <xsl:for-each
+                                    select="
                                         hl7:dataEnterer/hl7:assignedEntity/hl7:representedOrganization/
                                         hl7:telecom[starts-with(@value, 'mailto')]">
                                     <xsl:if test=".">
@@ -16210,7 +16412,8 @@
                                         />
                                     </xsl:call-template>
                                 </xsl:variable>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:legalAuthenticator/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                         and string-length($telExist) > 0">
                                     <span style="color: black;">
@@ -16956,7 +17159,8 @@
                     <fo:table-column column-number="2" column-width="35%"/>
                     <fo:table-column column-number="3" column-width="35%"/>
                     <fo:table-body>
-                        <xsl:if test="
+                        <xsl:if
+                            test="
                                 hl7:code or hl7:id or hl7:setId or hl7:versionNumber or hl7:relatedDocument/hl7:parentDocument/hl7:id/@root or hl7:effectiveTime or
                                 hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization">
                             <fo:table-row>
@@ -17109,7 +17313,8 @@
                                                   />
                                                   </xsl:call-template>
                                                 </xsl:variable>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization/hl7:telecom
                                                         and string-length($telExist) > 0">
                                                   <xsl:call-template name="getLocalizedString">
@@ -17125,7 +17330,8 @@
                                                   />
                                                 </xsl:call-template>
                                             </xsl:variable>
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     hl7:custodian/hl7:assignedCustodian/hl7:representedCustodianOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
                                                 <xsl:call-template name="show-telInfo">
@@ -18059,7 +18265,8 @@
                                             </xsl:call-template>
                                         </xsl:variable>
                                         <fo:inline color="black">
-                                            <xsl:if test="
+                                            <xsl:if
+                                                test="
                                                     hl7:dataEnterer/hl7:assignedEntity/hl7:representedOrganization/hl7:telecom
                                                     and string-length($telExist) > 0">
                                                 <xsl:call-template name="getLocalizedString">
@@ -21647,7 +21854,8 @@
                                     </xsl:if>
                                 </tr>
                             </xsl:if>
-                            <xsl:if test="
+                            <xsl:if
+                                test="
                                     hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime'] or
                                     hl7:patient/hl7:birthTime">
                                 <tr>
@@ -21941,7 +22149,8 @@
                                 </tr>
                             </xsl:if>
 
-                            <xsl:if test="
+                            <xsl:if
+                                test="
                                     hl7:id/@root = '1.2.250.1.213.1.4.2' or
                                     hl7:id/@root = '1.2.250.1.213.1.4.6' or
                                     hl7:id/@root = '1.2.250.1.213.1.4.7'">
@@ -22051,7 +22260,8 @@
 
                             <tr>
                                 <td class="td_header_label td_label_width">
-                                    <xsl:if test="
+                                    <xsl:if
+                                        test="
                                             hl7:id[not(contains('1.2.250.1.213.1.4.8', @root)) and not(contains('1.2.250.1.213.1.4.9', @root)) and not(contains('1.2.250.1.213.1.4.10', @root))
                                             and not(contains('1.2.250.1.213.1.4.12', @root)) and not(contains('1.2.250.1.213.1.4.13', @root)) and not(contains('1.2.250.1.213.1.4.14', @root))
                                             and not(contains('1.2.250.1.213.1.4.11', @root)) and not(contains('1.2.250.1.213.1.4.2', @root)) and not(contains('1.2.250.1.213.1.4.6', @root))
@@ -22064,7 +22274,8 @@
                                     </xsl:if>
                                 </td>
                                 <td style="width: 30%;background-color: white;">
-                                    <xsl:if test="
+                                    <xsl:if
+                                        test="
                                             hl7:id[not(contains('1.2.250.1.213.1.4.8', @root)) and not(contains('1.2.250.1.213.1.4.9', @root)) and not(contains('1.2.250.1.213.1.4.10', @root))
                                             and not(contains('1.2.250.1.213.1.4.12', @root)) and not(contains('1.2.250.1.213.1.4.13', @root)) and not(contains('1.2.250.1.213.1.4.14', @root))
                                             and not(contains('1.2.250.1.213.1.4.11', @root)) and not(contains('1.2.250.1.213.1.4.2', @root)) and not(contains('1.2.250.1.213.1.4.6', @root))
@@ -22111,7 +22322,8 @@
                                     </xsl:for-each>
                                 </td>
                             </tr>
-                            <xsl:if test="
+                            <xsl:if
+                                test="
                                     hl7:patient/hl7:raceCode | hl7:patient/hl7:ethnicGroupCode |
                                     hl7:patient/sdtc:raceCode | hl7:patient/sdtc:ethnicGroupCode">
                                 <tr>
@@ -22352,13 +22564,15 @@
                                         </xsl:if>
                                     </fo:table-row>
                                 </xsl:if>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime'] or
                                         hl7:patient/hl7:birthTime or hl7:patient">
                                     <fo:table-row>
                                         <fo:table-cell xsl:use-attribute-sets="myBlock10">
                                             <fo:block>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime'] or
                                                         hl7:patient/hl7:birthTime or hl7:patient">
                                                   <xsl:choose>
@@ -22381,7 +22595,8 @@
                                         </fo:table-cell>
                                         <fo:table-cell xsl:use-attribute-sets="myBlock11">
                                             <fo:block>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         hl7:patient/*[local-name() = 'deceasedInd'][@value = 'true' or @nullFlavor] | hl7:patient/*[local-name() = 'deceasedTime'] or
                                                         hl7:patient/hl7:birthTime or hl7:patient">
                                                   <xsl:call-template
@@ -22619,7 +22834,8 @@
                                         </fo:table-cell>
                                     </fo:table-row>
                                 </xsl:if>
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:id/@root = '1.2.250.1.213.1.4.8' or hl7:id/@root = '1.2.250.1.213.1.4.9' or hl7:id/@root = '1.2.250.1.213.1.4.10' or hl7:id/@root = '1.2.250.1.213.1.4.11'
                                         ">
                                     <fo:table-row>
@@ -22673,14 +22889,16 @@
                                     </fo:table-row>
                                 </xsl:if>
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:id/@root = '1.2.250.1.213.1.4.2' or
                                         hl7:id/@root = '1.2.250.1.213.1.4.6' or
                                         hl7:id/@root = '1.2.250.1.213.1.4.7'">
                                     <fo:table-row>
                                         <fo:table-cell xsl:use-attribute-sets="myBlock10">
                                             <fo:block>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         hl7:id/@root = '1.2.250.1.213.1.4.2' or
                                                         hl7:id/@root = '1.2.250.1.213.1.4.6' or
                                                         hl7:id/@root = '1.2.250.1.213.1.4.7'">
@@ -22796,7 +23014,8 @@
                                             <fo:block>
                                                 <xsl:if
                                                   test="hl7:id[not(contains($skip-ids-var, concat(',', @root, ',')))]">
-                                                  <xsl:if test="
+                                                  <xsl:if
+                                                  test="
                                                             hl7:id[not(contains('1.2.250.1.213.1.4.8', @root)) and not(contains('1.2.250.1.213.1.4.9', @root)) and not(contains('1.2.250.1.213.1.4.10', @root))
                                                             and not(contains('1.2.250.1.213.1.4.12', @root)) and not(contains('1.2.250.1.213.1.4.13', @root)) and not(contains('1.2.250.1.213.1.4.14', @root))
                                                             and not(contains('1.2.250.1.213.1.4.11', @root)) and not(contains('1.2.250.1.213.1.4.2', @root)) and not(contains('1.2.250.1.213.1.4.6', @root))
@@ -22810,7 +23029,8 @@
                                         </fo:table-cell>
                                         <fo:table-cell xsl:use-attribute-sets="myBlock11">
                                             <fo:block>
-                                                <xsl:if test="
+                                                <xsl:if
+                                                  test="
                                                         hl7:id[not(contains('1.2.250.1.213.1.4.8', @root)) and not(contains('1.2.250.1.213.1.4.9', @root)) and not(contains('1.2.250.1.213.1.4.10', @root))
                                                         and not(contains('1.2.250.1.213.1.4.12', @root)) and not(contains('1.2.250.1.213.1.4.13', @root)) and not(contains('1.2.250.1.213.1.4.14', @root))
                                                         and not(contains('1.2.250.1.213.1.4.11', @root)) and not(contains('1.2.250.1.213.1.4.2', @root)) and not(contains('1.2.250.1.213.1.4.6', @root))
@@ -22865,7 +23085,8 @@
                                 </xsl:if>
 
 
-                                <xsl:if test="
+                                <xsl:if
+                                    test="
                                         hl7:patient/hl7:raceCode | hl7:patient/sdtc:raceCode
                                         or hl7:patient/hl7:ethnicGroupCode | hl7:patient/sdtc:ethnicGroupCode">
                                     <fo:table-row>
@@ -23394,6 +23615,13 @@
             <xsl:with-param name="sep" select="', '"/>
         </xsl:call-template>
     </xsl:template>
+    <xsl:template name="show-telInfo-patient-http">
+        <xsl:param name="contact"/>
+        <xsl:call-template name="show-telecom-set-patient-http">
+            <xsl:with-param name="in" select="$contact"/>
+            <xsl:with-param name="sep" select="', '"/>
+        </xsl:call-template>
+    </xsl:template>
 
 
     <xd:doc>
@@ -23606,7 +23834,8 @@
         <xsl:param name="in"/>
         <xsl:param name="sep" select="', '"/>
         <xsl:if test="$in">
-            <xsl:if test="
+            <xsl:if
+                test="
                     $in[not(contains('1.2.250.1.213.1.4.8', @root)) and not(contains('1.2.250.1.213.1.4.9', @root)) and not(contains('1.2.250.1.213.1.4.10', @root))
                     and not(contains('1.2.250.1.213.1.4.12', @root)) and not(contains('1.2.250.1.213.1.4.13', @root)) and not(contains('1.2.250.1.213.1.4.14', @root))
                     and not(contains('1.2.250.1.213.1.4.11', @root)) and not(contains('1.2.250.1.213.1.4.2', @root)) and not(contains('1.2.250.1.213.1.4.6', @root))
@@ -24759,14 +24988,17 @@
                     <!-- DTr1 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:streetName">
                         <xsl:if test="not(../hl7:streetAddressLine)">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber' or local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                             <xsl:value-of select="."/>
@@ -24787,10 +25019,12 @@
                             <xsl:if test="string-length($additionalLocator) > 0">
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                                 <xsl:choose>
@@ -24822,14 +25056,17 @@
                     <!-- DTr2 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:part[@type = 'STR']">
                         <xsl:if test="not(../hl7:part[@type = 'SAL'])">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNN'] |
                                     following-sibling::hl7:part[1][@type = 'BNR']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNS'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
                             <xsl:value-of select="."/>
@@ -24851,10 +25088,12 @@
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
 
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNR']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNS'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
 
@@ -25252,14 +25491,17 @@
                     <!-- DTr1 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:streetName">
                         <xsl:if test="not(../hl7:streetAddressLine)">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber' or local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                             <xsl:value-of select="."/>
@@ -25280,10 +25522,12 @@
                             <xsl:if test="string-length($additionalLocator) > 0">
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                                 <xsl:choose>
@@ -25315,14 +25559,17 @@
                     <!-- DTr2 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:part[@type = 'STR']">
                         <xsl:if test="not(../hl7:part[@type = 'SAL'])">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNN'] |
                                     following-sibling::hl7:part[1][@type = 'BNR']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNS'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
                             <xsl:value-of select="."/>
@@ -25344,10 +25591,12 @@
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
 
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNR']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNS'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
 
@@ -25724,14 +25973,17 @@
                     <!-- DTr1 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:streetName">
                         <xsl:if test="not(../hl7:streetAddressLine)">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber' or local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                             <xsl:value-of select="."/>
@@ -25752,10 +26004,12 @@
                             <xsl:if test="string-length($additionalLocator) > 0">
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                                 <xsl:choose>
@@ -25787,14 +26041,17 @@
                     <!-- DTr2 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:part[@type = 'STR']">
                         <xsl:if test="not(../hl7:part[@type = 'SAL'])">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNN'] |
                                     following-sibling::hl7:part[1][@type = 'BNR']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNS'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
                             <xsl:value-of select="."/>
@@ -25816,10 +26073,12 @@
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
 
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNR']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNS'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
 
@@ -26174,14 +26433,17 @@
                     <!-- DTr1 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:streetName">
                         <xsl:if test="not(../hl7:streetAddressLine)">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber' or local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']/following-sibling::hl7:*[1][local-name() = 'additionalLocator']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                     following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                             <xsl:value-of select="."/>
@@ -26202,10 +26464,12 @@
                             <xsl:if test="string-length($additionalLocator) > 0">
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumber']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix'] |
                                         $additionalLocator/following-sibling::hl7:*[1][local-name() = 'houseNumberNumeric' or local-name() = 'houseNumber']/following-sibling::hl7:*[1][local-name() = 'buildingNumberSuffix']"/>
                                 <xsl:choose>
@@ -26237,14 +26501,17 @@
                     <!-- DTr2 only if not streetAddressLine -->
                     <xsl:when test="self::hl7:part[@type = 'STR']">
                         <xsl:if test="not(../hl7:part[@type = 'SAL'])">
-                            <xsl:variable name="additionalLocator" select="
+                            <xsl:variable name="additionalLocator"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR' or @type = 'BNS']/following-sibling::hl7:part[1][@type = 'BNS']/following-sibling::hl7:part[1][@type = 'ADL']"/>
-                            <xsl:variable name="houseNumber" select="
+                            <xsl:variable name="houseNumber"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNN'] |
                                     following-sibling::hl7:part[1][@type = 'BNR']"/>
-                            <xsl:variable name="buildingNumberSuffix" select="
+                            <xsl:variable name="buildingNumberSuffix"
+                                select="
                                     following-sibling::hl7:part[1][@type = 'BNS'] |
                                     following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
                             <xsl:value-of select="."/>
@@ -26265,10 +26532,12 @@
                             <xsl:if test="string-length($additionalLocator) > 0">
                                 <xsl:text>&#160;</xsl:text>
                                 <xsl:value-of select="$additionalLocator"/>
-                                <xsl:variable name="houseNumber2" select="
+                                <xsl:variable name="houseNumber2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNR']"/>
-                                <xsl:variable name="buildingNumberSuffix2" select="
+                                <xsl:variable name="buildingNumberSuffix2"
+                                    select="
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNS'] |
                                         $additionalLocator/following-sibling::hl7:part[1][@type = 'BNN' or @type = 'BNR']/following-sibling::hl7:part[1][@type = 'BNS']"/>
 
@@ -26897,6 +27166,34 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template name="show-telecom-set-patient-http">
+        <xsl:param name="in"/>
+        <xsl:param name="sep" select="', '"/>
+        <xsl:choose>
+            <!-- DTr1 -->
+            <xsl:when test="count($in) > 1">
+                <xsl:for-each select="$in">
+                    <xsl:call-template name="show-telecom-http">
+                        <xsl:with-param name="in" select="."/>
+                    </xsl:call-template>
+                </xsl:for-each>
+            </xsl:when>
+            <!-- DTr2 -->
+            <xsl:when test="$in[hl7:item]">
+                <xsl:for-each select="$in/hl7:item">
+                    <xsl:call-template name="show-telecom-http">
+                        <xsl:with-param name="in" select="."/>
+                    </xsl:call-template>
+                </xsl:for-each>
+            </xsl:when>
+            <!-- DTr1 or DTr2 -->
+            <xsl:otherwise>
+                <xsl:call-template name="show-telecom-http">
+                    <xsl:with-param name="in" select="$in"/>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
 
     <xd:doc>
@@ -27074,12 +27371,12 @@
     <xsl:template name="show-telecom-information">
         <xsl:param name="in"/>
         <xsl:choose>
-            <xsl:when test="not(starts-with($in/@value, 'mailto')) and not($in/@use)">
+            <xsl:when test="not(starts-with($in/@value, 'mailto')) and not(starts-with($in/@value, 'http')) and not($in/@use)">
                 <xsl:for-each select="$in">
                     <xsl:variable name="type" select="substring-before(@value, ':')"/>
                     <xsl:variable name="value" select="substring-after(@value, ':')"/>
                     <xsl:if test="position() > 1">
-                        <xsl:if test="$type != 'mailto'">
+                        <xsl:if test="$type != 'mailto' and $type != 'http'">
                             <xsl:if test="not(contains($vendor, 'Saxonica'))">
                                 <br/>
                             </xsl:if>
@@ -27088,7 +27385,7 @@
                             </xsl:if>
                         </xsl:if>
                     </xsl:if>
-                    <xsl:if test="$type != 'mailto'">
+                    <xsl:if test="$type != 'mailto' and $type != 'http'">
                         <xsl:choose>
                             <xsl:when test="$type">
                                 <xsl:value-of select="$value"/>
@@ -27478,6 +27775,44 @@
                     <xsl:variable name="type" select="substring-before(@value, ':')"/>
                     <xsl:variable name="value" select="substring-after(@value, ':')"/>
                     <xsl:if test="$type = 'mailto'">
+                        <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                            <span style="text-decoration: underline; color: #3358FF">
+                                <xsl:value-of select="$value"/>
+                                <br/>
+                            </span>
+                        </xsl:if>
+                        <xsl:if test="(contains($vendor, 'Saxonica'))">
+                            <fo:inline text-decoration="underline" color="#3358FF">
+                                <xsl:value-of select="$value"/>
+                            </fo:inline>
+                            <fo:block line-height="0.1cm">&#160;</fo:block>
+                        </xsl:if>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template name="show-telecom-http">
+        <xsl:param name="in"/>
+        <xsl:choose>
+            <xsl:when test="$in">
+                <xsl:for-each select="$in">
+                    <xsl:if test="position() > 1">
+                        <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                            <xsl:if test="not(contains($vendor, 'Saxonica'))">
+                                <br/>
+                            </xsl:if>
+                            <xsl:if test="(contains($vendor, 'Saxonica'))">
+                                <fo:block line-height="0.1cm">&#160;</fo:block>
+                            </xsl:if>
+                        </xsl:if>
+                        <xsl:if test="(contains($vendor, 'Saxonica'))">
+                            <fo:block line-height="0.1cm">&#160;</fo:block>
+                        </xsl:if>
+                    </xsl:if>
+                    <xsl:variable name="type" select="substring-before(@value, ':')"/>
+                    <xsl:variable name="value" select="substring-after(@value, ':')"/>
+                    <xsl:if test="$type = 'http'">
                         <xsl:if test="not(contains($vendor, 'Saxonica'))">
                             <span style="text-decoration: underline; color: #3358FF">
                                 <xsl:value-of select="$value"/>

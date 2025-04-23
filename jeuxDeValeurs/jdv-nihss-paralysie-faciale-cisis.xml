@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-nihss-paralysie-faciale-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.184"
+             name="Jdvnihss-paralysie-facialeCisis"
              revisionDate="2022-04-20T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV nihss-paralysie-faciale CISIS"
+             version="2025-04-17T14:49:41+01:00">
       <ConceptList>
          <Concept code="LA18452-5"
                   codeSystem="2.16.840.1.113883.6.1"

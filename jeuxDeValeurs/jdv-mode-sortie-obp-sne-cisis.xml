@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-mode-sortie-obp-sne-cisis"
              effectiveDate="2022-08-04T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.699"
+             name="JdvModeSortieObpSneCisis"
              revisionDate="2023-08-03T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Mode Sortie Obp Sne CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="419620001"
                   codeSystem="2.16.840.1.113883.6.96"

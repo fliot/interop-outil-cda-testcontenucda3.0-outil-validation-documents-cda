@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-ufcv-modele-valve-cisis"
              effectiveDate="2023-04-27T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.16"
+             name="JdvUfcvModeleValveCisis"
              revisionDate="2023-04-27T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV UFCV Modele Valve CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="P070301030101"
                   codeSystem="1.2.250.1.213.2.68"

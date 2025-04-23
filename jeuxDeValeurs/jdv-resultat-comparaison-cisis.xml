@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-resultat-comparaison-cisis"
              effectiveDate="2021-09-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.649"
+             name="JdvResultatComparaisonCisis"
              revisionDate="2021-09-07T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Resultat Comparaison CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="GEN-001"
                   codeSystem="1.2.250.1.213.1.1.4.322"

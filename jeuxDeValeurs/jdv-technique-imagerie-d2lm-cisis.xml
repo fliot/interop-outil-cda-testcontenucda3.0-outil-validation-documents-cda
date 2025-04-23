@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-technique-imagerie-d2lm-cisis"
              effectiveDate="2021-07-27T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.645"
+             name="JdvTechniqueImagerieD2lmCisis"
              revisionDate="2023-02-02T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Technique Imagerie D2lm CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="MG"
                   codeSystem="1.2.840.10008.2.16.4"

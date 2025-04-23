@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-prothese-objet-personnel-cisis"
              effectiveDate="2021-01-06T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.515"
+             name="JdvProtheseObjetPersonnelCisis"
              revisionDate="2023-02-02T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Prothese Objet Personnel CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="Q021003"
                   codeSystem="1.2.250.1.213.2.68"

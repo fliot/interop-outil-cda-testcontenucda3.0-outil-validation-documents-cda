@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-facteur-de-risque-professionnel-cisis"
              effectiveDate="2020-03-24T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.490"
+             name="JdvFacteurDeRisqueProfessionnelCisis"
              revisionDate="2023-01-31T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV Facteur De Risque Professionnel CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="83581005"
                   codeSystem="2.16.840.1.113883.6.96"

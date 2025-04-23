@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-resultat-depistage-cetonemie-cisis"
              effectiveDate="2024-03-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.769"
+             name="JdvResultatDepistageCetonemieCisis"
              revisionDate="2024-03-07T00:00:00+01:00"
-             version="2025-03-21T14:10:27+01:00">
+             title="JDV Resultat Depistage Cetonemie CISIS"
+             version="2025-04-17T14:49:39+01:00">
       <ConceptList>
          <Concept code="17621005"
                   codeSystem="2.16.840.1.113883.6.96"

@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-examen-hemostase-eunv-cisis"
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.226"
+             name="JdvExamenHemostaseEunvCisis"
              revisionDate="2023-08-03T00:00:00+01:00"
-             version="2025-03-21T14:10:29+01:00">
+             title="JDV Examen Hemostase Eunv CISIS"
+             version="2025-04-17T14:49:42+01:00">
       <ConceptList>
          <Concept code="14979-9"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -19,11 +21,11 @@
          <Concept code="3255-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20100101000000"
-                  displayName="Fibrinogène:Masse/Volume:Ponctuel:Plasma pauvre en plaquettes:Numérique:Coagulation"/>
+                  displayName="Fibrinogène [Masse/Volume] Plasma pauvre en plaquettes ; Numérique ; Coagulation"/>
          <Concept code="718-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20100101000000"
-                  displayName="Hémoglobine:Masse/Volume:Ponctuel:Sang:Numérique:"/>
+                  displayName="Hémoglobine [Masse/Volume] Sang ; Numérique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-imagerie-objectif-reference-cisis"
              effectiveDate="2022-02-17T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.672"
+             name="JdvImagerieObjectifReferenceCisis"
              revisionDate="2022-02-17T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Imagerie Objectif Reference CISIS"
+             version="2025-04-17T14:49:41+01:00">
       <ConceptList>
          <Concept code="121079"
                   codeSystem="1.2.840.10008.2.16.4"

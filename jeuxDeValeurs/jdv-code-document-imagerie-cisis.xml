@@ -5,8 +5,10 @@
    <ValueSet displayName="jdv-code-document-imagerie-cisis"
              effectiveDate="2022-08-05T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.687"
+             name="JdvCodeDocumentImagerieCisis"
              revisionDate="2025-02-25T00:00:00+01:00"
-             version="2025-03-21T14:10:28+01:00">
+             title="JDV Code Document Imagerie CISIS"
+             version="2025-04-17T14:49:40+01:00">
       <ConceptList>
          <Concept code="11525-3"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -26731,7 +26733,7 @@
          <Concept code="103850-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
-                  displayName="RF rein incidence avec contraste via sonde de néphrostomie"/>
+                  displayName="RF rein incidences avec contraste via sonde de néphrostomie"/>
          <Concept code="103851-2"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
@@ -27007,7 +27009,7 @@
          <Concept code="103919-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
-                  displayName="échographie.doppler aorte abdominale"/>
+                  displayName="échographie.Doppler aorte abdominale"/>
          <Concept code="103920-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
