@@ -8,7 +8,7 @@
              name="JdvGestionEffetSecondaireCisis"
              revisionDate="2023-04-28T00:00:00+01:00"
              title="JDV Gestion Effet Secondaire CISIS"
-             version="2025-04-17T14:49:42+01:00">
+             version="2025-04-28T08:42:27+01:00">
       <ConceptList>
          <Concept code="C20427"
                   codeSystem="2.16.840.1.113883.3.26.1.1"

@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20250425120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS.tabs"
              effectiveDate="2013-01-23T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.471"
-             revisionDate="2024-09-27T12:00:00+01:00"
+             revisionDate="2025-04-25T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS">
       <ConceptList>
@@ -183,6 +183,9 @@
          <Concept code="34875-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Évaluation postopératoire et note de suivi"/>
+         <Concept code="34876-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Évaluation préopératoire et note de suivi"/>
          <Concept code="47420-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="CR de bilan fonctionnel"/>
@@ -240,6 +243,9 @@
          <Concept code="68599-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Synthèse psychiatrique"/>
+         <Concept code="68814-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Note d'évaluation pédiatrique"/>
          <Concept code="68817-6"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Bilan de santé et de prévention de l'enfant"/>

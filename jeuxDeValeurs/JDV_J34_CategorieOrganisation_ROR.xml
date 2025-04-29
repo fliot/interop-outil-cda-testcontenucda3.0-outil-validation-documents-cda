@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250425120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR.tabs"
              effectiveDate="2017-10-13T12:00:00+01:00"
              id="1.2.250.1.213.3.3.40"
-             revisionDate="2025-03-28T12:00:00+01:00"
+             revisionDate="2025-04-25T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
       <ConceptList>
@@ -380,7 +380,7 @@
                   displayName="Unité de soins intensifs polyvalents (USIP) dérogatoire"/>
          <Concept code="124"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de soins intensifs (USI) de spécialité"/>
+                  displayName="Unité de soins intensifs (USI) de spécialité (hors USIC, USINV, USIH)"/>
          <Concept code="125"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre de protection maternelle et infantile (PMI)"/>
@@ -768,6 +768,45 @@
          <Concept code="254"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de surveillance continue"/>
+         <Concept code="255"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Communauté Professionnelle Territoriale de Santé (CPTS)"/>
+         <Concept code="256"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Etablissement d'accueil temporaire pour adultes handicapés"/>
+         <Concept code="257"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité pour Personnes Handicapées Vieillissantes (UPHV)"/>
+         <Concept code="258"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Hébergement Temporaire d'urgence en Sortie d'Hospitalisation"/>
+         <Concept code="259"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Point d'information local dédié aux personnes âgées"/>
+         <Concept code="260"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Relayage au domicile"/>
+         <Concept code="261"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Accueil familial pour personne âgée"/>
+         <Concept code="262"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de soins intensifs spécialisés cardiologie (USIC)"/>
+         <Concept code="263"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de soins intensifs spécialisés neurologie vasculaire (USINV)"/>
+         <Concept code="264"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de soins intensifs spécialisés hématologie (USIH)"/>
+         <Concept code="265"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile d'algologie"/>
+         <Concept code="266"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile de gériatrie (EMG)"/>
+         <Concept code="267"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

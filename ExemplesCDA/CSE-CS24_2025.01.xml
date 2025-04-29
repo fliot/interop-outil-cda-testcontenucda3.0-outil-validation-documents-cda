@@ -31,6 +31,7 @@
       04/12/2023 : Nouvelle version 2024.01
       26/11/2024 : Nouvelle version 2024.02
       10/01/2025 : Mise à jour de la version en 2025.01
+      25/04/2025 : correction v2025.01 : correction des negationInd dans les entrées FR-Probleme
       ********************************************************************************************************** -->
    
    <!-- ************************************************************
@@ -917,9 +918,9 @@
                         <high value="20210211094915+0100"/>
                      </effectiveTime>
                      
-                     <!-- Entrée FR-Probleme : Prématurité inf. à 33 semaines -->
+                     <!-- Entrée FR-Probleme : Prématurité inf. à 33 semaines non constaté (negationInd="true") -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
-                        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                        <observation classCode="OBS" moodCode="EVN" negationInd="true">
                            <!-- Conformité Problem observation (CCD) -->
                            <templateId root="2.16.840.1.113883.10.20.1.28"/>
                            <!-- Conformité Problem Entry (IHE PCC) -->
@@ -941,9 +942,9 @@
                         </observation>
                      </entryRelationship>
                    
-                     <!-- Entrée FR-Probleme : Accident(s) domestique(s) depuis le 9ème mois -->
+                     <!-- Entrée FR-Probleme : Accident(s) domestique(s) depuis le 9ème mois constaté (negationInd="false") -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
-                        <observation classCode="OBS" moodCode="EVN">
+                        <observation classCode="OBS" moodCode="EVN" negationInd="false">
                            <!-- Conformité Problem observation (CCD) -->
                            <templateId root="2.16.840.1.113883.10.20.1.28"/>
                            <!-- Conformité Problem Entry (IHE PCC) -->
@@ -964,9 +965,9 @@
                               <originalText><reference value="#accidentDomestique"/></originalText>
                            </value>
                            
-                           <!-- Cause : Choc traumatique -->
+                           <!-- Cause : Choc traumatique non constaté (negationInd="true") -->
                            <entryRelationship typeCode="CAUS" inversionInd="true">
-                              <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <observation classCode="OBS" moodCode="EVN" negationInd="true">
                                  <!-- Conformité Simple Observation (IHE PCC) -->
                                  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
                                  <!-- Conformité FR-Simple-Observation (CI-SIS) -->
@@ -984,9 +985,9 @@
                               </observation>
                            </entryRelationship>
                            
-                           <!-- Cause : Brûlures -->
+                           <!-- Cause : Brûlures non constaté (negationInd="true") -->
                            <entryRelationship typeCode="CAUS" inversionInd="true">
-                              <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <observation classCode="OBS" moodCode="EVN" negationInd="true">
                                  <!-- Conformité Simple Observation (IHE PCC) -->
                                  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
                                  <!-- Conformité FR-Simple-Observation (CI-SIS) -->
@@ -1004,9 +1005,9 @@
                               </observation>
                            </entryRelationship>
                            
-                           <!-- Cause : Intoxication -->
+                           <!-- Cause : Intoxication non constaté (negationInd="true") -->
                            <entryRelationship typeCode="CAUS" inversionInd="true">
-                              <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                              <observation classCode="OBS" moodCode="EVN" negationInd="true">
                                  <!-- Conformité Simple Observation (IHE PCC) -->
                                  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
                                  <!-- Conformité FR-Simple-Observation (CI-SIS) -->
@@ -1024,7 +1025,7 @@
                               </observation>
                            </entryRelationship>
                            
-                           <!-- Cause : Autre(s) accident(s) domestique(s) -->
+                           <!-- Cause : Autre(s) accident(s) domestique(s) constaté (negationInd="false") -->
                            <entryRelationship typeCode="CAUS" inversionInd="true">
                               <observation classCode="OBS" moodCode="EVN" negationInd="false">
                                  <!-- Conformité Simple Observation (IHE PCC) -->

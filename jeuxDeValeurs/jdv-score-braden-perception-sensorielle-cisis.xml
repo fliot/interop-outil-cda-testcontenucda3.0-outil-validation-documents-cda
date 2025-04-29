@@ -8,7 +8,7 @@
              name="JdvScoreBradenPerceptionSensorielleCisis"
              revisionDate="2025-02-25T00:00:00+01:00"
              title="JDV Score Braden Perception Sensorielle CISIS"
-             version="2025-04-17T14:49:40+01:00">
+             version="2025-04-28T08:42:25+01:00">
       <ConceptList>
          <Concept code="LA9603-7"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -21,7 +21,7 @@
          <Concept code="LA9605-2"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"
-                  displayName="Légèrement diminuée"/>
+                  displayName="Légèrement limitée"/>
          <Concept code="LA9606-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"

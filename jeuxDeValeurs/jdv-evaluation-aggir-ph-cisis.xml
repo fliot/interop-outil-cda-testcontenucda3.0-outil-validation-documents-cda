@@ -6,14 +6,14 @@
              effectiveDate="2024-09-18T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.805"
              name="JdvEvaluationAggirPhCisis"
-             revisionDate="2024-09-18T00:00:00+01:00"
+             revisionDate="2025-04-25T00:00:00+01:00"
              title="JDV Evaluation Aggir Ph CISIS"
-             version="2025-04-17T14:49:41+01:00">
+             version="2025-04-28T08:42:26+01:00">
       <ConceptList>
-         <Concept code="d350"
+         <Concept code="b160"
                   codeSystem="2.16.840.1.113883.6.254"
-                  dateValid="20240918000000"
-                  displayName="Conversation"/>
+                  dateValid="20250425000000"
+                  displayName="Fonctions de la pensée"/>
          <Concept code="b114"
                   codeSystem="2.16.840.1.113883.6.254"
                   dateValid="20240918000000"
@@ -34,10 +34,10 @@
                   codeSystem="2.16.840.1.113883.6.254"
                   dateValid="20240918000000"
                   displayName="Aller aux toilettes"/>
-         <Concept code="d420"
+         <Concept code="d410"
                   codeSystem="2.16.840.1.113883.6.254"
-                  dateValid="20240918000000"
-                  displayName="Se transférer "/>
+                  dateValid="20250425000000"
+                  displayName="Changer la position corporelle de base"/>
          <Concept code="d4600"
                   codeSystem="2.16.840.1.113883.6.254"
                   dateValid="20240918000000"
@@ -45,11 +45,11 @@
          <Concept code="d4602"
                   codeSystem="2.16.840.1.113883.6.254"
                   dateValid="20240918000000"
-                  displayName="Se déplacer en dehors de la maison et d'autres bâtiments "/>
-         <Concept code="d360"
+                  displayName="Se déplacer en dehors de la maison et d'autres bâtiments"/>
+         <Concept code="d3608"
                   codeSystem="2.16.840.1.113883.6.254"
-                  dateValid="20240918000000"
-                  displayName="Utiliser des appareils et des techniques de communication "/>
+                  dateValid="20250425000000"
+                  displayName="Utiliser d'autres appareils et techniques de communication précisés"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

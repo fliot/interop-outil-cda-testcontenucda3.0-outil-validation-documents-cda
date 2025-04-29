@@ -8,7 +8,7 @@
              name="JdvScorePerformanceEcogCisis"
              revisionDate="2024-04-05T00:00:00+01:00"
              title="JDV Score Performance Ecog CISIS"
-             version="2025-04-17T14:49:40+01:00">
+             version="2025-04-28T08:42:26+01:00">
       <ConceptList>
          <Concept code="LA9622-7"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -33,7 +33,7 @@
          <Concept code="LA9627-6"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20240405000000"
-                  displayName="Incapable de prendre soins de soi-même. Alité ou en chaise en permanence"/>
+                  displayName="Décédé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

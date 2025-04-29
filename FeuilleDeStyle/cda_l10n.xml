@@ -3129,6 +3129,36 @@
         <value lang="nl-nl">Voorkeur zorginstelling</value>
         <value lang="fr-fr">Etablissement de santé de préférence</value>
     </translation>
+    <translation key="2.16.840.1.113883.5.90-INF-HEBERG">
+        <comment>Label: ParticipationFunction accommodation center</comment>
+        <value lang="en-us">accommodation center</value>
+        <value lang="nl-nl">Unterkunftszentrum</value>
+        <value lang="fr-fr">Centre d'hébergement</value>
+    </translation>
+    <translation key="2.16.840.1.113883.5.90-INF-ST-PS-PEC">
+        <comment>Label: ParticipationFunction Local structures and professionals involved in care</comment>
+        <value lang="en-us">Local structures and professionals involved in care</value>
+        <value lang="nl-nl">Lokale Strukturen und in der Pflege tätige Fachkräfte</value>
+        <value lang="fr-fr">Structures et professionnels de proximité impliqués dans les soins</value>
+    </translation>
+    <translation key="2.16.840.1.113883.5.90-INF-ST-COORD">
+        <comment>Label: ParticipationFunction City-hospital coordination or interface structure</comment>
+        <value lang="en-us">City-hospital coordination or interface structure</value>
+        <value lang="nl-nl">Stadt-Krankenhaus-Koordinations- bzw. Schnittstellenstruktur</value>
+        <value lang="fr-fr">Structure de coordination ou d'interface ville-hôpital</value>
+    </translation>
+    <translation key="2.16.840.1.113883.5.90-INF-ORG-SOC">
+        <comment>Label: ParticipationFunction Social and job retention organizations</comment>
+        <value lang="en-us">Social and job retention organizations</value>
+        <value lang="nl-nl">Soziale Organisationen und Organisationen zur Arbeitsplatzerhaltung</value>
+        <value lang="fr-fr">Organismes sociaux et de maintien dans l'emploi</value>
+    </translation>
+    <translation key="2.16.840.1.113883.5.90-INF-ST-INF">
+        <comment>Label: ParticipationFunction Support and information structure</comment>
+        <value lang="en-us">Support and information structure</value>
+        <value lang="nl-nl">Support- und Informationsstruktur</value>
+        <value lang="fr-fr">Structure de soutien et d'information</value>
+    </translation>
     <translation key="2.16.840.1.113883.5.90-IND-PCP">
         <comment>Label: ParticipationFunction primary care physician</comment>
         <value lang="en-us">Primary care physician</value>
