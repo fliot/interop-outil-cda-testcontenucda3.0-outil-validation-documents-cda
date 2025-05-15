@@ -15,6 +15,7 @@
     23/02/2021 : Renommage et vérification des contrôles par rapport au volet
     12/04/2022 : modifier les codes provenant du JDV 
     04/12/2023 : nouvelle version CSE-CS8_2024
+    13/05/2025 : Mise à jour du code de la mère "MTH" en "NMTH" et correction du code MED-183 par MED-283
     
 -->
 
@@ -25,17 +26,17 @@
     <rule context='*[cda:templateId/@root="1.3.6.1.4.1.19376.1.5.3.1.3.16.1"]'>               
         
         <!-- Vérification de la présence de l'entrée 'Consommation d'alcool' (mère) -->
-        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="MTH"]/cda:code/@code="74013-4"'>             
+        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="NMTH"]/cda:code/@code="74013-4"'>             
             [E_codedSocialHistory_CSE-CS8] Erreur de Conformité : L'entrée "Consommation d'alcool" de code 74013-4 est obligatoire pour la mère.
         </assert>
         
         <!-- Vérification de la présence de l'entrée 'Consommation de tabac et exposition durant la grossesse' (mère) -->
-        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="MTH"]/cda:code/@code="74011-8"'>             
+        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="NMTH"]/cda:code/@code="74011-8"'>             
             [E_codedSocialHistory_CSE-CS8] Erreur de conformité : L'entrée "Consommation de tabac et exposition durant la grossesse" de code 74011-8 est obligatoire pour la mère.
         </assert>
         
         <!-- Vérification de la présence de l'entrée 'Addiction autres substances' (mère) -->
-        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="MTH"]/cda:code[@code="11345-6"]/cda:qualifier/cda:value/@code="GEN-092.01.04"'>             
+        <assert test='.//cda:entry/cda:observation[cda:subject/cda:relatedSubject/cda:code/@code="NMTH"]/cda:code[@code="11345-6"]/cda:qualifier/cda:value/@code="GEN-092.01.04"'>             
             [E_codedSocialHistory_CSE-CS8] Erreur de conformité : L'entrée "Addiction autres substances" de code GEN-092.01.04 est obligatoire pour la mère.
         </assert>
         
@@ -50,8 +51,8 @@
         </assert>     
         
         <!-- Vérification de la présence de l'entrée 'Facteurs de risque familiaux de tuberculose' -->
-        <assert test='.//cda:code[@code ="11345-6"]/cda:qualifier/cda:value/@code="MED-183"'>
-            [E_codedSocialHistory-CSE-CS8] Erreur de conformité : La donnée "Facteurs de risque familiaux de tuberculose" de code MED-183 est obligatoire.
+        <assert test='.//cda:code[@code ="11345-6"]/cda:qualifier/cda:value/@code="MED-283"'>
+            [E_codedSocialHistory-CSE-CS8] Erreur de conformité : La donnée "Facteurs de risque familiaux de tuberculose" de code MED-283 est obligatoire.
         </assert>
         
     </rule>

@@ -9,6 +9,7 @@
     11/10/2017 : Ajout du nom du schématron sur les messages d'erreur
     21/11/2017 : Mise à jour des codes TA_CS ==> TA_ASIP
     24/02/2020 : Nouveau schématron de section en remplacement du schématron d'entrée
+    13/05/2025 : Mise à jour du code de la mère "MTH" en "NMTH"
     
 -->
 
@@ -17,7 +18,7 @@
 
     <rule context="*[cda:templateId/@root='1.3.6.1.4.1.19376.1.5.3.1.1.21.2.3']">
         <!-- Attribution à la mère -->
-        <assert test="cda:subject/cda:relatedSubject/cda:code/@code='MTH'"> 
+        <assert test="cda:subject/cda:relatedSubject/cda:code/@code='NMTH'"> 
             [S_laborAndDelivery_CSE-CS8] Erreur de conformité : 
             La section "Labor and Delivery" dans le contexte du CS8 doit être attribué à la mère.
         </assert>        
