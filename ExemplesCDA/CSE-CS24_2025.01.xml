@@ -1241,7 +1241,7 @@
             </section>
          </component>         
          
-         <!-- [1..1] Section FR-Allergies-et-hypersensibilites -->
+         <!-- [0..1] Section FR-Allergies-et-hypersensibilites -->
          <component>
             <section>
                <!-- Conformité Alerts Section (CCD) -->
