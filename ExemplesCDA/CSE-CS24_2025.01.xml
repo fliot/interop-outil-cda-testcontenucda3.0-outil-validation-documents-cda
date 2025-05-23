@@ -868,10 +868,7 @@
                      <id root="FD850158-7CCD-11EB-9439-0242AC130010"/>
                      <code nullFlavor="NA"/>
                      <statusCode code="completed"/>
-                     <effectiveTime>
-                        <low value="20210211094914+0100"/>
-                        <high value="20210211094915+0100"/>
-                     </effectiveTime>
+                     <effectiveTime nullFlavor="UNK"/>
                      
                      <!-- Entrée FR-Probleme : Prématurité inf. à 33 semaines non constaté (negationInd="true") -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
@@ -1061,7 +1058,7 @@
                      <id root="2022BE76-7CC9-11EB-9439-0242AC130027"/>
                      <code code="85353-1" displayName="Signes vitaux" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
                      <statusCode code="completed"/>
-                     <effectiveTime value="20210211"/>
+                     <effectiveTime nullFlavor="UNK"/>
                      
                      <!-- [1..1] Entrée FR-Signe-vital-observe : Poids (g) -->
                      <component typeCode="COMP">
@@ -1279,8 +1276,8 @@
                      <code nullFlavor="NA"/>
                      <statusCode code="completed"/>
                      <effectiveTime>
-                        <low value="20210803"/>
-                        <high nullFlavor="UNK"/>
+                        <low nullFlavor="UNK"/>
+                        <high nullFlavor="UNK"/>                    
                      </effectiveTime>
                      <!-- Entrée FR-Allergie-ou-hypersensibilite : Allergie alimentaire -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
