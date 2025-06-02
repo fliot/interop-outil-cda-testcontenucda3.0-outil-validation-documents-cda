@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-type-systeme-cisis "
+             effectiveDate="2025-04-25T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.825"
+             name="JdvTypeSystemeCisis "
+             revisionDate="2025-04-25T00:00:00+01:00"
+             title="Jdv Type Systeme CISIS"
+             version="2025-04-28T08:42:26+01:00">
+      <ConceptList>
+         <Concept code="ALIM_AM"
+                  codeSystem="1.2.250.1.213.1.1.4.6"
+                  dateValid="20250425000000"
+                  displayName="Alimentation auto à partir du SI de l'Ass Maladie"/>
+         <Concept code="DISPOSITIF"
+                  codeSystem="1.2.250.1.213.1.1.4.6"
+                  dateValid="20250425000000"
+                  displayName="Dispositif médical"/>
+         <Concept code="AUTOMATE"
+                  codeSystem="1.2.250.1.213.1.1.4.6"
+                  dateValid="20250425000000"
+                  displayName="Automate"/>
+         <Concept code="SNR"
+                  codeSystem="1.2.250.1.213.1.1.4.6"
+                  dateValid="20250425000000"
+                  displayName="Service numérique référencé"/>
+         <Concept code="LOGICIEL_DUI"
+                  codeSystem="1.2.250.1.213.1.1.4.6"
+                  dateValid="20250425000000"
+                  displayName="Logiciel de Dossier Usager Informatisé"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

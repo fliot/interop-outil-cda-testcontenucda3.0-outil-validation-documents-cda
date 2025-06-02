@@ -142,7 +142,7 @@
    <pattern>
       <title>SMDS_CDAClinicalDocument</title>
       <rule context="/">
-         <assert role="warning" test="descendant-or-self::hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1">descendant-or-self::hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]: Instance is expected to have the following element: %%2</assert>
+         <assert role="warning" test="descendant-or-self::hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1">StrucMin: Instance is expected to have the following element: descendant-or-self::hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]</assert>
       </rule>
    </pattern>
    <include href="include/1.2.250.1.213.1.1.1.1-2017-12-13T103531.sch"/>

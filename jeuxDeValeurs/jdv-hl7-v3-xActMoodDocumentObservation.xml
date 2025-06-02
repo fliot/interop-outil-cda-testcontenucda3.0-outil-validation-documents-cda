@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-v3-xActMoodDocumentObservation"
+             effectiveDate="2025-03-28T00:00:00+01:00"
+             id="2.16.840.1.113883.1.11.18943"
+             name="XActMoodDocumentObservation"
+             revisionDate="2025-03-28T00:00:00+01:00"
+             title="x_ActMoodDocumentObservation"
+             version="2025-04-28T08:42:26+01:00">
+      <ConceptList>
+         <Concept code="APT"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Date et lieu confirmé"/>
+         <Concept code="ARQ"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Prévu mais non confirmé"/>
+         <Concept code="DEF"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Définition"/>
+         <Concept code="EVN"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Réalisé"/>
+         <Concept code="GOL"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="But"/>
+         <Concept code="INT"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Prévu"/>
+         <Concept code="PRMS"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Planifié et confirmé"/>
+         <Concept code="PRP"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Proposition"/>
+         <Concept code="RQO"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Demande"/>
+         <Concept code="RSK"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  dateValid="20250328000000"
+                  displayName="Risque"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
