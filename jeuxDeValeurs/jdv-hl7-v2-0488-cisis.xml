@@ -6,9 +6,9 @@
              effectiveDate="2025-03-19T00:00:00+01:00"
              id="2.16.840.1.113883.21.328"
              name="Hl7VSSpecimenCollectionMethod"
-             revisionDate="2025-03-19T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:46+01:00"
              title="hl7VS-specimenCollectionMethod"
-             version="2025-04-28T08:42:27+01:00">
+             version="2025-03-19T00:00:00+01:00">
       <ConceptList>
          <Concept code="FNA"
                   codeSystem="2.16.840.1.113883.18.312"

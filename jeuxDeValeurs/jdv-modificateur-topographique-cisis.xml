@@ -6,9 +6,9 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.688"
              name="JdvModificateurTopographiqueCisis"
-             revisionDate="2022-11-14T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:44+01:00"
              title="JDV Modificateur Topographique CISIS"
-             version="2025-04-28T08:42:26+01:00">
+             version="2022-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"

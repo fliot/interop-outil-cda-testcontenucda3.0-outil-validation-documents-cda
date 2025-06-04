@@ -6,10 +6,14 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.106"
              name="JdvVaccinCse9Cisis"
-             revisionDate="2023-11-22T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:46+01:00"
              title="JDV Vaccin Cse9 CISIS"
-             version="2025-04-28T08:42:27+01:00">
+             version="2025-05-20T00:00:00+01:00">
       <ConceptList>
+         <Concept code="J07CA06"
+                  codeSystem="2.16.840.1.113883.6.73"
+                  dateValid="20250520000000"
+                  displayName="diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos"/>
          <Concept code="J07CA01"
                   codeSystem="2.16.840.1.113883.6.73"
                   dateValid="20100101000000"

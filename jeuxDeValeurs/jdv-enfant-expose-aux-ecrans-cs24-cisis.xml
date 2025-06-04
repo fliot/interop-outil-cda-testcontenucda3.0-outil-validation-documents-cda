@@ -6,9 +6,9 @@
              effectiveDate="2023-10-30T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.760"
              name="JdvEnfantExposeAuxEcransCs24Cisis"
-             revisionDate="2023-10-30T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:43+01:00"
              title="JDV Enfant Expose Aux Ecrans Cs24 CISIS"
-             version="2025-04-28T08:42:25+01:00">
+             version="2023-10-30T00:00:00+01:00">
       <ConceptList>
          <Concept code="GEN-311"
                   codeSystem="1.2.250.1.213.1.1.4.322"

@@ -6,9 +6,9 @@
              effectiveDate="2021-09-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.649"
              name="JdvResultatComparaisonCisis"
-             revisionDate="2021-09-07T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:43+01:00"
              title="JDV Resultat Comparaison CISIS"
-             version="2025-04-28T08:42:25+01:00">
+             version="2021-09-07T00:00:00+01:00">
       <ConceptList>
          <Concept code="GEN-001"
                   codeSystem="1.2.250.1.213.1.1.4.322"

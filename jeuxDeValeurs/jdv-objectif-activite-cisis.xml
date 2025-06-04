@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.41"
              name="JdvObjectifActiviteCisis"
-             revisionDate="2025-04-15T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:45+01:00"
              title="JDV Objectif Activite CISIS"
-             version="2025-04-28T08:42:27+01:00">
+             version="2025-05-15T00:00:00+01:00">
       <ConceptList>
          <Concept code="409073007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -42,10 +42,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250305000000"
                   displayName="procédure d'urgence"/>
-         <Concept code="ORG-049"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Protocole de recherche"/>
+         <Concept code="308364004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250515000000"
+                  displayName="procédure en lien avec la recherche"/>
          <Concept code="71388002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20250305000000"

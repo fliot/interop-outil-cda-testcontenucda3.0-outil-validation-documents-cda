@@ -6,9 +6,9 @@
              effectiveDate="2021-11-27T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.657"
              name="JdvClassificationAcrEchographieCisis"
-             revisionDate="2021-11-27T00:00:00+01:00"
+             revisionDate="2025-06-04T10:13:44+01:00"
              title="JDV Classification Acr Echographie CISIS"
-             version="2025-04-28T08:42:25+01:00">
+             version="2021-11-27T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-1099"
                   codeSystem="1.2.250.1.213.1.1.4.322"
