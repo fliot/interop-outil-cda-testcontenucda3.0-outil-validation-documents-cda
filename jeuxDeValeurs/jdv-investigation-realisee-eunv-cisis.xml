@@ -6,46 +6,46 @@
              effectiveDate="2024-09-17T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.227"
              name="JdvInvestigationRealiseeEunvCisis"
-             revisionDate="2025-06-04T10:13:46+01:00"
+             revisionDate="2024-09-17T00:00:00+01:00"
              title="JDV Investigation Realisee Eunv CISIS"
-             version="2024-09-17T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
          <Concept code="DEQP003"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="ECG"/>
+                  displayName="Électrocardiographie sur au moins 12 dérivations"/>
          <Concept code="DEQP004"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Scope"/>
+                  displayName="Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"/>
          <Concept code="DEQP005"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Holter"/>
+                  displayName="Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"/>
          <Concept code="DZQM006"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Echographie transthoracique"/>
+                  displayName="Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"/>
          <Concept code="DZQJ001"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Echographie transoesophagienne"/>
+                  displayName="Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"/>
          <Concept code="ACQN001"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="ARM Cervicale"/>
+                  displayName="Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"/>
          <Concept code="EBQH006"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Angiographie cervicale"/>
+                  displayName="Scanographie des vaisseaux cervicaux [Angioscanner cervical]"/>
          <Concept code="EAQM004"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="Echo-Doppler cervical"/>
+                  displayName="Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"/>
          <Concept code="EAQM002"
                   codeSystem="1.2.250.1.215.300.1"
                   dateValid="20240917000000"
-                  displayName="DTC"/>
+                  displayName="Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

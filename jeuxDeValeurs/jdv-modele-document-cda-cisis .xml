@@ -6,10 +6,14 @@
              effectiveDate="2016-09-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.820"
              name="JdvModeleDocumentCdaCisis "
-             revisionDate="2025-06-04T10:13:45+01:00"
+             revisionDate="2025-06-04T00:00:00+01:00"
              title="Jdv Modele Document CDA CISIS"
-             version="2024-07-26T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
+         <Concept code="1.3.6.1.4.1.19376.1.2.20"
+                  codeSystem="1.2.250.1.213.1.1.4.329"
+                  dateValid="20160901000000"
+                  displayName="Modèle de document CDA non structuré"/>
          <Concept code="1.2.250.1.213.1.1.1.2.1.1"
                   codeSystem="1.2.250.1.213.1.1.4.328"
                   dateValid="20160901000000"

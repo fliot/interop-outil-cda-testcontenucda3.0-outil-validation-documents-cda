@@ -24588,6 +24588,9 @@
       <skos:notation>LFDA0051</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>HLQM702</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>FAFA0091</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -27241,6 +27244,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ABFC00110</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>HLQM70210</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HJSA0014</skos:notation>
@@ -35223,6 +35229,9 @@
       <skos:notation>MFKA00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>AANB741</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>MHEA0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -35290,6 +35299,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGDA001</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>AANB7411</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDQH006</skos:notation>
@@ -35407,6 +35419,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NCCA00610</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>AANB7414</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDQH001</skos:notation>
@@ -37818,7 +37833,7 @@
       <skos:notation>NCCB002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>10</skos:notation>
+      <skos:notation>Categorie_10</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ADFA0031</skos:notation>
@@ -37962,7 +37977,7 @@
       <skos:notation>AFCA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>19</skos:notation>
+      <skos:notation>Categorie_19</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JGFA0051</skos:notation>
@@ -41088,6 +41103,9 @@
       <skos:notation>AHCA01340</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>AANB74140</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>LFFA0134</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -42633,6 +42651,9 @@
       <skos:notation>JPGD001</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>ZZQX231</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>JCFC00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -43645,6 +43666,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBGA01040</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>AANB74110</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BDFA003</skos:notation>
@@ -78453,6 +78477,9 @@
       <skos:notation>CAMA016</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>ZZQX23110</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>HEAE00112</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -86010,7 +86037,7 @@
       <skos:notation>MCCB008</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BL</skos:notation>
+      <skos:notation>BL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HMQJ00210</skos:notation>
@@ -86121,7 +86148,7 @@
       <skos:notation>02.05.02.06</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BH</skos:notation>
+      <skos:notation>BH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGPA005</skos:notation>
@@ -86166,10 +86193,10 @@
       <skos:notation>AHHA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BJ</skos:notation>
+      <skos:notation>BJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BK</skos:notation>
+      <skos:notation>BK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DAFA0024</skos:notation>
@@ -86190,7 +86217,7 @@
       <skos:notation>MCCB0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BD</skos:notation>
+      <skos:notation>BD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGPA001</skos:notation>
@@ -86208,7 +86235,7 @@
       <skos:notation>AHCA02340</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BE</skos:notation>
+      <skos:notation>BE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EGPA00140</skos:notation>
@@ -86223,7 +86250,7 @@
       <skos:notation>GLQP0091</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BF</skos:notation>
+      <skos:notation>BF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ECSF0081</skos:notation>
@@ -86238,7 +86265,7 @@
       <skos:notation>CALD001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BG</skos:notation>
+      <skos:notation>BG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MCCB0021</skos:notation>
@@ -86256,7 +86283,7 @@
       <skos:notation>MGMA00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CB</skos:notation>
+      <skos:notation>CB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LEHA00240</skos:notation>
@@ -86286,7 +86313,7 @@
       <skos:notation>BGDA00710</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CC</skos:notation>
+      <skos:notation>CC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FAFA006</skos:notation>
@@ -86319,7 +86346,7 @@
       <skos:notation>FAFA009</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CD</skos:notation>
+      <skos:notation>CD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LDPA00810</skos:notation>
@@ -86343,7 +86370,7 @@
       <skos:notation>FAFA008</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CE</skos:notation>
+      <skos:notation>CE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MEEP001</skos:notation>
@@ -86406,7 +86433,7 @@
       <skos:notation>MDFA00440</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CA</skos:notation>
+      <skos:notation>CA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MFCA00110</skos:notation>
@@ -86457,7 +86484,7 @@
       <skos:notation>MZFA010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BZ</skos:notation>
+      <skos:notation>BZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FAFA001</skos:notation>
@@ -86532,7 +86559,7 @@
       <skos:notation>JBPH0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AN</skos:notation>
+      <skos:notation>AN</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LAPA010</skos:notation>
@@ -86580,7 +86607,7 @@
       <skos:notation>DDMA0154</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AJ</skos:notation>
+      <skos:notation>AJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>04.02.03.01</skos:notation>
@@ -86595,7 +86622,7 @@
       <skos:notation>HCFA0061</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AK</skos:notation>
+      <skos:notation>AK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DERP0031</skos:notation>
@@ -86619,7 +86646,7 @@
       <skos:notation>JCGC00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AL</skos:notation>
+      <skos:notation>AL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JZQE0011</skos:notation>
@@ -86628,7 +86655,7 @@
       <skos:notation>AHGA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AM</skos:notation>
+      <skos:notation>AM</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BGGA0054</skos:notation>
@@ -86667,7 +86694,7 @@
       <skos:notation>Dent_41</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AF</skos:notation>
+      <skos:notation>AF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNAE001</skos:notation>
@@ -86691,7 +86718,7 @@
       <skos:notation>HBMD04710</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AG</skos:notation>
+      <skos:notation>AG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGPA016</skos:notation>
@@ -86712,7 +86739,7 @@
       <skos:notation>BEMA00240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AH</skos:notation>
+      <skos:notation>AH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JRRD0011</skos:notation>
@@ -86757,7 +86784,7 @@
       <skos:notation>EAMA0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AB</skos:notation>
+      <skos:notation>AB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>04.02.03.09</skos:notation>
@@ -86781,7 +86808,7 @@
       <skos:notation>MHFA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AC</skos:notation>
+      <skos:notation>AC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGPA012</skos:notation>
@@ -86799,7 +86826,7 @@
       <skos:notation>MCCB0034</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AD</skos:notation>
+      <skos:notation>AD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>04.02.03.06</skos:notation>
@@ -86823,7 +86850,7 @@
       <skos:notation>DGPA010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AE</skos:notation>
+      <skos:notation>AE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HESA00340</skos:notation>
@@ -86856,7 +86883,7 @@
       <skos:notation>JFJC00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BA</skos:notation>
+      <skos:notation>BA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QAEA00740</skos:notation>
@@ -86865,7 +86892,7 @@
       <skos:notation>Dent_36</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BB</skos:notation>
+      <skos:notation>BB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBPA0104</skos:notation>
@@ -86892,7 +86919,7 @@
       <skos:notation>Dent_34</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_BC</skos:notation>
+      <skos:notation>BC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDAA001</skos:notation>
@@ -87009,7 +87036,7 @@
       <skos:notation>FAFA012</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AZ</skos:notation>
+      <skos:notation>AZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>YYYY18510</skos:notation>
@@ -87375,7 +87402,7 @@
       <skos:notation>QEMA00810</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_AA</skos:notation>
+      <skos:notation>AA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Changer_la_position_sans_retirer</skos:notation>
@@ -88131,7 +88158,7 @@
       <skos:notation>ZCQD001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FZ</skos:notation>
+      <skos:notation>FZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MEKA0051</skos:notation>
@@ -88332,7 +88359,7 @@
       <skos:notation>FEQL00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GJ</skos:notation>
+      <skos:notation>GJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BBHA00110</skos:notation>
@@ -88347,10 +88374,10 @@
       <skos:notation>01.05.04.05</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GK</skos:notation>
+      <skos:notation>GK</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GL</skos:notation>
+      <skos:notation>GL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>01.05.04.04</skos:notation>
@@ -88380,7 +88407,7 @@
       <skos:notation>BHGA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GF</skos:notation>
+      <skos:notation>GF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDFA0081</skos:notation>
@@ -88407,7 +88434,7 @@
       <skos:notation>MHMP00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GG</skos:notation>
+      <skos:notation>GG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EJQP001</skos:notation>
@@ -88425,7 +88452,7 @@
       <skos:notation>QAJH0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GH</skos:notation>
+      <skos:notation>GH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QZJA0141</skos:notation>
@@ -88446,7 +88473,7 @@
       <skos:notation>BHGA003</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GB</skos:notation>
+      <skos:notation>GB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JEMA011</skos:notation>
@@ -88458,7 +88485,7 @@
       <skos:notation>HBKD212</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GC</skos:notation>
+      <skos:notation>GC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LFPA0034</skos:notation>
@@ -88482,7 +88509,7 @@
       <skos:notation>BHGA005</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GD</skos:notation>
+      <skos:notation>GD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BJMA00810</skos:notation>
@@ -88503,7 +88530,7 @@
       <skos:notation>BHGA004</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GE</skos:notation>
+      <skos:notation>GE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZQX17510</skos:notation>
@@ -88560,7 +88587,7 @@
       <skos:notation>CBMA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GA</skos:notation>
+      <skos:notation>GA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>YYYY1411</skos:notation>
@@ -88695,7 +88722,7 @@
       <skos:notation>JDQD00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EN</skos:notation>
+      <skos:notation>EN</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NHDA0071</skos:notation>
@@ -88722,7 +88749,7 @@
       <skos:notation>BGJA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EP</skos:notation>
+      <skos:notation>EP</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGKA02850</skos:notation>
@@ -88734,7 +88761,7 @@
       <skos:notation>CAMA00440</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EQ</skos:notation>
+      <skos:notation>EQ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QZEA01440</skos:notation>
@@ -88755,7 +88782,7 @@
       <skos:notation>Dent_85</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EJ</skos:notation>
+      <skos:notation>EJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>09.05</skos:notation>
@@ -88788,7 +88815,7 @@
       <skos:notation>LAFA0084</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EK</skos:notation>
+      <skos:notation>EK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LAHH005</skos:notation>
@@ -88809,7 +88836,7 @@
       <skos:notation>Dent_83</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EL</skos:notation>
+      <skos:notation>EL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>08.03.01.03</skos:notation>
@@ -88836,7 +88863,7 @@
       <skos:notation>DBMA01350</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EM</skos:notation>
+      <skos:notation>EM</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>08.03.01.04</skos:notation>
@@ -88941,13 +88968,13 @@
       <skos:notation>DZMA00250</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FD</skos:notation>
+      <skos:notation>FD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HCGA130</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FE</skos:notation>
+      <skos:notation>FE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NAPA00510</skos:notation>
@@ -88965,7 +88992,7 @@
       <skos:notation>NJFA00510</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FF</skos:notation>
+      <skos:notation>FF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDFA0071</skos:notation>
@@ -88980,7 +89007,7 @@
       <skos:notation>JEMA021</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FG</skos:notation>
+      <skos:notation>FG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BGDA00740</skos:notation>
@@ -89013,7 +89040,7 @@
       <skos:notation>HHGE01010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FA</skos:notation>
+      <skos:notation>FA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Action_J</skos:notation>
@@ -89031,7 +89058,7 @@
       <skos:notation>LEHA00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FB</skos:notation>
+      <skos:notation>FB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BCHA00110</skos:notation>
@@ -89046,7 +89073,7 @@
       <skos:notation>MFQH00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_FC</skos:notation>
+      <skos:notation>FC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GDEA00110</skos:notation>
@@ -89064,7 +89091,7 @@
       <skos:notation>DGSA0035</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EZ</skos:notation>
+      <skos:notation>EZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HMFA0101</skos:notation>
@@ -89280,7 +89307,7 @@
       <skos:notation>DBLF001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DH</skos:notation>
+      <skos:notation>DH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EFNF0014</skos:notation>
@@ -89334,7 +89361,7 @@
       <skos:notation>HGFA00810</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DK</skos:notation>
+      <skos:notation>DK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MJEA00110</skos:notation>
@@ -89349,7 +89376,7 @@
       <skos:notation>HBLD23110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EF</skos:notation>
+      <skos:notation>EF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MCCB0084</skos:notation>
@@ -89364,7 +89391,7 @@
       <skos:notation>KDQC9001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EG</skos:notation>
+      <skos:notation>EG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HFMA00910</skos:notation>
@@ -89382,7 +89409,7 @@
       <skos:notation>GFFA0141</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EH</skos:notation>
+      <skos:notation>EH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HHFA01410</skos:notation>
@@ -89433,7 +89460,7 @@
       <skos:notation>GEME12110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EB</skos:notation>
+      <skos:notation>EB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Dent_45</skos:notation>
@@ -89442,7 +89469,7 @@
       <skos:notation>ABSA009</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EC</skos:notation>
+      <skos:notation>EC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Dent_44</skos:notation>
@@ -89460,7 +89487,7 @@
       <skos:notation>Dent_43</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ED</skos:notation>
+      <skos:notation>ED</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DZMA00240</skos:notation>
@@ -89478,7 +89505,7 @@
       <skos:notation>Dent_42</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EE</skos:notation>
+      <skos:notation>EE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GFFA0144</skos:notation>
@@ -89529,7 +89556,7 @@
       <skos:notation>MFPA00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_EA</skos:notation>
+      <skos:notation>EA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LBLD29410</skos:notation>
@@ -89577,7 +89604,7 @@
       <skos:notation>HLJA0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DZ</skos:notation>
+      <skos:notation>DZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JHAA001</skos:notation>
@@ -89730,7 +89757,7 @@
       <skos:notation>EQQP0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_64</skos:notation>
+      <skos:notation>64</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MEKA0044</skos:notation>
@@ -89763,7 +89790,7 @@
       <skos:notation>ADC</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_63</skos:notation>
+      <skos:notation>63</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DHAF003</skos:notation>
@@ -89784,7 +89811,7 @@
       <skos:notation>NHDA0094</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_62</skos:notation>
+      <skos:notation>62</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MACB001</skos:notation>
@@ -89811,7 +89838,7 @@
       <skos:notation>LBLD2811</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_61</skos:notation>
+      <skos:notation>61</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MEKA0041</skos:notation>
@@ -89862,7 +89889,7 @@
       <skos:notation>DGAF00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DD</skos:notation>
+      <skos:notation>DD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GFFA0131</skos:notation>
@@ -89889,7 +89916,7 @@
       <skos:notation>LAFA0064</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DE</skos:notation>
+      <skos:notation>DE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FCCA00140</skos:notation>
@@ -89904,13 +89931,13 @@
       <skos:notation>MCCB0094</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DF</skos:notation>
+      <skos:notation>DF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>KDEA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DG</skos:notation>
+      <skos:notation>DG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ABFA00140</skos:notation>
@@ -89946,7 +89973,7 @@
       <skos:notation>QZJA0131</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DA</skos:notation>
+      <skos:notation>DA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AHLA0031</skos:notation>
@@ -89967,7 +89994,7 @@
       <skos:notation>MCFA00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DB</skos:notation>
+      <skos:notation>DB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Dent_55</skos:notation>
@@ -89982,7 +90009,7 @@
       <skos:notation>Dent_54</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_DC</skos:notation>
+      <skos:notation>DC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LBFA00940</skos:notation>
@@ -89994,7 +90021,7 @@
       <skos:notation>QZJA0134</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_CZ</skos:notation>
+      <skos:notation>CZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DEEF00210</skos:notation>
@@ -90096,7 +90123,7 @@
       <skos:notation>HMAE0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KA</skos:notation>
+      <skos:notation>KA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GFQX0201</skos:notation>
@@ -90114,7 +90141,7 @@
       <skos:notation>HKGA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KB</skos:notation>
+      <skos:notation>KB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBGD106</skos:notation>
@@ -90129,7 +90156,7 @@
       <skos:notation>BFGA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KC</skos:notation>
+      <skos:notation>KC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QZJA0104</skos:notation>
@@ -90138,7 +90165,7 @@
       <skos:notation>ANLP002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KD</skos:notation>
+      <skos:notation>KD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MADP00110</skos:notation>
@@ -90159,7 +90186,7 @@
       <skos:notation>HBED0111</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KE</skos:notation>
+      <skos:notation>KE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HAHD00310</skos:notation>
@@ -90231,7 +90258,7 @@
       <skos:notation>YYYY5331</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JZ</skos:notation>
+      <skos:notation>JZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HEQL001</skos:notation>
@@ -90270,7 +90297,7 @@
       <skos:notation>DFGA0025</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JT</skos:notation>
+      <skos:notation>JT</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBLD0291</skos:notation>
@@ -90288,7 +90315,7 @@
       <skos:notation>PADA00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JV</skos:notation>
+      <skos:notation>JV</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EQCF00240</skos:notation>
@@ -90468,7 +90495,7 @@
       <skos:notation>NZFA00840</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KF</skos:notation>
+      <skos:notation>KF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDFA0041</skos:notation>
@@ -90495,7 +90522,7 @@
       <skos:notation>EGLF002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KG</skos:notation>
+      <skos:notation>KG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GCFA0031</skos:notation>
@@ -90555,7 +90582,7 @@
       <skos:notation>DFGA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JA</skos:notation>
+      <skos:notation>JA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JVQP0011</skos:notation>
@@ -90570,10 +90597,10 @@
       <skos:notation>NHMA0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JB</skos:notation>
+      <skos:notation>JB</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JC</skos:notation>
+      <skos:notation>JC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGPA01010</skos:notation>
@@ -90768,7 +90795,7 @@
       <skos:notation>ZZQX628</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JP</skos:notation>
+      <skos:notation>JP</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QEQX008</skos:notation>
@@ -90792,7 +90819,7 @@
       <skos:notation>JAFC0051</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JQ</skos:notation>
+      <skos:notation>JQ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MEMA01810</skos:notation>
@@ -90810,7 +90837,7 @@
       <skos:notation>HAMA03040</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JR</skos:notation>
+      <skos:notation>JR</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QEQX006</skos:notation>
@@ -90819,7 +90846,7 @@
       <skos:notation>GCFD00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JS</skos:notation>
+      <skos:notation>JS</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JANJ0024</skos:notation>
@@ -90831,7 +90858,7 @@
       <skos:notation>NGEA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JL</skos:notation>
+      <skos:notation>JL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZQP13210</skos:notation>
@@ -90852,7 +90879,7 @@
       <skos:notation>HBLD04910</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JM</skos:notation>
+      <skos:notation>JM</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>CBMA0061</skos:notation>
@@ -90873,7 +90900,7 @@
       <skos:notation>DZQJ9001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JN</skos:notation>
+      <skos:notation>JN</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JANJ0021</skos:notation>
@@ -90888,7 +90915,7 @@
       <skos:notation>JDFA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JH</skos:notation>
+      <skos:notation>JH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBCB0034</skos:notation>
@@ -90921,7 +90948,7 @@
       <skos:notation>HJDC00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JJ</skos:notation>
+      <skos:notation>JJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JDFA005</skos:notation>
@@ -90939,7 +90966,7 @@
       <skos:notation>HNCA00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JK</skos:notation>
+      <skos:notation>JK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JDFA004</skos:notation>
@@ -90960,7 +90987,7 @@
       <skos:notation>QZJA0114</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JD</skos:notation>
+      <skos:notation>JD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QEQX004</skos:notation>
@@ -90969,7 +90996,7 @@
       <skos:notation>MEFA00440</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JE</skos:notation>
+      <skos:notation>JE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBCB0031</skos:notation>
@@ -90981,7 +91008,7 @@
       <skos:notation>JDFA009</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JF</skos:notation>
+      <skos:notation>JF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDFA0031</skos:notation>
@@ -90993,7 +91020,7 @@
       <skos:notation>HAFA02640</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_JG</skos:notation>
+      <skos:notation>JG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AHQP90010</skos:notation>
@@ -91056,7 +91083,7 @@
       <skos:notation>ZZQP1441</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HZ</skos:notation>
+      <skos:notation>HZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JDFA013</skos:notation>
@@ -91089,7 +91116,7 @@
       <skos:notation>JKFA0304</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HT</skos:notation>
+      <skos:notation>HT</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>PADB002</skos:notation>
@@ -91140,7 +91167,7 @@
       <skos:notation>JGNJ900</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HP</skos:notation>
+      <skos:notation>HP</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZJJ0131</skos:notation>
@@ -91149,7 +91176,7 @@
       <skos:notation>ADQB0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HQ</skos:notation>
+      <skos:notation>HQ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HHCC00740</skos:notation>
@@ -91158,7 +91185,7 @@
       <skos:notation>LDKA76740</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HR</skos:notation>
+      <skos:notation>HR</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JDFE00310</skos:notation>
@@ -91176,7 +91203,7 @@
       <skos:notation>HBED0131</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HS</skos:notation>
+      <skos:notation>HS</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>PADB001</skos:notation>
@@ -91386,7 +91413,7 @@
       <skos:notation>ZZQP1431</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_GZ</skos:notation>
+      <skos:notation>GZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JDFA023</skos:notation>
@@ -91575,7 +91602,7 @@
       <skos:notation>BAFA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HL</skos:notation>
+      <skos:notation>HL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HCGA1094</skos:notation>
@@ -91602,7 +91629,7 @@
       <skos:notation>HEFE00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HM</skos:notation>
+      <skos:notation>HM</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>CBMA0081</skos:notation>
@@ -91620,7 +91647,7 @@
       <skos:notation>QEPA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HN</skos:notation>
+      <skos:notation>HN</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FCCA0014</skos:notation>
@@ -91650,7 +91677,7 @@
       <skos:notation>HPMB001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HH</skos:notation>
+      <skos:notation>HH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBCB0014</skos:notation>
@@ -91686,7 +91713,7 @@
       <skos:notation>BAFA005</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HJ</skos:notation>
+      <skos:notation>HJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JKFA01340</skos:notation>
@@ -91704,7 +91731,7 @@
       <skos:notation>FCCA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HK</skos:notation>
+      <skos:notation>HK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HLJC00110</skos:notation>
@@ -91713,7 +91740,7 @@
       <skos:notation>AJFA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HD</skos:notation>
+      <skos:notation>HD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBGA00110</skos:notation>
@@ -91728,7 +91755,7 @@
       <skos:notation>QEFA02010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HE</skos:notation>
+      <skos:notation>HE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MHDA0054</skos:notation>
@@ -91746,7 +91773,7 @@
       <skos:notation>NCMA00240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HF</skos:notation>
+      <skos:notation>HF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NDFA0011</skos:notation>
@@ -91767,7 +91794,7 @@
       <skos:notation>NEKA0084</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HG</skos:notation>
+      <skos:notation>HG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HEFC00140</skos:notation>
@@ -91791,7 +91818,7 @@
       <skos:notation>NEKA0081</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HA</skos:notation>
+      <skos:notation>HA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JAFC0071</skos:notation>
@@ -91806,7 +91833,7 @@
       <skos:notation>DHNF00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HB</skos:notation>
+      <skos:notation>HB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MJEA01540</skos:notation>
@@ -91818,7 +91845,7 @@
       <skos:notation>HMAE0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_HC</skos:notation>
+      <skos:notation>HC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GCFA0041</skos:notation>
@@ -92379,7 +92406,7 @@
       <skos:notation>NCMA00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NH</skos:notation>
+      <skos:notation>NH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BADA00310</skos:notation>
@@ -92421,7 +92448,7 @@
       <skos:notation>AJFA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NJ</skos:notation>
+      <skos:notation>NJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGKA022</skos:notation>
@@ -92439,7 +92466,7 @@
       <skos:notation>AHCA0051</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NK</skos:notation>
+      <skos:notation>NK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NCEA0011</skos:notation>
@@ -92457,7 +92484,7 @@
       <skos:notation>MHEA00340</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NC</skos:notation>
+      <skos:notation>NC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GDFE003</skos:notation>
@@ -92466,7 +92493,7 @@
       <skos:notation>BDNP001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ND</skos:notation>
+      <skos:notation>ND</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DZMA009</skos:notation>
@@ -92487,7 +92514,7 @@
       <skos:notation>DGKA027</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NE</skos:notation>
+      <skos:notation>NE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LGFA00610</skos:notation>
@@ -92520,10 +92547,10 @@
       <skos:notation>DGKA028</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NF</skos:notation>
+      <skos:notation>NF</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NG</skos:notation>
+      <skos:notation>NG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GEPA0041</skos:notation>
@@ -92574,7 +92601,7 @@
       <skos:notation>MEDA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NA</skos:notation>
+      <skos:notation>NA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDMA00340</skos:notation>
@@ -92604,7 +92631,7 @@
       <skos:notation>DAQL384</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NB</skos:notation>
+      <skos:notation>NB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LBGA13910</skos:notation>
@@ -92616,7 +92643,7 @@
       <skos:notation>ZCQK00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MZ</skos:notation>
+      <skos:notation>MZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ENFF0014</skos:notation>
@@ -92736,7 +92763,7 @@
       <skos:notation>13.03.02.04</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_NZ</skos:notation>
+      <skos:notation>NZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JEFA01110</skos:notation>
@@ -92979,13 +93006,13 @@
       <skos:notation>DEQP00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ME</skos:notation>
+      <skos:notation>ME</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LMMA002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MF</skos:notation>
+      <skos:notation>MF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ENFA00310</skos:notation>
@@ -93009,7 +93036,7 @@
       <skos:notation>LMMA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MG</skos:notation>
+      <skos:notation>MG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HKLB001</skos:notation>
@@ -93021,7 +93048,7 @@
       <skos:notation>LMMA004</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MH</skos:notation>
+      <skos:notation>MH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LBQK002</skos:notation>
@@ -93048,7 +93075,7 @@
       <skos:notation>LMMA006</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MA</skos:notation>
+      <skos:notation>MA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MGCA0011</skos:notation>
@@ -93069,7 +93096,7 @@
       <skos:notation>LMMA01240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MB</skos:notation>
+      <skos:notation>MB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LMMA005</skos:notation>
@@ -93090,13 +93117,13 @@
       <skos:notation>HCFA0074</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MC</skos:notation>
+      <skos:notation>MC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LMMA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MD</skos:notation>
+      <skos:notation>MD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>PAGA01010</skos:notation>
@@ -93189,7 +93216,7 @@
       <skos:notation>MEEP00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LZ</skos:notation>
+      <skos:notation>LZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDFA0064</skos:notation>
@@ -93330,6 +93357,9 @@
       <skos:notation>HENE0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>ZZQX2311</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>LBMA0064</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -93339,7 +93369,7 @@
       <skos:notation>LCPA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MJ</skos:notation>
+      <skos:notation>MJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MHDA0021</skos:notation>
@@ -93348,7 +93378,7 @@
       <skos:notation>HNCA00240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_MK</skos:notation>
+      <skos:notation>MK</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBCB0064</skos:notation>
@@ -93384,7 +93414,7 @@
       <skos:notation>LMMA014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LC</skos:notation>
+      <skos:notation>LC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HHQX008</skos:notation>
@@ -93393,7 +93423,7 @@
       <skos:notation>MCCA01010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LD</skos:notation>
+      <skos:notation>LD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HCFA0081</skos:notation>
@@ -93405,7 +93435,7 @@
       <skos:notation>BAAA0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LE</skos:notation>
+      <skos:notation>LE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGKA001</skos:notation>
@@ -93426,7 +93456,7 @@
       <skos:notation>JCCA00510</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LF</skos:notation>
+      <skos:notation>LF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BFGA010</skos:notation>
@@ -93450,7 +93480,7 @@
       <skos:notation>NBCB0061</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LG</skos:notation>
+      <skos:notation>LG</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AHCA0074</skos:notation>
@@ -93483,7 +93513,7 @@
       <skos:notation>DGKA003</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LA</skos:notation>
+      <skos:notation>LA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBMD08610</skos:notation>
@@ -93504,7 +93534,7 @@
       <skos:notation>LDQK00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LB</skos:notation>
+      <skos:notation>LB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AHCA0071</skos:notation>
@@ -93513,7 +93543,7 @@
       <skos:notation>DDMA0134</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_KZ</skos:notation>
+      <skos:notation>KZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>YYYY2801</skos:notation>
@@ -93693,7 +93723,7 @@
       <skos:notation>JAHB0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LL</skos:notation>
+      <skos:notation>LL</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZQP17110</skos:notation>
@@ -93714,7 +93744,7 @@
       <skos:notation>LBLD1431</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LM</skos:notation>
+      <skos:notation>LM</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGKA007</skos:notation>
@@ -93759,7 +93789,7 @@
       <skos:notation>QDPA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LH</skos:notation>
+      <skos:notation>LH</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBCB0054</skos:notation>
@@ -93786,7 +93816,7 @@
       <skos:notation>MHDA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_LJ</skos:notation>
+      <skos:notation>LJ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MCPA01240</skos:notation>
@@ -94833,7 +94863,7 @@
       <skos:notation>HBGD038</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QE</skos:notation>
+      <skos:notation>QE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JPHJ0021</skos:notation>
@@ -94884,7 +94914,7 @@
       <skos:notation>EBSA00840</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QA</skos:notation>
+      <skos:notation>QA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBGD034</skos:notation>
@@ -94905,7 +94935,7 @@
       <skos:notation>DBKA00410</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QB</skos:notation>
+      <skos:notation>QB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JEHE001</skos:notation>
@@ -94941,13 +94971,13 @@
       <skos:notation>HBGD036</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QC</skos:notation>
+      <skos:notation>QC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBGD035</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QD</skos:notation>
+      <skos:notation>QD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DAAF001</skos:notation>
@@ -95043,7 +95073,7 @@
       <skos:notation>AHPA00410</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_QZ</skos:notation>
+      <skos:notation>QZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GHJA001</skos:notation>
@@ -95271,7 +95301,7 @@
       <skos:notation>QEQX0371</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PC</skos:notation>
+      <skos:notation>PC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GFNH1744</skos:notation>
@@ -95286,7 +95316,7 @@
       <skos:notation>QZQX0321</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PD</skos:notation>
+      <skos:notation>PD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JKGE0021</skos:notation>
@@ -95295,7 +95325,7 @@
       <skos:notation>KGQL004</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PE</skos:notation>
+      <skos:notation>PE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BACA0074</skos:notation>
@@ -95352,7 +95382,7 @@
       <skos:notation>JAPA00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PA</skos:notation>
+      <skos:notation>PA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LFEP0011</skos:notation>
@@ -95373,7 +95403,7 @@
       <skos:notation>GFNH1741</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PB</skos:notation>
+      <skos:notation>PB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Liberer</skos:notation>
@@ -95478,7 +95508,7 @@
       <skos:notation>HAFA01240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_PZ</skos:notation>
+      <skos:notation>PZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>YYYY3381</skos:notation>
@@ -97965,7 +97995,7 @@
       <skos:notation>ENFA0024</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZZ</skos:notation>
+      <skos:notation>ZZ</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JKFA03240</skos:notation>
@@ -98388,7 +98418,7 @@
       <skos:notation>GEQJ2371</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZA</skos:notation>
+      <skos:notation>ZA</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HEFA02210</skos:notation>
@@ -98406,7 +98436,7 @@
       <skos:notation>AJNH00910</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZB</skos:notation>
+      <skos:notation>ZB</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GBBA00210</skos:notation>
@@ -98520,7 +98550,7 @@
       <skos:notation>EBSA002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_YY</skos:notation>
+      <skos:notation>YY</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EBQH0071</skos:notation>
@@ -98781,7 +98811,7 @@
       <skos:notation>HBGD2851</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZC</skos:notation>
+      <skos:notation>ZC</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JEFA00540</skos:notation>
@@ -98805,7 +98835,7 @@
       <skos:notation>ZZHH010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZD</skos:notation>
+      <skos:notation>ZD</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FCQX0281</skos:notation>
@@ -98820,7 +98850,7 @@
       <skos:notation>NFMA00840</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZE</skos:notation>
+      <skos:notation>ZE</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZHH011</skos:notation>
@@ -98835,7 +98865,7 @@
       <skos:notation>ZZHH012</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Topographie_ZF</skos:notation>
+      <skos:notation>ZF</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EGFA0094</skos:notation>
@@ -110944,6 +110974,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MDGA00240</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>HLQM7021</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EEAF00140</skos:notation>

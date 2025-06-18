@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.200"
              name="JdvEtiologieInfarctusCisis"
-             revisionDate="2025-06-04T10:13:44+01:00"
+             revisionDate="2023-02-02T00:00:00+01:00"
              title="JDV Etiologie Infarctus CISIS"
-             version="2023-02-02T00:00:00+01:00">
+             version="2025-06-16T14:17:09+01:00">
       <ConceptList>
          <Concept code="MED-479"
                   codeSystem="1.2.250.1.213.1.1.4.322"

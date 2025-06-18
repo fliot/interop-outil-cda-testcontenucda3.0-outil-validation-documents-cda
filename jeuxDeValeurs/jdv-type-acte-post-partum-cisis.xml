@@ -6,9 +6,9 @@
              effectiveDate="2023-02-02T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.739"
              name="JdvTypeActePostPartumCisis"
-             revisionDate="2025-06-04T10:13:45+01:00"
+             revisionDate="2024-09-17T00:00:00+01:00"
              title="JDV Type Acte Post Partum CISIS"
-             version="2024-09-17T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
          <Concept code="JNFA001"
                   codeSystem="1.2.250.1.215.300.1"

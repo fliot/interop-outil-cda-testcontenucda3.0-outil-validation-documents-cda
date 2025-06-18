@@ -6,9 +6,9 @@
              effectiveDate="2021-04-19T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.618"
              name="JdvModaliteAcquisitionCisis"
-             revisionDate="2025-06-04T10:13:45+01:00"
+             revisionDate="2021-04-19T00:00:00+01:00"
              title="JDV Modalite Acquisition CISIS"
-             version="2021-04-19T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
          <Concept code="AR"
                   codeSystem="1.2.840.10008.2.16.4"

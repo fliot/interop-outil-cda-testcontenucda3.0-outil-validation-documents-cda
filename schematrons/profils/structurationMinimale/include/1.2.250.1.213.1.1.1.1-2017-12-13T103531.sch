@@ -13,7 +13,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]" id="d152e17-false-d635e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]" id="d152e10-false-d635e0">
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@classCode) = ('DOCCLIN') or not(@classCode)">(Structuration minimale Documents de santé): The value for classCode SHALL be 'DOCCLIN'. Found: "<value-of select="@classCode"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@moodCode) = ('EVN') or not(@moodCode)">(Structuration minimale Documents de santé): The value for moodCode SHALL be 'EVN'. Found: "<value-of select="@moodCode"/>"</assert>
       <let name="theAttValue" value="distinct-values(tokenize(normalize-space(@extravalidationterminologies),'\s'))"/>
@@ -68,7 +68,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:realmCode[@code = 'FR']
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:realmCode[@code = 'FR']" id="d152e30-false-d1166e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:realmCode[@code = 'FR']" id="d152e16-false-d1166e0">
       <extends rule="CS"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'CS')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:CS". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@code) = ('FR')">(Structuration minimale Documents de santé): The value for code SHALL be 'FR'. Found: "<value-of select="@code"/>"</assert>
@@ -78,7 +78,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']" id="d152e35-false-d1184e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']" id="d152e18-false-d1184e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@root) = ('2.16.840.1.113883.1.3')">(Structuration minimale Documents de santé): The value for root SHALL be '2.16.840.1.113883.1.3'. Found: "<value-of select="@root"/>"</assert>
@@ -90,7 +90,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='2.16.840.1.113883.2.8.2.1']
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='2.16.840.1.113883.2.8.2.1']" id="d152e43-false-d1211e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='2.16.840.1.113883.2.8.2.1']" id="d152e21-false-d1211e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@root) = ('2.16.840.1.113883.2.8.2.1')">(Structuration minimale Documents de santé): The value for root SHALL be '2.16.840.1.113883.2.8.2.1'. Found: "<value-of select="@root"/>"</assert>
@@ -100,7 +100,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='1.2.250.1.213.1.1.1.1']
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='1.2.250.1.213.1.1.1.1']" id="d152e51-false-d1227e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[@root='1.2.250.1.213.1.1.1.1']" id="d152e25-false-d1227e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="string(@root) = ('1.2.250.1.213.1.1.1.1')">(Structuration minimale Documents de santé): The value for root SHALL be '1.2.250.1.213.1.1.1.1'. Found: "<value-of select="@root"/>"</assert>
@@ -110,7 +110,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[not(@root='1.2.250.1.213.1.1.1.1') and not(@root='2.16.840.1.113883.2.8.2.1')]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[not(@root='1.2.250.1.213.1.1.1.1') and not(@root='2.16.840.1.113883.2.8.2.1')]" id="d152e61-false-d1243e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:templateId[not(@root='1.2.250.1.213.1.1.1.1') and not(@root='2.16.840.1.113883.2.8.2.1')]" id="d152e31-false-d1243e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="@root">(Structuration minimale Documents de santé): attribute @root SHALL be present.</assert>
@@ -121,7 +121,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:id[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:id[not(@nullFlavor)]" id="d152e82-false-d1265e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:id[not(@nullFlavor)]" id="d152e48-false-d1265e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@extension) or string-length(@extension)&gt;0">(Structuration minimale Documents de santé): Attribute @extension SHALL be of data type 'st'  - '<value-of select="@extension"/>'</assert>
@@ -133,7 +133,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:code[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:code[not(@nullFlavor)]" id="d152e121-false-d1293e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:code[not(@nullFlavor)]" id="d152e78-false-d1293e0">
       <extends rule="CE"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'CE')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:CE". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@codeSystemName) or string-length(@codeSystemName)&gt;0">(Structuration minimale Documents de santé): Attribute @codeSystemName SHALL be of data type 'st'  - '<value-of select="@codeSystemName"/>'</assert>
@@ -150,7 +150,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:title[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:title[not(@nullFlavor)]" id="d152e142-false-d1350e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:title[not(@nullFlavor)]" id="d152e90-false-d1350e0">
       <extends rule="ST"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'ST')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:ST". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
    </rule>
@@ -159,7 +159,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:effectiveTime[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:effectiveTime[not(@nullFlavor)]" id="d152e156-false-d1362e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:effectiveTime[not(@nullFlavor)]" id="d152e101-false-d1362e0">
       <extends rule="TS"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'TS')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:TS". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(*)">(Structuration minimale Documents de santé): <value-of select="local-name()"/> with datatype TS, SHOULD NOT have child elements.</assert>
@@ -171,7 +171,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:confidentialityCode[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:confidentialityCode[not(@nullFlavor)]" id="d152e168-false-d1388e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:confidentialityCode[not(@nullFlavor)]" id="d152e109-false-d1388e0">
       <extends rule="CE"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'CE')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:CE". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="@displayName">(Structuration minimale Documents de santé): attribute @displayName SHALL be present.</assert>
@@ -180,14 +180,14 @@ Item: (Structuration minimale Documents de santé)
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@codeSystem) or matches(@codeSystem,'^[0-2](\.(0|[1-9]\d*))*$')">(Structuration minimale Documents de santé): Attribute @codeSystem SHALL be of data type 'oid'  - '<value-of select="@codeSystem"/>'</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="@code">(Structuration minimale Documents de santé): attribute @code SHALL be present.</assert>
       <let name="theAttValue" value="distinct-values(tokenize(normalize-space(@code),'\s'))"/>
-      <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@code) or empty($theAttValue[not(. = (doc('include/voc-2.16.840.1.113883.1.11.10228-DYNAMIC.xml')/*/valueSet/conceptList/concept/@code))])">(Structuration minimale Documents de santé): The value for code SHALL be selected from value set '2.16.840.1.113883.1.11.10228' Confidentiality (DYNAMIC).</assert>
+      <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@code) or empty($theAttValue[not(. = (doc('include/voc-2.16.840.1.113883.1.11.16926-DYNAMIC.xml')/*/valueSet/conceptList/concept/@code))])">(Structuration minimale Documents de santé): The value for code SHALL be selected from value set '2.16.840.1.113883.1.11.16926' x_BasicConfidentialityKind (DYNAMIC).</assert>
    </rule>
    <!--
 Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:languageCode[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:languageCode[not(@nullFlavor)]" id="d152e189-false-d1439e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:languageCode[not(@nullFlavor)]" id="d152e122-false-d1439e0">
       <extends rule="CS"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'CS')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:CS". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="@code">(Structuration minimale Documents de santé): attribute @code SHALL be present.</assert>
@@ -201,7 +201,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:setId[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:setId[not(@nullFlavor)]" id="d152e229-false-d1461e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:setId[not(@nullFlavor)]" id="d152e155-false-d1461e0">
       <extends rule="II"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'II')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:II". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@extension) or string-length(@extension)&gt;0">(Structuration minimale Documents de santé): Attribute @extension SHALL be of data type 'st'  - '<value-of select="@extension"/>'</assert>
@@ -213,7 +213,7 @@ Template derived rules for ID: 1.2.250.1.213.1.1.1.1
 Context: //hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:versionNumber[not(@nullFlavor)]
 Item: (Structuration minimale Documents de santé)
 -->
-   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:versionNumber[not(@nullFlavor)]" id="d152e248-false-d1489e0">
+   <rule fpi="RULC-1" context="//hl7:ClinicalDocument[hl7:typeId[@root = '2.16.840.1.113883.1.3'][@extension = 'POCD_HD000040']]/hl7:versionNumber[not(@nullFlavor)]" id="d152e169-false-d1489e0">
       <extends rule="INT"/>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="empty(@xsi:type) or resolve-QName(@xsi:type, .) = QName('urn:hl7-org:v3', 'INT')">(Structuration minimale Documents de santé): If an @xsi:type instruction is present it SHALL be valued "{urn:hl7-org:v3}:INT". Found "{<value-of select="namespace-uri-from-QName(resolve-QName(@xsi:type,.))"/>}:<value-of select="local-name-from-QName(resolve-QName(@xsi:type,.))"/>"</assert>
       <assert role="error" see="https://o3sis.esante.gouv.fr/art-decor/decor-templates--ASIP-STRUCT-MIN-?id=1.2.250.1.213.1.1.1.1" test="not(@value) or matches(@value, '^-?[1-9]\d*$|^+?\d*$')">(Structuration minimale Documents de santé): @value is not a valid INT number <value-of select="@value"/>

@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="2.16.840.1.113883.1.11.16208"
              name="ActPharmacySupplyType"
-             revisionDate="2025-06-04T10:13:46+01:00"
+             revisionDate="2010-01-01T00:00:00+01:00"
              title="ActPharmacySupplyType"
-             version="2010-01-01T00:00:00+01:00">
+             version="2025-06-16T14:17:11+01:00">
       <ConceptList>
          <Concept code="FFC "
                   codeSystem="2.16.840.1.113883.5.4"

@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.27"
              name="JdvExamenCliniqueCisis"
-             revisionDate="2025-06-04T10:13:46+01:00"
+             revisionDate="2024-07-19T00:00:00+01:00"
              title="JDV Examen Clinique CISIS"
-             version="2024-07-19T00:00:00+01:00">
+             version="2025-06-16T14:17:11+01:00">
       <ConceptList>
          <Concept code="GEN-038"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -29,7 +29,7 @@
          <Concept code="MED-117"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20240719000000"
-                  displayName="Asymétrie Mammaire"/>
+                  displayName="Asymétrie mammaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

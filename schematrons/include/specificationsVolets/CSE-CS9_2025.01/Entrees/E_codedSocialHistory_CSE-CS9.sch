@@ -13,6 +13,7 @@
     21/11/2017 : Mise à jour des codes TA_CS ==> TA_ASIP
     15/05/2018 : MAJ par rapport aux modifications du volet
     23/02/2021 : Renommage et vérification des contrôles par rapport au volet
+    17/06/2025 : Version 2025
     
 -->
 
@@ -26,12 +27,6 @@
         <assert test='.//cda:entry/cda:observation/cda:code[@code="11345-6"]/cda:qualifier/cda:value/@code="PAT-058"'> 
             [E_codedSocialHistory_CSE-CS9] Erreur de conformité : 
             L'entrée "Faites-vous actuellement garder votre enfant ?" de code PAT-058 est obligatoire.
-        </assert>
-        
-        <!-- Vérification de la présence de la 'Date de naissance de la mère' --> 
-        <assert test='.//cda:entry/cda:observation/cda:subject/cda:relatedSubject/cda:subject/cda:birthTime/@value'> 
-            [E_codedSocialHistory_CSE-CS9] Erreur de conformité : 
-            La date de naissance de la mère est obligatoire.
         </assert>
         
     </rule>

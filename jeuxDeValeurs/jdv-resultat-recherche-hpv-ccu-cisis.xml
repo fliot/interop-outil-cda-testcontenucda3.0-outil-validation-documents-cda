@@ -6,9 +6,9 @@
              effectiveDate="2023-05-25T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.720"
              name="JdvResultatRechercheHpvCcuCisis"
-             revisionDate="2025-06-04T10:13:45+01:00"
+             revisionDate="2023-05-25T00:00:00+01:00"
              title="JDV Resultat Recherche Hpv Ccu CISIS"
-             version="2023-05-25T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
          <Concept code="77851000146104"
                   codeSystem="2.16.840.1.113883.6.96"

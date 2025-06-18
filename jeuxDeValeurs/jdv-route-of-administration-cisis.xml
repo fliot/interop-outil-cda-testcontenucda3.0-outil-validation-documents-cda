@@ -6,9 +6,9 @@
              effectiveDate="2022-03-31T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.677"
              name="JdvRouteOfAdministrationCisis"
-             revisionDate="2025-06-04T10:13:45+01:00"
+             revisionDate="2025-06-10T00:00:00+01:00"
              title="JDV Route Of Administration CISIS"
-             version="2022-03-31T00:00:00+01:00">
+             version="2025-06-16T14:17:10+01:00">
       <ConceptList>
          <Concept code="20001000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
@@ -334,10 +334,14 @@
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
                   dateValid="20220331000000"
                   displayName="Voie intraputaminale"/>
-         <Concept code="420287000"
+         <Concept code="20089000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
-                  dateValid="20220331000000"
-                  displayName="Voie intraventriculaire cardiaque"/>
+                  dateValid="20240620000000"
+                  displayName="Administration cardioplégique"/>
+         <Concept code="20090000"
+                  codeSystem="0.4.0.127.0.16.1.1.2.1"
+                  dateValid="20241001000000"
+                  displayName="voie intradétrusorienne"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

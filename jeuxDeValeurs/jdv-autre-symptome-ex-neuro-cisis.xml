@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.174"
              name="JdvAutreSymptomeExNeuroCisis"
-             revisionDate="2025-06-04T10:13:46+01:00"
+             revisionDate="2025-06-11T00:00:00+01:00"
              title="JDV Autre Symptome Ex Neuro CISIS"
-             version="2023-11-14T00:00:00+01:00">
+             version="2025-06-16T14:17:11+01:00">
       <ConceptList>
          <Concept code="MED-380"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -62,14 +62,14 @@
                   codeSystem="2.16.840.1.113883.6.3"
                   dateValid="20231114000000"
                   displayName="Dysarthrie et anarthrie"/>
-         <Concept code="H57.04"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  dateValid="20231114000000"
-                  displayName="Mydriase"/>
-         <Concept code="H57.03"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  dateValid="20231114000000"
-                  displayName="Myosis"/>
+         <Concept code="37125009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250611000000"
+                  displayName="mydriase"/>
+         <Concept code="301939004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250611000000"
+                  displayName="myosis"/>
          <Concept code="G98"
                   codeSystem="2.16.840.1.113883.6.3"
                   dateValid="20100101000000"

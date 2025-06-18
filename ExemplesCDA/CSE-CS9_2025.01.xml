@@ -167,32 +167,10 @@
       </assignedAuthor>
    </author>
 
-   <!-- Informateur : la mère de naissance de l'enfant -->
+   <!-- Informateur : parent 1 (mère de naissance) -->
    <informant>
       <relatedEntity classCode="CON">
          <code code="NMTH" displayName="Mère biologique" codeSystem="2.16.840.1.113883.5.111"/>
-         <addr use="H">
-            <houseNumber>24</houseNumber>
-            <streetName>Avenue de Breteuil</streetName>
-            <postalCode>75007</postalCode>
-            <city>PARIS</city>
-            <country>FRANCE</country>
-         </addr>
-         <telecom value="tel:0647150100" use="MC"/>
-         <relatedPerson>
-            <name>
-               <family>DECOURCY</family>
-               <given>Marie</given>
-               <prefix>MME</prefix>
-            </name> 
-         </relatedPerson>
-      </relatedEntity>
-   </informant>
-   
-   <!-- Informateur : parent 1 (mère) -->
-   <informant>
-      <relatedEntity classCode="CON">
-         <code code="MTH" displayName="Mère" codeSystem="2.16.840.1.113883.5.111"/>
          <addr use="H">
             <houseNumber>24</houseNumber>
             <streetName>Avenue de Breteuil</streetName>
@@ -425,7 +403,7 @@
                   </table>
                </text>
                
-               <!-- Entrée FR-Habitus-Mode-de-vie : Profession parent 1 (mère) -->
+               <!-- Entrée FR-Habitus-Mode-de-vie : Profession parent 1 (mère de naissance) -->
                <entry>
                   <observation classCode="OBS" moodCode="EVN">
                      <!-- Conformité Social history observation (CCD) -->
@@ -454,7 +432,7 @@
                         <!-- Conformité CI-SIS -->
                         <templateId root="1.2.250.1.213.1.1.3.60"/>
                         <relatedSubject classCode="PRS">
-                           <code code="MTH" displayName="Mère" codeSystem="2.16.840.1.113883.5.111">
+                           <code code="NMTH" displayName="Mère biologique" codeSystem="2.16.840.1.113883.5.111">
                               <originalText><reference value="parent1"/></originalText>
                            </code>
                            <addr use="H">
@@ -477,7 +455,7 @@
                   </observation>
                </entry>
                
-               <!-- Entrée FR-Habitus-Mode-de-vie : Activité professionnelle parent 1 (mère) -->
+               <!-- Entrée FR-Habitus-Mode-de-vie : Activité professionnelle parent 1 (mère de naissance) -->
                <entry>
                   <observation classCode="OBS" moodCode="EVN">
                      <!-- Conformité Social history observation (CCD) -->
@@ -506,7 +484,7 @@
                         <!-- Conformité CI-SIS -->
                         <templateId root="1.2.250.1.213.1.1.3.60"/>
                         <relatedSubject classCode="PRS">
-                           <code code="MTH" displayName="Mère" codeSystem="2.16.840.1.113883.5.111">
+                           <code code="NMTH" displayName="Mère biologique" codeSystem="2.16.840.1.113883.5.111">
                               <originalText><reference value="parent1"/></originalText>
                            </code>
                            <addr use="H">
@@ -841,7 +819,10 @@
                      <id root="2022BE76-7CC9-11EB-9439-0242AC130011"/>
                      <code nullFlavor="NA"/>
                      <statusCode code="completed"/>
-                     <effectiveTime nullFlavor="UNK"/>
+                     <effectiveTime>
+                        <low value="20210211094914+0100"/>
+                        <high value="20210211094915+0100"/>
+                     </effectiveTime>
                      
                      <!-- [1..1] Entrée FR-Probleme : Prématurité inf. à 33 semaines non constaté (negationInd="true") -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
@@ -1027,6 +1008,7 @@
                      <id root="2022BE76-7CC9-11EB-9439-0242AC130027"/>
                      <code code="85353-1" displayName="Signes vitaux" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
                      <statusCode code="completed"/>
+                     <!-- <effectiveTime value="20210211"/> -->
                      <effectiveTime nullFlavor="UNK"/>
                      
                      <!-- [1..1] Entrée FR-Signe-vital-observe : Poids (g) -->
@@ -1167,21 +1149,9 @@
                      </thead>
                      <tbody>                        
                         <tr>
-                           <td>diphtérie-poliomyélite-tétanos</td>
+                           <td>diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos</td>
                            <td><content ID="vaccin-DPT-dose-1">Oui</content></td>
                            <td><content ID="vaccin-DPT-dose-2">Oui</content></td>
-                           <td>-</td>
-                        </tr>
-                        <tr>
-                           <td>coqueluche</td>
-                           <td><content ID="vaccin-Coq-dose-1">Oui</content></td>
-                           <td><content ID="vaccin-Coq-dose-2">Oui</content></td>
-                           <td>-</td>
-                        </tr>
-                        <tr>
-                           <td>haemophilus influenzae B</td>
-                           <td><content ID="vaccin-InfB-dose-1">Oui</content></td>
-                           <td><content ID="vaccin-InfB-dose-2">Oui</content></td>
                            <td>-</td>
                         </tr>
                         <tr>
@@ -1230,7 +1200,7 @@
                   </table>
                </text>
                
-               <!-- Entrée FR-Vaccination : diphtérie-polyomielite-tétanos (1ère dose) -->
+               <!-- Entrée FR-Vaccination : diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos (1ère dose) -->
                <entry>
                   <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
                      <!-- Conformité Medication activity (CCD) -->
@@ -1260,10 +1230,10 @@
                               <code>
                                  <originalText><reference value="#vaccin-DPT-dose-1"/></originalText>
                                  <!-- code ATC du vaccin -->
-                                 <translation code="J07CA01" displayName="diphtérie-poliomyélite-tétanos"
+                                 <translation code="J07CA06" displayName="diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos"
                                     codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
                               </code>
-                              <name>Vaccin diphtérie-polyomielite-tétanos</name>
+                              <name>Vaccin diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos</name>
                               <lotNumberText nullFlavor="UNK"/>
                            </manufacturedMaterial>
                         </manufacturedProduct>
@@ -1284,7 +1254,7 @@
                   </substanceAdministration>
                </entry>
                
-               <!-- Entrée FR-Vaccination : diphtérie-polyomielite-tétanos (2ème dose) -->
+               <!-- Entrée FR-Vaccination : diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos (2ème dose) -->
                <entry>
                   <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
                      <!-- Conformité Medication activity (CCD) -->
@@ -1314,10 +1284,10 @@
                               <code>
                                  <originalText><reference value="#vaccin-DPT-dose-2"/></originalText>  
                                  <!-- code ATC du vaccin -->
-                                 <translation code="J07CA01" displayName="diphtérie-poliomyélite-tétanos"
+                                 <translation code="J07CA06" displayName="diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos"
                                     codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
                               </code>
-                              <name>Vaccin diphtérie-polyomielite-tétanos</name>                              
+                              <name>Vaccin diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos</name>                              
                               <lotNumberText nullFlavor="UNK"/>
                            </manufacturedMaterial>
                         </manufacturedProduct>
@@ -1338,222 +1308,6 @@
                   </substanceAdministration>
                </entry>
                              
-               <!-- Entrée FR-Vaccination : coqueluche (1ère dose) -->
-               <entry>
-                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
-                     <!-- Conformité Medication activity (CCD) -->
-                     <templateId root="2.16.840.1.113883.10.20.1.24"/>
-                     <!-- Conformité Immunizations Entry (IHE PCC) -->
-                     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12"/>
-                     <!-- Conformité FR-Vaccination (CI-SIS) -->
-                     <templateId root="1.2.250.1.213.1.1.3.45"/>
-                     <id root="FD850158-7CCD-11EB-9439-0242AC130087"/>
-                     <code code="INITIMMUNIZ" displayName="1ère série vaccinante" 
-                        codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7_ActCode"/>
-                     <text><reference value="#vaccin-Coq-dose-1"/></text>
-                     <statusCode code="completed"/>
-                     <effectiveTime nullFlavor="NAV"/>
-                     <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676) -->
-                     <routeCode nullFlavor="NA"/>
-                     <!-- Entrée FR-Produit-de-sante -->
-                     <consumable typeCode="CSM">
-                        <manufacturedProduct>
-                           <!-- Conformité Product (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.53"/>
-                           <!-- Conformité Product Entry (IHE PCC) -->
-                           <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
-                           <!-- Conformité FR-Produit-de-sante (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.43"/>
-                           <manufacturedMaterial>
-                              <code>        
-                                 <originalText><reference value="#vaccin-Coq-dose-1"/></originalText>   
-                                 <!-- Code ATC du vaccin -->
-                                 <translation code="J07AJ" displayName="vaccins coquelucheux"
-                                    codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
-                              </code>
-                              <name>Vaccin contre la coqueluche</name>
-                              <lotNumberText nullFlavor="UNK"/>
-                           </manufacturedMaterial>
-                        </manufacturedProduct>
-                     </consumable>
-                     <!-- Entrée FR-Rang-de-la-vaccination -->
-                     <entryRelationship typeCode="SUBJ">
-                        <observation classCode="OBS" moodCode="EVN">
-                           <!-- Conformité Medication series number observation (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.46"/>
-                           <!-- Conformité FR-Rang-de-la-vaccination (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.82"/>
-                           <code code="30973-2" displayName="Rang de la vaccination"
-                              codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-                           <statusCode code="completed"/>
-                           <value xsi:type="INT" value="1"/>
-                        </observation>
-                     </entryRelationship>
-                  </substanceAdministration>
-               </entry>
-               
-               <!-- Entrée FR-Vaccination : coqueluche (2ème dose) -->
-               <entry>
-                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
-                     <!-- Conformité Medication activity (CCD) -->
-                     <templateId root="2.16.840.1.113883.10.20.1.24"/>
-                     <!-- Conformité Immunizations Entry (IHE PCC) -->
-                     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12"/>
-                     <!-- Conformité FR-Vaccination (CI-SIS) -->
-                     <templateId root="1.2.250.1.213.1.1.3.45"/>
-                     <id root="FD850158-7CCD-11EB-9439-0242AC130088"/>
-                     <code code="INITIMMUNIZ" displayName="1ère série vaccinante" 
-                        codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7_ActCode"/>
-                     <text><reference value="#vaccin-Coq-dose-2"/></text>
-                     <statusCode code="completed"/>
-                     <effectiveTime nullFlavor="NAV"/>
-                     <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676) -->
-                     <routeCode nullFlavor="NA"/>
-                     <!-- Entrée FR-Produit-de-sante -->
-                     <consumable typeCode="CSM">
-                        <manufacturedProduct>
-                           <!-- Conformité Product (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.53"/>
-                           <!-- Conformité Product Entry (IHE PCC) -->
-                           <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
-                           <!-- Conformité FR-Produit-de-sante (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.43"/>
-                           <manufacturedMaterial>
-                              <code>  
-                                 <originalText><reference value="#vaccin-Coq-dose-2"/></originalText> 
-                                 <!-- Code ATC du vaccin -->
-                                 <translation code="J07AJ" displayName="vaccins coquelucheux"
-                                    codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
-                              </code>
-                              <name>Vaccin contre la coqueluche</name>
-                              <lotNumberText nullFlavor="UNK"/>
-                           </manufacturedMaterial>
-                        </manufacturedProduct>
-                     </consumable>
-                     <!-- Entrée FR-Rang-de-la-vaccination -->
-                     <entryRelationship typeCode="SUBJ">
-                        <observation classCode="OBS" moodCode="EVN">
-                           <!-- Conformité Medication series number observation (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.46"/>
-                           <!-- Conformité FR-Rang-de-la-vaccination (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.82"/>
-                           <code code="30973-2" displayName="Rang de la vaccination"
-                              codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-                           <statusCode code="completed"/>
-                           <value xsi:type="INT" value="2"/>
-                        </observation>
-                     </entryRelationship>
-                  </substanceAdministration>
-               </entry>
-               
-               <!-- Entrée FR-Vaccination : haemophilus influenzae B (1ère dose) -->
-               <entry>
-                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
-                     <!-- Conformité Medication activity (CCD) -->
-                     <templateId root="2.16.840.1.113883.10.20.1.24"/>
-                     <!-- Conformité Immunizations Entry (IHE PCC) -->
-                     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12"/>
-                     <!-- Conformité FR-Vaccination (CI-SIS) -->
-                     <templateId root="1.2.250.1.213.1.1.3.45"/>
-                     <id root="FD850158-7CCD-11EB-9439-0242AC130091"/>
-                     <code code="INITIMMUNIZ" displayName="1ère série vaccinante" 
-                        codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7_ActCode"/>
-                     <text><reference value="#vaccin-InfB-dose-1"/></text>
-                     <statusCode code="completed"/>
-                     <effectiveTime nullFlavor="NAV"/>
-                     <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676) -->
-                     <routeCode nullFlavor="NA"/>
-                     <!-- Entrée FR-Produit-de-sante -->
-                     <consumable typeCode="CSM">
-                        <manufacturedProduct>
-                           <!-- Conformité Product (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.53"/>
-                           <!-- Conformité Product Entry (IHE PCC) -->
-                           <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
-                           <!-- Conformité FR-Produit-de-sante (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.43"/>
-                           <manufacturedMaterial>
-                              <code>
-                                 <originalText><reference value="#vaccin-InfB-dose-1"/></originalText>     
-                                 <!-- Code ATC du vaccin -->
-                                 <translation code="J07AG" displayName="vaccins de l'Haemophilus influenzae B"
-                                    codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
-                              </code>
-                              <name>Vaccin anti haemophilus influenzae B</name>
-                              <lotNumberText nullFlavor="UNK"/>
-                           </manufacturedMaterial>
-                        </manufacturedProduct>
-                     </consumable>
-                     <!-- Entrée FR-Rang-de-la-vaccination -->
-                     <entryRelationship typeCode="SUBJ">
-                        <observation classCode="OBS" moodCode="EVN">
-                           <!-- Conformité Medication series number observation (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.46"/>
-                           <!-- Conformité FR-Rang-de-la-vaccination (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.82"/>
-                           <code code="30973-2" displayName="Rang de la vaccination"
-                              codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-                           <statusCode code="completed"/>
-                           <value xsi:type="INT" value="1"/>
-                        </observation>
-                     </entryRelationship>
-                  </substanceAdministration>
-               </entry>
-               
-               <!-- Entrée FR-Vaccination : haemophilus influenzae B (2ème dose) -->
-               <entry>
-                  <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
-                     <!-- Conformité Medication activity (CCD) -->
-                     <templateId root="2.16.840.1.113883.10.20.1.24"/>
-                     <!-- Conformité Immunizations Entry (IHE PCC) -->
-                     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.12"/>
-                     <!-- Conformité FR-Vaccination (CI-SIS) -->
-                     <templateId root="1.2.250.1.213.1.1.3.45"/>
-                     <id root="FD850158-7CCD-11EB-9439-0242AC130092"/>
-                     <code code="INITIMMUNIZ" displayName="1ère série vaccinante" 
-                        codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7_ActCode"/>
-                     <text><reference value="#vaccin-InfB-dose-2"/></text>
-                     <statusCode code="completed"/>
-                     <effectiveTime nullFlavor="NAV"/>
-                     <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676) -->
-                     <routeCode nullFlavor="NA"/>
-                     <!-- Entrée FR-Produit-de-sante -->
-                     <consumable typeCode="CSM">
-                        <manufacturedProduct>
-                           <!-- Conformité Product (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.53"/>
-                           <!-- Conformité Product Entry (IHE PCC) -->
-                           <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
-                           <!-- Conformité FR-Produit-de-sante (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.43"/>
-                           <manufacturedMaterial>
-                              <code>
-                                 <originalText><reference value="#vaccin-InfB-dose-2"/></originalText> 
-                                 <!-- Code ATC du vaccin -->
-                                 <translation code="J07AG" displayName="vaccins de l'Haemophilus influenzae B"
-                                    codeSystem="2.16.840.1.113883.6.73" codeSystemName="ATC"/>
-                              </code>
-                              <name>Vaccin anti haemophilus influenzae B</name>
-                              <lotNumberText nullFlavor="UNK"/>
-                           </manufacturedMaterial>
-                        </manufacturedProduct>
-                     </consumable>
-                     <!-- Entrée FR-Rang-de-la-vaccination -->
-                     <entryRelationship typeCode="SUBJ">
-                        <observation classCode="OBS" moodCode="EVN">
-                           <!-- Conformité Medication series number observation (CCD) -->
-                           <templateId root="2.16.840.1.113883.10.20.1.46"/>
-                           <!-- Conformité FR-Rang-de-la-vaccination (CI-SIS) -->
-                           <templateId root="1.2.250.1.213.1.1.3.82"/>
-                           <code code="30973-2" displayName="Rang de la vaccination"
-                              codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-                           <statusCode code="completed"/>
-                           <value xsi:type="INT" value="2"/>
-                        </observation>
-                     </entryRelationship>
-                  </substanceAdministration>
-               </entry>
-               
                <!-- Entrée FR-Vaccination : hépatite B (1ère dose) -->
                <entry>
                   <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">

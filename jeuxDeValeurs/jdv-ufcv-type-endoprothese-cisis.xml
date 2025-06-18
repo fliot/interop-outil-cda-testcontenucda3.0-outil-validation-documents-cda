@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.20"
              name="JdvUfcvTypeEndoprotheseCisis"
-             revisionDate="2025-06-04T10:13:46+01:00"
+             revisionDate="2024-07-19T00:00:00+01:00"
              title="JDV UFCV Type Endoprothese CISIS"
-             version="2024-07-19T00:00:00+01:00">
+             version="2025-06-16T14:17:11+01:00">
       <ConceptList>
          <Concept code="P07040201"
                   codeSystem="1.2.250.1.213.2.68"
@@ -21,7 +21,7 @@
          <Concept code="P07040202"
                   codeSystem="1.2.250.1.213.2.68"
                   dateValid="20240719000000"
-                  displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES STENTS PÉRIPHÉRIQUES"/>
+                  displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &#34;STENTS PÉRIPHÉRIQUES&#34;"/>
          <Concept code="P07040199"
                   codeSystem="1.2.250.1.213.2.68"
                   dateValid="20240423000000"

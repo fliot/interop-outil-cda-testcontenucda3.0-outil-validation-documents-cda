@@ -15,6 +15,7 @@
     23/02/2021 : Renommage et vérification des contrôles par rapport au volet
     30/10/2023 : Version 2023
     27/11/2024 : Version 2024
+    17/06/2025 : Version 2025
     
 -->
 
@@ -35,13 +36,6 @@
         <assert test='.//cda:entry/cda:observation/cda:code[@code="11345-6"]/cda:qualifier/cda:value/@code="MED-1275"'> 
             [E_codedSocialHistory_CSE-CS24] Erreur de conformité : 
             L'entrée "L’enfant est-il exposé aux écrans sans interaction avec un adulte" de code MED-1275 est obligatoire.
-        </assert>
-        
-        
-        <!-- Vérification de la présence de la 'Date de naissance de la mère' --> 
-        <assert test='.//cda:entry/cda:observation/cda:subject/cda:relatedSubject/cda:subject/cda:birthTime/@value'> 
-            [E_codedSocialHistory_CSE-CS24] Erreur de conformité : 
-            La date de naissance de la mère est obligatoire.
         </assert>
         
     </rule>

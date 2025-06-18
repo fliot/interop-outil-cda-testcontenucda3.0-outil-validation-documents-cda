@@ -6,9 +6,9 @@
              effectiveDate="2020-07-06T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.504"
              name="JdvScoreBradenComponentCisis"
-             revisionDate="2025-06-04T10:13:44+01:00"
+             revisionDate="2020-07-06T00:00:00+01:00"
              title="JDV Score Braden Component CISIS"
-             version="2020-07-06T00:00:00+01:00">
+             version="2025-06-16T14:17:09+01:00">
       <ConceptList>
          <Concept code="38222-6"
                   codeSystem="2.16.840.1.113883.6.1"

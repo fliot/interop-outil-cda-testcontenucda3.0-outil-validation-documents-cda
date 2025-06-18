@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:atih-cim10="http://data.esante.gouv.fr/atih-cim10#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:j.0="http://topbraid.org/swa#"
-   xmlns:metadata="http://topbraid.org/metadata#" xmlns:owl="http://www.w3.org/2002/07/owl#"
-   xmlns:prov="http://www.w3.org/ns/prov#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:teamwork="http://topbraid.org/teamwork#"
-   xmlns:terms="http://purl.org/dc/terms/" xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="http://data.esante.gouv.fr/atih/cim10">
-   
-   
-   <rdf:Description>
-      <skos:notation>H57.04</skos:notation>
-   </rdf:Description>
-   <rdf:Description>
-      <skos:notation>H57.03</skos:notation>
-   </rdf:Description>
-   
-   
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:edg="http://edg.topbraid.solutions/model/"
+         xmlns:j.0="http://topbraid.org/swa#"
+         xmlns:metadata="http://topbraid.org/metadata#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:teamwork="http://topbraid.org/teamwork#"
+         xmlns:terms="http://purl.org/dc/terms/"
+         xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xml:base="http://data.esante.gouv.fr/atih/cim10">
    <rdf:Description>
       <skos:notation>F02.00</skos:notation>
    </rdf:Description>
@@ -15525,6 +15522,9 @@
       <skos:notation>I69.4</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>O72.20</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>Q87.4</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -15943,6 +15943,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Q38.7</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>O72.18</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>T14.4</skos:notation>
@@ -17826,6 +17829,9 @@
       <skos:notation>F11.200</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>O72.28</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>V06.9</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -19425,6 +19431,9 @@
       <skos:notation>D60.1</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>O72.00</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>O21.2</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -20676,6 +20685,9 @@
       <skos:notation>M79.3</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>O72.10</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>Q62.6</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -21121,6 +21133,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>F17.70</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>O72.08</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>V32.6</skos:notation>
@@ -32049,6 +32064,9 @@
       <skos:notation>F11.20</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>Z51.86</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>M21.13</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -32506,6 +32524,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>M79.67</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>Z51.85</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Q28.9</skos:notation>
@@ -40620,6 +40641,9 @@
       <skos:notation>S99</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>Z52.806</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>P00</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -40861,6 +40885,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Q66.0</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>Z52.805</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Y56.0</skos:notation>

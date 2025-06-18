@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-depistage-neonatal-cisis "
+             effectiveDate="2025-06-03T00:00:00+01:00"
+             id="1.2.250.1.213.1.1.5.827"
+             name="JdvDepistageNeonatalCisis "
+             revisionDate="2025-06-03T00:00:00+01:00"
+             title="Jdv Depistage Naonatal CISIS"
+             version="2025-06-16T14:17:10+01:00">
+      <ConceptList>
+         <Concept code="373066001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250603000000"
+                  displayName="oui"/>
+         <Concept code="373067005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250603000000"
+                  displayName="non"/>
+         <Concept code="385432009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250603000000"
+                  displayName="non applicable"/>
+         <Concept code="261665006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250603000000"
+                  displayName="inconnu(e)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

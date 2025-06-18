@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="urn:ihe:iti:svs:2008">
+   <ValueSet displayName="jdv-hl7-v3-xBasicConfidentialityKind-cisis"
+             effectiveDate="2010-01-01T00:00:00+01:00"
+             id="2.16.840.1.113883.1.11.16926"
+             name="XBasicConfidentialityKind"
+             revisionDate="2010-01-01T00:00:00+01:00"
+             title="x_BasicConfidentialityKind"
+             version="2025-06-16T14:17:10+01:00">
+      <ConceptList>
+         <Concept code="N"
+                  codeSystem="2.16.840.1.113883.5.25"
+                  dateValid="20100101000000"
+                  displayName="Normal"/>
+         <Concept code="R"
+                  codeSystem="2.16.840.1.113883.5.25"
+                  dateValid="20100101000000"
+                  displayName="Restreint"/>
+         <Concept code="V"
+                  codeSystem="2.16.840.1.113883.5.25"
+                  dateValid="20100101000000"
+                  displayName="Très restreint"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
