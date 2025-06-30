@@ -75,5 +75,23 @@
                 <let name="JDV_TypeDeSuivi-CISIS" value="'../jeuxDeValeurs/jdv-type-de-suivi-cisis.xml'"/>
                 <let name="JDV_TypeTraitementPPS-CISIS" value="'../jeuxDeValeurs/jdv-type-traitement-pps-cisis.xml'"/>
                 
+                <!-- présence des sections obligatoires -->        
+                <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">            
+                        <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.35'])&gt; 0"> 
+                                [CI-SIS_CANCER-PPS_2025] Erreur de conformité au modèle : La section FR-Statut-du-document (1.2.250.1.213.1.1.2.35) doit être présente.
+                        </assert>
+                        <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.158'])&gt; 0"> 
+                                [CI-SIS_CANCER-PPS_2025] Erreur de conformité au modèle : La section FR-Plan-de-soins (1.2.250.1.213.1.1.2.158) doit être présente.
+                        </assert>
+                        <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.27'])&gt; 0"> 
+                                [CI-SIS_CANCER-PPS_2025] Erreur de conformité au modèle : La section FR-Diagnostic-du-cancer (1.2.250.1.213.1.1.2.27) doit être présente.
+                        </assert>
+                        <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.163'])&gt; 0"> 
+                                [CI-SIS_CANCER-PPS_2025] Erreur de conformité au modèle : La section FR-Resultats-evenements (1.2.250.1.213.1.1.2.163) doit être présente.
+                        </assert>
+                        <assert test="count(cda:component/cda:section[cda:templateId/@root='1.2.250.1.213.1.1.2.243'])&gt; 0"> 
+                                [CI-SIS_CANCER-PPS_2025] Erreur de conformité au modèle : La section FR-Document-PDF-Copie (1.2.250.1.213.1.1.2.243) doit être présente.
+                        </assert>
+                </rule>
         </pattern>
 </schema>
