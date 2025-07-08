@@ -650,8 +650,8 @@
                     </fo:simple-page-master>
                     <fo:simple-page-master margin-top="0.2in" margin-left="0.2in"
                         margin-bottom="0.2in" margin-right="0.2in" master-name="rest">
-                        <fo:region-body margin-top="50pt" region-name="xsl-region-body"/>
                         <fo:region-before extent="10mm" region-name="xsl-region-before"/>
+                        <fo:region-body margin-top="50pt" region-name="xsl-region-body"/>
                         <fo:region-after extent="3mm" region-name="xsl-region-after"/>
                     </fo:simple-page-master>
                     <fo:page-sequence-master master-name="only">
@@ -1170,8 +1170,8 @@
                     iframe {
                     width: 100%;
                     max-width: 2000px;
-                    height: 100%;
-                    max-height: 600px;
+                    height: 1000px;
+                    max-height: 900px;
                     }
                     /* End IE only hack */
                 </style>
@@ -1547,7 +1547,7 @@
                                         <iframe name="{$renderID}" id="{$renderID}" width="100%"
                                             height="600" title="{$renderAltText}">
                                             <xsl:if
-                                                test="$renderElement/@mediaType != 'application/pdf' or $limit-pdf = 'yes'">
+                                                test="$renderElement/@mediaType != 'application/pdf' or $limit-pdf = 'no'">
                                                 <xsl:attribute name="sandbox"/>
                                             </xsl:if>
                                             <xsl:attribute name="src">
