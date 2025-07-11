@@ -2167,7 +2167,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle section informant aidant</xd:p>
@@ -2726,7 +2725,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle section informant aide</xd:p>
@@ -3271,7 +3269,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle section informant informateur</xd:p>
@@ -3815,7 +3812,6 @@
             </xsl:if>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -4372,7 +4368,6 @@
             </xsl:if>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -5627,7 +5622,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>Handle column of table</xd:desc>
     </xd:doc>
@@ -5773,7 +5767,7 @@
         <xsl:variable name="referencedObjects"
             select="ancestor::hl7:ClinicalDocument//hl7:regionOfInterest[@ID = $imageRefs] | ancestor::hl7:ClinicalDocument//hl7:observationMedia[@ID = $imageRefs]"/>
         <xsl:if
-            test="not(contains($vendor, 'Saxonica')) and not(//hl7:ClinicalDocument/hl7:component/hl7:structuredBody/hl7:component/hl7:section[hl7:templateId[@root = '1.2.250.1.213.1.1.2.243']])">
+            test="not(contains($vendor, 'Saxonica')) and not(ancestor::hl7:section[hl7:templateId[@root = '1.2.250.1.213.1.1.2.243']])">
             <div>
                 <xsl:apply-templates select="hl7:caption"/>
                 <xsl:for-each select="$referencedObjects">
@@ -6141,8 +6135,7 @@
                 above</xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template
-        match="hl7:a | hl7:dd | hl7:dl | hl7:img | hl7:ins | hl7:span | hl7:p | hl7:ol | hl7:ul | hl7:li">
+    <xsl:template match="hl7:a | hl7:dd | hl7:dl | hl7:img | hl7:ins | hl7:span | hl7:p | hl7:ol | hl7:ul | hl7:li">
         <xsl:if test="not(contains($vendor, 'Saxonica'))">
             <xsl:element name="{local-name()}" namespace="http://www.w3.org/1999/xhtml">
                 <xsl:apply-templates select="." mode="handleSectionTextAttributes"/>
@@ -6266,7 +6259,6 @@
             <xsl:value-of select="$confidentialityText"/>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc/>
@@ -7839,7 +7831,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show root</xd:p>
@@ -7866,7 +7857,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show identifiant</xd:p>
@@ -7892,7 +7882,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -8468,7 +8457,6 @@
         </xsl:for-each>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header represented organization</xd:p>
@@ -8484,7 +8472,6 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -8563,7 +8550,6 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -10072,7 +10058,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header custodian</xd:p>
@@ -10131,7 +10116,6 @@
             </table>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -11908,7 +11892,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header inFulfillmentOf</xd:p>
@@ -12041,7 +12024,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header informant</xd:p>
@@ -12113,7 +12095,6 @@
             </table>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -12236,7 +12217,6 @@
             </table>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -13691,7 +13671,6 @@
             </xsl:if>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -21130,7 +21109,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header guardian</xd:p>
@@ -21671,7 +21649,6 @@
             </xsl:if>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23144,8 +23121,6 @@
         </xsl:if>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header relatedDocument</xd:p>
@@ -23187,7 +23162,6 @@
             </table>
         </xsl:for-each>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23282,7 +23256,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header assignedEntity</xd:p>
@@ -23336,7 +23309,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle CDA Header relatedEntity</xd:p>
@@ -23369,7 +23341,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23425,7 +23396,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address and telecom</xd:p>
@@ -23451,7 +23421,6 @@
             <xsl:with-param name="sep" select="', '"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23481,7 +23450,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address and telecom</xd:p>
@@ -23495,7 +23463,6 @@
             <xsl:with-param name="sep" select="'br'"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23511,7 +23478,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address and telecom</xd:p>
@@ -23526,8 +23492,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address and telecom</xd:p>
@@ -23541,7 +23505,6 @@
             <xsl:with-param name="sep" select="'br'"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23571,7 +23534,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address</xd:p>
@@ -23586,7 +23548,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Handle contactInfo. Address and telecom</xd:p>
@@ -23600,7 +23561,6 @@
             <xsl:with-param name="sep" select="', '"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -23622,7 +23582,6 @@
             <xsl:with-param name="sep" select="', '"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>Handle one line of birth/death/multiple birth data</xd:desc>
@@ -23700,7 +23659,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>Handle one line of birth/death/multiple birth data</xd:desc>
         <xd:param name="in">One element with the child elements birthTime, deceasedInd,
@@ -23744,9 +23702,6 @@
         </xsl:if>
     </xsl:template>
 
-
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Get localized string for a typeCode from an act relationship</xd:p>
@@ -23759,8 +23714,6 @@
             <xsl:with-param name="key" select="concat('2.16.840.1.113883.5.1002-', $ptype)"/>
         </xsl:call-template>
     </xsl:template>
-
-
 
     <xd:doc>
         <xd:desc>
@@ -23883,7 +23836,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype II separated with the value in 'sep'. Calls <xd:ref
@@ -23954,7 +23906,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -24048,7 +23999,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype II</xd:p>
@@ -24109,7 +24059,6 @@
             </span>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -24227,8 +24176,6 @@
         </xsl:if>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype CD, CE, CV, CO separated with the value in 'sep'.
@@ -24306,7 +24253,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -24426,7 +24372,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype EN, ON, PN or TN separated with the value in 'sep'.
@@ -24494,7 +24439,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -24589,7 +24533,6 @@
             </xsl:for-each>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -24731,7 +24674,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype AD separated with the value in 'sep'. Calls <xd:ref
@@ -24872,8 +24814,6 @@
         </xsl:if>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype AD separated with the value in 'sep'. Calls <xd:ref
@@ -24943,7 +24883,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -25951,7 +25890,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype AD</xd:p>
@@ -26411,7 +26349,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype AD</xd:p>
@@ -26870,7 +26807,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>Show element with datatype IVL_TS</xd:desc>
         <xd:param name="in">One element, possibly out of a set</xd:param>
@@ -26962,7 +26898,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype TEL or URI separated with the value in 'sep'. Calls
@@ -27004,7 +26939,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype TEL or URI separated with the value in 'sep'. Calls
@@ -27044,8 +26978,6 @@
         </xsl:choose>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show elements with datatype TEL or URI separated with the value in 'sep'. Calls
@@ -27084,7 +27016,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27126,7 +27057,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27194,7 +27124,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27266,7 +27195,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI</xd:p>
@@ -27322,7 +27250,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI Home</xd:p>
@@ -27360,7 +27287,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27400,7 +27326,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI Home</xd:p>
@@ -27434,7 +27359,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27474,7 +27398,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI emergency</xd:p>
@@ -27513,8 +27436,6 @@
         </xsl:choose>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI fome primary</xd:p>
@@ -27552,7 +27473,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27630,7 +27550,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI fome public number</xd:p>
@@ -27668,7 +27587,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27708,7 +27626,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TEL or URI mobile</xd:p>
@@ -27746,7 +27663,6 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27831,7 +27747,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TS</xd:p>
@@ -27849,7 +27764,6 @@
             <xsl:with-param name="part" select="$part"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27869,7 +27783,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TS patient</xd:p>
@@ -27887,7 +27800,6 @@
         </xsl:call-template>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype TS matrix</xd:p>
@@ -27904,7 +27816,6 @@
             <xsl:with-param name="part" select="$part"/>
         </xsl:call-template>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -27976,7 +27887,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show element with datatype ST</xd:p>
@@ -28005,8 +27915,6 @@
         </xsl:if>
     </xsl:template>
 
-
-
     <xd:doc>
         <xd:desc>
             <xd:p>Show a nullFlavor as text</xd:p>
@@ -28021,7 +27929,6 @@
             </xsl:call-template>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>SDTC defines sdtc:signatureText including a digital signature. XSLT lacks tools to
@@ -28065,7 +27972,6 @@
         <xsl:variable name="month" select="substring($date, 5, 2)"/>
         <xsl:value-of select="$month"/>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28156,7 +28062,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28284,7 +28189,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Formats a timestamp</xd:p>
@@ -28342,7 +28246,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28468,7 +28371,6 @@
             </xsl:choose>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28628,7 +28530,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Get someones age based on the difference between 'date' and <xd:ref
@@ -28688,7 +28589,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Convert Telecom URI scheme (tel, fax, http, mailto) to display text</xd:p>
@@ -28727,7 +28627,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Converts Latin characters in input to lower case and returns the result</xd:p>
@@ -28743,7 +28642,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Converts Latin characters in input to upper case and returns the result</xd:p>
@@ -28758,7 +28656,6 @@
             />
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28776,7 +28673,6 @@
             <xsl:value-of select="substring($data, 2)"/>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28813,7 +28709,6 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Tokenize every character</xd:p>
@@ -28846,7 +28741,6 @@
             </xsl:call-template>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -28906,12 +28800,10 @@
         </xsl:choose>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>Index the translation file for performance</xd:desc>
     </xd:doc>
     <xsl:key name="util-i18nkey" match="translation" use="@key"/>
-
 
     <xd:doc>
         <xd:desc>
@@ -28970,7 +28862,6 @@
         </xsl:for-each>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>Helper template for calculation of CSS font sizes. Takes <xd:ref
@@ -29018,7 +28909,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xd:doc>
         <xd:desc>
             <xd:p>generate revision toggle</xd:p>
@@ -29042,7 +28932,6 @@
             </td>
         </xsl:if>
     </xsl:template>
-
 
     <xd:doc>
         <xd:desc>
@@ -29191,4 +29080,5 @@
             <fo:block line-height="0.1cm">&#160;</fo:block>
         </xsl:if>
     </xsl:template>
+
 </xsl:stylesheet>
