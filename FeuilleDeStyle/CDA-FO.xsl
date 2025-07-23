@@ -139,6 +139,7 @@
         <xsl:attribute name="color">black</xsl:attribute>
         <xsl:attribute name="border">solid 0.1mm black</xsl:attribute>
     </xsl:attribute-set>
+    
     <!-- Extension FR : PDF -->
     <xsl:attribute-set name="myBlock9">
         <xsl:attribute name="font-size">8</xsl:attribute>
@@ -146,6 +147,7 @@
         <xsl:attribute name="background-color">white</xsl:attribute>
         <xsl:attribute name="color">rgb(0,51,102)</xsl:attribute>
     </xsl:attribute-set>
+    
     <!-- Extension FR : PDF -->
     <xsl:attribute-set name="myBlock10">
         <xsl:attribute name="font-size">8</xsl:attribute>
@@ -265,7 +267,6 @@
         </xd:desc>
     </xd:doc>
     <xsl:variable name="vocMessages" select="document($vocFile)"/>
-
 
     <xd:doc>
         <xd:desc>
