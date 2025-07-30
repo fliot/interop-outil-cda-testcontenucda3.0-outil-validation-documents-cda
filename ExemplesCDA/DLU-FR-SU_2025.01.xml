@@ -889,7 +889,7 @@
 							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
 							<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 							<templateId root="1.2.250.1.213.1.1.3.48" />
-							<id root="2914B83F-B6EB-4DD4-9178-7C737E4B35V9"/>
+							<id root="64F0CAAB-BF71-47AB-84DA-CE41EFF4D3B0"/>
 							<code code="GEN-414" displayName="Liste des prothèses et objets personnels"
 								codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 							<text><reference value="#liste-objets"/></text>
@@ -906,7 +906,7 @@
 							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13" />
 							<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 							<templateId root="1.2.250.1.213.1.1.3.48" />
-							<id root="2914B83F-B6EB-4DD4-9178-7C737E4B35V9"/>
+							<id root="6B196239-28CA-4B03-8F8F-18D29E112B13"/>
 							<code code="GEN-415" displayName="Prescriptions"
 								codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 							<text><reference value="#liste-objets"/></text>

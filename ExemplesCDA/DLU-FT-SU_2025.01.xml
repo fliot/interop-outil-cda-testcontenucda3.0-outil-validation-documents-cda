@@ -541,10 +541,14 @@
           <!-- [1..1] Entrée FR-Simple-Observation : Conscient et éveillé  -->
           <entry>
             <observation classCode="OBS" moodCode="EVN">
+              <!-- Conformité Survey Observation (IHE PCC) -->
+              <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.12.3.6"/>
               <!-- Conformité Simple Observation (IHE PCC) -->
               <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13"/>
+              <!-- Conformité Simple Observation (CCD) -->
+              <templateId root="2.16.840.1.113883.10.20.1.31"/>
               <!-- Conformité FR-Simple-Observation (CI-SIS) -->
-              <templateId root="1.2.250.1.213.1.1.3.48"/>
+              <templateId root="1.2.250.1.213.1.1.3.25"/>
               <id root="2914B83F-B6EB-4DD4-9178-7C737E4B35B1"/>
               <code code="MED-1301" displayName="Conscient et éveillé"
                 codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
