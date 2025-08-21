@@ -33,6 +33,7 @@
       09/02/2022 : Mise à jour de la codification d'un DM avec EMDN
       11/04/2022 : Migration des terminologies et JDVs en SNOMED CT et mise en conformité LDL-EES_2022.01
       28/08/2023 : MAJ des JDV
+      21/08/2025 : MAJ de l'entrée FR-Allergie-ou-hypersensibilite (value)
       **************************************************************************************************************
    -->
 
@@ -200,7 +201,7 @@
     </informant>
     
     <!-- Organisation chargée de la conservation du document -->   
-    <custodian typeCode="CST">
+    <custodian>
         <assignedCustodian>
             <representedCustodianOrganization>
                 <id root="1.2.250.1.71.4.2.2" extension="1750803447"/>
@@ -326,8 +327,8 @@
     </participant> 
    
     <!-- Actes documentés-->
-    <documentationOf typeCode="DOC">
-        <serviceEvent classCode="ACT" moodCode="EVN">
+    <documentationOf>
+        <serviceEvent>
             <code code="IMP" displayName="Hospitalisation (établissement, y compris HAD)" 
                 codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7:ActCode"/>
             <effectiveTime>
@@ -1249,7 +1250,7 @@
                         codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
                     <title>Allergies identifiées pendant le séjour</title>
                     <!-- Bloc narratif de la section -->
-                    <text>Aucune allergie / intolérance identifiée pendant le séjour</text>
+                    <text ID="NO-ALL">Aucune allergie / hypersensibilité non allergiques, intolérances, idiosyncrasie identifiée pendant le séjour</text>
                     <!-- [1..1] Entrée FR-Liste-des-allergies-et-hypersensibilites -->
                     <entry>
                         <act classCode="ACT" moodCode="EVN">
@@ -1294,9 +1295,10 @@
                                         <low nullFlavor="UNK"/>
                                     </effectiveTime>
                                     <!-- Description clinique de l'allergie -->
-                                    <value xsi:type="CD">  
-                                        <originalText><reference value="#"/></originalText>
-                                    </value>
+                                    <value xsi:type="CD" code="no-known-allergies" displayName="Pas d'allergie/hypersensibilité connue"
+                                           codeSystem="2.16.840.1.113883.5.1150.1" codeSystemName="AbsentAndUnknownDataUvIps">
+                                        <originalText><reference value="#NO-ALL"/></originalText>                                        
+                                    </value>                                        
                                 </observation>
                             </entryRelationship>
                         </act>
