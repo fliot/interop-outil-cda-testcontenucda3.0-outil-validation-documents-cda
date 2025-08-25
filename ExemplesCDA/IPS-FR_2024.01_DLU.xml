@@ -17,6 +17,7 @@
       Historique :
       30/05/2024 : Création IPS-FR_2024.01 (conforme IPS) pour un résident en EHPAD (synthèse médicale DLU)
       21/08/2025 : Maj des codeSystemName en fonction de la nouvelle règle de nommage
+      25/08/2025 : Maj des références parties narratives / entrées
       **********************************************************************************************************
    -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -1860,17 +1861,11 @@
               <tbody>
                 <tr>
                   <td>04/12/2021</td>
-                  <td>
-                    <content ID="allergie-01-type">Allergie médicamenteuse</content>
-                  </td>
-                  <td>
-                    <content ID="allergie-01-agent">Paracétamol</content>
-                  </td>
-                  <td>
-                    <content ID="allergie-statut-01">Actif</content>
-                  </td>
-                  <td>Bas</td>
-                  <td>Confirmé</td>
+                  <td><content ID="allergie-01-type">Allergie médicamenteuse</content></td>
+                  <td><content ID="allergie-01-agent">Paracétamol</content></td>
+                  <td><content ID="allergie-statut-01">Actif</content></td>
+                  <td><content ID="allergie-01-criticite">Bas</content></td>
+                  <td><content ID="allergie-01-certitude">Confirmé</content></td>
                   <td>
                     <content ID="allergie-01-reaction-1">Bronchospasme d'origine
                       médicamenteuse</content><br/>
@@ -1933,7 +1928,7 @@
                   <!-- Description clinique de l'allergie / hypersensibilité : non renseigné -->
                   <value xsi:type="CD">
                     <originalText>
-                      <reference value="#"/>
+                      <reference value="noref"/>
                     </originalText>
                   </value>
                   <!-- Agent responsable de l'allergie / hypersensibilité -->
@@ -1981,6 +1976,9 @@
                       <id root="B6B00F3F-40A0-419F-847F-FDA1E0908EC8"/>
                       <code code="82606-5" displayName="Criticité"
                         codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                      <text>
+                        <reference value="#allergie-01-criticite"/>
+                      </text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
                       <!-- valeur du jdv-hl7-allergy-intolerance-criticality-cisis (2.16.840.1.113883.4.642.3.129) -->
@@ -1998,6 +1996,9 @@
                       <id root="BC6A2067-884F-4D55-8B27-E8C2BE276F29"/>
                       <code code="66455-7" displayName="Certitude"
                         codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                      <text>
+                        <reference value="#allergie-01-certitude"/>
+                      </text>
                       <statusCode code="completed"/>
                       <effectiveTime nullFlavor="NA"/>
                       <!-- valeur du jdv-hl7-condition-ver-status-cisis (2.16.840.1.113883.4.642.3.166) -->
@@ -2434,7 +2435,7 @@
                   <td>11/01/2024</td>
                   <td>-</td>
                   <td><content ID="med-01">LEVOTHYROX 75 microgrammes, comprimé sécable</content></td>
-                  <td><content ID="med-01-doseMin-1">1 cp</content></td>
+                  <td><content ID="med-01-doseMin-1">1 cp</content><content ID="med-01-doseMax-1"></content></td>
                   <td><content ID="med-01-frequence">1 fois/j</content></td>
                   <td><content ID="med-01-rateMin">-</content></td>
                   <td><content ID="med-01-voie">Voie orale</content></td>
@@ -2464,12 +2465,11 @@
                   <td>11/02/2022</td>
                   <td>-</td>
                   <td><content ID="med-02">COUMADINE 5mg, comprimé sécable </content></td>
-                  <td><content ID="med-02-doseMin-1">1 cp</content></td>
+                  <td><content ID="med-02-doseMin-1">1 cp</content><content ID="med-02-doseMax-1"></content></td>
                   <td><content ID="med-02-frequence">4 fois/j</content></td>
-                  <td><content ID="med-02-rateMin">-</content></td>
+                  <td>-</td>
                   <td><content ID="med-02-voie">Voie orale</content></td>
-                  <td><content ID="med-02-motif">Accident Ischémique Cérébral
-                    Transitoire</content></td>
+                  <td><content ID="med-02-motif">Accident Ischémique Cérébral Transitoire</content></td>
                   <td><content ID="med-02-commentaire">(texte libre)</content></td>
                 </tr>
                 <tr>
@@ -2479,26 +2479,20 @@
                     <content ID="med-03">PARACETAMOL MYLAN 500 mg, comprimé</content>
                   </td>
                   <td>
-                    <content ID="med-03-doseMin-1">1 cp</content> à <content ID="med-03-doseMax-1">2
-                      cp</content><br/><br/><br/>
-                    <content ID="med-03-doseMin-2">1 cp</content> à <content ID="med-03-doseMax-2">2
-                      cp</content>
+                    <content ID="med-03-doseMin-1">1 cp</content> à <content ID="med-03-doseMax-1">2 cp</content><br/><br/><br/>
+                    <content ID="med-03-doseMin-2">1 cp</content> à <content ID="med-03-doseMax-2">2 cp</content>
                   </td>
                   <td>
-                    <content ID="med-03-frequence-1">3 fois/j à partir du 01/12/2021 pendant 2
-                      jours</content>
+                    <content ID="med-03-frequence-1">3 fois/j à partir du 01/12/2021 pendant 2 jours</content>
                     <br/>
                     <br/>
-                    <content ID="med-03-frequence-2">2 fois/j à partir du 03/12/2021 pendant 4
-                      jours</content>
+                    <content ID="med-03-frequence-2">2 fois/j à partir du 03/12/2021 pendant 4 jours</content>
                   </td>
                   <td>
-                    <content ID="med-03-rateMin-1">1500 mg/j</content> à <content
-                      ID="med-03-rateMax-1">3000 mg/j</content>
+                    <content ID="med-03-rateMin-1">1500 mg/j</content> à <content ID="med-03-rateMax-1">3000 mg/j</content>
                     <br/>
                     <br/>
-                    <content ID="med-03-rateMin-2">1000 mg/j</content> à <content
-                      ID="med-03-rateMax-2">2000 mg/j</content>
+                    <content ID="med-03-rateMin-2">1000 mg/j</content> à <content ID="med-03-rateMax-2">2000 mg/j</content>
                   </td>
                   <td><content ID="med-03-voie">Voie orale</content></td>
                   <td>-</td>
@@ -2876,7 +2870,7 @@
                     <!-- Code CIS du médicament -->
                     <code code="63107752" displayName="PARACETAMOL VIATRIS 500 mg, comprimé"
                       codeSystem="1.2.250.1.213.2.3.1" codeSystemName="CIS">
-                      <originalText><reference value="#med-001"/></originalText>
+                      <originalText><reference value="#med-003"/></originalText>
                       <!-- Code MV Médicabase du médicament -->
                       <translation code="MV00002306" displayName="Paracétamol 500 mg comprimé"
                         codeSystem="1.2.250.1.213.2.59" codeSystemName="MEDICABASE"/>
@@ -2924,9 +2918,7 @@
                   <!-- Conformité Modalité : Doses progressives (IHE PCC)-->
                   <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.8"/>
                   <id root="C93DE620-3722-11EC-8D3D-0242AC130003"/>
-                  <text>
-                    <reference value="#med-03-ModeAdminProg-1"/>
-                  </text>
+                  <text><reference value="noref"/></text>
                   <statusCode code="completed"/>
                   <!-- Fréquence d'administration : toutes les 8h (3 fois/j) à partir du 01/12/2021 pendant 2 jours -->
                   <effectiveTime xsi:type="SXPR_TS">
@@ -3009,9 +3001,7 @@
                   <!-- Conformité Modalité : Doses progressives (IHE PCC) -->
                   <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.8"/>
                   <id root="3FDCAA46-3723-11EC-8D3D-0242AC130003"/>
-                  <text>
-                    <reference value="#med-03-ModeAdminProg-2"/>
-                  </text>
+                  <text><reference value="noref"/></text>
                   <statusCode code="completed"/>
                   <!-- Fréquence d'administration : toutes les 12h (2 fois/j) à partir du 03/12/2021 pendant 4 jours -->
                   <effectiveTime xsi:type="SXPR_TS">
@@ -3082,6 +3072,7 @@
                   </consumable>
                 </substanceAdministration>
               </entryRelationship>
+              
               <!-- Entrée FR-Commentaire-ER -->
               <entryRelationship typeCode="SUBJ" inversionInd="true">
                 <act classCode="ACT" moodCode="EVN">
@@ -3130,14 +3121,14 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                <tr ID="DM-01">
                   <td>11/08/2019</td>
                   <td></td>
                   <td><content ID="DM-01-categorie">STIMULATEUR CARDIAQUE IMPLANTABLE TRIPLE CHAMBRE</content></td>
                   <td>inconnu</td>
                   <td><content ID="DM-01-commentaire">(texte libre)</content></td>
                 </tr>
-                <tr>
+                <tr ID="DM-02">
                   <td>11/08/2013</td>
                   <td></td>
                   <td><content ID="DM-02-categorie">Autre DM : (texte libre)</content></td>
@@ -3157,7 +3148,7 @@
               <!-- Identifiant de la fourniture du DM -->
               <id nullFlavor="UNK"/>
               <!-- Référence vers la partie narrative de la section DM -->
-              <text><reference value="#DM-001"/></text>
+              <text><reference value="#DM-01"/></text>
               <!-- Date d'utilisation du DM -->
               <effectiveTime xsi:type="IVL_TS">
                 <low value="20190811"/>
@@ -3206,7 +3197,7 @@
               <!-- Identifiant de la fourniture du DM -->
               <id nullFlavor="UNK"/>
               <!-- Référence vers la partie narrative de la section DM -->
-              <text><reference value="#DM-001"/></text>
+              <text><reference value="#DM-02"/></text>
               <!-- Date d'utilisation du DM -->
               <effectiveTime xsi:type="IVL_TS">
                 <low value="20190811"/>
@@ -3522,11 +3513,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="FB97F8B7-7D3D-474A-B6A6-7D55D4DA3AFD"/>
                   <code xsi:type="CD" code="62476001" displayName="désorienté(e)"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-03"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>                    
                   <text><reference value="#statut-fonctionnel-03"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3565,11 +3552,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="FB97F8B7-7D3D-474A-B6A6-7D55D4DA3AFE"/>
                   <code xsi:type="CD" code="24199005" displayName="sensation d'agitation" codeSystem="2.16.840.1.113883.6.96"
-                    codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-04"/>
-                    </originalText>
-                  </code>
+                    codeSystemName="SNOMED_CT"/>                    
                   <text><reference value="#statut-fonctionnel-04"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3608,11 +3591,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="FB97F8B7-7D3D-474A-B6A6-7D55D4DA3AFF"/>
                   <code xsi:type="CD" code="248043008" displayName="comportement non-conciliant"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-05"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-05"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3651,11 +3630,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130012"/>
                   <code xsi:type="CD" code="425104003" displayName="comportement suicidaire"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-06"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-06"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3713,11 +3688,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130007"/>
                   <code xsi:type="CD" code="397540003" displayName="malvoyance"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-07"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-07"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3756,11 +3727,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130006"/>
                   <code xsi:type="CD" code="15188001" displayName="perte auditive"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-08"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-08"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3799,11 +3766,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="FB97F8B7-7D3D-474A-B6A6-7D55D4DA3AFD"/>
                   <code xsi:type="CD" code="62305002" displayName="trouble du langage"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-09"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-09"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3861,11 +3824,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130008"/>
                   <code xsi:type="CD" code="161898004" displayName="chutes" codeSystem="2.16.840.1.113883.6.96"
-                    codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-10"/>
-                    </originalText>
-                  </code>
+                    codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-10"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3904,11 +3863,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130009"/>
                   <code xsi:type="CD" code="50239007" displayName="errance"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-11"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-11"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3947,11 +3902,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130003"/>
                   <code xsi:type="CD" code="248046000" displayName="fugue" codeSystem="2.16.840.1.113883.6.96"
-                    codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-12"/>
-                    </originalText>
-                  </code>
+                    codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-12"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -3990,11 +3941,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130003"/>
                   <code xsi:type="CD" code="386423001" displayName="contention physique"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-13"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-13"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -4052,11 +3999,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130003"/>
                   <code xsi:type="CD" code="285304000" displayName="à risque d'escarre"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-14"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-14"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -4095,11 +4038,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.25"/>
                   <id root="582BB12C-7B63-11EB-9439-0242AC130011"/>
                   <code xsi:type="CD" code="249492002" displayName="fausse route alimentaire"
-                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                    <originalText>
-                      <reference value="#statut-fonctionnel-15"/>
-                    </originalText>
-                  </code>
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                   <text><reference value="#statut-fonctionnel-15"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
@@ -4799,7 +4738,7 @@
                   <code code="418799008"
                     displayName="symptôme rapporté par le patient ou le répondant"
                     codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
-                  <text><reference value="#tetanos2-reac"/></text>
+                  <text><reference value="#vaccin-02-reaction"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
                     <low value="20090928"/>
@@ -4807,7 +4746,7 @@
                   <value xsi:type="CD" code="R50.2" displayName="Fièvre due à des médicaments"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText>
-                      <reference value="#tetanos2-reac"/>
+                      <reference value="#vaccin-02-reaction"/>
                     </originalText>
                   </value>
                 </observation>
@@ -4823,7 +4762,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.32"/>
                   <code code="48767-8" displayName="Commentaire" codeSystem="2.16.840.1.113883.6.1"
                     codeSystemName="LOINC"/>
-                  <text><reference value="#tetanos2-comment"/></text>
+                  <text><reference value="#vaccin-02-comment"/></text>
                   <statusCode code="completed"/>
                 </act>
               </entryRelationship>
@@ -4842,7 +4781,7 @@
               <code code="INITIMMUNIZ" displayName="1ère série vaccinante"
                 codeSystem="2.16.840.1.113883.5.4"
                 codeSystemName="HL7_ActCode"/>
-              <text><reference value="#tetanos1"/></text>
+              <text><reference value="#vaccin-01"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20090928094914+0100"/>
               <!-- Voie d'administration : valeur issue du jdv-immunization-route-code-cisis (1.2.250.1.213.1.1.5.676)  -->
@@ -4937,7 +4876,7 @@
                   <code code="418799008"
                     displayName="symptôme rapporté par le patient ou le répondant"
                     codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
-                  <text><reference value="#tetanos1-reac"/></text>
+                  <text><reference value="#vaccin-01-reaction"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime>
                     <low value="20090825"/>
@@ -4945,7 +4884,7 @@
                   <value xsi:type="CD" code="R50.2" displayName="Fièvre due à des médicaments"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText>
-                      <reference value="#tetanos1-reac"/>
+                      <reference value="#vaccin-01-reaction"/>
                     </originalText>
                   </value>
                 </observation>
@@ -4962,7 +4901,7 @@
                   <code code="48767-8" displayName="Commentaire" codeSystem="2.16.840.1.113883.6.1"
                     codeSystemName="LOINC"/>
                   <text>
-                    <reference value="#tetanos1-comment"/>
+                    <reference value="#vaccin-01-comment"/>
                   </text>
                   <statusCode code="completed"/>
                 </act>
@@ -5304,7 +5243,7 @@
             </observation>
           </entry>
 
-          <!-- [0..*] Entrée FR-Acte (codé) : soins palliatifs prévus "Aussi vite que possible" -->
+          <!-- [0..*] Entrée FR-Acte (codé) -->
           <entry>
             <procedure classCode="PROC" moodCode="INT" negationInd="false">
               <!-- Conformité Procedure Entry (IHE PCC) -->
@@ -5317,9 +5256,7 @@
               <!-- Code de l'acte -->
               <code code="103735009"
                 displayName="Soins palliatifs"
-                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
-                <originalText><reference value="#plan-acte-01-code"/></originalText>
-              </code>
+                codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
               <text><reference value="#plan-acte-01-code"/></text>
               <!-- valeur issue du jdv-hl7-v3-ActStatus-cisis (2.16.840.1.113883.1.11.15933) -->
               <statusCode code="active"/>
@@ -5359,9 +5296,7 @@
               <!-- Code de l'acte -->
               <code code="CBLA001"
                 displayName="Pose d'une prothèse auditive implantable dans l'oreille moyenne"
-                codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM">
-                <originalText><reference value="#plan-acte-02-code"/></originalText>
-              </code>
+                codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM"/>
               <text><reference value="#plan-acte-02-code"/></text>
               <!-- valeur issue du jdv-hl7-v3-ActStatus-cisis (2.16.840.1.113883.1.11.15933) -->
               <statusCode code="active"/>
@@ -5712,7 +5647,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>
+                  <td ID="directives-anticipees">
                     <renderMultiMedia referencedObject="directives-anticipees-pdf" />
                   </td>                  
                 </tr>
@@ -6032,7 +5967,7 @@
               <!-- valeur issue du jdv-type-directive-anticipee-cisis (1.2.250.1.213.1.1.5.136) -->
               <code code="42348-3" displayName="Directives anticipées"
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-              <text><reference value="#directives-anticipees-pdf"/></text>
+              <text><reference value="#directives-anticipees"/></text>
               <statusCode code="completed"/>
               <!-- Date du document Directives anticipées récupéré du DMP -->
               <effectiveTime>
@@ -6371,17 +6306,17 @@
                   <code code="24979-7" 
                     displayName="CT rachis dorsal avec contraste IV"   
                     codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-                  <text><reference value="#resultat-imagerie-02"/></text>
+                  <text><reference value="#resultat-imagerie-01"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20240329"/>
                   <value xsi:type="CD">
-                    <originalText><reference value="#resultat-imagerie-02-resultat"/></originalText>
+                    <originalText><reference value="#resultat-imagerie-01-resultat"/></originalText>
                   </value>                  
                   <!-- [0..1] Localisation anatomique -->
                   <targetSiteCode xsi:type="CD" code="302551006" displayName="thorax entier"
                     codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
                     <originalText mediaType="text/xml">
-                      <reference value="#resultat-imagerie-02-localisation"/>
+                      <reference value="#resultat-imagerie-01-localisation"/>
                     </originalText>                
                   </targetSiteCode>                  
                   <!-- Entrée FR-Commentaire-ER -->
@@ -6396,7 +6331,7 @@
                       <code code="48767-8" displayName="Commentaire"
                         codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
                       <text>
-                        <reference value="#resultat-imagerie-02-commentaire"/>
+                        <reference value="#resultat-imagerie-01-commentaire"/>
                       </text>
                       <statusCode code="completed"/>
                     </act>
