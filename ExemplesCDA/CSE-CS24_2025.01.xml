@@ -38,6 +38,7 @@
                    - suppression du médecin qui suivra l'enfant (demandé dans le CS8 uniquement)
                    - suppression de personne de confiance et personne à prévenir en cas d'urgence, non demandé dans les CSE.
                    - création des vaccins manquants
+      28/08/2025 : correction effectiveTime dans entrée FR-Liste-des-problemes
       ********************************************************************************************************** -->
    
    <!-- ************************************************************
@@ -846,11 +847,10 @@
                      <id root="FD850158-7CCD-11EB-9439-0242AC130010"/>
                      <code nullFlavor="NA"/>
                      <statusCode code="completed"/>
-                     <!-- <effectiveTime>
+                     <effectiveTime>
                         <low value="20210211094914+0100"/>
                         <high value="20210211094915+0100"/>
-                     </effectiveTime> -->
-                     <effectiveTime nullFlavor="UNK"/>
+                     </effectiveTime>
                      
                      <!-- Entrée FR-Probleme : Prématurité inf. à 33 semaines non constaté (negationInd="true") -->
                      <entryRelationship typeCode="SUBJ" inversionInd="false">
