@@ -730,7 +730,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#ANEST-difficulte-01"/></text>
                   <statusCode code="completed"/>
@@ -753,7 +753,7 @@
               <templateId root="1.2.250.1.213.1.1.3.62"/>
               <id root="0F6596E2-B68C-449D-A992-B5A9967E054C"/>
               <code code="MED-582" displayName="Anesthésie locorégionale péridurale ou épidurale"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                 <originalText><reference value="#ANEST-typeAnestesie-02"/></originalText>
               </code>
               <text><reference value="#ANEST-typeAnestesie-02"/></text>
@@ -781,7 +781,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#ANEST-difficulte-02"/></text>
                   <statusCode code="completed"/>
@@ -818,7 +818,7 @@
               <templateId root="1.2.250.1.213.1.1.3.62"/>
               <id root="D1E1D926-C275-42E1-BD84-356661ECE788"/>
               <code code="MED-658" displayName="Pose d'un cathéter veineux périphérique"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                 <originalText><reference value="acces-veineux-peripherique"/></originalText>
               </code>
               <text><reference value="#acces-veineux-peripherique"/></text>
@@ -846,7 +846,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#acces-veineux-peripherique-difficulte"/></text>
                   <statusCode code="completed"/>
@@ -912,7 +912,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#acces-veineux-central-difficulte"/></text>
                   <statusCode code="completed"/>
@@ -965,7 +965,7 @@
               <id root="31E2E35D-65AA-4032-81B6-EFFB23DA60B4"/>
               <!-- Code et libellé de l'acte -->
               <code code="MED-632" displayName="Pose d'un cathéter intra-artériel"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
               <text><reference value="#catheter"/></text>
               <statusCode code="completed"/>
               <!-- Date de l'acte -->
@@ -992,7 +992,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#catheter-difficulte"/></text>
                   <statusCode code="completed"/>
@@ -1030,7 +1030,7 @@
               <id root="8F3CE6C6-3950-428C-8683-87C8BEA1DEBD"/>
               <!-- Code et libellé de l'acte -->
               <code code="MED-671" displayName="Ventilation au masque"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
               <text><reference value="#ventilation-masque"/></text>
               <statusCode code="completed"/>
               <!-- Date de l'acte -->
@@ -1046,7 +1046,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" displayName="Précisions difficultés"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#ventilation-masque-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1099,7 +1099,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" displayName="Précisions difficultés"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#ventilation-dispositif-supraglottique-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1157,7 +1157,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" displayName="Précisions difficultés"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#intubation-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1301,7 +1301,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" displayName="Précisions difficultés"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#Tracheotomie-par-cervicotomie-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1352,7 +1352,7 @@
               <id root="11E2E35D-65AA-4032-81B6-EFFB23DA50B6"/>
               <!-- Code et libellé de l'acte -->
               <code code="MED-876" displayName="Pose d'une sonde nasogastrique"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
               <text><reference value="#sondeGastrique"/></text>
               <statusCode code="completed"/>
               <!-- Date de l'acte -->
@@ -1365,7 +1365,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#sondeGastrique-difficulte"/></text>
                   <statusCode code="completed"/>
@@ -1403,7 +1403,7 @@
               <id root="00E2E35D-65AA-4035-81B6-EFFB11DA50F8"/>
               <!-- Code et libellé de l'acte -->
               <code code="MED-885" displayName="Utilisation d’un DM préalablement posé"
-                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
               <text><reference value="#DM-prealablement-pose"/></text>
               <statusCode code="completed"/>
               <!-- Date de l'acte -->
@@ -1432,7 +1432,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
-                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"
+                  <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
                     displayName="Précision difficulté"/>
                   <text><reference value="#sondeGastrique-difficulte"/></text>
                   <statusCode code="completed"/>
@@ -1772,7 +1772,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-234" displayName="Taille" codeSystem="1.2.250.1.213.1.1.4.322"
-                    codeSystemName="terminologie-cisis-fr"/>
+                    codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#DM-06-taille"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1818,7 +1818,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-234" displayName="Taille" codeSystem="1.2.250.1.213.1.1.4.322"
-                    codeSystemName="terminologie-cisis-fr"/>
+                    codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#DM-07-taille"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1894,7 +1894,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-402" displayName="Diamètre" codeSystem="1.2.250.1.213.1.1.4.322"
-                    codeSystemName="terminologie-cisis-fr"/>
+                    codeSystemName="TerminologieCISIS"/>
                   <text><reference value="#DM-09-diametre"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -2395,7 +2395,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="EEE09996-3DF3-47DE-A963-CD1AB5F257E3"/>
                       <code code="GEN-167" displayName="Quantité"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                       <text><reference value="#quantite-saignement"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime>
@@ -2474,7 +2474,7 @@
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="EEE09996-3DF3-47DE-A963-CD1AB5F257E3"/>
                       <code code="GEN-167" displayName="Quantité"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                       <text><reference value="#quantite-transfusion"/></text>
                       <statusCode code="completed"/>
                       <effectiveTime>
@@ -3262,7 +3262,7 @@
                       <statusCode code="completed"/>
                       <!-- Valeur issue du jdv-nvpo-cisis (1.2.250.1.213.1.1.5.498) -->
                       <value xsi:type="CD" code="MED-628" displayName="2 - Nausées modéréés"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                     </observation>
                   </entryRelationship>
                 </observation>
@@ -3302,7 +3302,7 @@
                       <statusCode code="completed"/>
                       <!-- Valeur issue du jdv-evaluation-douleur-cisis (1.2.250.1.213.1.1.5.499) -->
                       <value xsi:type="CD" code="MED-602" displayName="Douleur faible (1-3)"
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                     </observation>
                   </entryRelationship>
                 </observation>
@@ -3530,7 +3530,7 @@
                   <!-- Valeur issue du jdv-classification-ring-messmer-cisis (1.2.250.1.213.1.1.5.497) -->
                   <value xsi:type="CD" code="MED-624"
                     displayName="Grade II : Symptômes quantifiables mais ne menaçant pas la vie : signes cutanés, hypotension, tachycardie, difficultés ventilatoires, toux, difficultés à gonfler les poumons"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                     <originalText><reference value="#complication-medicament-01-severite"/></originalText>
                   </value>
                 </observation>
@@ -3590,7 +3590,7 @@
                   <!-- Valeur issue du jdv-classification-ring-messmer-cisis (1.2.250.1.213.1.1.5.497) -->
                   <value xsi:type="CD" code="MED-623"
                     displayName="Grade I : Signes cutanés, érythème généralisé, urticaire, angiœdème"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                     <originalText><reference value="#complication-medicament-02-severite"/></originalText>
                   </value>
                 </observation>

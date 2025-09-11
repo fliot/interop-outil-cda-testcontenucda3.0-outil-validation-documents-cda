@@ -840,7 +840,7 @@
 							<id root="591BFAC8-4850-4324-B6D3-443A4AAE481D"/>
 							<!-- valeur issue du jdv-prothese-objet-personnel-cisis (1.2.250.1.213.1.1.5.515) -->
 							<code code="GEN-092.02.01" displayName="Autre prothèse et objet personnel"
-								codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+								codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 							<text><reference value="#autreDispoST"/></text>
 							<statusCode code="completed"/>
 							<effectiveTime value="20250722153500+0100"/>

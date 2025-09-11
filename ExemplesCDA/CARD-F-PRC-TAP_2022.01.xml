@@ -624,7 +624,7 @@
                       <!-- Conformité CI-SIS -->
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="F32F2DFC-F65C-4741-90EC-11FDE84FDA6F"/>
-                      <code code="GEN-089" displayName="Description" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr" />
+                      <code code="GEN-089" displayName="Description" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                       <text><reference value="#pb-03-signe" /></text>
                       <statusCode code="completed" />
                       <effectiveTime>
@@ -632,7 +632,7 @@
                       </effectiveTime>
                       <!-- valeur issue du jdv-ufcv-motif-implant-endoprothese-cisis (1.2.250.1.213.1.1.4.2.12) -->
                       <value xsi:type="CD" code="MED-1318" displayName="S+T+ (Segment ST sus-décalé avec augmentation des troponines)" 
-                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                        codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                         <originalText><reference value="#pb-03-signe" /></originalText>
                       </value>
                     </observation>
@@ -1024,7 +1024,7 @@
                     <low value="20220822" />
                   </effectiveTime>
                   <value xsi:type="CD" code="MED-1317" displayName="Prévention primaire d'un sujet à haut risque"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr">
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
                     <originalText><reference value="#pb-09" /></originalText>
                   </value>                  
                 </observation>
@@ -1176,7 +1176,7 @@
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
                   <value xsi:type="CE" code="MED-1318" displayName="S+T+ (Segment ST sus-décalé avec augmentation des troponines)" 
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr" />
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                 </observation>
               </entryRelationship>
             </procedure>

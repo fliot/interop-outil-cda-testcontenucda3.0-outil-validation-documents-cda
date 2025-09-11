@@ -1311,7 +1311,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="A8A8D0C6-E610-4466-9A03-28F63FB0B0B3"/>
                   <code code="MED-052" displayName="Arrêt de tous les traitements actifs"
-                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="terminologie-cisis-fr"/>
+                    codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                   <text><reference value="MED-ARRET-001"/></text>
                   <statusCode code="completed"/>
                   <!-- Date d'arrrêt des traitements actifs -->
