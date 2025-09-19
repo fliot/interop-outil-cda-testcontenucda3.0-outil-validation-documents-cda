@@ -22,6 +22,7 @@
      	29/04/2022 : Migration des terminologies et JDV en SNOMED CT
      	25/08/2023 : Migration des terminologies et JDVs après validation
      	25/03/2025 : Correction participant, documentationOf, componentOf de l'entête
+     	19/09/2025 : Correction participant@typeCode pour le cardiologue
       **********************************************************************************************************
    -->
 <ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:lab="urn:hl7-org:lab" 
@@ -245,9 +246,8 @@
     </assignedEntity>
   </legalAuthenticator>
   
-  <!-- Cardiologue Traitant -->
-  <participant typeCode="PRF">
-    <functionCode code="ATTPHYS" displayName="Référent - Responsable du patient dans la structure de soins" codeSystem="2.16.840.1.113883.5.88" />
+  <!-- Cardiologue -->
+  <participant typeCode="RESP">
     <time xsi:type="IVL_TS">
       <low value="20060922094914+0100" />
     </time>
