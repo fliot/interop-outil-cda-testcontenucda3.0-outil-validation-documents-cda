@@ -6,6 +6,7 @@
     
     Historique :
     02/01/2023: Création    
+    19/09/2025 : Correction du contrôle du participant pour le cardiologue
 -->
 
 <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="Entete_CARD-F-PRC-AVK">
@@ -21,8 +22,8 @@
         <assert test="cda:participant[@typeCode='INF'] and cda:participant/cda:functionCode[@code='PCP']"> 
             [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" avec l'attribut @typeCode='INF' doit avoir l'élément "participant/functionCode" avec l'attribut @code='PCP' pour le médecin traitant
         </assert>
-        <assert test="cda:participant[@typeCode='PRF'] and cda:participant/cda:functionCode[@code='ATTPHYS']"> 
-            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" avec l'attribut @typeCode='PRF' doit avoir l'élément "participant/functionCode" avec l'attribut @code='ATTPHYS' pour le Cardiologue traitant
+        <assert test="cda:participant[@typeCode='RESP']"> 
+            [Entete_CARD-F-PRC-AVK] Erreur de conformité au modèle : L'élément "participant" avec l'attribut @typeCode='RESP' est obligatoire pour le Cardiologue
         </assert>
     </rule>
     
