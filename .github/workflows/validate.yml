@@ -53,6 +53,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./report
+          publish_dir:  D:/a/TestContenuCDA-3-0/TestContenuCDA-3-0/report 
           destination_dir: rapport/${{ steps.branch-name.outputs.current_branch }}
           commit_message: ' ${{ github.event.head_commit.message }}'
