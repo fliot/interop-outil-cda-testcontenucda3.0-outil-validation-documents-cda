@@ -639,7 +639,7 @@
         <xsl:if test="not(contains($vendor, 'Saxonica'))">
             <xsl:apply-templates select="/hl7:ClinicalDocument"/>
         </xsl:if>
-        <!-- Extension FR : PDF -->
+        <!-- Extension FR : PDF --> 
         <!-- Test si PDF -->
         <xsl:if test="(contains($vendor, 'Saxonica'))">
             <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -654,6 +654,7 @@
                         <fo:region-body margin-top="50pt" region-name="xsl-region-body"/>
                         <fo:region-before extent="10mm" region-name="xsl-region-before"/>
                         <fo:region-after extent="3mm" region-name="xsl-region-after"/>
+                      
                     </fo:simple-page-master>
                     <fo:page-sequence-master master-name="only">
                         <fo:repeatable-page-master-alternatives>
