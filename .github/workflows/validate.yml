@@ -27,11 +27,22 @@ jobs:
 
 
       # Get REPO
+
       
       - name: get REPO
         uses: actions/checkout@v3
         with:      
           path: testContenuCDA
+
+      - name: Install wget for Windows
+        run: choco install wget --no-progress
+      
+      - name: 📥 Download IG validator_cli
+        run: wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar    
+
+      - name: 📥 Download package
+        run: wget -q https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/main/ig/package.tgz        
+      
       - uses: actions/setup-java@v3
         with:
           distribution: 'oracle'
@@ -53,6 +64,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./report
+          publish_dir:  D:/a/TestContenuCDA-3-0/TestContenuCDA-3-0/report 
           destination_dir: rapport/${{ steps.branch-name.outputs.current_branch }}
           commit_message: ' ${{ github.event.head_commit.message }}'
