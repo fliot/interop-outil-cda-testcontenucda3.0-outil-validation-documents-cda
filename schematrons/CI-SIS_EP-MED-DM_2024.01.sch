@@ -46,6 +46,10 @@
         <!-- schématron de l'entête eP-MED-DM -->
         <active pattern="Entete_EP-MED-DM_2024.01"/> 
         
+        <!-- schématrons des sections eP-MED-DM -->
+        <active pattern="S_prescriptionMedicaments"/>
+        <active pattern="S_prescriptionDispositifsMedicaux"/>
+        
         <!-- schématrons des entrées eP-MED-DM -->
         <active pattern="E_medicamentPrescrit"/>
         <active pattern="E_dispositifMedicalPrescrit"/>
