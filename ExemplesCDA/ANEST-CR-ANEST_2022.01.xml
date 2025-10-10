@@ -1243,7 +1243,7 @@
                   <code code="R0102" displayName="MASQUES ET TUBES LARYNGÉS"
                     codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN"/>
                 </act>
-              </entryRelationship
+              </entryRelationship>
               <!-- [0..*] Entrée FR-Reference-interne : Réference interne au DM (Fibroscope) -->
               <entryRelationship typeCode="REFR" inversionInd="false">
                 <act classCode="ACT" moodCode="EVN">
