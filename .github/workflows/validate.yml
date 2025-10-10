@@ -34,14 +34,14 @@ jobs:
         with:      
           path: testContenuCDA
 
-      - name: Install wget for Windows
-        run: choco install wget --no-progress
+   #   - name: Install wget for Windows
+   #     run: choco install wget --no-progress
       
-      - name: 📥 Download IG validator_cli
-        run: wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar    
+    #  - name: 📥 Download IG validator_cli
+    #    run: wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar    
 
-      - name: 📥 Download package
-        run: wget -q https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/main/ig/package.tgz        
+    #  - name: 📥 Download package
+    #    run: wget -q https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/main/ig/package.tgz        
       
       - uses: actions/setup-java@v3
         with:
