@@ -955,7 +955,7 @@
                   <effectiveTime>
                     <low nullFlavor="UNK" />
                   </effectiveTime>
-                  <value xsi:type="CD" code="I10" displayName="Hypertension essentielle" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10">
+                  <value xsi:type="CD" code="I10" displayName="Hypertension essentielle (primitive)" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10">
                     <originalText><reference value="#probleme-cardio-vasculaire-01" /></originalText>
                   </value>
                   <!-- [0..1] Entrée FR-Commentaire-ER -->
