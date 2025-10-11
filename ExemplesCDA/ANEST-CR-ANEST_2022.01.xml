@@ -732,7 +732,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#ANEST-difficulte-01"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -783,7 +783,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#ANEST-difficulte-02"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -848,7 +848,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#acces-veineux-peripherique-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -914,7 +914,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#acces-veineux-central-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -994,7 +994,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#catheter-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1013,7 +1013,7 @@
                   <!-- id de DM -->
                   <id root="D062C86F-DDDB-4CE6-8FAD-2E4B7340D88A"/>
                   <!-- code de DM référencé -->
-                  <code code="C0103" displayName="CATHETERS ARTERIELS"
+                  <code code="C0103" displayName="CATHÉTERS ARTÉRIELS"
                     codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN"/>
                 </act>
               </entryRelationship>
@@ -1212,7 +1212,7 @@
                   <!-- id de DM référencé -->
                   <id root="3858EAD3-0876-4C97-8FBF-D4B2E82DB9BE"/>
                   <!-- Type de DM -->
-                  <code code="R018004" displayName="GUIDES À CHANGEURS D'INTUBATION"
+                  <code code="R018004" displayName="GUIDES ÉCHANGEURS D'INTUBATION"
                     codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN"/>
                 </act>
               </entryRelationship>
@@ -1240,7 +1240,7 @@
                   <!-- id du DM référencé -->
                   <id root="6AD5FDDD-A700-4CE3-84AF-EE9E39A3AB54"/>
                   <!-- Type de DM -->
-                  <code code="R0102" displayName="MASQUES ET TUBES LARYNGÉS POUR INTUBATION"
+                  <code code="R0102" displayName="MASQUES ET TUBES LARYNGÉS"
                     codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN"/>
                 </act>
               </entryRelationship>
@@ -1268,7 +1268,7 @@
                   <!-- id du DM référencé -->
                   <id root="86C9CAD3-7482-4DBC-8BCB-BDB7375EE148"/>
                   <!-- Type de DM -->
-                  <code code="R0301020302" displayName="SONDES NASALES D'OXYGÉNOTHÉRAPIE HAUT DÉBIT"
+                  <code code="R0301020302" displayName="SONDES NASALES D’OXYGÉNOTHÉRAPIE HAUT DÉBIT"
                     codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN"/>
                 </act>
               </entryRelationship>
@@ -1367,7 +1367,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#sondeGastrique-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1434,7 +1434,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id nullFlavor="UNK"/>
                   <code code="GEN-023" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"
-                    displayName="Précision difficulté"/>
+                    displayName="Précisions difficultés"/>
                   <text><reference value="#sondeGastrique-difficulte"/></text>
                   <statusCode code="completed"/>
                   <effectiveTime value="20200319"/>
@@ -1524,7 +1524,7 @@
                 </tr>
                 <tr>
                   <td>
-                    <content ID="DM-04">[C0103] CATHETERS ARTERIELS</content>
+                    <content ID="DM-04">[C0103] CATHÉTERS ARTÉRIELS</content>
                   </td>
                   <td/>
                 </tr>
@@ -1676,7 +1676,7 @@
               </participant>
             </supply>
           </entry>
-          <!-- [0..*] Entrée Dispositif médical : C0103 CATHETERS ARTERIELS -->
+          <!-- [0..*] Entrée Dispositif médical : C0103 CATHÉTERS ARTÉRIELS -->
           <entry>
             <supply classCode="SPLY" moodCode="EVN">
               <!-- Conformité CCD -->
@@ -1697,7 +1697,7 @@
                 <participantRole classCode="MANU">
                   <!-- Type de DM -->
                   <playingDevice classCode="DEV" determinerCode="INSTANCE">
-                    <code code="C0103" displayName="CATHETERS ARTERIELS"
+                    <code code="C0103" displayName="CATHÉTERS ARTÉRIELS"
                       codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN">
                       <originalText><reference value="#DM-04"></reference></originalText>
                     </code>
@@ -3608,9 +3608,9 @@
               <templateId root="1.2.250.1.213.1.1.3.48"/>
               <id root="E494FB3A-DE0A-4701-B011-9ABFE159882C"/>
               <!-- valeur issue du jdv-defaillance-materielle-cisis (1.2.250.1.213.1.1.5.526) -->
-              <code code="A150000"
-                displayName="Problème lié au dispositif de transfert des liquides ou des gaz (p. ex., problème de dosage, d'alimentation, etc…)"
-                codeSystem="1.2.250.1.213.2.64" codeSystemName="IMDRF"> </code>
+              <code code="A1909"
+                displayName="Problème d'approvisionnement en gaz médicaux"
+                codeSystem="1.2.250.1.213.2.64" codeSystemName="IMDRFAER"/> 
               <text><reference value="#def-materielle-01"/></text>
               <statusCode code="completed"/>
               <effectiveTime value="20200319"/>

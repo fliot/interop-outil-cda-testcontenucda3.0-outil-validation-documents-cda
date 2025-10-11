@@ -815,7 +815,7 @@
                 <tr>
                   <td>23/09/2018</td>
                   <td>
-                    <content ID="hyperArt">Hypertension artérielle</content>
+                    <content ID="hyperArt">Hypertension essentielle (primitive)</content>
                   </td>
                   <td>Oui</td>
                   <td>
@@ -894,7 +894,7 @@
                   <effectiveTime>
                     <low value="20180923" />
                   </effectiveTime>
-                  <value xsi:type="CD" code="I10" displayName="Hypertension artérielle" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10">
+                  <value xsi:type="CD" code="I10" displayName="Hypertension essentielle (primitive)" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10">
                     <originalText><reference value="hyperArt"/></originalText>
                   </value>
                   <!-- Suivi du traitement -->
@@ -1016,7 +1016,7 @@
                       <!-- Conformité CI-SIS -->
                       <templateId root="1.2.250.1.213.1.1.3.48" />
                       <id root="29050C44-E4E5-480A-BE0B-B86DE3C72ECD" />
-                      <code code="MED-352" displayName="Score de somnolence d'Epworth" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                      <code code="MED-352" displayName="Score de somnolence d’Epworth" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                       <text><reference value="epworth"/></text>
                       <statusCode code="completed" />
                       <effectiveTime nullFlavor="NA" />
@@ -3413,14 +3413,14 @@
                 </tr>
               </thead>
               <tbody>
-                <!-- ECG -->
+                <!-- Électrocardiographie sur au moins 12 dérivations -->
                 <tr>
                   <td>23/09/2018</td>
                   <td>
-                    <content ID="examen-01">ECG</content>
+                    <content ID="examen-01">Électrocardiographie sur au moins 12 dérivations</content>
                   </td>
                   <td>
-                    <content ID="diag-01">ECG Anormal</content>
+                    <content ID="diag-01">Électrocardiographie sur au moins 12 dérivations Anormal</content>
                   </td>
                   <td>
                   </td>
@@ -3671,7 +3671,7 @@
               </effectiveTime>
             </procedure>
           </entry>
-          <!-- Entrée FR-Simple-Observation : ECG -->
+          <!-- Entrée FR-Simple-Observation : Électrocardiographie sur au moins 12 dérivations -->
           <entry>
             <observation classCode="OBS" moodCode="EVN" negationInd="false">
               <!-- Conformité IHE PCC -->
@@ -3679,7 +3679,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="BC7009BF-802D-42E9-A790-C785D7072805" />
-              <code code="DEQP003" displayName="ECG" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="DEQP003" displayName="Électrocardiographie sur au moins 12 dérivations" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="#examen-01" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -3696,7 +3696,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="7B3D9D66-DED2-49A6-9027-F66886204108" />
-              <code code="ACQK001" displayName="Scannographie du crâne et de son contenu" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="ACQK001" displayName="Scanographie du crâne et de son contenu, sans injection de produit de contraste" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="#examen-02" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -3850,7 +3850,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="FAD93FDF-AEE9-405D-A11A-BCFA40E9308C" />
-              <code code="EAQJ001" displayName="Remnographie du crâne et de son contenu" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="EAQJ001" displayName="Remnographie des vaisseaux encéphaliques [Angio-IRM cérébrale]" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="#examen-03" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -3981,7 +3981,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="FC1846FC-73D2-4DC4-9FBD-48195C0AD982" />
-              <code code="ACQN001" displayName="Remnographie du crâne et de son contenu" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="ACQN001" displayName="Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="#examen-04" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -4000,7 +4000,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="8A306C9B-03C0-4EA2-857E-0E2BDE3BFEF7" />
-              <code code="ACQN001" displayName="Remnographie du crâne et de son contenu" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="ACQN001" displayName="Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="#examen-05" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -4035,7 +4035,7 @@
                   <text><reference value="#lesAnc" /></text>
                   <statusCode code="completed" />
                   <effectiveTime value="20110622" />
-                  <value xsi:type="CD" code="MED-467" displayName="Hemorragie ancienne" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <value xsi:type="CD" code="MED-467" displayName="Hémorragie ancienne" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                 </observation>
               </entryRelationship>
               <!-- Entrée FR-Simple-Observation : Microsaignements -->
@@ -4065,7 +4065,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="FF2E5AD2-3CCB-4A5C-ACFC-2BEAC80F3D71" />
-              <code code="EAQH002" displayName="Scanographie des vaisseaux encéphaliques" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="EAQH002" displayName="Scanographie des vaisseaux encéphaliques [Angioscanner cérébral]" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="examen-06" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -4082,7 +4082,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="BF1A9530-5088-4A47-8455-40E420221FFE" />
-              <code code="EAQJ001" displayName="Remnographie des vaisseaux encéphaliques" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
+              <code code="EAQJ001" displayName="Remnographie des vaisseaux encéphaliques [Angio-IRM cérébrale]" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" />
               <text><reference value="examen-07" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20110622" />
@@ -4388,7 +4388,7 @@
                   <td>Non</td>
                 </tr>
                 <tr>
-                  <td>Déficit neurologique s'améliorant rapidement</td>
+                  <td>Déficit neurologique s’améliorant rapidement</td>
                   <td>Non</td>
                   <td>Massage cardiaque externe traumatique &lt; 10 jours</td>
                   <td>Non</td>
@@ -4502,7 +4502,7 @@
               </consumable>
               <precondition>
                 <criterion>
-                  <code code="PAT-056" displayName="Age &lt; 18 ans &gt; 80 ans" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="PAT-056" displayName="Age &lt; 18 ans et &gt; 80 ans" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
@@ -4526,7 +4526,7 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-356" displayName="Déficit neurologique s'améliorant rapidement" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-356" displayName="Déficit neurologique s’améliorant rapidement" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
