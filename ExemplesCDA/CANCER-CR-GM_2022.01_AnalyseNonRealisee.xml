@@ -1371,7 +1371,7 @@
                   <text><reference value="#Nat_Mat" /></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA"/>
-                  <value xsi:type="CD" code="MED-310" displayName="Bloc tissulaire paraffiné" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <value xsi:type="CD" code="MED-310" displayName="Bloc tissulaire parafiné" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                 </observation>
               </component>
               <!-- [1..1] Entrée FR-Observation-Anatomo-pathologique : Pourcentage de cellules tumorales -->
@@ -1757,7 +1757,7 @@
                   <text><reference value="#Methode_preparation" /></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA"/>
-                  <value xsi:type="CD" code="MED-302" displayName="macro dissection de la zone d'intérêt" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <value xsi:type="CD" code="MED-302" displayName="Macro dissection de la zone d’intérêt" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                 </observation>
               </component>
               <!-- [1..1] Entrée Entrée FR-Observation-Anatomo-pathologique : Méthode d'extraction de l'ADN génomique tumoral-->
@@ -1768,7 +1768,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.102"/>
                   <id root="99DB06C4-0EC1-4143-8569-985C69AC8920" />
-                  <code code="MED-546" displayName="Méthode d'extraction de l'ADN génomique tumoral" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-546" displayName="Méthode d’extraction de l’ADN génomique tumoral" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <text><reference value="#methodeExtractionADN" /></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA"/>
@@ -1783,7 +1783,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.102"/>
                   <id root="E12E2599-A0E9-41FA-B409-7E7D85CFAEAE" />
-                  <code code="MED-547" displayName="Méthode d'analyse" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-547" displayName="Méthode d’analyse" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <text><reference value="#MethodeAnalyse" /></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA"/>

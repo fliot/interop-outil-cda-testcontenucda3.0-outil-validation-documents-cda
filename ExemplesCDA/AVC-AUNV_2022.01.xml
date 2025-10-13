@@ -2232,7 +2232,7 @@
                   <effectiveTime>
                     <low value="20180923" />
                   </effectiveTime>
-                  <value xsi:type="CD" code="H57.04" displayName="Mydriase" codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM-10">
+                  <value xsi:type="CD" code="37125009" displayName="Mydriase" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT">
                     <originalText><reference value="#avc_101" /></originalText>
                   </value>
                 </observation>
@@ -4372,7 +4372,7 @@
                 <tr>
                   <td>Heure de début des symptômes connue et &gt; 4h30</td>
                   <td>Non</td>
-                  <td>Diabète et antécédent d'AVC</td>
+                  <td>Diabète et antécédent d’AVC</td>
                   <td>Non</td>
                 </tr>
                 <tr>
@@ -4394,13 +4394,13 @@
                   <td>Non</td>
                 </tr>
                 <tr>
-                  <td>Suspicion d'hémorragie méningée (même si scanner normal)</td>
+                  <td>Suspicion d’hémorragie méningée (même si scanner normal)</td>
                   <td>Non</td>
-                  <td>Ponction récente d'un vaisseau non compressible &lt; 7 jours</td>
+                  <td>Ponction récente d’un vaisseau non compressible &lt; 7 jours</td>
                   <td>Non</td>
                 </tr>
                 <tr>
-                  <td>Crise épileptique lors de l'installation du déficit</td>
+                  <td>Crise épileptique lors de l’installation du déficit</td>
                   <td>Non</td>
                   <td>Grossesse, accouchement</td>
                   <td>Non</td>
@@ -4532,13 +4532,13 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-357" displayName="Suspicion d'hémorragie méningée (même si scanner normal)" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-357" displayName="Suspicion d’hémorragie méningée (même si scanner normal)" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-358" displayName="Crise épileptique lors de l'installation du déficit" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-358" displayName="Crise épileptique lors de l’installation du déficit" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
@@ -4574,7 +4574,7 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-364" displayName="Hépatopathie sévère ; pancréatite aiguë " codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-364" displayName="Hépatopathie sévère ; pancréatite aiguë" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
@@ -4586,13 +4586,13 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-366" displayName="Malformations vasculaires artérielles ou veineuses " codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-366" displayName="Malformations vasculaires artérielles ou veineuses" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-367" displayName="Diabète et antécédent d'AVC" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-367" displayName="Diabète et antécédent d’AVC" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
@@ -4616,7 +4616,7 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-371" displayName="Ponction récente d'un vaisseau non compressible &lt; 7 jours" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-371" displayName="Ponction récente d’un vaisseau non compressible &lt; 7 jours" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>
@@ -4664,7 +4664,7 @@
               </precondition>
               <precondition>
                 <criterion>
-                  <code code="MED-379" displayName="Infarctus jugé sévère sur l'imagerie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="MED-379" displayName="Infarctus jugé sévère sur l’imagerie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <value xsi:type="BL" value="false" />
                 </criterion>
               </precondition>

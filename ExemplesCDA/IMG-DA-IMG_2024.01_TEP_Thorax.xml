@@ -876,7 +876,7 @@
                                     <templateId root="1.2.250.1.213.1.1.3.48"/>
                                     <id root="4693E61A-7DE6-11EC-90D6-0242AC120003"/>
                                     <code code="GEN-296"
-                                        displayName="Évènement associé à l'examen demandé"
+                                        displayName="Évènements associés à l'examen demandé"
                                         codeSystem="1.2.250.1.213.1.1.4.322"
                                         codeSystemName="TerminologieCISIS"/>
                                     <text><reference value="#evenement"/></text>
@@ -891,7 +891,7 @@
                                     <templateId root="1.2.250.1.213.1.1.3.48"/>
                                     <templateId root="1.2.250.1.213.1.1.3.48.36"/>
                                     <id root="4693E61A-7DE6-11EC-90D6-0242AC120003"/>
-                                    <code code="MED-1133" displayName="Fonction étudiée"
+                                    <code code="MED-1131" displayName="Fonction étudiée"
                                         codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                                     <text><reference value="#fonction"/></text>
                                     <statusCode code="completed"/>
