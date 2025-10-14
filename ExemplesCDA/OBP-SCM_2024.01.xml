@@ -615,7 +615,7 @@
               <!-- Conformité FR-Simple-Observation (CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="A59E0EBD-018D-4289-B879-0A8D55F64D02" />
-              <code code="ORG-074" displayName="Mode de sortie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+              <code code="ORG-074" displayName="Modalité de sortie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
               <!-- précision sur la destination -->
               <text><reference value="#sortie" /></text>
               <statusCode code="completed" />
