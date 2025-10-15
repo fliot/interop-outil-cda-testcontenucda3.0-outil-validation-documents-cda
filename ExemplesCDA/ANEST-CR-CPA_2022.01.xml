@@ -1281,7 +1281,7 @@
                   <effectiveTime>
                     <low value="20180923" />
                   </effectiveTime>
-                  <value xsi:type="CD" code="MED-670" displayName="Cancer" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
+                  <value xsi:type="CD" code="02" displayName="Tumeurs" codeSystem="2.16.840.1.113883.6.347" codeSystemName="CIM11MMS">
                     <originalText><reference value="#probleme-cancer-01" /></originalText>
                   </value>
                   <!-- [0..1] Entrée FR-Commentaire-ER -->

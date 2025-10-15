@@ -1889,7 +1889,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48" />
                   <id root="4C202BC1-2291-4874-9491-24EAC961DA6D" />
-                  <code code="GEN-119" displayName="A faire / A refaire" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="GEN-119" displayName="A faire/ A refaire" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <text><reference value="#bilanOrthoAFaire"/></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA" />
@@ -2180,7 +2180,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48" />
                   <id root="706C7AB9-1A90-4873-8554-46BE1341B8C8" />
-                  <code code="GEN-119" displayName="A faire / A refaire" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                  <code code="GEN-119" displayName="A faire/ A refaire" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                   <text><reference value="#bilanAFaire"/></text>
                   <statusCode code="completed" />
                   <effectiveTime nullFlavor="NA" />
@@ -2216,7 +2216,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.27" />
               <id root="E4B7AF18-E627-43DA-8ABD-4E888E1F006B" />
-              <code code="GEN-137" displayName="Dossier à mettre en œuvre ou à réadapter" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+              <code code="GEN-137" displayName="Dossier à mettre en œuvre / à réadapter" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
               <text><reference value="#apa"/></text>
               <statusCode code="active" />
               <effectiveTime nullFlavor="NASK" />
