@@ -591,7 +591,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="DA259E25-7B05-4332-9B29-83B695A57AC3" />
-              <code code="MED-513" displayName="Evaluation en neuropsychologie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+              <code code="MED-517" displayName="Evaluation en neuropsychologie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
               <text><reference value="#avc_48" /></text>
               <statusCode code="completed" />
               <effectiveTime value="20181003" />
@@ -660,7 +660,7 @@
               <effectiveTime>
                 <low value="20181003" />
               </effectiveTime>
-              <value xsi:type="CD" code="GEN-092.06.01" displayName="Autre Etablissement de santé" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+              <value xsi:type="CD" code="GEN-092.06.01" displayName="Autre établissement de santé" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
             </observation>
           </entry>
           <!-- Destination -->

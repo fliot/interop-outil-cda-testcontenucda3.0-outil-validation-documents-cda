@@ -230,7 +230,7 @@
       <!-- PS identifié par son N°RPPS -->
       <id root="1.2.250.1.71.4.2.1" extension="801234567897"/>
       <code code="G15_10/SM26" codeSystem="1.2.250.1.213.1.1.4.5"
-        displayName="Médecin - Qualifié en Médecin Générale (SM)"/>
+        displayName="Médecin - Qualifié en Médecine Générale (SM)"/>
       <addr>
         <houseNumber>142</houseNumber>
         <streetName>Rue du Belvédère</streetName>
@@ -1365,7 +1365,7 @@
                     <low value="20180422"/>
                     <high value="20180430"/>
                   </effectiveTime>
-                  <value xsi:type="CD" code="G45.9" displayName="Accident Ischémique Cérébral Transitoire"
+                  <value xsi:type="CD" code="G45.9" displayName="Accident ischémique cérébral transitoire, sans précision"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText>
                       <reference value="#antecedent-medical-01"/>
@@ -1493,7 +1493,7 @@
                     <low value="20180114"/>
                     <high value="20180125"/>
                   </effectiveTime>
-                  <value xsi:type="CD" code="N10" displayName="Pyélonéphrite aiguë"
+                  <value xsi:type="CD" code="N10" displayName="Pyélonéphrite aigüe"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText>
                       <reference value="#antecedent-medical-02"/>
@@ -1758,7 +1758,7 @@
                   <!-- FR-Reference-interne (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.36"/>
                   <id root="FC21DC59-43D5-4BB0-ACC7-3601784BFBC0"/>
-                  <code code="I21.1" displayName="Infarctus transmural inférieur"
+                  <code code="I21.1" displayName="Infarctus transmural aigu du myocarde, de la paroi inférieure"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText>
                       <reference value="#acte-02-motif"/>
@@ -1938,7 +1938,7 @@
                   <participant typeCode="CSM">
                     <participantRole classCode="MANU">
                       <playingEntity classCode="MMAT">
-                        <code code="XM5DJ7" displayName="PARACETAMOL"
+                        <code code="XM5DJ7" displayName="Paracétamol"
                           codeSystem="2.16.840.1.113883.6.347" codeSystemName="CIM11MMS">
                           <originalText><reference value="#allergie-01-agent"/></originalText>
                         </code>
@@ -2774,7 +2774,7 @@
                   <!-- Conformité FR-Reference-interne (FR CI-SISI) -->
                   <templateId root="1.2.250.1.213.1.1.3.36"/>
                   <id root="21872220-FBDF-4BCC-85B1-61D1BBB420A5"/>
-                  <code code="G45.9" displayName="Accident Ischémique Cérébral Transitoire"
+                  <code code="G45.9" displayName="Accident ischémique cérébral transitoire, sans précision"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI">
                     <originalText mediaType="text/xml">
                       <reference value="#med-02-motif"/>
@@ -3164,7 +3164,7 @@
                   <!-- Catégorie de DM -->
                   <playingDevice classCode="DEV" determinerCode="INSTANCE">
                     <code code="J010104"
-                      displayName="STIMULATEUR CARDIAQUE IMPLANTABLE TRIPLE CHAMBRE"
+                      displayName="STIMULATEURS CARDIAQUES IMPLANTABLES TRIPLE CHAMBRE"
                       codeSystem="1.2.250.1.213.2.68" codeSystemName="EMDN">                      
                         <originalText><reference value="#DM-01-categorie"/></originalText>
                     </code>
@@ -5378,7 +5378,7 @@
               <templateId root="1.2.250.1.213.1.1.3.58"/>
               <id root="4AA6DCFC-6628-42E7-8D6F-68621568F584"/>
               <!-- Type de Rencontre : Valeur issue du jdv-hl7-v3-ActEncounterCode-cisis (2.16.840.1.113883.1.11.13955) -->
-              <code code="AMB" displayName="Ambulatoire"
+              <code code="AMB" displayName="Ambulatoire (hors établissement)"
                 codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7_ActCode"/>
               <text><reference value="#plan-rencontre-01-code"/></text>
               <!-- Date de la rencontre -->
@@ -6169,7 +6169,7 @@
                   <!-- Conformité FR-Resultat (FR CI-SIS) -->
                   <templateId root="1.2.250.1.213.1.1.3.209"/>
                   <id root="8D40D39D-3574-496A-91EA-B7BE236ABD1A"/>
-                  <code code="U83.71" displayName="Bactérie Multi Résistante"
+                  <code code="U83.71" displayName="Bactérie multirésistante [BMR]"
                     codeSystem="2.16.840.1.113883.6.3" codeSystemName="CIM10FRPMSI"/>
                   <text><reference value="#resultat-biologie-01"/></text>
                   <statusCode code="completed"/>

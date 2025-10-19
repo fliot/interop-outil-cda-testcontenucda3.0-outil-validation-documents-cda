@@ -2048,7 +2048,7 @@
                       <!-- Conformité CI-SIS -->
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="E521BD9E-539A-4E40-8317-5AB21F015523"/>
-                      <code code="MED-565" displayName="Effets secondaires"
+                      <code code="MED-565" displayName="Effet(s) secondaire(s)"
                         codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                       <text><reference value="#trait-propose-chimiotherapie-effets"/></text>
                       <statusCode code="completed"/>
@@ -2199,7 +2199,7 @@
                       <!-- Conformité CI-SIS -->
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="B95156E1-B262-40DA-A4BB-3C9C71D19F4F"/>
-                      <code code="MED-565" displayName="Effets secondaires"
+                      <code code="MED-565" displayName="Effet(s) secondaire(s)"
                         codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                       <text><reference value="#trait-propose-autre-mode"/></text>
                       <statusCode code="completed"/>
@@ -3147,7 +3147,7 @@
                       <!-- Conformité CI-SIS -->
                       <templateId root="1.2.250.1.213.1.1.3.48"/>
                       <id root="B95156E1-B262-40DA-A4BB-3C9C71D19F4F"/>
-                      <code code="ORG-116" displayName="Rythme d'administration"
+                      <code code="ORG-004" displayName="Rythme"
                         codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                       <text><reference value="#soin-propose-tabagique-rythme"/></text>
                       <statusCode code="completed"/>

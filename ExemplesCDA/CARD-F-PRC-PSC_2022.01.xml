@@ -575,7 +575,7 @@
               <!-- Conformité CI-SIS -->
               <templateId root="1.2.250.1.213.1.1.3.62"/>
               <id root="21C415B8-533A-4BAA-8EF0-D900E0FDAA27" />
-              <code code="DELF015" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" displayName="Implantation d'un stimulateur cardiaque définitif, avec pose d'une sonde intraatriale et d'une sonde intraventriculaire droites, et d'une sonde dans une veine cardiaque gauche par voie veineuse transcutanée">
+              <code code="DELF015" codeSystem="1.2.250.1.215.300.1" codeSystemName="CCAM" displayName="Implantation souscutanée d'un stimulateur cardiaque définitif, avec pose d'une sonde intraatriale et d'une sonde intraventriculaire droites, et d'une sonde dans une veine cardiaque gauche par voie veineuse transcutanée">
                 <originalText mediaType="text/xml"><reference value="#psc0001" /></originalText>
               </code>
               <text><reference value="#psc0001" /></text>
@@ -1069,7 +1069,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="9E2D9FFC-8BEC-4BD4-AA66-7DADD7AD8694" />
                   <!-- [ANS]Code à remplacer -->
-                  <code code="GEN-408" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Fréquence avec aimant">
+                  <code code="GEN-408" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Fréq. s/s aimant">
                     <originalText mediaType="text/xml"><reference value="#psc0008" /></originalText>
                   </code>
                   <text><reference value="#psc0008" /></text>
@@ -1156,7 +1156,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="151D521A-7839-462B-A1A1-C9FBDFAA1EAD" />
                   <!-- [ANS] Code à remplacer -->
-                  <code code="GEN-386" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Télésuivi Activé">
+                  <code code="GEN-386" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Télé. activé">
                     <originalText mediaType="text/xml"><reference value="#psc0014" /></originalText>
                   </code>
                   <text><reference value="#psc0014" /></text>
@@ -1227,7 +1227,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <!-- [ANS] Code à remplacer  -->
                   <id root="8687EADC-E461-42AB-B0FB-89B762C8521A" />
-                  <code code="GEN-387" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Mode Programmé">
+                  <code code="GEN-387" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Mode programmé">
                     <originalText mediaType="text/xml"><reference value="#psc0018" /></originalText>
                   </code>
                   <text><reference value="#psc0018" /></text>
@@ -1281,7 +1281,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="F80F0872-059A-4A8B-81DC-727EA88B79E6" />
                   <!-- [ANS] Code à remplacer -->
-                  <code code="GEN-388" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Tension">
+                  <code code="GEN-388" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Tension dernier contrôle">
                     <originalText mediaType="text/xml"><reference value="#psc0021" /></originalText>
                   </code>
                   <text><reference value="#psc0021" /></text>
@@ -1368,7 +1368,7 @@
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="C4B7A330-2D11-45ED-AEA4-AB357D1F183C" />
                   <!-- [ANS] Code à remplacer par EMDN -->
-                  <code code="GEN-391" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Connexion">
+                  <code code="GEN-391" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Connexions">
                     <originalText mediaType="text/xml"><reference value="#psc0030" /></originalText>
                   </code>
                   <text><reference value="#psc0030" /></text>
@@ -1620,7 +1620,7 @@
                   <value xsi:type="CD" code="GEN-375" displayName="IS-1" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                 </observation>
               </entryRelationship>
-              <!-- Adapteur -->
+              <!-- Adaptateur -->
               <entryRelationship typeCode="RSON">
                 <observation classCode="OBS" moodCode="EVN">
                   <!-- Conformité IHE PCC -->
@@ -1861,7 +1861,7 @@
                   <value xsi:type="CD" code="GEN-375" displayName="IS-1" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
                 </observation>
               </entryRelationship>
-              <!-- Adapteur -->
+              <!-- Adaptateur -->
               <entryRelationship typeCode="RSON">
                 <observation classCode="OBS" moodCode="EVN">
                   <!-- Conformité IHE PCC -->
@@ -1869,7 +1869,7 @@
                   <!-- Conformité CI-SIS -->
                   <templateId root="1.2.250.1.213.1.1.3.48"/>
                   <id root="A31153E4-C928-436B-8651-C0C83BA3CEDC" />
-                  <code code="GEN-392" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Adapteur">
+                  <code code="GEN-392" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" displayName="Adaptateur">
                     <originalText mediaType="text/xml"><reference value="#psc0067" /></originalText>
                   </code>
                   <text><reference value="#psc0067" /></text>

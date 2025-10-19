@@ -606,7 +606,7 @@
                       <!-- Conformité FR-Simple-Observation (CI-SIS) -->
                       <templateId root="1.2.250.1.213.1.1.3.48" />
                       <id root="441DF6CB-D9A8-4023-BFC3-2F0A5D4DC0A5" />
-                      <code code="MED-1268" displayName="Motif intervention voie basse" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+                      <code code="MED-1268" displayName="motif intervention voie basse" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
                       <text><reference value="#motifInterventionVoieBasse" /></text>
                       <statusCode code="completed" />
                       <effectiveTime nullFlavor="NA" />
@@ -1172,7 +1172,7 @@
                       <effectiveTime>
                         <low nullFlavor="UNK"/>
                       </effectiveTime>
-                      <value xsi:type="CD" code="MED-1172" displayName="Émission d’urine" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" >
+                      <value xsi:type="CD" code="MED-1172" displayName="Émission d'urine" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" >
                         <originalText><reference value="#urine"/></originalText>
                       </value>
                     </observation>
@@ -1435,7 +1435,7 @@
               <!-- Conformité FR-Simple-Observation (CI-SIS) -->
               <templateId root="1.2.250.1.213.1.1.3.48" />
               <id root="A59E0EBD-018D-4289-B879-0A8D55F64D02" />
-              <code code="ORG-074" displayName="Mode de sortie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
+              <code code="ORG-074" displayName="Modalité de sortie" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" />
               <text><reference value="#modeSortie" /></text>
               <statusCode code="completed" />
               <!-- [1..1] Date et heure de sortie -->
