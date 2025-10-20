@@ -80,9 +80,9 @@
         </assert>
         
         <!-- Existence de l'entrée FR-Simple-Observation : Fonction etudiée si modalité= 'TEP' ou 'scintigraphie' --> 
-        <assert test="((cda:code/@code='PT' or cda:code/@code='NM') and .//cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.48' and cda:code/@code='MED-1133'])
-            or ((cda:code/@code!='PT' and cda:code/@code!='NM') and not(.//cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.48' and cda:code/@code='MED-1133']))"> 
-            [S_PlanDeSoins_IMG-DA-IMG] Erreur de conformité au modèle IMG-DA-IMG : L'entrée "FR-Demande-d-examen-ou-de-suivi" (1.3.6.1.4.1.19376.1.5.3.1.1.20.3.1) doit obligatoirement contenir une entrée FR-Simple-Observation (fonction étudiée : code/@code='MED-1133') si la modalité de l’examen demandée = "TEP" ou "Scintigraphie".
+        <assert test="((cda:code/@code='PT' or cda:code/@code='NM') and .//cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.48' and cda:code/@code='MED-1131'])
+            or ((cda:code/@code!='PT' and cda:code/@code!='NM') and not(.//cda:observation[cda:templateId/@root='1.2.250.1.213.1.1.3.48' and cda:code/@code='MED-1131']))"> 
+            [S_PlanDeSoins_IMG-DA-IMG] Erreur de conformité au modèle IMG-DA-IMG : L'entrée "FR-Demande-d-examen-ou-de-suivi" (1.3.6.1.4.1.19376.1.5.3.1.1.20.3.1) doit obligatoirement contenir une entrée FR-Simple-Observation (fonction étudiée : code/@code='MED-1131') si la modalité de l’examen demandée = "TEP" ou "Scintigraphie".
         </assert>
         
     </rule>
