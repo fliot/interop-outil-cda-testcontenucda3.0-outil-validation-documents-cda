@@ -6,22 +6,22 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.688"
              name="JdvModificateurTopographiqueCisis"
-             revisionDate="2022-11-14T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:48+01:00"
              title="JDV Modificateur Topographique CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2022-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="droit"/>
+                  displayName="côté droit"/>
          <Concept code="7771000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="gauche"/>
+                  displayName="côté gauche"/>
          <Concept code="51440002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="bilatéral"/>
+                  displayName="bilatéral(e)"/>
          <Concept code="66459002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
@@ -97,11 +97,11 @@
          <Concept code="60583000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="postaxial"/>
+                  displayName="postaxial(e)"/>
          <Concept code="32400000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="préaxial"/>
+                  displayName="préaxial(e)"/>
          <Concept code="43674008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
@@ -145,7 +145,7 @@
          <Concept code="30730003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="sagital(le)"/>
+                  displayName="sagittal(e)"/>
          <Concept code="24422004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
@@ -193,7 +193,7 @@
          <Concept code="112233002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="marginal"/>
+                  displayName="marginal(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

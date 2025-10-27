@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.114"
              name="JdvTypeAnalgesieCisis"
-             revisionDate="2023-11-09T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:49+01:00"
              title="JDV Type Analgesie CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2023-11-09T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-168"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -17,11 +17,11 @@
          <Concept code="50697003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="anesthésie générale"/>
+                  displayName="administration d'un anesthésique général"/>
          <Concept code="231249005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="anesthésie rachidienne"/>
+                  displayName="analgésie rachidienne"/>
          <Concept code="18946005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"

@@ -583,7 +583,7 @@
                         <reference value="#probleme-01-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -710,7 +710,7 @@
                         <reference value="#probleme-02-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -837,7 +837,7 @@
                         <reference value="#probleme-03-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -965,7 +965,7 @@
                         <reference value="#probleme-04-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="84387000" displayName="asymptomatique"
+                      <value xsi:type="CE" code="162467007" displayName="asymptomatique"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -1105,7 +1105,7 @@
                         <reference value="#probleme-05-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -1308,7 +1308,7 @@
                         <reference value="#antecedent-medical-01-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>
@@ -1436,7 +1436,7 @@
                         <reference value="#antecedent-medical-02-statut-clinique"/>
                       </text>
                       <statusCode code="completed"/>
-                      <value xsi:type="CE" code="102499006" displayName="en forme"
+                      <value xsi:type="CE" code="81323004" displayName="fonction corporelle générale : normale"
                         codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED_CT"/>
                     </observation>
                   </entryRelationship>

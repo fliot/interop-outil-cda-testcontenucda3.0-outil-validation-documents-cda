@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.168"
              name="JdvTypeInterventionCisis"
-             revisionDate="2024-04-11T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:49+01:00"
              title="JDV Type Intervention CISIS"
-             version="2025-06-16T14:17:11+01:00">
+             version="2024-04-11T00:00:00+01:00">
       <ConceptList>
          <Concept code="387713003"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -21,7 +21,7 @@
          <Concept code="1296925008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240411000000"
-                  displayName="insertion d’endoprothèse"/>
+                  displayName="insertion d'endoprothèse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

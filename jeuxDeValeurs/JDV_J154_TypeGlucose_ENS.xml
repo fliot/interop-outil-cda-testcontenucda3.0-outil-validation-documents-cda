@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250723120000"
              dateValid="20210430120000"
              description="JDV pour caractériser le type de glucose"
-             displayName="JDV_J154_TypeGlucose_ENS.tabs"
+             displayName="JDV_J154_TypeGlucose_ENS"
              effectiveDate="2021-04-30T12:00:00+01:00"
              id="1.2.250.1.213.1.1.5.609"
-             revisionDate="2025-04-25T12:00:00+01:00"
+             revisionDate="2025-07-23T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS">
       <ConceptList>
@@ -18,6 +18,9 @@
          <Concept code="4548-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"/>
+         <Concept code="99504-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Glucose [Masse/Volume] Liquide interstitiel ; Numérique"/>
          <Concept code="MED-972"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Index de gestion de glycémie (IGG)"/>

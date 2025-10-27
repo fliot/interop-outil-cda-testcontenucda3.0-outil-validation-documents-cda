@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250721120000"
              dateValid="20121112000000"
              description="XDS authorSpecialty CI-SIS"
-             displayName="JDV_J01_XdsAuthorSpecialty_CISIS.tabs"
+             displayName="JDV_J01_XdsAuthorSpecialty_CISIS"
              effectiveDate="2012-11-12T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.461"
-             revisionDate="2025-03-28T12:00:00+01:00"
+             revisionDate="2025-07-21T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS">
       <ConceptList>
@@ -1185,6 +1185,9 @@
          <Concept code="372"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Aide à domicile"/>
+         <Concept code="373"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Technicien d’études cliniques"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -5,7 +5,7 @@
              dateMaj="20241025120000"
              dateValid="20190830120000"
              description="Ensemble des savoir-faire et compétences du RASS"
-             displayName="JDV_J107_EnsembleSavoirFaire_RASS.tabs"
+             displayName="JDV_J107_EnsembleSavoirFaire_RASS"
              effectiveDate="2019-08-30T12:00:00+01:00"
              id="1.2.250.1.213.1.6.1.175"
              revisionDate="2024-10-25T12:00:00+01:00"
@@ -799,6 +799,9 @@
          <Concept code="SST26"
                   codeSystem="1.2.250.1.213.2.76"
                   displayName="Urgences pédiatriques"/>
+         <Concept code="CM0001"
+                  codeSystem="1.2.250.1.213.1.6.1.375"
+                  displayName="Certificat de décès"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

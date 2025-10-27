@@ -5,7 +5,7 @@
              dateMaj="20241213120000"
              dateValid="20210625120000"
              description="Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose"
-             displayName="JDV_J164_GlucoseNumberOfDays_ENS.tabs"
+             displayName="JDV_J164_GlucoseNumberOfDays_ENS"
              effectiveDate="2021-06-25T12:00:00+01:00"
              id="1.2.250.1.213.1.1.5.640"
              revisionDate="2024-12-13T12:00:00+01:00"

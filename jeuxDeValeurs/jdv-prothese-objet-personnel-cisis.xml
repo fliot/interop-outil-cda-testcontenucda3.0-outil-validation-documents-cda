@@ -6,9 +6,9 @@
              effectiveDate="2021-01-06T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.515"
              name="JdvProtheseObjetPersonnelCisis"
-             revisionDate="2023-02-02T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:47+01:00"
              title="JDV Prothese Objet Personnel CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2025-07-21T00:00:00+01:00">
       <ConceptList>
          <Concept code="Q021003"
                   codeSystem="1.2.250.1.213.2.68"
@@ -26,6 +26,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20230202000000"
                   displayName="Autre dispositif ou objet personnel"/>
+         <Concept code="GEN-413"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20250721000000"
+                  displayName="Aucun objet"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,9 +6,9 @@
              effectiveDate="2024-06-04T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.794"
              name="JdvTypeEvenementIndesirablePrevisibleCisis"
-             revisionDate="2024-06-04T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:48+01:00"
              title="JDV Type Evenement Indesirable Previsible CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2024-06-04T00:00:00+01:00">
       <ConceptList>
          <Concept code="420134006"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -37,7 +37,7 @@
          <Concept code="609398007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
-                  displayName="hypersensibilité non allergique à une drogue ou un médicament"/>
+                  displayName="hypersensibilité non allergique médicamenteuse"/>
          <Concept code="735449006"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
@@ -53,7 +53,7 @@
          <Concept code="59037007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
-                  displayName="intolérance aux drogues et/ou médicaments"/>
+                  displayName="intolérance médicamenteuse"/>
          <Concept code="235719002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"

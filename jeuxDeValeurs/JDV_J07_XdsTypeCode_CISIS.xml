@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250623120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
-             displayName="JDV_J07_XdsTypeCode_CISIS.tabs"
+             displayName="JDV_J07_XdsTypeCode_CISIS"
              effectiveDate="2013-01-23T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.471"
-             revisionDate="2025-04-25T12:00:00+01:00"
+             revisionDate="2025-06-23T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS">
       <ConceptList>
@@ -357,6 +357,12 @@
          <Concept code="101881-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Carte d'implant"/>
+         <Concept code="97694-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Note d'évaluation en médecine maternelle et fœtale"/>
+         <Concept code="100967-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Rythme cardiaque fœtal"/>
          <Concept code="E1762" codeSystem="ASTM" displayName="Full Document"/>
       </ConceptList>
    </ValueSet>

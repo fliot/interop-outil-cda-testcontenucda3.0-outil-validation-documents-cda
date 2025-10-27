@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.88"
              name="JdvMotifEchographieCisis"
-             revisionDate="2025-02-27T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:49+01:00"
              title="JDV Motif Echographie CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2025-02-27T00:00:00+01:00">
       <ConceptList>
          <Concept code="C94305"
                   codeSystem="2.16.840.1.113883.3.26.1.1"
@@ -21,7 +21,7 @@
          <Concept code="161615003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
-                  displayName="antécédents d'intervention chirurgicale"/>
+                  displayName="antécédent d'intervention chirurgicale"/>
          <Concept code="GEN-092.01.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20230202000000"

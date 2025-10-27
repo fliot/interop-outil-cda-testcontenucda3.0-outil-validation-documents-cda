@@ -6,9 +6,9 @@
              effectiveDate="2023-06-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.694"
              name="JdvLocalisationAnatomiqueCisis"
-             revisionDate="2025-03-12T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:48+01:00"
              title="JDV Localisation Anatomique CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2025-07-18T00:00:00+01:00">
       <ConceptList>
          <Concept code="302553009"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -93,7 +93,7 @@
          <Concept code="730364005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="zone entière du conduit auditif interne"/>
+                  displayName="zone entière du méat acoustique interne"/>
          <Concept code="362877004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -425,7 +425,7 @@
          <Concept code="181178004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="conduit auditif externe entier"/>
+                  displayName="méat acoustique externe entier"/>
          <Concept code="362044002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -442,10 +442,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
                   displayName="veine jugulaire externe entière"/>
-         <Concept code="1290040004"
+         <Concept code="81745001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20250312000000"
-                  displayName="œil entier"/>
+                  dateValid="20250718000000"
+                  displayName="œil"/>
          <Concept code="732141005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -485,7 +485,7 @@
          <Concept code="302541005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="doigt entier de la main, sauf le pouce"/>
+                  displayName="doigt entier de la main excepté le pouce"/>
          <Concept code="362673003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -569,7 +569,7 @@
          <Concept code="281490009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="partie laryngée entière du pharynx"/>
+                  displayName="hypopharynx entier"/>
          <Concept code="181249005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -625,7 +625,7 @@
          <Concept code="361734005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="conduit auditif interne entier de l'os temporal"/>
+                  displayName="méat acoustique interne entier de l'os temporal"/>
          <Concept code="362045001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -697,11 +697,11 @@
          <Concept code="244387002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="atrium gauche entier"/>
+                  displayName="oreillette gauche entière"/>
          <Concept code="277930000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="appendice atrial gauche entier"/>
+                  displayName="appendice auriculaire gauche entier"/>
          <Concept code="244385005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -745,7 +745,7 @@
          <Concept code="362793004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="partie inférieure entière de la jambe, du genou à la cheville"/>
+                  displayName="partie inférieure entière du membre inférieur"/>
          <Concept code="182281004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -801,7 +801,7 @@
          <Concept code="265784008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="mastoïde entière"/>
+                  displayName="mastoïde entier"/>
          <Concept code="181813003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -1285,7 +1285,7 @@
          <Concept code="243931006"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="colonne thoracique entière"/>
+                  displayName="colonne vertébrale thoracique entière"/>
          <Concept code="1145018008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -1345,7 +1345,7 @@
          <Concept code="61660003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="portion ombilicale entière de la veine porte"/>
+                  displayName="partie ombilicale entière de la veine porte"/>
          <Concept code="243961003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
@@ -1357,7 +1357,7 @@
          <Concept code="302538001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"
-                  displayName="partie supérieure entière du bras, de l'épaule au coude"/>
+                  displayName="partie supérieure entière du membre supérieur"/>
          <Concept code="181132007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230601000000"

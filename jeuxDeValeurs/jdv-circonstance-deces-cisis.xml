@@ -6,22 +6,22 @@
              effectiveDate="2023-08-03T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.741"
              name="JdvCirconstanceDecesCisis"
-             revisionDate="2023-08-03T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:47+01:00"
              title="JDV Circonstance Deces CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2023-08-03T00:00:00+01:00">
       <ConceptList>
          <Concept code="17766007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie, pas clair si noté avant ou après le début du travail"/>
          <Concept code="44174001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie avant le début du travail"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie avant le début du travail"/>
          <Concept code="1762004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie pendant le travail"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie pendant le travail"/>
          <Concept code="67313008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"

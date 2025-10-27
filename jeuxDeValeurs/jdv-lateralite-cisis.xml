@@ -6,22 +6,22 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.160"
              name="JdvLateraliteCisis"
-             revisionDate="2022-12-16T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:49+01:00"
              title="JDV Lateralite CISIS"
-             version="2025-06-16T14:17:11+01:00">
+             version="2022-12-16T00:00:00+01:00">
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"
-                  displayName="droit"/>
+                  displayName="côté droit"/>
          <Concept code="7771000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"
-                  displayName="gauche"/>
+                  displayName="côté gauche"/>
          <Concept code="51440002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"
-                  displayName="bilatéral"/>
+                  displayName="bilatéral(e)"/>
          <Concept code="385432009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221207000000"

@@ -6,9 +6,9 @@
              effectiveDate="2020-03-31T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.489"
              name="JdvAideAuDeplacementCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2025-10-27T14:53:49+01:00"
              title="JDV Aide Au Deplacement CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2023-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="GEN-192"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -17,11 +17,11 @@
          <Concept code="895457008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
-                  displayName="se déplace avec canne"/>
+                  displayName="se déplace avec une canne"/>
          <Concept code="895488007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
-                  displayName="se déplace avec déambulateur"/>
+                  displayName="se déplace avec un déambulateur"/>
          <Concept code="301578005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"

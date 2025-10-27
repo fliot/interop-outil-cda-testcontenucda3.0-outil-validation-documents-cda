@@ -5,10 +5,10 @@
    <ValueSet displayName="jdv-contre-indication-cisis"
              effectiveDate="2021-12-16T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.659"
-             name="JdvContre-indicationCisis"
-             revisionDate="2023-04-28T00:00:00+01:00"
-             title="JDV Contre-indication CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             name="JdvContrindicationCisis"
+             revisionDate="2025-10-27T14:53:47+01:00"
+             title="JDV Contrindication CISIS"
+             version="2023-04-28T00:00:00+01:00">
       <ConceptList>
          <Concept code="77386006"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -17,7 +17,7 @@
          <Concept code="1260078007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230428000000"
-                  displayName="Allaitement"/>
+                  displayName="allaitement maternel"/>
          <Concept code="MED-1105"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20211216000000"
