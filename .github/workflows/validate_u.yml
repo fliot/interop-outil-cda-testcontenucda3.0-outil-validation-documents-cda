@@ -18,6 +18,7 @@ jobs:
         with:
           persist-credentials: false
           repository: M-Priour/validateCDA
+          ref: ubun
           path: validateCDA
 
       - name: Configure Git
