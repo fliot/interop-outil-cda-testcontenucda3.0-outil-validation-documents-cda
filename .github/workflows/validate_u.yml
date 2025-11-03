@@ -1,4 +1,4 @@
-name: validate
+name: validate_u
 
 on:
   workflow_call:
