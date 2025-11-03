@@ -21,8 +21,7 @@ jobs:
           ref: ubun
           path: validateCDA
 
-      - name: Configure Git
-        run: git config --system core.longpaths true
+
 
 
 
