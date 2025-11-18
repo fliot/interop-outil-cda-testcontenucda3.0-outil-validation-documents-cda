@@ -17,7 +17,8 @@
       **********************************************************************************************************
       Notes:            
       22/07/2025 : Première version 2025.01  
-	  03/11/2025 : Mises à jour suite à concertation.      
+	  03/11/2025 : Mises à jour suite à concertation.   
+	  18/11/2025 : Correction title de la section FR-Commentaire-non-code
       **********************************************************************************************************
 -->
 
@@ -549,7 +550,7 @@
 				</section>
 			</component>
 			
-			<!-- [1..1] Section FR-Diagnostic-de-sortie-episode-de-soins : diagnostic structuré -->
+			<!-- [0..1] Section FR-Diagnostic-de-sortie-episode-de-soins : diagnostic structuré -->
 			<component>
 				<section>
 					<!-- Conformité Discharge Diagnosis Section (IHE PCC) -->
@@ -617,7 +618,7 @@
 				</section>
 			</component>
 			
-			<!-- [1..1] Section FR-Diagnostic-de-sortie-non-code : diagnostic non structuré 
+			<!-- [0..1] Section FR-Diagnostic-de-sortie-non-code : diagnostic non structuré 
 			<component>
 				<section>
 					<templateId root="1.2.250.1.213.1.1.2.5"/>
@@ -675,7 +676,7 @@
 					<templateId root="1.2.250.1.213.1.1.2.73"/>
 					<code code="55112-7" displayName="Commentaire"
 						codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-					<title>Commentaires</title>
+					<title>Commentaires / Recommandations pour le retour</title>
 					<text>(Texte libre)</text>
 				</section>
 			</component>

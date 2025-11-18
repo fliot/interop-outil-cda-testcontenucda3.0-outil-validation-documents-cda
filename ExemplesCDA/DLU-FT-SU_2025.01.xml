@@ -16,6 +16,7 @@
       Notes:            
       22/07/2025 : Première version 2025.01
       03/11/2025 : Mise à jour suite à concertation
+      18/11/2025 : Correction title de la section FR-Fonctions-physiques
       **********************************************************************************************************
  -->
 <ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -506,7 +507,7 @@
           <id root="2914B83F-B6EB-4DD4-9178-7C737E4B35B1"/>
           <code code="46006-3" displayName="Problèmes physiques fonctionnels et structurels" 
                 codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
-          <title>Observations</title>
+          <title>Etat du patient</title>
           <text>
             <table border="0">
               <thead>
