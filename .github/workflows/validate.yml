@@ -42,7 +42,7 @@ jobs:
            cd validateCDA
            wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar
            mkdir package
-           cd ./package
+           cd .\package
            wget -q https://github.com/ansforge/IG-document-core/raw/refs/heads/gh-pages/main/ig/package.tgz  
            cd ..
            del ../testContenuCDA/ExemplesCDA/01_Mod*.xml
