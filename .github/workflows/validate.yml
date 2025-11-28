@@ -4,7 +4,7 @@ on:
   workflow_call:
   workflow_dispatch:
     inputs:
-      logLevel:
+      branchIgDocumentCore:
         description: 'Branch IG-document-core'     
         required: true
         default: 'main'
