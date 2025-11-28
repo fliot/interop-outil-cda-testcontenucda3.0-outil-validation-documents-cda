@@ -8,8 +8,6 @@ on:
         description: 'Branch IG-document-core'     
         required: true
         default: 'main'
-      tags:
-        description: 'Test scenario tags'
 
 
 
