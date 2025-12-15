@@ -6,9 +6,9 @@
              effectiveDate="2024-05-22T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.785"
              name="JdvOrigineEffetIndesirableCisis"
-             revisionDate="2025-10-27T14:53:48+01:00"
+             revisionDate="2025-12-15T10:17:08+01:00"
              title="JDV Origine Effet Indesirable CISIS"
-             version="2024-05-22T00:00:00+01:00">
+             version="2025-11-04T00:00:00+01:00">
       <ConceptList>
          <Concept code="1156699004"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -18,10 +18,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240522000000"
                   displayName="surdosage"/>
-         <Concept code="1.2.250.1.213.1.1.5.785.1"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240522000000"
-                  displayName="mésusage ou d’un usage détourné (Demande de création SNOMED CT en cours)"/>
+         <Concept code="MED-1334"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251104000000"
+                  displayName="mésusage ou d’un usage détourné"/>
          <Concept code="398240004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240522000000"

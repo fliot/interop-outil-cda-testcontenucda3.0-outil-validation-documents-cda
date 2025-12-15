@@ -11,6 +11,7 @@
    ......................................................................................................................................................    
     Historique :
     06/04/2021 : SBM : Création
+    08/12/2025 : Suppression du JDV jdv-localisation-anatomique-cisis et mise à jour des cardinalités
    ......................................................................................................................................................    
 -->
 
@@ -34,9 +35,14 @@
             [E_TechniqueImagerie_IMG-CR-IMG] Erreur de conformité au modèle IMG-CR-IMG : l'entrée FR-DICOM-Technique-imagerie (1.2.250.1.213.1.1.3.153) doit obligatoirement contenir un ou plusieurs élément(s) methodCode [1..*] pour décrire les modalités d'acquisitions.
         </assert>
         
-        <!-- Vérifier l'élement targetSiteCode de l'entrée 'FR-DICOM-Technique-imagerie' [1..*] -->
+<!--        <!-\- Vérifier l'élement targetSiteCode de l'entrée 'FR-DICOM-Technique-imagerie' [1..*] -\->
         <assert test="count(.//cda:targetSiteCode) &gt;=1">
             [E_TechniqueImagerie_IMG-CR-IMG] Erreur de conformité au modèle IMG-CR-IMG : l'entrée FR-DICOM-Technique-imagerie (1.2.250.1.213.1.1.3.153) doit obligatoirement contenir un ou plusieurs élément(s) targetSiteCode [1..*] pour décrire la localisation anatomique.
+        </assert>
+-->        
+        <!-- Vérifier l'élement modificateur topographique de l'entrée 'FR-DICOM-Technique-imagerie' [0..1] -->
+        <assert test="count(.//cda:targetSiteCode/cda:qualifier) &lt;=1">
+            [E_TechniqueImagerie_IMG-CR-IMG] Erreur de conformité au modèle IMG-CR-IMG : l'entrée FR-DICOM-Technique-imagerie (1.2.250.1.213.1.1.3.153) doit obligatoirement contenir au maximum 1 élément qualifier un  [0..1] pour décrire le modificateur topographique.
         </assert>
         
         <!-- Vérifier l'existence du modificateur topographique dans l'élément targetSiteCode de l'entrée 'FR-DICOM-Technique-imagerie' [0..*] -->

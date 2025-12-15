@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.819"
              name="JdvSpecimenTypeCisis"
-             revisionDate="2025-10-27T14:53:48+01:00"
+             revisionDate="2025-12-15T10:17:08+01:00"
              title="JDV Specimen Type CISIS"
              version="2024-01-26T00:00:00+01:00">
       <ConceptList>
@@ -997,7 +997,7 @@
          <Concept code="SHU"
                   codeSystem="2.16.840.1.113883.18.311"
                   dateValid="20220929000000"
-                  displayName="Site du shunt"/>
+                  displayName="Shunt (site)"/>
          <Concept code="SHUNF"
                   codeSystem="2.16.840.1.113883.18.311"
                   dateValid="20220929000000"
@@ -1005,7 +1005,7 @@
          <Concept code="SHUNT"
                   codeSystem="2.16.840.1.113883.18.311"
                   dateValid="20220929000000"
-                  displayName="Shunt (site)"/>
+                  displayName="Shunt"/>
          <Concept code="SITE"
                   codeSystem="2.16.840.1.113883.18.311"
                   dateValid="20220929000000"

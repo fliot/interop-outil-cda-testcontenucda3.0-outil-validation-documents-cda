@@ -6,9 +6,9 @@
              effectiveDate="2024-06-04T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.794"
              name="JdvTypeEvenementIndesirablePrevisibleCisis"
-             revisionDate="2025-10-27T14:53:48+01:00"
+             revisionDate="2025-12-15T10:17:08+01:00"
              title="JDV Type Evenement Indesirable Previsible CISIS"
-             version="2024-06-04T00:00:00+01:00">
+             version="2025-11-04T00:00:00+01:00">
       <ConceptList>
          <Concept code="420134006"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -26,9 +26,9 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
                   displayName="allergie alimentaire"/>
-         <Concept code="419199007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240604000000"
+         <Concept code="MED-1331"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251104000000"
                   displayName="allergie à une substance"/>
          <Concept code="609396006"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -42,9 +42,9 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
                   displayName="hypersensibilité non allergique alimentaire"/>
-         <Concept code="609397002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240604000000"
+         <Concept code="MED-1332"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251104000000"
                   displayName="hypersensibilité non allergique à une substance"/>
          <Concept code="782197009"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -58,10 +58,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"
                   displayName="intolérance alimentaire"/>
-         <Concept code="1.2.250.1.213.1.1.5.794.1"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20240604000000"
-                  displayName="intolérance à un agent environnemental (Demande de création SNOMED CT en cours)"/>
+         <Concept code="MED-1333"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251104000000"
+                  displayName="intolérance à un agent environnemental"/>
          <Concept code="56840009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240604000000"

@@ -6,18 +6,18 @@
              effectiveDate="2021-09-24T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.654"
              name="JdvMesureTypeVerreDelivreCisis"
-             revisionDate="2025-10-27T14:53:47+01:00"
+             revisionDate="2025-12-15T10:17:07+01:00"
              title="JDV Mesure Type Verre Delivre CISIS"
-             version="2025-02-25T00:00:00+01:00">
+             version="2025-12-01T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20210924000000"
                   displayName="Date de délivrance"/>
-         <Concept code="C80261"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20210924000000"
-                  displayName="Monture"/>
+         <Concept code="Q021002"
+                  codeSystem="1.2.250.1.213.2.68"
+                  dateValid="20251201000000"
+                  displayName="MONTURES DE LUNETTES"/>
          <Concept code="64885-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20210924000000"
@@ -29,7 +29,7 @@
          <Concept code="C71898"
                   codeSystem="2.16.840.1.113883.3.26.1.1"
                   dateValid="20250225000000"
-                  displayName="nom de marque"/>
+                  displayName="nom commercial"/>
          <Concept code="67716-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20250225000000"

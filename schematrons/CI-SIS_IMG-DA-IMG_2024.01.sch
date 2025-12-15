@@ -11,6 +11,7 @@
       04/01/2022 : Création
       28/08/2023 : Migration des terminologies et JDV
       15/02/2024 : Nouvelle version 2024.01
+      08/12/2025 : Suppression du JDV jdv-localisation-anatomique-cisis
    ......................................................................................................................................................    
 -->
 
@@ -35,7 +36,7 @@
     <include href="include/jeuxDeValeurs/IMG-DA-IMG_2024.01/JDV_ModificateurTopographique-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/IMG-DA-IMG_2024.01/JDV_FonctionEtudieeScintigraphie-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/IMG-DA-IMG_2024.01/JDV_FonctionEtudieeTEP-CISIS.sch"/>
-    <include href="include/jeuxDeValeurs/IMG-DA-IMG_2024.01/JDV_LocalisationAnatomique-CISIS.sch"/>
+<!--    <include href="include/jeuxDeValeurs/IMG-DA-IMG_2024.01/JDV_LocalisationAnatomique-CISIS.sch"/>-->
     
     <!-- Entete -->
     <include href="include/specificationsVolets/IMG-DA-IMG_2024.01/Entete/Entete_IMG-DA-IMG.sch"/>
@@ -59,7 +60,7 @@
         <active pattern="JDV_ModificateurTopographique-CISIS"/>
         <active pattern="JDV_FonctionEtudieeScintigraphie-CISIS"/>
         <active pattern="JDV_FonctionEtudieeTEP-CISIS"/>
-        <active pattern="JDV_LocalisationAnatomique-CISIS"/>
+<!--        <active pattern="JDV_LocalisationAnatomique-CISIS"/>-->
         
         <!-- Sections spécifiques au volet CI-SIS_IMG-CR-IMG -->
         <active pattern="S_DICOM_InformationClinique_IMG-DA-IMG"/>
@@ -77,7 +78,7 @@
         <let name="JDV_ModificateurTopographique-CISIS" value="'../jeuxDeValeurs/jdv-modificateur-topographique-cisis.xml'"/>
         <let name="JDV_FonctionEtudieeScintigraphie-CISIS" value="'../jeuxDeValeurs/jdv-fonction-etudiee-scintigraphie-cisis.xml'"/>
         <let name="JDV_FonctionEtudieeTEP-CISIS" value="'../jeuxDeValeurs/jdv-fonction-etudiee-tep-cisis.xml'"/>
-        <let name="JDV_LocalisationAnatomique-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>
+<!--        <let name="JDV_LocalisationAnatomique-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>-->
         
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">    
             <!-- présence des sections obligatoires --> 

@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250623120000"
+             dateMaj="20251029120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
              effectiveDate="2013-01-23T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.471"
-             revisionDate="2025-06-23T12:00:00+01:00"
+             revisionDate="2025-10-29T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS">
       <ConceptList>
@@ -306,6 +306,9 @@
          <Concept code="83901-9"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Bilan psychologique"/>
+         <Concept code="83963-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Synthèse environnementale"/>
          <Concept code="83981-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"/>

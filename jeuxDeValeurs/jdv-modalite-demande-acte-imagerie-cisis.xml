@@ -6,7 +6,7 @@
              effectiveDate="2021-12-16T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.660"
              name="JdvModaliteDemandeActeImagerieCisis"
-             revisionDate="2025-10-27T14:53:48+01:00"
+             revisionDate="2025-12-15T10:17:08+01:00"
              title="JDV Modalite Demande Acte Iimagerie CISIS"
              version="2021-12-16T00:00:00+01:00">
       <ConceptList>
@@ -41,7 +41,7 @@
          <Concept code="C63334"
                   codeSystem="2.16.840.1.113883.3.26.1.1"
                   dateValid="20211216000000"
-                  displayName="Radiologie interventionnelle"/>
+                  displayName="imagerie interventionnelle"/>
          <Concept code="OT"
                   codeSystem="1.2.840.10008.2.16.4"
                   dateValid="20211216000000"
