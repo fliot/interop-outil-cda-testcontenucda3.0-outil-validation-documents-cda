@@ -1142,7 +1142,7 @@
                     <low value="20000328" />
                   </effectiveTime>
                   <!-- valeur issue du JDV_UFCV_EffetINR_CISIS (1.2.250.1.213.1.1.4.2.18) -->
-                  <value xsi:type="CD" codeSystem="2.16.840.1.113883.6.163" codeSystemName="Meddra" code="10022402" displayName="Augmentation de l'INR">
+                  <value xsi:type="CD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" code="MED-1336" displayName="Médicament diminuant l’INR">
                     <originalText><reference value="#avk0013" /></originalText>
                   </value>
                   <!-- Agent responsable (médicament) -->
@@ -1201,7 +1201,7 @@
                     <low value="20000328" />
                   </effectiveTime>                  
                   <!-- valeur issue du JDV_UFCV_EffetINR_CISIS (1.2.250.1.213.1.1.4.2.18) -->
-                  <value xsi:type="CD" codeSystem="2.16.840.1.113883.6.163" codeSystemName="Meddra" code="10022402" displayName="Augmentation de l'INR">
+                  <value xsi:type="CD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" code="MED-1336" displayName="Médicament diminuant l’INR">
                     <originalText><reference value="avk0016"/></originalText>
                   </value>                  
                   <!-- Agent responsable (médicament) -->
@@ -1260,7 +1260,7 @@
                     <low value="20000328" />
                   </effectiveTime>
                   <!-- valeur issue du JDV_UFCV_EffetINR_CISIS (1.2.250.1.213.1.1.4.2.18) -->
-                  <value xsi:type="CD" codeSystem="2.16.840.1.113883.6.163" codeSystemName="Meddra" code="10022401" displayName="Diminution de l'INR">
+                  <value xsi:type="CD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS" code="MED-1335" displayName="Médicament augmentant l’INR">
                     <originalText><reference value="avk0019" /></originalText>
                   </value>                  
                   <!-- Agent responsable (médicament) -->

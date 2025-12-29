@@ -6,18 +6,18 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.18"
              name="JdvUfcvEffetInrCisis"
-             revisionDate="2025-12-15T10:17:09+01:00"
+             revisionDate="2025-12-16T14:18:37+01:00"
              title="JDV UFCV Effet INR CISIS"
-             version="2010-01-01T00:00:00+01:00">
+             version="2025-12-15T00:00:00+01:00">
       <ConceptList>
-         <Concept code="10022401"
-                  codeSystem="2.16.840.1.113883.6.163"
-                  dateValid="20100101000000"
-                  displayName="Diminution de l'INR"/>
-         <Concept code="10022402"
-                  codeSystem="2.16.840.1.113883.6.163"
-                  dateValid="20100101000000"
-                  displayName="Augmentation de l'INR"/>
+         <Concept code="MED-1335"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251215000000"
+                  displayName="Médicament augmentant l’INR"/>
+         <Concept code="MED-1336"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20251215000000"
+                  displayName="Médicament diminuant l’INR"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

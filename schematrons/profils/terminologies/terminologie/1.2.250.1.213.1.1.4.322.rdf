@@ -1392,6 +1392,8 @@
          <rdf:Description><skos:notation>MED-1332</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-1333</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>MED-1334</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>MED-1335</skos:notation></rdf:Description>
+         <rdf:Description><skos:notation>MED-1336</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-001</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-002</skos:notation></rdf:Description>
          <rdf:Description><skos:notation>ORG-003</skos:notation></rdf:Description>
