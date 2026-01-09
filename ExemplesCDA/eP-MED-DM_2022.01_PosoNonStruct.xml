@@ -269,7 +269,7 @@
   </legalAuthenticator>
 
   <!-- Participant : PS remplacé (obligatoire si prescription faite par un PS remplaçant) -->
-  <participant typeCode="CON">
+  <participant typeCode="REF">
     <functionCode code="CORRE" displayName="Correspondant" codeSystem="1.2.250.1.213.1.1.4.2.280"/>
     <time nullFlavor="UNK"/>      
     <associatedEntity classCode="PROV">
