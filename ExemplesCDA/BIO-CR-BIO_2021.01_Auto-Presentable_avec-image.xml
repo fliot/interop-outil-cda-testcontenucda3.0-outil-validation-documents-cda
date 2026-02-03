@@ -5991,7 +5991,7 @@
 			</xsl:choose>
 		</xsl:if>
 	</xsl:template>
-
+	<xsl:key name="util-i18nkey" match="translation" use="@key"/>
 	<xd:doc>
 		<xd:desc/>
 		<xd:param name="pre"/>
