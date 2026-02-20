@@ -24,9 +24,7 @@
          <Concept code="Z1203020408"
                   codeSystem="1.2.250.1.213.2.68"
                   displayName="OXYMÈTRES DE POULS"/>
-         <Concept code="8499008"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="pouls"/>
+         <Concept code="8499008" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

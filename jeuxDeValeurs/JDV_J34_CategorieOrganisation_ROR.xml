@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251017120000"
+             dateMaj="20251222120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
              effectiveDate="2017-10-13T12:00:00+01:00"
              id="1.2.250.1.213.3.3.40"
-             revisionDate="2025-10-17T12:00:00+01:00"
+             revisionDate="2025-12-22T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR">
       <ConceptList>
@@ -32,10 +32,10 @@
                   displayName="Centre de crise"/>
          <Concept code="07"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre de post-cure"/>
+                  displayName="Centre de soins post-aigus (CeSPA)"/>
          <Concept code="08"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre de Ressources Autisme (CRA)"/>
+                  displayName="Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)"/>
          <Concept code="09"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre Expert"/>
@@ -119,7 +119,7 @@
                   displayName="Foyer restaurant"/>
          <Concept code="36"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Dispositif d'accueil familial"/>
+                  displayName="Dispositif d'accueil familial social PA-PH"/>
          <Concept code="37"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre d'accueil familial spécialisé (CAFS)"/>
@@ -434,7 +434,7 @@
                   displayName="Equipe Mobile de Psychiatrie de la Personne Âgée"/>
          <Concept code="145"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité d'addictologie"/>
+                  displayName="Unité hospitalière d'addictologie"/>
          <Concept code="146"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de prise en charge des brûlés"/>
@@ -470,7 +470,7 @@
                   displayName="Unité hospitalière de gériatrie"/>
          <Concept code="157"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière de gynécologie et/ou obstétrique"/>
+                  displayName="Unité hospitalière de gynécologie"/>
          <Concept code="158"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de médecine vasculaire"/>
@@ -491,7 +491,7 @@
                   displayName="Unité hospitalière de pneumologie"/>
          <Concept code="164"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière de radiologie"/>
+                  displayName="Unité hospitalière d'imagerie médicale"/>
          <Concept code="165"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de rhumatologie"/>
@@ -632,7 +632,7 @@
                   displayName="Cabinet de ville de psychomotricité"/>
          <Concept code="211"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Cabinet de ville de radiologie"/>
+                  displayName="Cabinet de ville d'imagerie médicale"/>
          <Concept code="212"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville de rhumatologie"/>
@@ -771,9 +771,6 @@
          <Concept code="259"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Point d'information local dédié aux personnes âgées"/>
-         <Concept code="260"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Relayage au domicile"/>
          <Concept code="261"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Accueil familial pour personne âgée"/>
@@ -843,6 +840,42 @@
          <Concept code="283"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe mobile de psychiatrie périnatale"/>
+         <Concept code="284"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)"/>
+         <Concept code="285"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre Anti-Poison et de Toxico-Vigilance (CAPTV)"/>
+         <Concept code="286"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de Soins Intensifs Néonatals (USIN)"/>
+         <Concept code="287"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de réanimation néonatale"/>
+         <Concept code="288"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière « kangourou » ou « koala »"/>
+         <Concept code="289"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de néonatalogie"/>
+         <Concept code="290"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de maternité"/>
+         <Concept code="291"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Halte Soins Addiction (HSA)"/>
+         <Concept code="292"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité Hospitalière Sécurisée Interrégionale (UHSI)"/>
+         <Concept code="293"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière dédiée grossesse pathologique (GHR)"/>
+         <Concept code="294"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de soins externes"/>
+         <Concept code="295"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Permanence d'Accès aux Soins de Santé (PASS)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

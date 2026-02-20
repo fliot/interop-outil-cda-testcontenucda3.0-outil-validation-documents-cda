@@ -12,12 +12,8 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J149-BodySiteBP-ENS">
       <ConceptList>
-         <Concept code="8205005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="poignet"/>
-         <Concept code="53120007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="membre supérieur"/>
+         <Concept code="8205005" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
+         <Concept code="53120007" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

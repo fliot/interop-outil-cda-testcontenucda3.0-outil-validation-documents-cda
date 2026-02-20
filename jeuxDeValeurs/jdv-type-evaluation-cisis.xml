@@ -6,9 +6,9 @@
              effectiveDate="2024-09-06T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.802"
              name="JdvTypeEvaluationCisis"
-             revisionDate="2025-12-16T14:18:36+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Type Evaluation CISIS"
-             version="2025-04-25T00:00:00+01:00">
+             version="2026-01-21T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-1292"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -46,6 +46,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20250425000000"
                   displayName="Evaluation CIM11"/>
+         <Concept code="GEN-092.04.24"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateValid="20260121000000"
+                  displayName="Autre type d'évaluation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

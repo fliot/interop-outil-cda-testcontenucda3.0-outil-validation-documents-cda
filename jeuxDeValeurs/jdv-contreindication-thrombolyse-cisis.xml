@@ -6,7 +6,7 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.170"
              name="JdvContrindicationThrombolyseCisis"
-             revisionDate="2025-12-16T14:18:37+01:00"
+             revisionDate="2026-02-20T14:21:03+01:00"
              title="JDV Contrindication Thrombolyse CISIS"
              version="2024-07-19T00:00:00+01:00">
       <ConceptList>
@@ -57,11 +57,11 @@
          <Concept code="MED-363"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
-                  displayName="Hémorragie sévère (manifeste ou récente) ; maladie connue favorisant les hémorragies ; rétinopathie hémorragique (diabétique par ex)"/>
+                  displayName="Hémorragie sévère (manifeste ou récente), maladie connue favorisant les hémorragies, rétinopathie hémorragique (diabétique par ex)"/>
          <Concept code="MED-364"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
-                  displayName="Hépatopathie sévère ; pancréatite aiguë"/>
+                  displayName="Hépatopathie sévère, pancréatite aiguë"/>
          <Concept code="MED-365"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
