@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20251222120000"
              dateValid="20240927120000"
-             description="Statut de l'évaluation et des événements"
-             displayName="JDV_J281_StatutsRessourcesMS.tabs"
+             description="Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."
+             displayName="JDV_J281_StatutsRessourcesMS"
              effectiveDate="2024-09-27T12:00:00+01:00"
              id="1.2.250.1.213.3.4.219"
-             revisionDate="2025-04-25T12:00:00+01:00"
+             revisionDate="2025-12-22T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS">
       <ConceptList>
@@ -24,25 +24,19 @@
          <Concept code="PLANIFIE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Planifié"/>
-         <Concept code="REALISE"
-                  codeSystem="1.2.250.1.213.3.3.250"
-                  displayName="Réalisé"/>
          <Concept code="ANNULE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Annulé"/>
          <Concept code="ACTIF" codeSystem="1.2.250.1.213.3.3.250" displayName="Actif"/>
-         <Concept code="NONDEBUTE"
-                  codeSystem="1.2.250.1.213.3.3.250"
-                  displayName="Non débuté"/>
          <Concept code="ENPREPARATION"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="En préparation"/>
-         <Concept code="ENREALISATION"
+         <Concept code="ENCOURS"
                   codeSystem="1.2.250.1.213.3.3.250"
-                  displayName="En réalisation"/>
-         <Concept code="CREATION"
+                  displayName="En cours"/>
+         <Concept code="ENPAUSE"
                   codeSystem="1.2.250.1.213.3.3.250"
-                  displayName="Création"/>
+                  displayName="En pause"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

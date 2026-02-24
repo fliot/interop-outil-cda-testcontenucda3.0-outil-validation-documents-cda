@@ -6,9 +6,9 @@
              effectiveDate="2022-02-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.671"
              name="JdvStatutGrossesseCisis"
-             revisionDate="2022-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Statut Grossesse CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2022-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="60001007"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -21,7 +21,7 @@
          <Concept code="261665006"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="inconnu"/>
+                  displayName="inconnu(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

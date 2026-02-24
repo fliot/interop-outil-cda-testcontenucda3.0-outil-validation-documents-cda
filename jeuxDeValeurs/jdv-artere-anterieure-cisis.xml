@@ -6,14 +6,14 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.208"
              name="JdvArtereAnterieureCisis"
-             revisionDate="2023-07-07T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Artere Anterieure CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2023-07-07T00:00:00+01:00">
       <ConceptList>
          <Concept code="8752000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="portion caverneuse de l'artère carotide interne"/>
+                  displayName="partie caverneuse de l'artère carotide interne"/>
          <Concept code="MED-459"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
@@ -25,7 +25,7 @@
          <Concept code="60176003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="artère cérébrale antérieure"/>
+                  displayName="ACA - artère cérébrale antérieure"/>
          <Concept code="MED-462"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"

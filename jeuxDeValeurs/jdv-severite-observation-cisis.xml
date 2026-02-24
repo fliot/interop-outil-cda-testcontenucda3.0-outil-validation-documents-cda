@@ -6,34 +6,34 @@
              effectiveDate="2022-11-14T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.675"
              name="JdvSeveriteObservationCisis"
-             revisionDate="2022-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Severite Observation CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2022-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="442452003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="gravité mortelle"/>
+                  displayName="mise en jeu du pronostic vital"/>
          <Concept code="24484000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="grave"/>
+                  displayName="gravité sévère"/>
          <Concept code="371924009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="modéré à sévère"/>
+                  displayName="gravité modérée à sévère"/>
          <Concept code="6736007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="modéré"/>
+                  displayName="gravité modérée"/>
          <Concept code="371923003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="léger à modéré"/>
+                  displayName="gravité légère à modérée"/>
          <Concept code="255604002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="léger"/>
+                  displayName="gravité légère"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

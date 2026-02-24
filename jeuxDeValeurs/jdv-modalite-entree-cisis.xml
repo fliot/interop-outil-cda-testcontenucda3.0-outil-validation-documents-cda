@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.73"
              name="JdvModaliteEntreeCisis"
-             revisionDate="2024-09-10T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Modalite Entree CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2024-09-10T00:00:00+01:00">
       <ConceptList>
          <Concept code="183452005"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -21,7 +21,7 @@
          <Concept code="107724000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20240910000000"
-                  displayName="transfert du patient"/>
+                  displayName="transfert d'un(e) patient(e)"/>
          <Concept code="GEN-092.06.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20230202000000"

@@ -6,9 +6,9 @@
              effectiveDate="2021-04-19T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.597"
              name="JdvRcpAppareilCisis"
-             revisionDate="2025-03-12T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:03+01:00"
              title="JDV RCP Appareil CISIS"
-             version="2025-06-16T14:17:11+01:00">
+             version="2025-07-18T00:00:00+01:00">
       <ConceptList>
          <Concept code="387910009"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -17,11 +17,11 @@
          <Concept code="57171008"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="structure du système hématopoïétique"/>
-         <Concept code="1290040004"
+                  displayName="système hématopoïétique"/>
+         <Concept code="81745001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20250312000000"
-                  displayName="œil entier"/>
+                  dateValid="20250718000000"
+                  displayName="œil"/>
          <Concept code="272673000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
@@ -65,7 +65,7 @@
          <Concept code="119253004"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="voie aérodigestive supérieure"/>
+                  displayName="voies aérodigestives supérieures"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

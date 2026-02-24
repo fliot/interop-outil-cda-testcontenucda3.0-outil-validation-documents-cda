@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.171"
              name="JdvSigneVitalCisis"
-             revisionDate="2023-04-03T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:03+01:00"
              title="JDV Signe Vital CISIS"
-             version="2025-06-16T14:17:11+01:00">
+             version="2023-04-03T00:00:00+01:00">
       <ConceptList>
          <Concept code="20564-1"
                   codeSystem="2.16.840.1.113883.6.1"
@@ -69,7 +69,7 @@
          <Concept code="39156-5"
                   codeSystem="2.16.840.1.113883.6.1"
                   dateValid="20100101000000"
-                  displayName="Index de masse corporelle (IMC)"/>
+                  displayName="Indice de masse corporelle (IMC)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

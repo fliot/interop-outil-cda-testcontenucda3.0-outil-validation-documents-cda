@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.222"
              name="JdvComplicationDigestiveCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Complication Digestive CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2023-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="K92.2"
                   codeSystem="2.16.840.1.113883.6.3"
@@ -17,7 +17,7 @@
          <Concept code="MED-508"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
-                  displayName="Toubles digestifs justifiant une sonde gastrique"/>
+                  displayName="Troubles digestifs justifiant une sonde gastrique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

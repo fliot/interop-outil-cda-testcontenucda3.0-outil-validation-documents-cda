@@ -6,14 +6,14 @@
              effectiveDate="2021-06-03T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.594"
              name="JdvLocalisationAnesthesieCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:03+01:00"
              title="JDV Localisation Anesthesie CISIS"
-             version="2025-06-16T14:17:11+01:00">
+             version="2023-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="774007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230707000000"
-                  displayName="tête et cou"/>
+                  displayName="tête et/ou cou"/>
          <Concept code="22943007"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"

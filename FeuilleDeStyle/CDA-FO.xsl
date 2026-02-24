@@ -694,8 +694,7 @@
                 </xsl:if>
                 <xsl:for-each select="descendant::hl7:observationMedia">
                     <xsl:if test="hl7:value[@mediaType = 'application/pdf']">
-                        <xsl:if
-                            test="not(preceding::hl7:templateId[@root = '1.2.250.1.213.1.1.2.243'])">
+                        <xsl:if test="not(preceding::hl7:templateId[@root = '1.2.250.1.213.1.1.2.243'])">
                             <xsl:variable name="id" select="@ID"/>
                             <xsl:variable name="value"
                                 select="translate(normalize-space(hl7:value[@mediaType = 'application/pdf']/text()), ' ', '')"/>
@@ -1079,103 +1078,103 @@
                         }</style>
                     <xsl:comment> Table of Contents CSS </xsl:comment>
                     <style type="text/css" media="screen">
-                    <xsl:text disable-output-escaping="yes">
-                    #nav, #nav ul {
-                        padding: 0;
-                        margin: 0;
-                        list-style: none;
-                    }
-                    
-                    #nav li {
-                        float: left;
-                        width: 300px;
-                    }
-                    #nav ul {
-                        position: absolute;
-                        width: 300px;
-                        left: -1000px;
-                    }
-                    #nav li ul li ul {
-                        display: none;
-                    }
-                    
-                    #nav li ul li:hover > ul {
-                        display: block;
-                        position: absolute;
-                        left: 50px !important;
-                    }
-                    #nav li ul li:hover > ul > li > a {
-                        border: 1px solid #585858;
-                    }
-                    
-                    #nav li:hover ul, #nav li.ie_does_hover ul {
-                        left: auto;
-                        background-position: 0 0;
-                    }
-                    
-                    #nav * a {
-                        display: block;
-                        padding: 2px 8px;
-                        text-decoration: none;
-                        font-weight: bold;
-                        font-size: 11px;
-                    }
-                    </xsl:text>
-                    #nav ul * a {
-                        font-weight: bold;
-                        color: #585858;
-                        background-color: <xsl:value-of select="$bgcolor-td"/>;
-                        cursor: pointer;
-                    }
-                    
-                    #nav ul ul a:link, #nav ul ul a:visited {
-                        font-weight: normal;
-                        color: #585858;
-                        background-color: <xsl:value-of select="$bgcolor-td"/>;
-                        cursor: pointer;
-                    }
-                    
-                    #nav * li a:hover, #nav * li a:active,
-                    #nav * li * li a:hover, #nav * li * li a:active {
-                        /*font-weight: normal;*/
-                        color: white;
-                        background-color: #585858;
-                        cursor: pointer;
-                    }
-                    
-                    #nav * li {
-                        border-left: 2px solid white;
-                    }
-                    
-                    #nav * ul li {
-                        border-top: 2px solid white;
-                        border-left: 0;
-                    }
-                    
-                    /* IE only hack */
-                    * html ul li, * html ul ul li{
-                        border-bottom: 2px solid white;
-                    }
-                    
-                    * html ul ul li{
-                        border-top: 0;
-                    }
-                    
-                    .iframe-container {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100%;
-                    height: 100%;
-                    overflow: auto;
-                    }
-                    iframe {
-                    width: 100%;
-                    max-width: 2000px;
-                    height: 1000px;
-                    max-height: 900px;
-                    }
-                    /* End IE only hack */
+                        <xsl:text disable-output-escaping="yes">
+                            #nav, #nav ul {
+                                padding: 0;
+                                margin: 0;
+                                list-style: none;
+                            }
+                            
+                            #nav li {
+                                float: left;
+                                width: 300px;
+                            }
+                            #nav ul {
+                                position: absolute;
+                                width: 300px;
+                                left: -1000px;
+                            }
+                            #nav li ul li ul {
+                                display: none;
+                            }
+                            
+                            #nav li ul li:hover > ul {
+                                display: block;
+                                position: absolute;
+                                left: 50px !important;
+                            }
+                            #nav li ul li:hover > ul > li > a {
+                                border: 1px solid #585858;
+                            }
+                            
+                            #nav li:hover ul, #nav li.ie_does_hover ul {
+                                left: auto;
+                                background-position: 0 0;
+                            }
+                            
+                            #nav * a {
+                                display: block;
+                                padding: 2px 8px;
+                                text-decoration: none;
+                                font-weight: bold;
+                                font-size: 11px;
+                            }
+                            </xsl:text>
+                            #nav ul * a {
+                                font-weight: bold;
+                                color: #585858;
+                                background-color: <xsl:value-of select="$bgcolor-td"/>;
+                                cursor: pointer;
+                            }
+                            
+                            #nav ul ul a:link, #nav ul ul a:visited {
+                                font-weight: normal;
+                                color: #585858;
+                                background-color: <xsl:value-of select="$bgcolor-td"/>;
+                                cursor: pointer;
+                            }
+                            
+                            #nav * li a:hover, #nav * li a:active,
+                            #nav * li * li a:hover, #nav * li * li a:active {
+                                /*font-weight: normal;*/
+                                color: white;
+                                background-color: #585858;
+                                cursor: pointer;
+                            }
+                            
+                            #nav * li {
+                                border-left: 2px solid white;
+                            }
+                            
+                            #nav * ul li {
+                                border-top: 2px solid white;
+                                border-left: 0;
+                            }
+                            
+                            /* IE only hack */
+                            * html ul li, * html ul ul li{
+                                border-bottom: 2px solid white;
+                            }
+                            
+                            * html ul ul li{
+                                border-top: 0;
+                            }
+                            
+                            .iframe-container {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            overflow: auto;
+                            }
+                            iframe {
+                            width: 100%;
+                            max-width: 2000px;
+                            height: 1000px;
+                            max-height: 900px;
+                            }
+                            /* End IE only hack */
                 </style>
                     <xsl:if test="string-length($externalCss) > 0">
                         <xsl:comment> External CSS </xsl:comment>
@@ -1372,6 +1371,7 @@
                 </body>
             </html>
         </xsl:if>
+        <!--Test s'il y a un PDF-->
         <xsl:if test="(contains($vendor, 'Saxonica'))">
             <xsl:if test="$dohtmlheader = 'true'">
                 <fo:block xsl:use-attribute-sets="myBlock1">
@@ -6644,6 +6644,7 @@
                                             concat('IS010000000000000000000000', 'S1',
                                             $ins, 'S2', '1.2.250.1.213.1.4.8', 'GS', 'S3',
                                             $name, 'GS', 'S4', $given, 'GS', 'S5', $sex, 'S6', $datebirth)"/>
+                                    <!-- Teste la non présence de la section FR-Code-a-barres -->
                                     <xsl:if
                                         test="not(ancestor::hl7:ClinicalDocument//hl7:templateId[@root = '1.2.250.1.213.1.1.2.223'])">
                                         <xsl:if
@@ -6674,6 +6675,7 @@
                                             <div class="barcodeStyle"/>
                                         </xsl:if>
                                     </xsl:if>
+                                    <!-- Teste la présence de la section FR-Code-a-barres -->
                                     <xsl:if
                                         test="ancestor::hl7:ClinicalDocument//hl7:templateId[@root = '1.2.250.1.213.1.1.2.223']">
                                         <div>
@@ -7309,8 +7311,10 @@
                                     </xsl:variable>
                                     <xsl:variable name="row"
                                         select="$row7 + $row8 + $row9 + $row6 + $row5 + $row4 + $row3 + $row2 + $row1 + $row10"/>
+                                    <!-- ICI [PDF] : Teste la non présence de la section FR-Code-a-barres -->
                                     <xsl:if
                                         test="not(ancestor::hl7:ClinicalDocument//hl7:templateId[@root = '1.2.250.1.213.1.1.2.223'])">
+                                        <!-- Affichage du code à barres -->
                                         <fo:table-cell number-rows-spanned="{$row}">
                                             <fo:block>
                                                 <fo:block text-align="center">
@@ -7328,6 +7332,7 @@
                                             </fo:block>
                                         </fo:table-cell>
                                     </xsl:if>
+                                    <!-- [PDF] : Teste la présence de la section FR-Code-a-barres -->
                                     <xsl:if
                                         test="ancestor::hl7:ClinicalDocument//hl7:templateId[@root = '1.2.250.1.213.1.1.2.223']">
                                         <fo:table-cell number-rows-spanned="{$row}">
@@ -7644,7 +7649,7 @@
                                                   <xsl:with-param name="id" select="."/>
                                                   </xsl:call-template>
                                                   <xsl:text>&#160;</xsl:text>
-                                                  <xsl:text>[Id SI-SAMU]</xsl:text>
+                                                  <xsl:text>[Id SI-SAMU]</xsl:text>d
                                                   </xsl:when>
                                                   </xsl:choose>
                                                   <fo:block line-height="0.1cm">&#160;</fo:block>

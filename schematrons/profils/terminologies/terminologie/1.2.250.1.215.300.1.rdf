@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:ccam="http://data.esante.gouv.fr/cnam/ccam/"
-         xmlns:dct="http://purl.org/dc/terms/"
          xmlns:edg="http://edg.topbraid.solutions/model/"
          xmlns:metadata="http://topbraid.org/metadata#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,6 +7,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:teamwork="http://topbraid.org/teamwork#"
+         xmlns:terms="http://purl.org/dc/terms/"
          xmlns:xkos="http://rdf-vocabulary.ddialliance.org/xkos#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xml:base="http://data.esante.gouv.fr/cnam/ccam">
@@ -792,6 +792,9 @@
       <skos:notation>LBLD057</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB4291</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>DGLF00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -808,6 +811,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HDMA0081</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>PDNB4294</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ADPA0014</skos:notation>
@@ -904,6 +910,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HPFC00240</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB34510</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HMJE00110</skos:notation>
@@ -1204,6 +1213,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GDFA0081</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>CDMP014</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JQGA00110</skos:notation>
@@ -14517,6 +14529,9 @@
       <skos:notation>HBED00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>EJSF4001</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>LMSA00410</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -14752,6 +14767,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MAQK00310</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB3001</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGMA01110</skos:notation>
@@ -15954,6 +15972,9 @@
       <skos:notation>ZCJA0041</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB42940</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>15.02.05</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -16917,6 +16938,9 @@
       <skos:notation>HBJB00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGND8584</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>ZZQX068</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -16942,6 +16966,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QZGA0061</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGND8581</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QEHJ00610</skos:notation>
@@ -17682,6 +17709,9 @@
       <skos:notation>JCGH0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB429</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>QAFA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -18415,6 +18445,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BACA008</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>PDNB42910</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNEH60610</skos:notation>
@@ -24432,6 +24465,9 @@
       <skos:notation>YYYY544</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>DEGA210</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>GAMA0074</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -26595,7 +26631,7 @@
       <skos:notation>GFFA02640</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_W</skos:notation>
+      <skos:notation>W</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JELA0044</skos:notation>
@@ -26607,7 +26643,7 @@
       <skos:notation>HBGD42010</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_V</skos:notation>
+      <skos:notation>V</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>KCFA00540</skos:notation>
@@ -26622,7 +26658,7 @@
       <skos:notation>MHCA00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_U</skos:notation>
+      <skos:notation>U</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EQQP0091</skos:notation>
@@ -26634,7 +26670,7 @@
       <skos:notation>JAHJ00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_T</skos:notation>
+      <skos:notation>T</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNFA0121</skos:notation>
@@ -26685,7 +26721,7 @@
       <skos:notation>ECFA00610</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_O</skos:notation>
+      <skos:notation>O</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DBMA0114</skos:notation>
@@ -26778,7 +26814,7 @@
       <skos:notation>NEMA018</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_I</skos:notation>
+      <skos:notation>I</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BDNP0021</skos:notation>
@@ -27006,7 +27042,7 @@
       <skos:notation>MEMA0111</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Modificateur_9</skos:notation>
+      <skos:notation>9</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LCQH00110</skos:notation>
@@ -28228,6 +28264,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LBBA00540</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>CDMP01410</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GENE003</skos:notation>
@@ -35601,6 +35640,9 @@
       <skos:notation>PAQK900</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>DEGA21040</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>JCLE0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -36064,6 +36106,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBDD00840</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DEGA21010</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MCFA0021</skos:notation>
@@ -37977,7 +38022,7 @@
       <skos:notation>AFCA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Categorie_19</skos:notation>
+      <skos:notation>19</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JGFA0051</skos:notation>
@@ -38824,6 +38869,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNFA01240</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB30010</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MZFA00610</skos:notation>
@@ -47736,6 +47784,9 @@
       <skos:notation>MFMA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>EJSF400</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>YYYY3061</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -49095,6 +49146,9 @@
       <skos:notation>YYYY3911</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB1201</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>LDFA004</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -49126,6 +49180,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JKFA02410</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>PDNB1204</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GCCD001</skos:notation>
@@ -51157,6 +51214,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HHFA031</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DELA16940</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LLMA001</skos:notation>
@@ -53509,6 +53569,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DFFA0014</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DELA16910</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HPPA0011</skos:notation>
@@ -58611,6 +58674,9 @@
       <skos:notation>EQGA00440</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGHB283</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>JVQF00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -62010,6 +62076,9 @@
       <skos:notation>MCEP00240</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGHB1591</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>QAEA0044</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -62286,6 +62355,9 @@
       <skos:notation>YYYY23610</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>DELA1694</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>NCFA0074</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -62431,6 +62503,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DBLA00140</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DELA1691</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LHMH2384</skos:notation>
@@ -63519,6 +63594,9 @@
       <skos:notation>JELA003</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGND858</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>HFQD0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -63901,6 +63979,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBGD49710</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>PDNB12010</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LAGA00740</skos:notation>
@@ -64341,6 +64422,9 @@
       <skos:notation>HMLC001</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB12040</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>JDDA00840</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -64396,6 +64480,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZNL01310</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB15910</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BAFA00610</skos:notation>
@@ -67536,6 +67623,9 @@
       <skos:notation>HBGD23310</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGHB3451</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>JHEA00240</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -68053,6 +68143,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JQGD00910</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB300</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JCGA0011</skos:notation>
@@ -68656,6 +68749,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AAQP00410</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>EJSF40010</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AHCA00110</skos:notation>
@@ -72684,6 +72780,9 @@
       <skos:notation>JHBA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGHB2831</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>GFFA0064</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -72880,6 +72979,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LHLH002</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB159</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JQGD0131</skos:notation>
@@ -76309,6 +76411,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JEAD0011</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB28310</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>LFCA0051</skos:notation>
@@ -86274,7 +86379,7 @@
       <skos:notation>DFMA01050</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_26</skos:notation>
+      <skos:notation>26</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HCFA01040</skos:notation>
@@ -86304,7 +86409,7 @@
       <skos:notation>JFFA0031</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_25</skos:notation>
+      <skos:notation>25</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HEQL0011</skos:notation>
@@ -86334,13 +86439,13 @@
       <skos:notation>ZZNL05410</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_24</skos:notation>
+      <skos:notation>24</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JFFA0034</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_23</skos:notation>
+      <skos:notation>23</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FAFA009</skos:notation>
@@ -86364,7 +86469,7 @@
       <skos:notation>LEFA0074</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_22</skos:notation>
+      <skos:notation>22</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FAFA008</skos:notation>
@@ -86376,7 +86481,7 @@
       <skos:notation>MEEP001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_21</skos:notation>
+      <skos:notation>21</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>NBPA0114</skos:notation>
@@ -86400,7 +86505,7 @@
       <skos:notation>AHEA01240</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_20</skos:notation>
+      <skos:notation>20</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGKA02810</skos:notation>
@@ -86526,7 +86631,7 @@
       <skos:notation>FAFA002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_28</skos:notation>
+      <skos:notation>28</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MJEC00110</skos:notation>
@@ -86541,7 +86646,7 @@
       <skos:notation>JHHB002</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_27</skos:notation>
+      <skos:notation>27</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FAFA004</skos:notation>
@@ -86691,7 +86796,7 @@
       <skos:notation>DGPA017</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_41</skos:notation>
+      <skos:notation>41</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AF</skos:notation>
@@ -86712,7 +86817,7 @@
       <skos:notation>LBPA01510</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_40</skos:notation>
+      <skos:notation>40</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBMD04710</skos:notation>
@@ -86868,13 +86973,13 @@
       <skos:notation>JFFA0044</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_38</skos:notation>
+      <skos:notation>38</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JNJD001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_37</skos:notation>
+      <skos:notation>37</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HHFA02840</skos:notation>
@@ -86889,7 +86994,7 @@
       <skos:notation>QAEA00740</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_36</skos:notation>
+      <skos:notation>36</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BB</skos:notation>
@@ -86910,13 +87015,13 @@
       <skos:notation>LDAA0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_35</skos:notation>
+      <skos:notation>35</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HEQL0021</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_34</skos:notation>
+      <skos:notation>34</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>BC</skos:notation>
@@ -86931,7 +87036,7 @@
       <skos:notation>NBAA005</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_33</skos:notation>
+      <skos:notation>33</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JNED00110</skos:notation>
@@ -86943,7 +87048,7 @@
       <skos:notation>LEFA0084</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_32</skos:notation>
+      <skos:notation>32</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HDMA00210</skos:notation>
@@ -86961,7 +87066,7 @@
       <skos:notation>MJEA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_31</skos:notation>
+      <skos:notation>31</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>FCQH00110</skos:notation>
@@ -86973,7 +87078,7 @@
       <skos:notation>HEFA00340</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_30</skos:notation>
+      <skos:notation>30</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HGEC00110</skos:notation>
@@ -88260,7 +88365,7 @@
       <skos:notation>MEKA00910</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_75</skos:notation>
+      <skos:notation>75</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNFC028</skos:notation>
@@ -88284,7 +88389,7 @@
       <skos:notation>MCFA00640</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_74</skos:notation>
+      <skos:notation>74</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HNFC027</skos:notation>
@@ -88305,7 +88410,7 @@
       <skos:notation>GEGE001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_73</skos:notation>
+      <skos:notation>73</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDSF00840</skos:notation>
@@ -88314,7 +88419,7 @@
       <skos:notation>NHDA0064</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_72</skos:notation>
+      <skos:notation>72</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DDMA02610</skos:notation>
@@ -88335,7 +88440,7 @@
       <skos:notation>NHDA0061</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_71</skos:notation>
+      <skos:notation>71</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GEGE003</skos:notation>
@@ -88617,7 +88722,7 @@
       <skos:notation>CBMA0014</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_81</skos:notation>
+      <skos:notation>81</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGGA00240</skos:notation>
@@ -88779,7 +88884,7 @@
       <skos:notation>HFLE00210</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_85</skos:notation>
+      <skos:notation>85</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EJ</skos:notation>
@@ -88806,7 +88911,7 @@
       <skos:notation>LEFA0044</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_84</skos:notation>
+      <skos:notation>84</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>09.04</skos:notation>
@@ -88833,7 +88938,7 @@
       <skos:notation>MJFA00840</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_83</skos:notation>
+      <skos:notation>83</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EL</skos:notation>
@@ -88857,7 +88962,7 @@
       <skos:notation>HGPA006</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_82</skos:notation>
+      <skos:notation>82</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DBMA01350</skos:notation>
@@ -89244,7 +89349,7 @@
       <skos:notation>DGKA02840</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_53</skos:notation>
+      <skos:notation>53</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HBMD0701</skos:notation>
@@ -89259,7 +89364,7 @@
       <skos:notation>NHDA0084</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_52</skos:notation>
+      <skos:notation>52</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>HDPA0014</skos:notation>
@@ -89277,7 +89382,7 @@
       <skos:notation>LEFA0011</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_51</skos:notation>
+      <skos:notation>51</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>14.02.06.03</skos:notation>
@@ -89400,7 +89505,7 @@
       <skos:notation>HMJA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_48</skos:notation>
+      <skos:notation>48</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>QAJH0031</skos:notation>
@@ -89418,7 +89523,7 @@
       <skos:notation>PDQX005</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_47</skos:notation>
+      <skos:notation>47</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JBFA0021</skos:notation>
@@ -89451,7 +89556,7 @@
       <skos:notation>JBPG001</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_46</skos:notation>
+      <skos:notation>46</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ABSA008</skos:notation>
@@ -89463,7 +89568,7 @@
       <skos:notation>EB</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_45</skos:notation>
+      <skos:notation>45</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ABSA009</skos:notation>
@@ -89472,7 +89577,7 @@
       <skos:notation>EC</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_44</skos:notation>
+      <skos:notation>44</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>Ouvrir</skos:notation>
@@ -89484,7 +89589,7 @@
       <skos:notation>ABSA006</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_43</skos:notation>
+      <skos:notation>43</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ED</skos:notation>
@@ -89502,7 +89607,7 @@
       <skos:notation>ABSA007</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_42</skos:notation>
+      <skos:notation>42</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EE</skos:notation>
@@ -89736,7 +89841,7 @@
       <skos:notation>ABSA004</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_65</skos:notation>
+      <skos:notation>65</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EBQM0031</skos:notation>
@@ -89997,7 +90102,7 @@
       <skos:notation>DB</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_55</skos:notation>
+      <skos:notation>55</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ECSF0041</skos:notation>
@@ -90006,7 +90111,7 @@
       <skos:notation>DBLF009</skos:notation>
    </rdf:Description>
    <rdf:Description>
-      <skos:notation>Dent_54</skos:notation>
+      <skos:notation>54</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DC</skos:notation>
@@ -90337,6 +90442,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>ZZJJ0111</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DELA169</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>MBCA01210</skos:notation>
@@ -95142,10 +95250,16 @@
       <skos:notation>HGFC01440</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>DEGA2104</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>AHCA00310</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>GELD00110</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>DEGA2101</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>DGAF0044</skos:notation>
@@ -105828,6 +105942,9 @@
       <skos:notation>JHJA001</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGND85840</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>EBAF00410</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -105859,6 +105976,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>EDMA0044</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>JGHB345</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JASA00110</skos:notation>
@@ -110496,6 +110616,9 @@
       <skos:notation>HHQD90012</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>JGND85810</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>GBQM00110</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -113214,6 +113337,9 @@
       <skos:notation>JHCA00140</skos:notation>
    </rdf:Description>
    <rdf:Description>
+      <skos:notation>PDNB120</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
       <skos:notation>QEQK006</skos:notation>
    </rdf:Description>
    <rdf:Description>
@@ -113434,6 +113560,9 @@
    </rdf:Description>
    <rdf:Description>
       <skos:notation>AZMP00110</skos:notation>
+   </rdf:Description>
+   <rdf:Description>
+      <skos:notation>CDMP0141</skos:notation>
    </rdf:Description>
    <rdf:Description>
       <skos:notation>JFFA001</skos:notation>

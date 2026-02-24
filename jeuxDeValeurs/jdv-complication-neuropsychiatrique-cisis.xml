@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.223"
              name="JdvComplicationNeuropsychiatriqueCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Complication Neuropsychiatrique CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2025-06-30T00:00:00+01:00">
       <ConceptList>
          <Concept code="F32.9"
                   codeSystem="2.16.840.1.113883.6.3"
@@ -22,10 +22,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20100101000000"
                   displayName="Troubles du comportement (agitation, hallucinations)"/>
-         <Concept code="MED-525"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  dateValid="20100101000000"
-                  displayName="Troubles du sommeil"/>
+         <Concept code="G47.9"
+                  codeSystem="2.16.840.1.113883.6.3"
+                  dateValid="20250630000000"
+                  displayName="Trouble du sommeil, sans précision"/>
          <Concept code="GEN-092.01.15"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20230202000000"

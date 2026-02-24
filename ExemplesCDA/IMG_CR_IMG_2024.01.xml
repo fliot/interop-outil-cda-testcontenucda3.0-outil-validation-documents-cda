@@ -708,8 +708,7 @@
               <id root="10D15707-1872-408D-91A0-37215B7C796F"/>
               <code code="55115-0" codeSystem="2.16.840.1.113883.6.1"
                 codeSystemName="LOINC" displayName="Demande"/>
-              <title>Justification de la demande d’examen / Finalité de
-                l'examen</title>
+              <title>Justification de la demande d’examen / Finalité de l'examen</title>
               <text>
                 <table border="0">
                   <thead>
@@ -750,8 +749,7 @@
               <id root="EEF8CDFE-D848-11EC-9D64-0242AC120002"/>
               <code code="11329-0" codeSystem="2.16.840.1.113883.6.1"
                 codeSystemName="LOINC" displayName="Historique médical"/>
-              <title>Antécédents médicaux / Antécédents chirurgicaux /
-                Contre-indications</title>
+              <title>Antécédents médicaux / Antécédents chirurgicaux / Contre-indications</title>
               <text>
                 <table border="0">
                   <thead>

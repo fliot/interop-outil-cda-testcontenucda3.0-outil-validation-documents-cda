@@ -6,14 +6,14 @@
              effectiveDate="2022-08-04T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.698"
              name="JdvModeSortieObpSnmCisis"
-             revisionDate="2023-08-03T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Mode Sortie Obp Snm CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2023-08-03T00:00:00+01:00">
       <ConceptList>
          <Concept code="419620001"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221114000000"
-                  displayName="mort"/>
+                  displayName="décès"/>
          <Concept code="MED-1176"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20220804000000"
@@ -21,7 +21,7 @@
          <Concept code="107724000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="transfert du patient"/>
+                  displayName="transfert d'un(e) patient(e)"/>
          <Concept code="385432009"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"

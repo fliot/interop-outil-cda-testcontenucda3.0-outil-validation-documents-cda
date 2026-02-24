@@ -6,9 +6,9 @@
              effectiveDate="2021-05-07T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.623"
              name="JdvOrientationBaseDuPrismeCisis"
-             revisionDate="2024-01-08T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Orientation Base Du Prisme CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2024-01-08T00:00:00+01:00">
       <ConceptList>
          <Concept code="260521003"
                   codeSystem="2.16.840.1.113883.6.96"
@@ -21,11 +21,11 @@
          <Concept code="264217000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221209000000"
-                  displayName="supérieure"/>
+                  displayName="supérieur(e)"/>
          <Concept code="261089000"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221209000000"
-                  displayName="inférieure"/>
+                  displayName="inférieur(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

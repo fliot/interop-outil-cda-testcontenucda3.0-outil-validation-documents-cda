@@ -11,6 +11,7 @@
       23/03/2022 : Création
     28/08/2023 : Migration des terminologies et JDV
     15/02/2024 : Nouvelle version 2024.01
+    08/12/2025 : Suppression du JDV jdv-localisation-anatomique-cisis
    ......................................................................................................................................................    
 -->
 
@@ -37,8 +38,8 @@
     <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_Contre-indications-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_StatutGrossesse-CISIS.sch"/>
     <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_ImagerieObjectifsReference-CISIS.sch"/>
-    <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_LocalisationAnatomiqueTechniqueImg-CISIS.sch"/>
-    <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_LocalisationAnatomiqueQuantite-CISIS.sch"/>
+<!--    <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_LocalisationAnatomiqueTechniqueImg-CISIS.sch"/>
+    <include href="include/jeuxDeValeurs/IMG-CR-IMG_2024.01/JDV_LocalisationAnatomiqueQuantite-CISIS.sch"/>-->
  
     
     <!-- Entete -->
@@ -77,8 +78,8 @@
         <active pattern="JDV_Contre-indications-CISIS"/>
         <active pattern="JDV_StatutGrossesse-CISIS"/>
         <active pattern="JDV_ImagerieObjectifsReference-CISIS"/>
-        <active pattern="JDV_LocalisationAnatomiqueTechniqueImg-CISIS"/>
-        <active pattern="JDV_LocalisationAnatomiqueQuantite-CISIS"/>
+<!--        <active pattern="JDV_LocalisationAnatomiqueTechniqueImg-CISIS"/>
+        <active pattern="JDV_LocalisationAnatomiqueQuantite-CISIS"/>-->
         
         <!-- Sections spécifiques au volet CI-SIS_IMG-CR-IMG -->
         <active pattern="S_EducationDuPatient_IMG-CR-IMG"/>
@@ -109,8 +110,8 @@
         <let name="JDV_Contre-indications-CISIS" value="'../jeuxDeValeurs/jdv-contre-indication-cisis.xml'"/>
         <let name="JDV_StatutGrossesse-CISIS" value="'../jeuxDeValeurs/jdv-statut-grossesse-cisis.xml'"/>
         <let name="JDV_ImagerieObjectifsReference-CISIS" value="'../jeuxDeValeurs/jdv-imagerie-objectif-reference-cisis.xml'"/>
-        <let name="JDV_LocalisationAnatomiqueTechniqueImg-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>
-        <let name="JDV_LocalisationAnatomiqueQuantite-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>
+<!--        <let name="JDV_LocalisationAnatomiqueTechniqueImg-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>
+        <let name="JDV_LocalisationAnatomiqueQuantite-CISIS" value="'../jeuxDeValeurs/jdv-localisation-anatomique-cisis.xml'"/>-->
         
         <rule context="cda:ClinicalDocument/cda:component/cda:structuredBody">    
             <!-- présence des sections obligatoires --> 

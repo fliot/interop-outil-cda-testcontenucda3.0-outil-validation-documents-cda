@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.63"
              name="JdvAvisMedicalComplementaireCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Avis Medical Complementaire CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2023-11-14T00:00:00+01:00">
       <ConceptList>
          <Concept code="G15_10/SM29"
                   codeSystem="1.2.250.1.213.1.1.4.5"
@@ -25,7 +25,7 @@
          <Concept code="G15_10/SM18"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   dateValid="20100101000000"
-                  displayName="Médecin - Gériatrie (SM)&#34;"/>
+                  displayName="Médecin - Gériatrie (SM)"/>
          <Concept code="GEN-092.04.04"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20230202000000"

@@ -6,9 +6,9 @@
              effectiveDate="2021-09-24T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.656"
              name="JdvMesureLentilleDelivreeCisis"
-             revisionDate="2023-03-30T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Mesure Lentille Delivree CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2026-01-22T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -26,14 +26,14 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20210924000000"
                   displayName="Commentaire"/>
-         <Concept code="C53610"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20210924000000"
-                  displayName="Renouvellement"/>
-         <Concept code="C43383"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20210924000000"
-                  displayName="modèle"/>
+         <Concept code="103742009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260122000000"
+                  displayName="renouvellement d'ordonnance"/>
+         <Concept code="67716-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  dateValid="20251201000000"
+                  displayName="Modèle du dispositif"/>
          <Concept code="MED-1089"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   dateValid="20210924000000"

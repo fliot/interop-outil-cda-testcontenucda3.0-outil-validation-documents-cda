@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20230127120000"
+             dateMaj="20251222120000"
              dateValid="20160901000000"
              description="Mode de la prise en charge - ROR"
-             displayName="JDV_J19_ModePriseEnCharge_ROR.tabs"
+             displayName="JDV_J19_ModePriseEnCharge_ROR"
              effectiveDate="2016-09-01T00:00:00+01:00"
              id="1.2.250.1.213.3.4.1"
-             revisionDate="2023-01-27T12:00:00+01:00"
+             revisionDate="2025-12-22T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR">
       <ConceptList>
@@ -27,9 +27,6 @@
          <Concept code="13"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation courte durée (UHCD)"/>
-         <Concept code="14"
-                  codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Hospitalisation kangourou"/>
          <Concept code="17"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Précarité, permanence d'accès aux soins de santé (PASS)"/>
@@ -38,7 +35,7 @@
                   displayName="Soins externes et traitements ambulatoires"/>
          <Concept code="27"
                   codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Télémédecine"/>
+                  displayName="Régulation médicale téléphonique"/>
          <Concept code="28"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation complète (HC)"/>
@@ -53,7 +50,7 @@
                   displayName="Hospitalisation à domicile (HAD)"/>
          <Concept code="32"
                   codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Consultation (CS)"/>
+                  displayName="Consultation (CS) ou Séance"/>
          <Concept code="33"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Accueil des urgences"/>

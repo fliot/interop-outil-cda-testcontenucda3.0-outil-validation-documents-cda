@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20260202120000"
              dateValid="20121112000000"
              description="XDS authorSpecialty CI-SIS"
-             displayName="JDV_J01_XdsAuthorSpecialty_CISIS.tabs"
+             displayName="JDV_J01_XdsAuthorSpecialty_CISIS"
              effectiveDate="2012-11-12T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.461"
-             revisionDate="2025-03-28T12:00:00+01:00"
+             revisionDate="2026-02-02T12:00:00+01:00"
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS">
       <ConceptList>
@@ -945,6 +945,9 @@
          <Concept code="G15_10/SST26"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Urgences pédiatriques (SST)"/>
+         <Concept code="G15_10/SST27"
+                  codeSystem="1.2.250.1.213.1.1.4.5"
+                  displayName="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"/>
          <Concept code="G15_21/FQ01"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant"/>
@@ -1029,9 +1032,6 @@
          <Concept code="317"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Préparateur en pharmacie (officine)"/>
-         <Concept code="318"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Auxiliaire de vie sociale"/>
          <Concept code="319"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Technicien de l'intervention sociale et familiale"/>
@@ -1044,9 +1044,6 @@
          <Concept code="322"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Assistant familial"/>
-         <Concept code="323"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Aide médico-psychologique (AMP)"/>
          <Concept code="324"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Moniteur éducateur"/>
@@ -1185,6 +1182,12 @@
          <Concept code="372"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Aide à domicile"/>
+         <Concept code="373"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Technicien d’études cliniques"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

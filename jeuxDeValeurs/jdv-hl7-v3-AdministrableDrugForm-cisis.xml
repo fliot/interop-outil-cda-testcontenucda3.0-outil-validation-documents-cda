@@ -6,46 +6,46 @@
              effectiveDate="2021-10-29T00:00:00+01:00"
              id="2.16.840.1.113883.1.11.14570"
              name="AdministrableDrugForm"
-             revisionDate="2021-10-29T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="AdministrableDrugForm"
-             version="2025-06-16T14:17:10+01:00">
+             version="2021-10-29T00:00:00+01:00">
       <ConceptList>
          <Concept code="APPFUL"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Applicatorful"/>
+                  displayName="Applicateur"/>
          <Concept code="PUFF"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Puff"/>
+                  displayName="Bouffée"/>
          <Concept code="SCOOP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Scoops"/>
+                  displayName="Cuillère-mesure"/>
          <Concept code="SPRY"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Sprays"/>
+                  displayName="Pulvérisation"/>
          <Concept code="DROP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Drops"/>
+                  displayName="Gouttes"/>
          <Concept code="NDROP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Nasal Drops"/>
+                  displayName="Gouttes nasales"/>
          <Concept code="OPDROP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Ophthalmic Drops"/>
+                  displayName="Gouttes ophtalmiques"/>
          <Concept code="ORDROP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Oral Drops"/>
+                  displayName="Gouttes orales"/>
          <Concept code="OTDROP"
                   codeSystem="2.16.840.1.113883.5.85"
                   dateValid="20211029000000"
-                  displayName="Otic Drops"/>
+                  displayName="Gouttes auriculaires"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,9 +6,9 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.748"
              name="JdvTypeAnesthesieAvantNaissanceCisis"
-             revisionDate="2023-08-28T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:01+01:00"
              title="JDV Type Anesthesie Avant Naissance CISIS"
-             version="2025-06-16T14:17:09+01:00">
+             version="2023-08-28T00:00:00+01:00">
       <ConceptList>
          <Concept code="MED-220"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -21,7 +21,7 @@
          <Concept code="50697003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"
-                  displayName="anesthésie générale"/>
+                  displayName="administration d'un anesthésique général"/>
          <Concept code="27372005"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20230803000000"

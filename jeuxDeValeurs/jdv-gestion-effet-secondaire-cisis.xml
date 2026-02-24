@@ -6,13 +6,13 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.5.477"
              name="JdvGestionEffetSecondaireCisis"
-             revisionDate="2023-04-28T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:03+01:00"
              title="JDV Gestion Effet Secondaire CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2026-01-22T00:00:00+01:00">
       <ConceptList>
-         <Concept code="C20427"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  dateValid="20230428000000"
+         <Concept code="372559001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20260122000000"
                   displayName="facteur de croissance hématopoïétique"/>
          <Concept code="GEN-092.04.12"
                   codeSystem="1.2.250.1.213.1.1.4.322"

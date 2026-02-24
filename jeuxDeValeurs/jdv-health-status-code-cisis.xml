@@ -6,14 +6,18 @@
              effectiveDate="2010-01-01T00:00:00+01:00"
              id="1.2.250.1.213.1.1.4.2.283.1"
              name="JdvHealthStatusCodeCisis"
-             revisionDate="2023-11-14T00:00:00+01:00"
+             revisionDate="2026-02-20T14:21:02+01:00"
              title="JDV Health Status Code CISIS"
-             version="2025-06-16T14:17:10+01:00">
+             version="2025-07-18T00:00:00+01:00">
       <ConceptList>
-         <Concept code="102499006"
+         <Concept code="81323004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20231114000000"
-                  displayName="en forme"/>
+                  dateValid="20250718000000"
+                  displayName="fonction corporelle générale : normale"/>
+         <Concept code="765205004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  dateValid="20250718000000"
+                  displayName="pathologie en rémission"/>
          <Concept code="27624003"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20231114000000"
@@ -26,17 +30,17 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221130000000"
                   displayName="incapacité : sévère"/>
-         <Concept code="419620001"
+         <Concept code="419099009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20231114000000"
-                  displayName="mort"/>
+                  dateValid="20250718000000"
+                  displayName="mort(e)"/>
          <Concept code="21134002"
                   codeSystem="2.16.840.1.113883.6.96"
                   dateValid="20221130000000"
                   displayName="incapacité"/>
-         <Concept code="84387000"
+         <Concept code="162467007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  dateValid="20231114000000"
+                  dateValid="20250718000000"
                   displayName="asymptomatique"/>
       </ConceptList>
    </ValueSet>
